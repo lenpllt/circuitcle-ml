@@ -1,0 +1,12 @@
+{
+  "avant": {
+    "Q1_clef_par_cellule": 2.645607979502529e-05,
+    "Q2_partie_mobile_par_cellule": 5.194931000005454e-06,
+    "Q3_smalt_par_cellule": 7.128140714485198e-06
+  },
+  "apres": {
+    "Q1_clef_par_cellule": 2.0476660574786364e-05,
+    "Q2_partie_mobile_par_cellule": 4.209200415061787e-06,
+    "Q3_smalt_par_cellule": 3.821691207122058e-06
+  }
+}
