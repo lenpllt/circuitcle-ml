@@ -1,0 +1,12 @@
+nom_fichier,tableau_type,palier,nb_lignes,nb_ouverture,nb_fermeture,nb_embrochage,nb_debrochage,nb_verrouillage,nb_deverrouillage,nb_insertion,nb_extraction,presence_smalt,presence_porte,presence_coffret,presence_transformateur,presence_source,presence_eclisse,presence_erreur,presence_exception,label_danger
+LHC_900_preVD_24-04-2025_15-59-55.txt,LHC,900,30,2,2,1,3,5,8,0,0,1,1,0,0,0,0,0,0,0
+LHC_900_preVD_24-07-2025_15-19-11.txt,LHC,900,287,0,0,0,5,1,1,0,0,0,0,0,0,0,0,0,0,0
+LHC_900_preVD_18-06-2025_16-02-05.txt,LHC,900,25,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0
+LHC_900_preVD_24-07-2025_15-16-13.txt,LHC,900,289,0,0,0,6,1,1,0,0,0,0,0,0,0,0,0,0,0
+LHC_900_preVD_18-06-2025_09-23-39.txt,LHC,900,501,7,8,45,56,56,98,0,0,1,1,0,0,0,0,0,0,1
+LHC_900_preVD_30-07-2025_14-01-28.txt,LHC,900,154,0,0,0,8,1,1,0,0,0,0,0,0,0,0,0,0,0
+LHC_900_preVD_07-05-2025_11-03-41.txt,LHC,900,16,0,1,0,1,0,0,0,0,1,1,0,1,0,0,0,1,1
+LHC_900_preVD_24-07-2025_15-21-30.txt,LHC,900,285,0,0,0,3,1,1,0,0,0,0,0,0,0,0,0,0,0
+LHC_900_preVD_21-07-2025_15-59-07.txt,LHC,900,341,20,27,10,23,51,94,0,0,1,1,1,1,0,0,0,0,0
+LHT_900_16-04-2025_15-40-27.txt,LHT,900,215,0,3,20,32,22,35,0,0,1,0,1,0,0,1,0,0,0
+LHT_900_16-04-2025_15-24-29.txt,LHT,900,49,1,1,4,12,3,4,0,0,1,0,1,0,0,0,0,0,0
