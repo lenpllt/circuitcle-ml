@@ -96,7 +96,14 @@ def compute_ml_metrics():
         pipe.fit(X_train, y_train)
         y_pred = pipe.predict(X_test)
         score  = accuracy_score(y_test, y_pred)
-        resultats[nom] = {"accuracy": round(float(score), 4)}
+        # Rappel sur cas dangereux (prédiction sur les exemples dangereux d'entraînement)
+        pred_danger = pipe.predict(X_danger)
+        rappel_danger = float((pred_danger == 1).sum()) / len(pred_danger)
+
+        resultats[nom] = {
+            "accuracy": round(float(score), 4),
+            "rappel_danger": round(rappel_danger, 4),
+        }
         if score > best_score:
             best_score, best_name, best_pipe = score, nom, pipe
         if nom == "Logistic Regression":
@@ -116,6 +123,7 @@ def compute_ml_metrics():
         "n_total":    len(df),
         "n_danger":   int(y.sum()),
         "n_normal":   int((y == 0).sum()),
+        "n_danger_train": len(X_danger),
     }
 
 
@@ -149,28 +157,54 @@ st.markdown("<br>", unsafe_allow_html=True)
 # ═══════════════════════════════════════════════════════════════════════════
 st.markdown('<p class="section-title">02 — Comparaison des algorithmes</p>', unsafe_allow_html=True)
 
-noms   = list(data["resultats"].keys())
-accs   = [data["resultats"][n]["accuracy"] for n in noms]
-colors = [RED if n == data["best_name"] else BLUE_GRID for n in noms]
+noms           = list(data["resultats"].keys())
+accs           = [data["resultats"][n]["accuracy"]      for n in noms]
+rappels_danger = [data["resultats"][n]["rappel_danger"] for n in noms]
+colors_acc     = [RED if n == data["best_name"] else BLUE_GRID for n in noms]
+colors_rappel  = [RED if r == 1.0 else "#3498db" if r > 0 else "#4b5563" for r in rappels_danger]
 
-fig_bar = go.Figure(go.Bar(
-    x=accs, y=noms,
-    orientation="h",
-    marker_color=colors,
-    text=[f"{a * 100:.1f} %" for a in accs],
-    textposition="outside",
-    textfont=dict(color=TEXT, size=12),
-))
-fig_bar.update_layout(
-    paper_bgcolor=BG_CARD, plot_bgcolor=BG_PLOT,
-    font=dict(family="IBM Plex Sans", color=TEXT),
-    xaxis=dict(title="Accuracy", range=[0, 1.18], gridcolor=BLUE_GRID, tickformat=".0%"),
-    yaxis=dict(gridcolor=BG_PLOT),
-    margin=dict(l=10, r=70, t=10, b=30),
-    height=280,
-    showlegend=False,
-)
-st.plotly_chart(fig_bar, use_container_width=True)
+c2a, c2b = st.columns(2)
+
+with c2a:
+    fig_acc = go.Figure(go.Bar(
+        x=accs, y=noms, orientation="h",
+        marker_color=colors_acc,
+        text=[f"{a * 100:.0f} %" for a in accs],
+        textposition="outside", textfont=dict(color=TEXT, size=12),
+    ))
+    fig_acc.update_layout(
+        title=dict(text="Accuracy — jeu de test (cas normaux uniquement)", font=dict(color=TEXT_MUTED, size=12)),
+        paper_bgcolor=BG_CARD, plot_bgcolor=BG_PLOT,
+        font=dict(family="IBM Plex Sans", color=TEXT),
+        xaxis=dict(range=[0, 1.2], gridcolor=BLUE_GRID, tickformat=".0%"),
+        yaxis=dict(gridcolor=BG_PLOT),
+        margin=dict(l=10, r=60, t=40, b=10),
+        height=260, showlegend=False,
+    )
+    st.plotly_chart(fig_acc, use_container_width=True)
+    st.caption("⚠ 100% trivial : le jeu de test ne contient que des cas normaux.")
+
+with c2b:
+    fig_rappel = go.Figure(go.Bar(
+        x=rappels_danger, y=noms, orientation="h",
+        marker_color=colors_rappel,
+        text=[f"{r * 100:.0f} %" for r in rappels_danger],
+        textposition="outside", textfont=dict(color=TEXT, size=12),
+    ))
+    fig_rappel.update_layout(
+        title=dict(
+            text=f"Rappel danger — {data['n_danger_train']} cas dangereux (entraînement)",
+            font=dict(color=TEXT_MUTED, size=12)
+        ),
+        paper_bgcolor=BG_CARD, plot_bgcolor=BG_PLOT,
+        font=dict(family="IBM Plex Sans", color=TEXT),
+        xaxis=dict(range=[0, 1.2], gridcolor=BLUE_GRID, tickformat=".0%"),
+        yaxis=dict(gridcolor=BG_PLOT),
+        margin=dict(l=10, r=60, t=40, b=10),
+        height=260, showlegend=False,
+    )
+    st.plotly_chart(fig_rappel, use_container_width=True)
+    st.caption("Rouge = détecte tous les cas dangereux · Bleu = détection partielle · Gris = aucune détection")
 
 
 # ═══════════════════════════════════════════════════════════════════════════
