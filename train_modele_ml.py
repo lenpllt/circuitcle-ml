@@ -1,5 +1,13 @@
+import gc
+import os
 import joblib
 import pandas as pd
+
+# Limite les threads BLAS/OpenMP pour éviter un crash de segmentation
+# après l'entraînement du MLP sur macOS (conflit de threads internes)
+os.environ.setdefault("OMP_NUM_THREADS", "1")
+os.environ.setdefault("MKL_NUM_THREADS", "1")
+os.environ.setdefault("OPENBLAS_NUM_THREADS", "1")
 
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.preprocessing import LabelEncoder, StandardScaler
@@ -116,14 +124,21 @@ def main():
             meilleur_pipeline = pipeline
 
     # --- Optimisation par GridSearchCV (critère C3.5) ---
+    gc.collect()
     print("\n===== Optimisation GridSearchCV — Logistic Regression =====")
     param_grid = {"classifier__C": [0.01, 0.1, 1, 10, 100]}
+    # Nouveau preprocesseur pour éviter la réutilisation de l'état interne
+    preprocessor_gs = ColumnTransformer(
+        transformers=[("num", StandardScaler(), colonnes_numeriques)]
+    )
     pipeline_lr_gs = Pipeline([
-        ("preprocessor", preprocessor),
+        ("preprocessor", preprocessor_gs),
         ("classifier", LogisticRegression(max_iter=1000, random_state=42))
     ])
-    grid_search = GridSearchCV(pipeline_lr_gs, param_grid, cv=3, scoring="accuracy")
-    grid_search.fit(X_train, y_train)
+    grid_search = GridSearchCV(pipeline_lr_gs, param_grid, cv=2, scoring="accuracy", n_jobs=1)
+    import joblib
+    with joblib.parallel_backend("sequential"):
+        grid_search.fit(X_train, y_train)
     print("Meilleurs paramètres :", grid_search.best_params_)
     print("Meilleure accuracy (CV) :", round(grid_search.best_score_, 4))
     y_pred_gs = grid_search.best_estimator_.predict(X_test)

@@ -211,7 +211,7 @@ def render_features_table(features_dict):
 # ============================================================
 # TABS
 # ============================================================
-tab1, tab2 = st.tabs(["🎛️  Saisie manuelle", "📄  Analyse d'un fichier log"])
+tab1, tab2, tab3 = st.tabs(["🎛️  Saisie manuelle", "📄  Analyse d'un fichier log", "🤖  Assistant IA"])
 
 # ============================================================
 # ONGLET 1 — SAISIE MANUELLE
@@ -341,6 +341,131 @@ with tab2:
             📂  &nbsp;Aucun fichier chargé — importez un historique LHC ou LHT pour démarrer l'analyse
         </div>
         """, unsafe_allow_html=True)
+
+# ============================================================
+# ONGLET 3 — ASSISTANT IA
+# ============================================================
+with tab3:
+    st.markdown("<div class='section-title'>Assistant IA — CircuitClé</div>", unsafe_allow_html=True)
+
+    # Vérification de la clé API
+    api_key = None
+    try:
+        api_key = st.secrets["ANTHROPIC_API_KEY"]
+    except Exception:
+        pass
+
+    if not api_key:
+        st.markdown("""
+        <div class="cc-alert">
+            ⚙️ &nbsp;<strong>Configuration requise</strong> — Ajoutez votre clé
+            <code>ANTHROPIC_API_KEY</code> dans les secrets Streamlit pour activer l'assistant.
+        </div>
+        """, unsafe_allow_html=True)
+        st.markdown("""
+        **Comment configurer :**
+        - En local : créez le fichier `.streamlit/secrets.toml` avec `ANTHROPIC_API_KEY = "sk-ant-..."`
+        - Sur Streamlit Cloud : ajoutez la clé dans *Settings → Secrets*
+        """)
+    else:
+        import anthropic
+
+        # Contexte ML injecté dans le system prompt
+        derniere_pred = st.session_state.get("upload_result") or st.session_state.get("manuel_result")
+        contexte_prediction = ""
+        if derniere_pred:
+            pred_label = "DANGEREUSE" if derniere_pred["prediction"] == 1 else "NORMALE"
+            proba_str = ""
+            if derniere_pred["proba"] is not None and len(derniere_pred["proba"]) == 2:
+                proba_str = f" (probabilité danger : {derniere_pred['proba'][1]*100:.1f}%)"
+            features_str = ", ".join(f"{k}={v}" for k, v in derniere_pred["features"].items())
+            contexte_prediction = f"""
+
+La dernière analyse effectuée dans la session a donné :
+- Résultat : situation {pred_label}{proba_str}
+- Features extraites : {features_str}
+"""
+
+        system_prompt = f"""Tu es un assistant expert en sécurité des tableaux électriques pour EDF/DIPDE, \
+intégré dans l'application CircuitClé.
+
+Contexte du modèle ML déployé :
+- Modèle retenu : {best_model_name}
+- Accuracy : {f"{best_accuracy:.2%}" if best_accuracy else "non disponible"}
+- Features utilisées : {", ".join(feature_columns)}
+- Algorithmes comparés : Logistic Regression, Decision Tree, Random Forest, KNN, MLP (Deep Learning)
+- Optimisation : GridSearchCV sur le paramètre C de la Logistic Regression
+{contexte_prediction}
+Ton rôle :
+- Expliquer les prédictions du modèle en langage clair pour un technicien EDF
+- Répondre aux questions sur les features, la méthodologie ML, et les résultats
+- Expliquer pourquoi certaines variables influencent le risque (ex : présence d'erreur, nb de débrochages)
+- Rappeler systématiquement que les résultats ML sont une aide à la décision et doivent être validés par un expert métier
+- Répondre exclusivement en français
+- Rester factuel et professionnel, sans dramatiser ni minimiser les risques
+
+Tu n'as pas accès au contenu brut des fichiers logs, seulement aux features numériques extraites."""
+
+        # Initialisation de l'historique
+        if "chat_messages" not in st.session_state:
+            st.session_state.chat_messages = []
+
+        # Bouton reset
+        col_titre, col_reset = st.columns([5, 1])
+        with col_reset:
+            if st.button("🗑️ Effacer", key="btn_reset_chat"):
+                st.session_state.chat_messages = []
+                st.rerun()
+
+        # Note RGPD
+        with st.expander("🔒  Confidentialité & traitement des données"):
+            st.markdown("""
+            **Aucune donnée brute de log n'est transmise au modèle de langage.**
+            Seules les features numériques extraites (comptages, présences binaires) et les métadonnées
+            du modèle ML sont envoyées à l'API. Aucune information personnelle n'est collectée.
+            Conforme RGPD (règlement UE 2016/679).
+            """)
+
+        # Affichage de l'historique
+        for msg in st.session_state.chat_messages:
+            with st.chat_message(msg["role"]):
+                st.markdown(msg["content"])
+
+        # Message d'accueil si conversation vide
+        if not st.session_state.chat_messages:
+            with st.chat_message("assistant"):
+                st.markdown(
+                    "Bonjour ! Je suis l'assistant IA de CircuitClé. "
+                    "Je peux vous expliquer les prédictions du modèle ML, "
+                    "les features utilisées, ou répondre à vos questions sur la détection de situations dangereuses. "
+                    "Comment puis-je vous aider ?"
+                )
+
+        # Saisie utilisateur
+        if prompt := st.chat_input("Posez votre question à l'assistant…"):
+            st.session_state.chat_messages.append({"role": "user", "content": prompt})
+            with st.chat_message("user"):
+                st.markdown(prompt)
+
+            with st.chat_message("assistant"):
+                with st.spinner("Analyse en cours…"):
+                    try:
+                        client = anthropic.Anthropic(api_key=api_key)
+                        response = client.messages.create(
+                            model="claude-haiku-4-5-20251001",
+                            max_tokens=1024,
+                            system=system_prompt,
+                            messages=[
+                                {"role": m["role"], "content": m["content"]}
+                                for m in st.session_state.chat_messages
+                            ],
+                        )
+                        reply = response.content[0].text
+                    except Exception as e:
+                        reply = f"❌ Erreur lors de la communication avec l'API : {e}"
+
+                st.markdown(reply)
+                st.session_state.chat_messages.append({"role": "assistant", "content": reply})
 
 # ============================================================
 # FOOTER
