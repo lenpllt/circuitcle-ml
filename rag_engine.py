@@ -3,12 +3,10 @@ import json
 import pathlib
 import numpy as np
 import streamlit as st
-from fastembed import TextEmbedding
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity as tfidf_cosine
 
 BASE_DIR = pathlib.Path(__file__).parent
-_EMBED_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 _MIN_CHUNK_CHARS = 80
 
 
@@ -28,7 +26,6 @@ def _format_etapes(data: dict, label: str) -> list:
 
 
 def _chunk_metier_txt(stem: str, content: str) -> list:
-    """Découpe un TXT pré-extrait (pages séparées par [Page N]) en chunks par page."""
     chunks = []
     pages = re.split(r'\[Page \d+\]', content)
     for i, page_text in enumerate(pages):
@@ -44,7 +41,10 @@ def _chunk_metier_txt(stem: str, content: str) -> list:
 
 @st.cache_resource(show_spinner="Initialisation de la base de connaissances RAG…")
 def build_rag_index():
-    """Charge tous les documents, calcule les embeddings et l'index TF-IDF logs."""
+    """Charge tous les documents et construit deux index TF-IDF :
+    - global (tous docs) pour la recherche générale
+    - logs uniquement pour la recherche par code équipement
+    """
     docs = []
 
     lhc_dir = BASE_DIR / "historiqueLHC"
@@ -72,61 +72,64 @@ def build_rag_index():
             content = f.read_text(encoding="utf-8", errors="ignore")
             docs.extend(_chunk_metier_txt(f.stem, content))
 
-    # Index sémantique (tous les docs)
-    embed_model = TextEmbedding(_EMBED_MODEL)
-    texts = [d["text"] for d in docs]
-    embeddings = np.array(list(embed_model.embed(texts)), dtype=np.float32)
+    # Index TF-IDF global (tous les docs) — recherche thématique
+    all_texts = [d["text"] for d in docs]
+    tfidf_global = TfidfVectorizer(
+        analyzer="word", lowercase=True, ngram_range=(1, 2),
+        sublinear_tf=True, min_df=1,
+    )
+    matrix_global = tfidf_global.fit_transform(all_texts)
 
-    # Index TF-IDF sur les logs uniquement (keyword matching pour les codes équipement)
+    # Index TF-IDF logs uniquement — recherche par code équipement / action
     log_indices = [i for i, d in enumerate(docs) if d["type"] in ("log_LHC", "log_LHT")]
     log_texts = [docs[i]["text"] for i in log_indices]
-    tfidf = TfidfVectorizer(analyzer="word", lowercase=True, ngram_range=(1, 2))
-    tfidf_matrix = tfidf.fit_transform(log_texts)
+    tfidf_logs = TfidfVectorizer(
+        analyzer="word", lowercase=True, ngram_range=(1, 2),
+        sublinear_tf=True, min_df=1,
+    )
+    matrix_logs = tfidf_logs.fit_transform(log_texts)
 
-    return embed_model, docs, embeddings, tfidf, tfidf_matrix, log_indices
+    return docs, tfidf_global, matrix_global, tfidf_logs, matrix_logs, log_indices
 
 
 def retrieve_hybrid(
     query: str,
-    embed_model,
     docs: list,
-    embeddings: np.ndarray,
-    tfidf: TfidfVectorizer,
-    tfidf_matrix,
+    tfidf_global: TfidfVectorizer,
+    matrix_global,
+    tfidf_logs: TfidfVectorizer,
+    matrix_logs,
     log_indices: list,
-    semantic_k: int = 3,
-    keyword_k: int = 2,
+    global_k: int = 3,
+    log_k: int = 2,
 ) -> list:
-    """Retrieval hybride : semantic (tous docs) + TF-IDF keyword (logs uniquement).
-
-    Garantit que des logs réels remontent quand la requête concerne les historiques,
-    même si les docs métier dominent en similarité sémantique.
+    """Retrieval hybride :
+    - TF-IDF global (top global_k) pour les docs métier et les questions conceptuelles
+    - TF-IDF logs (top log_k) pour garantir des logs quand la requête mentionne des équipements
+    Fusion avec déduplication par source.
     """
-    # --- Semantic ---
-    q_emb = np.array(list(embed_model.embed([query]))[0], dtype=np.float32)
-    norms = np.linalg.norm(embeddings, axis=1) * np.linalg.norm(q_emb)
-    norms = np.where(norms == 0, 1e-9, norms)
-    sem_sims = (embeddings @ q_emb) / norms
-    sem_top_idx = np.argsort(sem_sims)[::-1][: semantic_k + keyword_k]
-    semantic_results = [
-        {"doc": docs[i], "score": float(sem_sims[i]), "method": "semantic"}
-        for i in sem_top_idx
+    # --- Recherche globale ---
+    q_global = tfidf_global.transform([query])
+    sims_global = tfidf_cosine(q_global, matrix_global).flatten()
+    top_global = np.argsort(sims_global)[::-1][:global_k]
+    global_results = [
+        {"doc": docs[i], "score": float(sims_global[i]), "method": "global"}
+        for i in top_global if sims_global[i] > 0
     ]
 
-    # --- Keyword (TF-IDF sur logs) ---
-    q_tfidf = tfidf.transform([query])
-    kw_sims = tfidf_cosine(q_tfidf, tfidf_matrix).flatten()
-    kw_top_idx = np.argsort(kw_sims)[::-1][:keyword_k]
-    keyword_results = [
-        {"doc": docs[log_indices[i]], "score": float(kw_sims[i]), "method": "keyword"}
-        for i in kw_top_idx
-        if kw_sims[i] > 0
+    # --- Recherche dans les logs ---
+    q_logs = tfidf_logs.transform([query])
+    sims_logs = tfidf_cosine(q_logs, matrix_logs).flatten()
+    top_logs = np.argsort(sims_logs)[::-1][:log_k]
+    log_results = [
+        {"doc": docs[log_indices[i]], "score": float(sims_logs[i]), "method": "keyword"}
+        for i in top_logs if sims_logs[i] > 0
     ]
 
-    # --- Fusion : semantic_k résultats sémantiques + complétion par keyword ---
-    combined = list(semantic_results[:semantic_k])
+    # --- Fusion ---
+    combined = list(global_results)
     seen = {r["doc"]["source"] for r in combined}
-    for r in keyword_results:
+    for r in log_results:
         if r["doc"]["source"] not in seen:
             combined.append(r)
             seen.add(r["doc"]["source"])
@@ -135,13 +138,12 @@ def retrieve_hybrid(
 
 
 def format_rag_context(retrieved: list, max_chars_per_doc: int = 600) -> str:
-    """Formate les documents récupérés en texte à injecter dans le prompt LLM."""
     if not retrieved:
         return ""
     lines = ["=== DOCUMENTS PERTINENTS EXTRAITS DE LA BASE DE CONNAISSANCES ==="]
     for i, r in enumerate(retrieved, 1):
         doc = r["doc"]
-        method_label = "keyword" if r.get("method") == "keyword" else "semantic"
+        method_label = "keyword" if r.get("method") == "keyword" else "global"
         lines.append(
             f"\n[Doc {i} | Source : {doc['source']} | Score : {r['score']:.2f} | {method_label}]"
         )

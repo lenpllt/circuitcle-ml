@@ -372,7 +372,7 @@ with tab3:
         from rag_engine import build_rag_index, retrieve_hybrid, format_rag_context
 
         # Initialisation de l'index RAG (mis en cache par st.cache_resource)
-        rag_model, rag_docs, rag_embeddings, rag_tfidf, rag_tfidf_matrix, rag_log_indices = build_rag_index()
+        rag_docs, rag_tfidf_global, rag_matrix_global, rag_tfidf_logs, rag_matrix_logs, rag_log_indices = build_rag_index()
 
         # Contexte ML injecté dans le system prompt
         derniere_pred = st.session_state.get("upload_result") or st.session_state.get("manuel_result")
@@ -501,9 +501,10 @@ Ton rôle :
                     try:
                         # Retrieval hybride RAG (semantic + TF-IDF sur logs)
                         retrieved = retrieve_hybrid(
-                            prompt, rag_model, rag_docs, rag_embeddings,
-                            rag_tfidf, rag_tfidf_matrix, rag_log_indices,
-                            semantic_k=3, keyword_k=2,
+                            prompt, rag_docs,
+                            rag_tfidf_global, rag_matrix_global,
+                            rag_tfidf_logs, rag_matrix_logs, rag_log_indices,
+                            global_k=3, log_k=2,
                         )
                         rag_context = format_rag_context(retrieved)
 
