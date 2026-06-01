@@ -1,0 +1,15 @@
+ouverture smalt1 LHT001JA
+Verrouillage position debroche, contacteur2, LHT002CA
+deverrouillage clefs serrure mere LHT001CM
+Verrouillage position debroche, disjoncteur2, LHT002JA
+débrochage disjoncteur2 LHT002JA
+deverrouillage clefs serrure mere LHT002CM
+débrochage contacteur2 LHT002CA
+extraction contacteur2 LHT002CA
+mise en place éclisse eclisse2 LHT002EC
+retrait éclisse eclisse2 LHT002EC
+fermeture smalt1 LHT001JA
+insertion contacteur2 LHT002CA
+Deverrouillage smalt1 LHT001JA de la position ouvert
+Clés non utilisées : 3
+Fin de l'execution des etapes

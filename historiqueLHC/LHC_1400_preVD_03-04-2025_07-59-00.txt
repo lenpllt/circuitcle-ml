@@ -1,0 +1,9 @@
+deverrouillage clefs serrure mere LHC003CM
+manivelle extraite disjoncteur16 LHC016JA en position debroche
+débrochage disjoncteur16 LHC016JA
+débrochage contacteurLG LG
+manivelle extraite contacteurLG LG en position debroche
+Verrouillage position debroche, disjoncteur16, LHC016JA
+Verrouillage position debroche, contacteurLG, LG
+Clés non utilisées : 4
+Fin de l'execution des etapes

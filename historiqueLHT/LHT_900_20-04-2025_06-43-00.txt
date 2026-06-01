@@ -1,0 +1,9 @@
+vérification transformateur1 LHT001TR
+Verrouillage transformateur1 LHT001TR
+manivelle inserree pour embroche disjoncteur7 LHT007JP
+débrochage disjoncteur7 LHT007JP
+deverrouillage clefs serrure mere LHT002CM
+insertion source1 LHT001SR
+fermeture smalt1 LHT001JA
+DANGER détecté pour le materiel
+Arrêt immédiat de la séquence

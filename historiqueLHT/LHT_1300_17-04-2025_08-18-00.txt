@@ -1,0 +1,16 @@
+insertion disjoncteur2 LHT002JA
+extraction source1 LHT001SR
+débrochage disjoncteur1 LHT001JA
+débrochage source1 LHT001SR
+Verrouillage position debroche, source1, LHT001SR
+retrait éclisse eclisse2 LHT002EC
+mise en place éclisse eclisse2 LHT002EC
+Verrouillage position debroche, disjoncteur1, LHT001JA
+Verrouillage position debroche, disjoncteur2, LHT002JA
+deverrouillage clefs serrure mere LHT001CM
+extraction disjoncteur2 LHT002JA
+deverrouillage clefs serrure mere LHT003CM
+insertion source1 LHT001SR
+débrochage disjoncteur2 LHT002JA
+Clés non utilisées : 0
+Fin de l'execution des etapes

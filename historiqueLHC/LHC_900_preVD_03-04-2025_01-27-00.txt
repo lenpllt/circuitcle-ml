@@ -1,0 +1,33 @@
+manivelle inserree pour embroche contacteur12 LHC012JA
+manivelle inserree pour embroche disjoncteur16 LHC016JA
+Verrouillage position debroche, disjoncteurBC, BC
+manivelle extraite disjoncteurBC BC en position debroche
+manivelle extraite contacteur14 LHC014JA en position debroche
+manivelle inserree pour embroche contacteur4 LHC004JA
+Déverrouillage position debroche, contacteur12, LHC012JA
+Ouverture porte3 LHC003JA
+deverrouillage clefs serrure mere LHC009CM
+manivelle extraite disjoncteur16 LHC016JA en position debroche
+débrochage contacteur12 LHC012JA
+débrochage contacteur4 LHC004JA
+Verrouillage position debroche, contacteur12, LHC012JA
+débrochage disjoncteur16 LHC016JA
+Verrouillage position debroche, contacteur14, LHC014JA
+Fermeture porte3 LHC003JA
+Verrouillage position debroche, contacteur4, LHC004JA
+manivelle extraite contacteur12 LHC012JA en position debroche
+débrochage disjoncteurBC BC
+débrochage contacteur12 LHC012JA
+Verrouillage position debroche, contacteur12, LHC012JA
+débrochage contacteur14 LHC014JA
+embrochage contacteur4 LHC004JA
+débrochage contacteur4 LHC004JA
+manivelle extraite contacteur4 LHC004JA en position debroche
+Verrouillage position debroche, disjoncteur16, LHC016JA
+manivelle inserree pour embroche contacteur14 LHC014JA
+Déverrouillage position debroche, contacteur4, LHC004JA
+manivelle inserree pour embroche disjoncteurBC BC
+Verrouillage position debroche, contacteur4, LHC004JA
+embrochage contacteur12 LHC012JA
+Clés non utilisées : 4
+Fin de l'execution des etapes

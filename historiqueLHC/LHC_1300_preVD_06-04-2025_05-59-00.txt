@@ -1,0 +1,24 @@
+Verrouillage position debroche, disjoncteur10, LHC010JA
+embrochage disjoncteur10 LHC010JA
+Verrouillage position ferme, smalt3, LHC003JA
+manivelle inserree pour embroche contacteur4 LHC004JA
+ouverture smalt9 LHC009JA
+Verrouillage position debroche, contacteur4, LHC004JA
+Verrouillage position debroche, contacteur4, LHC004JA
+Deverrouillage smalt9 LHC009JA de la position ouvert
+embrochage contacteur4 LHC004JA
+Déverrouillage position debroche, disjoncteur10, LHC010JA
+débrochage disjoncteur10 LHC010JA
+Verrouillage position debroche, disjoncteur10, LHC010JA
+fermeture smalt3 LHC003JA
+débrochage contacteur4 LHC004JA
+Déverrouillage position debroche, contacteur4, LHC004JA
+Deverrouillage smalt3 LHC003JA de la position ouvert
+débrochage disjoncteur10 LHC010JA
+ouverture smalt3 LHC003JA
+débrochage contacteur4 LHC004JA
+deverrouillage clefs serrure mere LHC002CM2
+manivelle extraite contacteur4 LHC004JA en position debroche
+manivelle extraite disjoncteur10 LHC010JA en position debroche
+Clés non utilisées : 5
+Fin de l'execution des etapes

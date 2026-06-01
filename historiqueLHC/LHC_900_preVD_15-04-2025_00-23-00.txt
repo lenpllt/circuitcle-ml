@@ -1,0 +1,12 @@
+manivelle inserree pour embroche disjoncteur7 LHC007JA
+débrochage disjoncteur7 LHC007JA
+manivelle extraite disjoncteur7 LHC007JA en position debroche
+deverrouillage clefs serrure mere LHC009CM
+Deverrouillage smalt10 LHC010JA de la position ouvert
+ouverture smalt10 LHC010JA
+fermeture smalt10 LHC010JA
+manivelle inserree pour embroche disjoncteur10 LHC010JA
+embrochage disjoncteur10 LHC010JA
+DANGER détecté pour les personnes
+Danger ! La condition de sécurité n'est pas respectée
+Arrêt immédiat de la séquence

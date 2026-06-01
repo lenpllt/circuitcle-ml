@@ -1,0 +1,26 @@
+Verrouillage position debroche, contacteurLG, LG
+deverrouillage clefs serrure mere LHC003CM
+Fermeture porte3 LHC003JA
+embrochage contacteurLG LG
+débrochage contacteur9 LHC009JA
+Déverrouillage position debroche, contacteurLG, LG
+débrochage contacteurLG LG
+débrochage contacteurLG LG
+ouverture smalt3 LHC003JA
+manivelle extraite contacteur9 LHC009JA en position debroche
+débrochage disjoncteur15 LHC015JA
+fermeture smalt3 LHC003JA
+ouverture smalt3 LHC003JA
+Verrouillage position debroche, contacteur9, LHC009JA
+Deverrouillage smalt3 LHC003JA de la position ouvert
+Ouverture porte3 LHC003JA
+manivelle inserree pour embroche contacteurLG LG
+manivelle inserree pour embroche disjoncteur15 LHC015JA
+Verrouillage position debroche, disjoncteur15, LHC015JA
+manivelle extraite contacteurLG LG en position debroche
+Deverrouillage smalt3 LHC003JA de la position ouvert
+Verrouillage position ferme, smalt3, LHC003JA
+Verrouillage position debroche, contacteurLG, LG
+manivelle extraite disjoncteur15 LHC015JA en position debroche
+Clés non utilisées : 0
+Fin de l'execution des etapes

@@ -1,0 +1,15 @@
+embrochage contacteurLG LG
+manivelle inserree pour embroche disjoncteur16 LHC016JA
+Verrouillage position debroche, disjoncteur16, LHC016JA
+débrochage contacteurLG LG
+débrochage contacteurLG LG
+manivelle extraite contacteurLG LG en position debroche
+Verrouillage position debroche, contacteurLG, LG
+deverrouillage clefs serrure mere LHC002CM2
+Verrouillage position debroche, contacteurLG, LG
+deverrouillage clefs serrure mere LHC002CM
+Déverrouillage position debroche, contacteurLG, LG
+débrochage disjoncteur16 LHC016JA
+manivelle extraite disjoncteur16 LHC016JA en position debroche
+Clés non utilisées : 4
+Fin de l'execution des etapes

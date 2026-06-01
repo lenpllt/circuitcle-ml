@@ -1,0 +1,15 @@
+débrochage source1 LHT001SR
+débrochage contacteur1 LHT001CA
+Verrouillage position debroche, contacteur1, LHT001CA
+insertion disjoncteur2 LHT002JA
+débrochage disjoncteur3 LHT003JA
+Verrouillage position debroche, disjoncteur3, LHT003JA
+deverrouillage clefs serrure mere LHT003CM
+Verrouillage position debroche, source1, LHT001SR
+insertion contacteur1 LHT001CA
+Verrouillage position debroche, disjoncteur2, LHT002JA
+débrochage disjoncteur2 LHT002JA
+extraction contacteur1 LHT001CA
+extraction disjoncteur2 LHT002JA
+Clés non utilisées : 2
+Fin de l'execution des etapes

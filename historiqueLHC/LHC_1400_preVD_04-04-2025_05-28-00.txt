@@ -1,0 +1,20 @@
+manivelle extraite contacteur12 LHC012JA en position debroche
+débrochage disjoncteur16 LHC016JA
+deverrouillage clefs serrure mere LHC002CM2
+Verrouillage position debroche, disjoncteur16, LHC016JA
+manivelle extraite disjoncteur16 LHC016JA en position debroche
+embrochage disjoncteur16 LHC016JA
+embrochage contacteur12 LHC012JA
+manivelle inserree pour embroche disjoncteur16 LHC016JA
+débrochage contacteur12 LHC012JA
+manivelle inserree pour embroche contacteur12 LHC012JA
+débrochage disjoncteur16 LHC016JA
+Verrouillage position debroche, contacteur12, LHC012JA
+débrochage contacteur12 LHC012JA
+Déverrouillage position debroche, disjoncteur16, LHC016JA
+Déverrouillage position debroche, contacteur12, LHC012JA
+Verrouillage position debroche, disjoncteur16, LHC016JA
+deverrouillage clefs serrure mere LHC002CM
+Verrouillage position debroche, contacteur12, LHC012JA
+Clés non utilisées : 5
+Fin de l'execution des etapes

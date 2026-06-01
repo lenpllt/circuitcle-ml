@@ -1,0 +1,7 @@
+deverrouillage clefs serrure mere LHT001CM
+fermeture smalt LHT001JS
+Verrouillage position ferme, smalt, LHT001JS
+manivelle inserree pour embroche disjoncteur1 LHT001JA
+embrochage disjoncteur1 LHT001JA
+DANGER détecté pour les personnes
+Arrêt immédiat de la séquence

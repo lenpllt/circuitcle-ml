@@ -1,0 +1,18 @@
+Verrouillage transformateur1 LHT001TR
+débrochage disjoncteur2 LHT002JA
+retrait éclisse eclisse1 LHT001EC
+Verrouillage position debroche, contacteur2, LHT002CA
+ouverture smalt2 LHT002JA
+débrochage contacteur1 LHT001CA
+deverrouillage clefs serrure mere LHT001CM
+Verrouillage position debroche, disjoncteur2, LHT002JA
+fermeture smalt2 LHT002JA
+vérification transformateur1 LHT001TR
+Deverrouillage smalt2 LHT002JA de la position ouvert
+Verrouillage position debroche, contacteur1, LHT001CA
+débrochage contacteur2 LHT002CA
+extraction disjoncteur2 LHT002JA
+mise en place éclisse eclisse1 LHT001EC
+insertion disjoncteur2 LHT002JA
+Clés non utilisées : 0
+Fin de l'execution des etapes

@@ -1,0 +1,20 @@
+vérification transformateur1 LHT001TR
+Verrouillage position debroche, contacteur3, LHT003CA
+Verrouillage position debroche, disjoncteur1, LHT001JA
+débrochage disjoncteur3 LHT003JA
+extraction source1 LHT001SR
+extraction disjoncteur3 LHT003JA
+extraction disjoncteur1 LHT001JA
+Verrouillage position debroche, disjoncteur3, LHT003JA
+Verrouillage position debroche, source1, LHT001SR
+deverrouillage clefs serrure mere LHT002CM
+débrochage contacteur3 LHT003CA
+débrochage source1 LHT001SR
+insertion source1 LHT001SR
+débrochage disjoncteur1 LHT001JA
+insertion disjoncteur1 LHT001JA
+deverrouillage clefs serrure mere LHT001CM
+Verrouillage transformateur1 LHT001TR
+insertion disjoncteur3 LHT003JA
+Clés non utilisées : 3
+Fin de l'execution des etapes

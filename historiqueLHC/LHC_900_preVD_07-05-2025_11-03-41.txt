@@ -1,0 +1,16 @@
+{'liste 1': [<function EtapesChoisies.etapes_possibles.<locals>.<lambda> at 0x00000246C1FE2940>, <function EtapesChoisies.etapes_possibles.<locals>.<lambda> at 0x00000246C1FE2820>, <function EtapesChoisies.etapes_possibles.<locals>.<lambda> at 0x00000246C1FE2790>, <function EtapesChoisies.etapes_possibles.<locals>.<lambda> at 0x00000246C1FE2A60>, <function EtapesChoisies.etapes_possibles.<locals>.<lambda> at 0x00000246C1F8DEE0>, <function EtapesChoisies.etapes_possibles.<locals>.<lambda> at 0x00000246C2084040>]}
+{'liste 1': [('insertion_extraction_manivelle partie mobile', 'LHC001JA'), ('embrochage_debrochage partie mobile', 'LHC001JA'), ('verrouillage_deverrouillage_tiroir', 'LHC001JA'), ('ouverture_fermeture_SMALT', 'LHC001JA'), ('ouverture_panneau', 'LHC001JA'), ('consignation_deconsignation_transformateur', 'LHC001JA')]}
+manivelle inserree pour embroche contacteur1 LHC001JA
+débrochage contacteur1 LHC001JA
+fermeture smalt1 LHC001JA
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\B64182\Documents\Gratuiciels\Winpython.385\python-3.8.5.amd64\lib\tkinter\__init__.py", line 1883, in __call__
+    return self.func(*args)
+  File "C:\Users\B64182\Documents\Gratuiciels\Winpython.385\python-3.8.5.amd64\lib\tkinter\__init__.py", line 804, in callit
+    func(*args)
+  File "c:\Users\B64182\OneDrive - EDF\Documents\Outil interverrouillage\Code V3.3\LHC_Classe_configuration.py", line 371, in executer_etape
+    etapes[index]()
+  File "c:\Users\B64182\OneDrive - EDF\Documents\Outil interverrouillage\Code V3.3\LHC_Classe_etapes_choisies.py", line 61, in <lambda>
+    etapes["ouverture_panneau"] = lambda p=porte, s=smalt: p.ouverture_panneau(s)
+AttributeError: 'Panneau' object has no attribute 'ouverture_panneau'

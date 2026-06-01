@@ -1,0 +1,27 @@
+Déverrouillage position debroche, contacteur13, LHC013JA
+Ouverture porte5 LHC005JA
+manivelle extraite disjoncteur2 LHC002JA en position debroche
+fermeture smalt10 LHC010JA
+Fermeture porte5 LHC005JA
+Verrouillage position debroche, contacteur13, LHC013JA
+Verrouillage position debroche, disjoncteur2, LHC002JA
+débrochage contacteur13 LHC013JA
+Verrouillage position debroche, contacteur13, LHC013JA
+Deverrouillage smalt10 LHC010JA de la position ouvert
+Verrouillage position debroche, disjoncteur5, LHC005JA
+embrochage disjoncteur2 LHC002JA
+manivelle extraite disjoncteur5 LHC005JA en position debroche
+débrochage disjoncteur2 LHC002JA
+débrochage contacteur13 LHC013JA
+deverrouillage clefs serrure mere LHC002CM2
+embrochage contacteur13 LHC013JA
+ouverture smalt10 LHC010JA
+manivelle inserree pour embroche contacteur13 LHC013JA
+débrochage disjoncteur5 LHC005JA
+Déverrouillage position debroche, disjoncteur2, LHC002JA
+Verrouillage position ferme, smalt10, LHC010JA
+Verrouillage position debroche, disjoncteur2, LHC002JA
+débrochage disjoncteur2 LHC002JA
+manivelle extraite contacteur13 LHC013JA en position debroche
+Clés non utilisées : 5
+Fin de l'execution des etapes

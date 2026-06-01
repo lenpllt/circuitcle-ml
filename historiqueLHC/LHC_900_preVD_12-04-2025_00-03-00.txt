@@ -1,0 +1,14 @@
+manivelle extraite disjoncteur15 LHC015JA en position debroche
+deverrouillage clefs serrure mere LHC002CM
+embrochage disjoncteur15 LHC015JA
+Verrouillage position debroche, disjoncteur15, LHC015JA
+manivelle inserree pour embroche disjoncteur15 LHC015JA
+Verrouillage position debroche, disjoncteur10, LHC010JA
+Verrouillage position debroche, disjoncteur15, LHC015JA
+Déverrouillage position debroche, disjoncteur15, LHC015JA
+manivelle extraite disjoncteur10 LHC010JA en position debroche
+débrochage disjoncteur15 LHC015JA
+débrochage disjoncteur10 LHC010JA
+débrochage disjoncteur15 LHC015JA
+Clés non utilisées : 1
+Fin de l'execution des etapes

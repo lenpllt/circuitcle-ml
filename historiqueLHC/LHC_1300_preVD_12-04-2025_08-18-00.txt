@@ -1,0 +1,13 @@
+manivelle extraite disjoncteur3 LHC003JA en position debroche
+Déverrouillage position debroche, disjoncteur2, LHC002JA
+manivelle extraite disjoncteur2 LHC002JA en position debroche
+Verrouillage position debroche, disjoncteur3, LHC003JA
+deverrouillage clefs serrure mere LHC003CM
+Verrouillage position debroche, disjoncteur2, LHC002JA
+débrochage disjoncteur3 LHC003JA
+débrochage disjoncteur2 LHC002JA
+embrochage disjoncteur2 LHC002JA
+Verrouillage position debroche, disjoncteur2, LHC002JA
+débrochage disjoncteur2 LHC002JA
+Clés non utilisées : 2
+Fin de l'execution des etapes

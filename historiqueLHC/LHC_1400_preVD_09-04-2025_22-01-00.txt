@@ -1,0 +1,10 @@
+manivelle extraite contacteur13 LHC013JA en position debroche
+manivelle inserree pour embroche contacteur13 LHC013JA
+débrochage disjoncteur3 LHC003JA
+débrochage contacteur13 LHC013JA
+Verrouillage position debroche, contacteur13, LHC013JA
+manivelle extraite disjoncteur3 LHC003JA en position debroche
+Verrouillage position debroche, disjoncteur3, LHC003JA
+deverrouillage clefs serrure mere LHC002CM
+Clés non utilisées : 4
+Fin de l'execution des etapes

@@ -1,0 +1,19 @@
+Verrouillage position ferme, smalt3, LHC003JA
+manivelle extraite contacteur12 LHC012JA en position debroche
+fermeture smalt3 LHC003JA
+Fermeture porte5 LHC005JA
+manivelle inserree pour embroche contacteur12 LHC012JA
+manivelle extraite contacteur13 LHC013JA en position debroche
+Ouverture porte5 LHC005JA
+Verrouillage position debroche, contacteur13, LHC013JA
+Deverrouillage smalt3 LHC003JA de la position ouvert
+débrochage contacteur12 LHC012JA
+ouverture smalt3 LHC003JA
+Deverrouillage smalt3 LHC003JA de la position ouvert
+deverrouillage clefs serrure mere LHC002CM
+manivelle inserree pour embroche contacteur13 LHC013JA
+Verrouillage position debroche, contacteur12, LHC012JA
+deverrouillage clefs serrure mere LHC002CM2
+débrochage contacteur13 LHC013JA
+Clés non utilisées : 3
+Fin de l'execution des etapes

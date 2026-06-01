@@ -1,0 +1,289 @@
+[DEBUG] Itération 1/10
+[LOG] Début de executer_etape
+[LOG] Étape 1/131 en cours
+[DEBUG] → Callback exécuté, on va lancer l’itération 1
+[LOG] Début de executer_etape
+[LOG] Étape 2/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 3/131 en cours
+Déverrouillage position embroche, disjoncteur2, LHC002JA
+[LOG] Début de executer_etape
+[LOG] Étape 4/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 5/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 6/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 7/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 8/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 9/131 en cours
+manivelle inserree pour embroche disjoncteur3 LHC003JA
+[LOG] Début de executer_etape
+[LOG] Étape 10/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 11/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 12/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 13/131 en cours
+manivelle inserree pour embroche disjoncteur2 LHC002JA
+[LOG] Début de executer_etape
+[LOG] Étape 14/131 en cours
+Verrouillage position bloque, disjoncteurBC, BC
+[LOG] Début de executer_etape
+[LOG] Étape 15/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 16/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 17/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 18/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 19/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 20/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 21/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 22/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 23/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 24/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 25/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 26/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 27/131 en cours
+manivelle inserree pour embroche disjoncteur16 LHC016JA
+[LOG] Début de executer_etape
+[LOG] Étape 28/131 en cours
+manivelle inserree pour embroche disjoncteur10 LHC010JA
+[LOG] Début de executer_etape
+[LOG] Étape 29/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 30/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 31/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 32/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 33/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 34/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 35/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 36/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 37/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 38/131 en cours
+débrochage disjoncteur16 LHC016JA
+[LOG] Début de executer_etape
+[LOG] Étape 39/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 40/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 41/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 42/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 43/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 44/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 45/131 en cours
+manivelle inserree pour embroche disjoncteur5 LHC005JA
+[LOG] Début de executer_etape
+[LOG] Étape 46/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 47/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 48/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 49/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 50/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 51/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 52/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 53/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 54/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 55/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 56/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 57/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 58/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 59/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 60/131 en cours
+manivelle inserree pour embroche contacteur12 LHC012JA
+[LOG] Début de executer_etape
+[LOG] Étape 61/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 62/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 63/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 64/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 65/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 66/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 67/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 68/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 69/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 70/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 71/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 72/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 73/131 en cours
+débrochage disjoncteur3 LHC003JA
+[LOG] Début de executer_etape
+[LOG] Étape 74/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 75/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 76/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 77/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 78/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 79/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 80/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 81/131 en cours
+débrochage disjoncteur10 LHC010JA
+[LOG] Début de executer_etape
+[LOG] Étape 82/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 83/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 84/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 85/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 86/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 87/131 en cours
+débrochage disjoncteur2 LHC002JA
+[LOG] Début de executer_etape
+[LOG] Étape 88/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 89/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 90/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 91/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 92/131 en cours
+débrochage disjoncteur5 LHC005JA
+[LOG] Début de executer_etape
+[LOG] Étape 93/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 94/131 en cours
+manivelle inserree pour embroche contacteur13 LHC013JA
+[LOG] Début de executer_etape
+[LOG] Étape 95/131 en cours
+débrochage contacteur13 LHC013JA
+[LOG] Début de executer_etape
+[LOG] Étape 96/131 en cours
+manivelle inserree pour embroche contacteur4 LHC004JA
+[LOG] Début de executer_etape
+[LOG] Étape 97/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 98/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 99/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 100/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 101/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 102/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 103/131 en cours
+manivelle inserree pour embroche contacteurLG LG
+[LOG] Début de executer_etape
+[LOG] Étape 104/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 105/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 106/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 107/131 en cours
+manivelle inserree pour embroche contacteur9 LHC009JA
+[LOG] Début de executer_etape
+[LOG] Étape 108/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 109/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 110/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 111/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 112/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 113/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 114/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 115/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 116/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 117/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 118/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 119/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 120/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 121/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 122/131 en cours
+manivelle inserree pour embroche disjoncteur15 LHC015JA
+[LOG] Début de executer_etape
+[LOG] Étape 123/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 124/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 125/131 en cours
+manivelle inserree pour embroche contacteur1 LHC001JA
+[LOG] Début de executer_etape
+[LOG] Étape 126/131 en cours
+manivelle inserree pour embroche contacteur14 LHC014JA
+[LOG] Début de executer_etape
+[LOG] Étape 127/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 128/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 129/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 130/131 en cours
+[LOG] Début de executer_etape
+[LOG] Étape 131/131 en cours
+[LOG] Début de executer_etape
+[LOG] Toutes les étapes ont été exécutées
+[DEBUG] Fin de l'exécution des étapes
+[DEBUG] Appel du callback après toutes les étapes

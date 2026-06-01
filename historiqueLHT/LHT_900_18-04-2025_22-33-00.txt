@@ -1,0 +1,12 @@
+ouverture smalt2 LHT002JA
+Deverrouillage smalt2 LHT002JA de la position ouvert
+Verrouillage position debroche, source1, LHT001SR
+deverrouillage clefs serrure mere LHT003CM
+débrochage source1 LHT001SR
+fermeture smalt2 LHT002JA
+Verrouillage position debroche, disjoncteur2, LHT002JA
+extraction disjoncteur2 LHT002JA
+débrochage disjoncteur2 LHT002JA
+insertion disjoncteur2 LHT002JA
+Clés non utilisées : 3
+Fin de l'execution des etapes

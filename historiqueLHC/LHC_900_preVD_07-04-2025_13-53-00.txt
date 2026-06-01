@@ -1,0 +1,28 @@
+manivelle inserree pour embroche contacteur9 LHC009JA
+deverrouillage clefs serrure mere LHC002CM2
+Verrouillage position debroche, contacteur14, LHC014JA
+débrochage contacteur4 LHC004JA
+Fermeture porte5 LHC005JA
+manivelle extraite contacteur9 LHC009JA en position debroche
+Verrouillage position debroche, contacteur9, LHC009JA
+Déverrouillage position debroche, contacteur12, LHC012JA
+embrochage contacteur12 LHC012JA
+manivelle inserree pour embroche contacteur12 LHC012JA
+débrochage contacteur9 LHC009JA
+manivelle inserree pour embroche contacteur13 LHC013JA
+débrochage contacteur13 LHC013JA
+manivelle extraite contacteur14 LHC014JA en position debroche
+manivelle extraite contacteur13 LHC013JA en position debroche
+manivelle extraite contacteur4 LHC004JA en position debroche
+Verrouillage position debroche, contacteur13, LHC013JA
+débrochage contacteur12 LHC012JA
+Verrouillage position debroche, contacteur12, LHC012JA
+Verrouillage position debroche, contacteur12, LHC012JA
+Ouverture porte5 LHC005JA
+manivelle extraite contacteur12 LHC012JA en position debroche
+manivelle inserree pour embroche contacteur4 LHC004JA
+débrochage contacteur14 LHC014JA
+Verrouillage position debroche, contacteur4, LHC004JA
+débrochage contacteur12 LHC012JA
+Clés non utilisées : 2
+Fin de l'execution des etapes

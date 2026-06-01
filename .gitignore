@@ -5,6 +5,5 @@ __pycache__/
 *.exe
 dataLHC/
 dataLHT/
-historiqueLHC/
-historiqueLHT/
+# historiqueLHC/ et historiqueLHT/ inclus dans le repo pour le RAG Streamlit Cloud
 .streamlit/secrets.toml

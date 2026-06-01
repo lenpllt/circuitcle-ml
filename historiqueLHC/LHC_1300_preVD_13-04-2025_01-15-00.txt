@@ -1,0 +1,11 @@
+manivelle inserree pour embroche disjoncteur5 LHC005JA
+embrochage disjoncteur5 LHC005JA
+Verrouillage position embroche, disjoncteur5, LHC005JA
+manivelle inserree pour embroche disjoncteur8 LHC008JA
+débrochage disjoncteur8 LHC008JA
+manivelle extraite disjoncteur8 LHC008JA en position debroche
+deverrouillage clefs serrure mere LHC009CM
+Verrouillage position debroche, disjoncteur8, LHC008JA
+fermeture smalt8 LHC008JA
+DANGER détecté pour le materiel
+Arrêt immédiat — mise en court-circuit tableau LGF

@@ -1,0 +1,7 @@
+deverrouillage clefs serrure mere LHC003CM
+Verrouillage position ferme, smalt LHC003JS
+fermeture smalt LHC003JS
+manivelle inserree pour embroche disjoncteur3 LHC003JA
+embrochage disjoncteur3 LHC003JA
+DANGER détecté pour les personnes
+Arrêt immédiat de la séquence

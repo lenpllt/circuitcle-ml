@@ -1,0 +1,14 @@
+Verrouillage position debroche, contacteur4, LHC004JA
+manivelle extraite disjoncteur15 LHC015JA en position debroche
+Verrouillage position debroche, disjoncteur15, LHC015JA
+débrochage contacteur4 LHC004JA
+Deverrouillage smalt9 LHC009JA de la position ouvert
+Verrouillage position ferme, smalt9, LHC009JA
+Deverrouillage smalt10 LHC010JA de la position ouvert
+fermeture smalt9 LHC009JA
+ouverture smalt10 LHC010JA
+deverrouillage clefs serrure mere LHC002CM
+débrochage disjoncteur15 LHC015JA
+manivelle extraite contacteur4 LHC004JA en position debroche
+Clés non utilisées : 0
+Fin de l'execution des etapes

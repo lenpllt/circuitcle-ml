@@ -83,11 +83,15 @@ def build_rag_index():
     # Index TF-IDF logs uniquement — recherche par code équipement / action
     log_indices = [i for i, d in enumerate(docs) if d["type"] in ("log_LHC", "log_LHT")]
     log_texts = [docs[i]["text"] for i in log_indices]
-    tfidf_logs = TfidfVectorizer(
-        analyzer="word", lowercase=True, ngram_range=(1, 2),
-        sublinear_tf=True, min_df=1,
-    )
-    matrix_logs = tfidf_logs.fit_transform(log_texts)
+    if log_texts:
+        tfidf_logs = TfidfVectorizer(
+            analyzer="word", lowercase=True, ngram_range=(1, 2),
+            sublinear_tf=True, min_df=1,
+        )
+        matrix_logs = tfidf_logs.fit_transform(log_texts)
+    else:
+        tfidf_logs = None
+        matrix_logs = None
 
     return docs, tfidf_global, matrix_global, tfidf_logs, matrix_logs, log_indices
 
@@ -118,13 +122,15 @@ def retrieve_hybrid(
     ]
 
     # --- Recherche dans les logs ---
-    q_logs = tfidf_logs.transform([query])
-    sims_logs = tfidf_cosine(q_logs, matrix_logs).flatten()
-    top_logs = np.argsort(sims_logs)[::-1][:log_k]
-    log_results = [
-        {"doc": docs[log_indices[i]], "score": float(sims_logs[i]), "method": "keyword"}
-        for i in top_logs if sims_logs[i] > 0
-    ]
+    log_results = []
+    if tfidf_logs is not None and matrix_logs is not None and log_indices:
+        q_logs = tfidf_logs.transform([query])
+        sims_logs = tfidf_cosine(q_logs, matrix_logs).flatten()
+        top_logs = np.argsort(sims_logs)[::-1][:log_k]
+        log_results = [
+            {"doc": docs[log_indices[i]], "score": float(sims_logs[i]), "method": "keyword"}
+            for i in top_logs if sims_logs[i] > 0
+        ]
 
     # --- Fusion ---
     combined = list(global_results)
