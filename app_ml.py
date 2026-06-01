@@ -436,17 +436,48 @@ Ton rôle :
             Aucune information personnelle n'est collectée. Conforme RGPD (règlement UE 2016/679).
             """)
 
+        def _doc_type_label(doc_type: str) -> str:
+            return {"log_LHC": "📋 Log LHC", "log_LHT": "📋 Log LHT",
+                    "metier": "📄 Doc métier", "etapes": "📑 Étapes"}.get(doc_type, doc_type)
+
+        def _pertinence_label(score: float, method: str) -> str:
+            if method == "keyword":
+                return "🔑 Correspondance mot-clé"
+            if score >= 0.80:
+                return "🟢 Très pertinent"
+            if score >= 0.65:
+                return "🟡 Pertinent"
+            return "🟠 Partiellement pertinent"
+
+        def render_rag_sources(sources: list, expanded: bool = False):
+            if not sources:
+                return
+            with st.expander(f"📚 Documents consultés pour cette réponse ({len(sources)})", expanded=expanded):
+                st.caption(
+                    "Avant d'appeler l'assistant IA, CircuitClé recherche automatiquement les documents "
+                    "les plus proches de votre question dans sa base de connaissances (logs LHC/LHT et docs métier). "
+                    "Ces extraits sont transmis à l'IA pour enrichir sa réponse."
+                )
+                st.divider()
+                for r in sources:
+                    doc = r["doc"]
+                    method = r.get("method", "semantic")
+                    score = r["score"]
+                    col_type, col_name, col_score = st.columns([1.4, 3.5, 1.8])
+                    with col_type:
+                        st.markdown(_doc_type_label(doc["type"]))
+                    with col_name:
+                        st.markdown(f"**{doc['source']}**")
+                    with col_score:
+                        st.markdown(_pertinence_label(score, method))
+
         # Affichage de l'historique
         for i, msg in enumerate(st.session_state.chat_messages):
             with st.chat_message(msg["role"]):
                 st.markdown(msg["content"])
             # Afficher les sources RAG après chaque réponse assistant
             if msg["role"] == "assistant" and i in st.session_state.chat_rag_sources:
-                sources = st.session_state.chat_rag_sources[i]
-                if sources:
-                    with st.expander(f"📚 Sources consultées ({len(sources)} document(s))", expanded=False):
-                        for r in sources:
-                            st.markdown(f"- **{r['doc']['source']}** *(similarité : {r['score']:.2f})*")
+                render_rag_sources(st.session_state.chat_rag_sources[i])
 
         # Message d'accueil si conversation vide
         if not st.session_state.chat_messages:
@@ -504,10 +535,7 @@ Ton rôle :
             st.session_state.chat_rag_sources[assistant_idx] = retrieved
 
             # Afficher immédiatement les sources de cette réponse
-            if retrieved:
-                with st.expander(f"📚 Sources consultées ({len(retrieved)} document(s))", expanded=False):
-                    for r in retrieved:
-                        st.markdown(f"- **{r['doc']['source']}** *(similarité : {r['score']:.2f})*")
+            render_rag_sources(retrieved)
 
 # ============================================================
 # FOOTER
