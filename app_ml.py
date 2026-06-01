@@ -369,10 +369,10 @@ with tab3:
         """)
     else:
         import anthropic
-        from rag_engine import build_rag_index, retrieve, format_rag_context
+        from rag_engine import build_rag_index, retrieve_hybrid, format_rag_context
 
         # Initialisation de l'index RAG (mis en cache par st.cache_resource)
-        rag_model, rag_docs, rag_embeddings = build_rag_index()
+        rag_model, rag_docs, rag_embeddings, rag_tfidf, rag_tfidf_matrix, rag_log_indices = build_rag_index()
 
         # Contexte ML injecté dans le system prompt
         derniere_pred = st.session_state.get("upload_result") or st.session_state.get("manuel_result")
@@ -468,8 +468,12 @@ Ton rôle :
             with st.chat_message("assistant"):
                 with st.spinner("Recherche dans la base de connaissances et analyse…"):
                     try:
-                        # Retrieval RAG
-                        retrieved = retrieve(prompt, rag_model, rag_docs, rag_embeddings, top_k=3)
+                        # Retrieval hybride RAG (semantic + TF-IDF sur logs)
+                        retrieved = retrieve_hybrid(
+                            prompt, rag_model, rag_docs, rag_embeddings,
+                            rag_tfidf, rag_tfidf_matrix, rag_log_indices,
+                            semantic_k=3, keyword_k=2,
+                        )
                         rag_context = format_rag_context(retrieved)
 
                         # Message augmenté (RAG + question) envoyé à l'API
