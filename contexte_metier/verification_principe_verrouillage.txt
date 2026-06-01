@@ -1,0 +1,2717 @@
+[Page 1]
+Produit - type  
+ 
+    
+  Référence :                                                  Indice :                                                     Nb de pages :
+  Résultat de publication
+ 
+ 
+ 
+Téléphone :
+Télécopie :
+www.edf.com  
+EDF - SA au capital de  
+euros – 552 081 317 R.C.S. Paris  
+Siège social : 22-30 avenue de Wagram 
+75382 Paris Cedex 08 - France 
+04.91.74.88.00
+140, AVENUE VITON 13401
+MARSEILLE CEDEX 20
+DIVISION DE L'INGENIERIE DU
+PARC ET DE L'ENVIRONNEMENT
+2 084 365 041
+-
+ 
+ 
+ 
+ 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623048768
+01 - Tous les utilisateurs EDF de l'ECM
+Page/Total :    /
+46
+1
+A
+D455623048768
+46
+VÉRIFICATION DU PRINCIPE DE VERROUILLAGE À CLEF DU
+TABLEAU LHC DES PALIERS 900 ET N4
+DIPDE_DE
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 2]
+Produit - type  
+  5pIpUHQFH  ,QGLFH     Nb de pages :
+Applicabilité :
+Affaire
+Projet(s) :
+5pIpUHQFHWHFKQLTXH 
+Rédaction Contrôle Approbation Visa final (*) 
+5pVXPp :
+(*) La présence de cette icône atteste que le document a été approuvé par un circuit de signature électronique
+ 
+ 
+Ne peut être transmis à l'extérieur d'EDF/DPI et entités autorisées, que par une personne habilitée.
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623048768
+01 - Tous les utilisateurs EDF de l'ECM
+2023
+ 
+ 
+ 
+ 
+Téléphone :
+Télécopie :
+www.edf.com  
+EDF - SA au capital de  
+euros – 552 081 317 R.C.S. Paris  
+Siège social : 22-30 avenue de Wagram 
+75382 Paris Cedex 08 - France 
+04.91.74.88.00
+140, AVENUE VITON 13401
+MARSEILLE CEDEX 20
+DIVISION DE L'INGENIERIE DU
+PARC ET DE L'ENVIRONNEMENT
+2 084 365 041
+-
+ 
+D455623048768
+12
+DELORT Herve 12/01/2024
+Cette note décrit les principes de verrouillage à clefs du système élémentaire LHC de chaque Diesel Ultime Secours
+(DUS) et permet de vérifier si les séquences de consignation et de déconsignation sont respectées et n’entraînent
+pas de risque pour les personnes et les matériels.
+N4, CP1-2
+DIPDE_DE
+A
+PARICAUD Benjamin 15/01/2024
+CABANAC Philippe 12/01/2024
+VÉRIFICATION DU PRINCIPE DE VERROUILLAGE À CLEF DU
+TABLEAU LHC DES PALIERS 900 ET N4
+Page/Total :    /
+46
+2
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 3]
+Vérification indépendante : Auprès de (Nom/Société) :  
+ 
+ 
+ 
+ 
+Pré-diffusion formalisée (indice en cours) : A   
+Auprès de :  
+Hervé DELORT (DIPDE)  
+Benjamin PARICAUD (DIPDE)  
+Mahamat DJIBRILLAH (UNIE) 
+Christophe SCHROEDER (UNIE)  
+Laurent HERVE (UNIE)  
+Eric JONCQUEL (UNIE) 
+Thierry CHABALIER (CNPE Dampierre)  
+Jérôme PETIT (CNEPE Saint Laurent)  
+Jean-Paul MIROCHA (CNPE Tricastin)  
+Rémi DESOEUVRES (CNPE Chooz)  
+Franck BUISSON (CNPE Bugey) 
+Killian JOLY (CNPE Bugey)  
+ 
+ 
+INDICE MODIFICATIONS 
+A Création du document  
+  
+ 
+ 
+ 
+Diffusion : 
+Hervé DELORT (DIPDE)  
+Simon QUEDREUX (DIPDE) 
+Henri-Laurent RENARD (DIPDE) 
+Thibaud TALON (DIPDE)  
+Benjamin PARICAUD (DIPDE) 
+Mahamat DJIBRILLAH (UNIE)  
+Eric JONCQUEL (UNIE) 
+Yannick CEREZA (UNIE) 
+Christophe SCHROEDER (UNIE)  
+Laurent HERVE (UNIE) 
+Thierry CHABALIER (CNPE Dampierre)  
+Jerome PETIT (CNEPE Saint Laurent)  
+Jean-Paul MIROCHA (CNPE Tricastin)  
+Rémi DESOEUVRES (CNPE Chooz)  
+Franck BUISSON (CNPE Bugey) 
+Killian JOLY (CNPE Bugey)  
+Stéphane COUTANT (CNPE Saint Alban) 
+Clément BABINOT (CNPE Paluel) 
+Jean-François PALLIN (CNPE Saint Alban) 
+Code OTP : E233/083811/IDIPDE Pointage DIPDE DUS 
+DIPDE_P10_Note_v1.1 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623048768
+01 - Tous les utilisateurs EDF de l'ECM
+2023
+Référence :  Indice :  Page  /
+VÉRIFICATION DU PRINCIPE DE VERROUILLAGE À CLEF DU TABLEAU LHC DES PALIERS
+900 ET N4
+A
+12
+DIPDE_DE
+D455623048768
+2
+ 
+Page/Total :    /
+46
+3
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 4]
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623048768
+01 - Tous les utilisateurs EDF de l'ECM
+2023
+Référence :  Indice :  Page  /
+VÉRIFICATION DU PRINCIPE DE VERROUILLAGE À CLEF DU TABLEAU LHC DES PALIERS
+900 ET N4
+A
+12
+DIPDE_DE
+D455623048768
+3
+ 
+Page/Total :    /
+46
+4
+ Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 5]
+SOMMAIRE 
+Pages 
+0. CLASSEMENT ................................ ................................ ................................ ................................ .. 5 
+1. CONTEXTE ................................ ................................ ................................ ................................ ...... 5 
+2. REFERENCES................................ ................................ ................................ ................................ .... 5 
+3. DESCRIPTION DU SYSTEME ELECTRIQUE LHC ................................ ................................ .................... 6 
+4. DESCRIPTION ET DEMARCHE DES PROBLÉMATIQUES ................................ ................................ ....... 7 
+5. ANALYSE DES SEQUENCES DE CONSIGNATION ET DE DECONSIGNATION ................................ ........... 8 
+5.1. ANALYSE DE LHC 003 JA ET CELLULE DISJONCTEUR ARRIVEE LGI XXX TB ................................ .... 8 
+5.2. ANALYSE DE LHC 005 JA ET LHC 008 JA, RESPECTIVEMENT CELLULE DISJONCTEUR DE COUPLAGE 
+ET CELLULE REMONTEE JEU DE BARRES ................................ ................................ .................... 8 
+5.3. ANALYSE DE LHC 007 JA ET LHC  010 JA : RESPECTIVEMENT CEL LULE POINT NEU TRE ET CELLULE 
+D’ARRIVEE ALTERNATEUR GE ALTERNATEUR DUS ................................ ................................ ..... 9 
+5.4. ANALYSE DE LHC 016 JA, CELLULE ARRIVEE FARN ................................ ................................ ...... 9 
+5.5. ANALYSES COMPLEMENTAIRES SCHNEIDER ................................ ................................ ............ 10 
+5.6. ANALYSES COMPLEMENTAIRES EXPLOITANTS ................................ ................................ ......... 10 
+6. CONCLUSION ................................ ................................ ................................ ................................  11 
+ 
+ 
+ANNEXE 1 : SYNOPTIQUE VERROUILLAGE (VUE DU DUS) 
+ANNEXE 2 : SEQUENCES VERROUILLAGES A CLEFS 
+ANNEXE 3 : CR DU 28/11/2023 SUR L’ANALYSE DU VERROUILLAGE A CLEF DES PALIERS 900 ET N4 
+ANNEXE 4 : SCHEMA SCHNEIDER SURCHARGE (PWB15G042012164MMIP [I]) 
+ANNEXE 5 : SCHEMA VERROUILLAGE DUS WEF AAM70280 
+ANNEXE6 : RETOUR DAMPIERRE 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623048768
+01 - Tous les utilisateurs EDF de l'ECM
+2023
+Référence :  Indice :  Page  /
+VÉRIFICATION DU PRINCIPE DE VERROUILLAGE À CLEF DU TABLEAU LHC DES PALIERS
+900 ET N4
+A
+12
+DIPDE_DE
+D455623048768
+4
+ 
+Page/Total :    /
+46
+5
+ Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 6]
+0. CLASSEMENT 
+L’activité concerne un élément identifié comme EIPS. Une erreur sur cette activité peut être rattrapée 
+en aval et ne remet pas en cause la démonstration de la protection des intérêts de la loi. La note n’est 
+pas une  AIP, elle ne contient pas de justification d’u n équipement ou d’un e stru cture. Elle  est 
+cependant importante pour la stratégie et l’organisation. Cette note est donc de catégorie 3. 
+1. CONTEXTE 
+Le système de verrouillage à clefs a été conçu pour assurer la sécurité du matériel et des personnes en 
+empêchant tout  contact direc t avec  des parti es active s et afin d’éviter le s fausses manœuvres en 
+assurant la coordination entre des  appareils ayant des fo nctions différentes. Il empêche toute 
+manœuvre des appa reils si les conditions de sécurité ne  sont pas satisf aites. Seul le respec t des 
+procédures permet la réalimentation correcte et sûre. 
+Le REX évènementiel d es DUS 900 et 1300 a mis en évidence des sign aux faibles de conception des 
+interverrouillages ou des protections électriques des DUS.  
+Lors de la revue de performance DUS du 10 Juin 2022, une action à destination de l’UNIE a été validée, 
+en vue de mandater  DIPDE pour analyser la complétude des moyens  d’interverrouillages ou de 
+protections et supprimer les risques. 
+Le présent document  a pour but de décrire  et de v érifier les systèmes de verrouillage à c lef des 
+consignations et déconsignations de : 
+1. LHC 003 JA, cellule disjoncteur arrivée LGB ; 
+2. LHC 005 JA et LHC 008 JA, respectivement cellule disjoncteur de couplage et cellule remontée 
+jeu de barres ; 
+3. LHC 007 JA et LHC 010 JA : respectivement cellule point neutre et cellule d’arrivée alternateur 
+GE Alternateur DUS ; 
+4. LHC 016 JA, cellule arrivée FARN. 
+Les analyses ont été réalisées à partir des documents réf. [1] et réf. [3].  
+Schneider a complété notre analyse à partir du document [4]. 
+Cette note est applicable CPY et N4. 
+2. REFERENCES 
+[1] PWB15G048092164MMIP [F] - Groupe électrogène diesel d’ultime secours (DUS) de tranche 
+[2] D51401COSLHC [G] - Tableau 6,6 KV ultime secours 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623048768
+01 - Tous les utilisateurs EDF de l'ECM
+2023
+Référence :  Indice :  Page  /
+VÉRIFICATION DU PRINCIPE DE VERROUILLAGE À CLEF DU TABLEAU LHC DES PALIERS
+900 ET N4
+A
+12
+DIPDE_DE
+D455623048768
+5
+ 
+Page/Total :    /
+46
+6
+ Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 7]
+[3] D455618084874 [D] - Note de définition des modifications du principe de  verrouillage d u 
+disjoncteur LHC 016 JA et du coffret LHC 001 CR suite à l'intégration de l'affaire PNPEi166 
+[4] PWB15G042012164MMIP [I] - Groupe électrogène diesel d’ultime secours (DUS) de tranche - Plan 
+d'équipement et nomenclatures des matériels - Tableau HTA (série) 
+3. DESCRIPTION DU SYSTEME ELECTRIQUE LHC 
+Pour rappel, le système élémentaire LHC de chaque Diesel Ultime Secours (DUS) est destiné à assurer 
+l’alimentation électrique 6,6 kV, nécessaire à l a mise à l’arrêt sûr, et au maintien à l’arrêt en toutes 
+circonstances de la tranche à laquelle il est raccordé, y compris en situation accidentelle cumulée avec 
+la perte totale des sources électriques externes et i nternes de la centrale, initiées potentiellement par 
+une agression au -delà du dimensionnement de la tranche (séisme, inon dation, Grand Ch aud, 
+Grand Froid, tornade) réf. [2]. 
+Le système élémentaire 1 LHC est constitué : 
+ D’un tableau 1 LHC 001 TB, composé de :  
+ 2 jeux de barres,  
+ 6 disjoncteurs  : 1 LHC 002 JA, 1 LHC  003 JA, 1  LHC 005 JA, 1 LHC 010 JA, 1 LHC  015 JA et 
+1 LHC 016 JA,  
+ 3 contacteurs/fusi bles à accrochage magnétique, départs moteurs  : 1 LHC 009 JA, 
+1 LHC 013 JA et 1 LHC 014 JA,  
+ 3 contact eurs/fusibles à a ccrochage m écanique, départs transfos  : 1 LHC 001 JA, 
+1 LHC 004 JA et 1 LHC 012 JA,  
+ 2 cellul es po tentielles : 1 LHC 006 TU pour le 1 er jeu de barres et 1  LHC 011 TU pour le 
+2ème jeu de barres,  
+ 1 cellule de point neutre alternateur : 1 LHC 007 JS,  
+ 1 cellule de liaison de jeux de barres : 1 LHC 008 JS.  
+ De l’armoire des protections alternateur : 1 LHC 001 AR.  
+ Du coffret FARN : 1 LHC 001 CR.  
+ Du coffret banc de charge : 1 LHC 002 CR.  
+Le tableau électrique 1 LHC 001 TB peut être alimenté par les sources haute tension suivantes :  
+ Arrivée EDF permanente 1 LGB 024 sur le CPY, 1 LGE 016 à Civaux, 1 LGE 018 à Chooz.  
+ Groupe électrogène 1 LHU 001 GE.  
+ Groupe électrogène de secours.  
+ Groupe électrogène 2 LHU 001 GE uniquement sur le CPY (PNPE 1166 : Liaison inter DUS).  
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623048768
+01 - Tous les utilisateurs EDF de l'ECM
+2023
+Référence :  Indice :  Page  /
+VÉRIFICATION DU PRINCIPE DE VERROUILLAGE À CLEF DU TABLEAU LHC DES PALIERS
+900 ET N4
+A
+12
+DIPDE_DE
+D455623048768
+6
+ 
+Page/Total :    /
+46
+7
+ Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 8]
+Le tableau électrique 1 LHC 001 TB permet d’alimenter les consommateurs haute tension suivants :  
+ Transformateurs HTA/BT (LUU 001 TR).  
+ Banc de charge HTA pour les essais du groupe électrogène LHU.  
+ Tableau LHA, en mode secours uniquement.  
+ Sur le palier 900 suite VD4 et intégration des exigences Noyau Dur :  
+o Pompe EAS-U ; 
+o Pompe ASG-U ;  
+o Transformateur LUU 003 TB 6.6kVca/380Vca.  
+Le tableau électrique LHC  001 AR : Assure toutes les protections é lectriques de l’al ternateur. Cette 
+armoire permet les mesures él ectriques en sorti e de l’alternat eur du LHU  001 GE, et le renvoi des 
+informations vers le contrôle commande.  
+Le coffret LHC  001 CR : Permet le raccordement d’une source d’alimentation externe  (GE FARN) au 
+tableau LHC 001 TB, pour u n secours long terme en pha se de sortie de cr ise. Les derniers échanges 
+avec DESA ont conclu qu'il n'y aurait pas de GE FARN sur le 900 à la différence du 1300/N4. 
+Le coffret LHC 002 CR : Permet le raccordement du banc de charge mobile au tableau LHC 001 TB pour 
+la réalisation des essais périodiques. 
+L’Annexe 1 donne le synoptique de verrouillage (vue du DUS) réf. [1]. 
+4. DESCRIPTION ET DEMARCHE DES PROBLÉMATIQUES  
+Suite à des é vénements survenus sur certains CNPE du palier 900 sur des séquences de consignation 
+de certaines cellules, il a été demandé à la DIPDE d’analyser les procédures proposées par Clemessy 
+réf. [1] ainsi que la  note réf. [3] suite à des modifications apportées sur la cellule arrivée FARN 
+LHC 016 JA.  
+Le présent document a donc pour but d ’analyser e t de compléter si n écessaire les systèmes de 
+verrouillage à clef de consignation et déconsignation de : 
+1. LHC 003 JA, cellule disjoncteur arrivée LGB ; 
+2. LHC 005 JA et LHC 008 JA, respectivement cellule disjoncteur de couplage et cellule remontée 
+jeu de barres ; 
+3. LHC 007 JA et LHC 010 JA, respectivement cellule point neutre et cellule d’arrivée alternateur 
+GE Alternateur DUS ; 
+4. LHC 016 JA, cellule arrivée FARN. 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623048768
+01 - Tous les utilisateurs EDF de l'ECM
+2023
+Référence :  Indice :  Page  /
+VÉRIFICATION DU PRINCIPE DE VERROUILLAGE À CLEF DU TABLEAU LHC DES PALIERS
+900 ET N4
+A
+12
+DIPDE_DE
+D455623048768
+7
+ 
+Page/Total :    /
+46
+8
+ Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 9]
+Les procédures de consignation et de déconsignation sont analysées dans la suite du document (voir 
+aussi l’annexe 2).  
+Des analyses complémentaires ont été réali sées par Schneider sur la présente note à partir d u 
+document réf. [4]. 
+5.  ANALYSE DES SEQUENCES DE CONSIGNATION ET DE DECONSIGNATION 
+5.1. ANALYSE DE LHC 003 JA ET CELLULE DISJONCTEUR ARRIVEE LGI XXX TB 
+On vérifie les séquences de co nsignation et de déconsignation de la liaison électrique entre la ce llule 
+LHC 003 JA et le tableau LGB 001 TB.  
+Les schémas sont donnés en Annexe 1 et la vérification est donnée en Annexe 2. 
+L’analyse réalisée à partir de l a note Clemessy réf. [1] montre qu’en respectant les étapes de consignation et 
+de déconsignation, il n’y a pas de risque pour les personnes et le matériel. 
+Il n’y a pas de risque de confusion entre les clefs C1, C2, C3, C4, GB24.1 et GB24.2  pour réaliser les étapes de 
+consignation et de déconsignation de la cellule LHC 003 JA et son tableau d’alimentation LGB. 
+Suite aux échanges et la réunion du 28/11/2023 avec Schneider, il n’a pas été constaté de faiblesse  sur les 
+étapes de consignation et de déconsignation (voir Annexe 2 et Annexe 3). 
+5.2. ANALYSE DE LHC 005 JA ET LHC 008 JA, RESPECTIVEMENT CELLULE DISJONCTEUR DE COUPLAGE ET CELLULE REMONTEE JEU 
+DE BARRES  
+On vérifie les séquences de co nsignation et de déconsignation entre la cellule  LHC 005 JA et la cellule 
+LHC 008 JA.  
+L’analyse réalisée à partir de la  note Clemessy réf. [1] montre qu’en respectant les étapes de consignation et 
+de déconsignation, il n’y a pas de de risque pour les personnes et le matériel. 
+Il n ’y a pas de risque de confusion entre les  clefs E1, E2, E3, E4, H2 et H3 pour réaliser les étapes de 
+consignation et de déconsignation des cellules LHC 005 JA et LHC 008 JA. 
+Suite à des échanges avec Schneider et lors de la réunion du 28/11/2023, il a été constaté des faiblesses dans 
+la note Clemessy réf. [1] sur les étapes de consignation et de déconsignation (voir Annexe 2 et Annexe 3). 
+Dans cette note, il est écrit a u § 4.17.1, que la clef E2 reste priso nnière quand le tiroir de la cellule HT 
+« Remontée de jeu de barres » LHC 008 JA est débroché. 
+Dans le document Schnei der PWB15G042012164MMIP [I] réf. [4], on constate qu’ap rès avoir débroché la 
+cellule avec la manivelle d’embrochage, la clef E2 ne reste pas prisonnière. 
+La clef E2 libère uniquement le volet pe rmettant l'accès à la manivelle d'embrochage/débrochage du chariot. 
+L'accès peut avoir lieu chariot embroché ou débroché.   
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623048768
+01 - Tous les utilisateurs EDF de l'ECM
+2023
+Référence :  Indice :  Page  /
+VÉRIFICATION DU PRINCIPE DE VERROUILLAGE À CLEF DU TABLEAU LHC DES PALIERS
+900 ET N4
+A
+12
+DIPDE_DE
+D455623048768
+8
+ 
+Page/Total :    /
+46
+9
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 10]
+La clef E2 peut être libérée chariot pont de barres débroché. Dans ce cas-là, il est possible de fermer le SMALT 
+de la cellule « Remontée de jeu de barres » LHC 008 JA car aucune serrure n'empêche cela.  
+Si on récupère la clef E2, il est possible de  l'insérer dans la boite mère  LHC 003 CM (E1, E2, E5 et E6 ). Si les 
+clefs E5 et E6 sont présentes, il est possible de déverrouiller E1 et donc de la récupérer. Il est donc possible de 
+déverrouiller la position d ébrochée du disj oncteur de  couplage LHC 005 J A, de l'embrocher et donc de le 
+fermer. Ceci entraîne un court-circuit triphasé à la terre. 
+La solution pourrait de rendre prisonnière la clef E2.  
+5.3. ANALYSE DE LHC 007 JA ET LHC 010 JA : RESPECTIVEMENT CELLULE POINT NEUTRE ET CELLULE D’ARRIVEE ALTERNATEUR 
+GE ALTERNATEUR DUS 
+On vérifie les séquences de consignation et de déconsignation entre les cellules LHC 007 JA et LHC 010 JA.  
+En respectant les procédures décrites ci-dessus et issues de la note Clemessy réf. [1], il n’y a p as de risque 
+pour les personnes et le matériel. 
+Il n ’y a pas de risqu e de con fusion entre l es clefs J1, J2, J3, J4, J5, J6, J7, J8,  J9, G1  et G2 pour réaliser les 
+étapes de consignation et de déconsignation du tableau LHC 007 JA et LHC 010 JA. 
+Suite à des échanges avec Schneider et lors de la réunion du 28/11/2023, il a été constaté des faiblesses dans 
+la note Clemessy réf. [1] sur les étapes de consignation et de déconsignation (voir Annexe 2 et Annexe 3). 
+Dans cette note, il est écrit au § 4.15.1, que la clef J7 reste prisonnière  quand le tiroir de la cellule HT « Point 
+Neutre » LHC 007 JA est débroché. 
+Dans le document Schneider PWB15G042012164MMIP [I] réf. [4], on  constate qu’après avoir dé broché la 
+cellule avec la manivelle d’embrochage, la clef J7 ne reste pas prisonnière.  
+La clef J7 peut être récupér ée avec la possibilité de déverrouiller et d'ouv rir le SMALT de la cellule «  Arrivée 
+GE alternateur DUS » LHC 010 JA.  
+Il pourrait être envi sager, dans un cas extrême, l'embrochage de la  partie mobile disjoncteur et la fermeture 
+du disjoncteur  LHC 010 JA  avec la cellule « Point Neutre  » LHC 007 JA , pont  de barre débroché et SMALT 
+fermé. 
+La solution pourrait de rendre prisonnière la clef J7. 
+5.4. ANALYSE DE LHC 016 JA, CELLULE ARRIVEE FARN 
+On vérifie les séquences de consignation et de déconsignation entre la cellule LHC 016 JA et les liaisons FARN.  
+En respectant les procédures décrites ci-dessus et issues de la note Clemessy réf. [1], il n’y a p as de risque 
+pour les personnes et le matériel. 
+Il n ’y a pas de risque de co nfusion entre les  clefs P1, P3, P4, P5, P6, P7, P8, P9, P10, G1 et Q1 et S1  pour 
+réaliser les étapes de consignation et de déconsignation du tableau LHC 016 JA et LHC 001 CR. 
+Suite à des échanges avec Schneider et lors de la réunion du 28/11/2023, il n’a pas été constaté de faiblesse 
+sur les étapes de consignation et de déconsignation (voir Annexe 2 et Annexe 3). 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623048768
+01 - Tous les utilisateurs EDF de l'ECM
+2023
+Référence :  Indice :  Page  /
+VÉRIFICATION DU PRINCIPE DE VERROUILLAGE À CLEF DU TABLEAU LHC DES PALIERS
+900 ET N4
+A
+12
+DIPDE_DE
+D455623048768
+9
+ 
+Page/Total :    /
+46
+10
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 11]
+5.5. ANALYSES COMPLEMENTAIRES SCHNEIDER 
+Lors de la réunion du 28/11/2023 (Annexe 3), Schneider nous a fait part de faiblesses supplémentaires sur : 
+1. La cellule LHC 008 JA « Remontée jeu de barres » : 
+Au niveau de la cellule LHC 008 JA, il faudrait rajouter une serrure complémentaire X pour permettre 
+la consignation complète du demi -jeu de barres 2 . La serrure serait libre pont de barres débroché. 
+Elle se rait complémentaire à la modifi cation de la cl ef E2 qui resterait  prisonnière pont de  barres 
+débroché. 
+Cette cl ef X serait insérée à la serrure mère LHC  009 CM en complément des cl efs M1 et N1 pour 
+permettre de récupérer la clef K3 du SMALT du demi-jeu de barres 2 (voir le point 3). 
+2. La cellule LHC 011 JA « TP 2° demi-jeu de barres » : 
+Au niveau de  la cellule LHC 011 JA, la consignation pour MALT du jeu de barres HTA du tableau ne 
+prend pas en compt e les  départs contacteurs vers les moteurs HTA . Ce point est à ajouter pour 
+réaliser une consignation complète du jeu de barres. 
+Il est donc demandé la suppression de la serrure H2 sur la cellule LHC 011 JA car la mise à la terre de 
+la cellule LHC 005 JA doit être réalisée uniquement si la cellule LHC 008 JA est à la terre. 
+La mise à la terre ne peut pas être réalisée via le pont de barre. 
+3. Les cellules LHC 013 JA « Départ Moteur Pompe ND  » et LHC 014 JA « Départ Moteur Pompe ASG -
+U » : 
+Sur les cellules LHC 013 JA  et LHC 0 14 JA , il faudrait modifier la gestion des cle fs M1 N1 et les 
+rajouter à la serrure mère LHC 009 CM pour libérer la clef K3. 
+La clef K3 autorise la fermeture du sectionneur de mise à l a terre de cette cellule LHC 011 JA « TP 2° 
+demi-jeu de barres ».  
+Il faudrait faire comme  sur la cellule LHC 012 JA « Départ Transfo Auxiliaire Noyau Dur  » (voir 
+Annexe 4) et sur le palier 1300 MW (voir Annexe 5). 
+5.6. ANALYSES COMPLEMENTAIRES EXPLOITANTS 
+4. La cellule LHC 008 JA « Remontée jeu de barres » : 
+Concernant l’ajout de la cl ef X proposée par Schneider pour la consigna tion du demi-jeu de barres, 
+une autre solution consisterait de rendre libérable la clef X par la clef E1 de LHC 005 JA (serrure mère 
+LHC 003 CM) et donner l’accès à la cl ef H2 (fermeture du SMALT LHC  008 JS) pour la fermeture du 
+SMALT de LHC 005 JA (voir Annexe 6). 
+La clef E6 sera libérable par la cl ef E4 (serrure mère LHC  004 CM) suite à la fermeture du SMALT de 
+LHC 005 JA pour la consignation du demi-jeu de barres LHC (voir Annexe 6). 
+5. La cellule LHC 009 JA « Départ moteur réserve » : 
+Sur la cellule LHC 009 JA, il faudrait modifier la gestion de  la clef I1 et la rajouter à la serr ure mère 
+LHC 009 CM pour libérer la clef K3 (voir Annexe 6). 
+La clef K3 autorise la fermeture du sectionneur de mise à la te rre de cette cellule LHC 011 JA « TP 2° 
+demi-jeu de barres ».  
+Il faudrait faire comme  sur la cellule LHC 012 JA « Départ Transfo Auxiliaire Noyau Dur  » (voir 
+Annexe 4) et sur le palier 1300 MW (voir Annexe 5). 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623048768
+01 - Tous les utilisateurs EDF de l'ECM
+2023
+Référence :  Indice :  Page  /
+VÉRIFICATION DU PRINCIPE DE VERROUILLAGE À CLEF DU TABLEAU LHC DES PALIERS
+900 ET N4
+A
+12
+DIPDE_DE
+D455623048768
+10
+ 
+Page/Total :    /
+46
+11
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 12]
+6. CONCLUSION  
+L’analyse des systèmes de verrouillage à clef décrites dans les paragraphes précédents a montré que la 
+sécurité du matériel et des personnes  est assuré e si on respecte les s équences de  consignation et 
+déconsignation décrite dans la note de Clemessy réf. [1]. 
+Pour autant on constate un écart de repr ésentation graphique entre le schéma de verrouillage 
+Clemessy réf. [1] et le plan d'équipement Schneider réf. [4]. 
+Le schéma de verrouillage Clemessy réf . [1] attribue aux clefs J7 et E2 des fonctions de verrouillage 
+qu'elles ne sont pas en mesure de remplir. Alors que le plan d'équipement Schneider représ ente la 
+réalité du verrouillage installé (fonction d'obstruction de la manivelle). 
+Les procédures de lignage Clemessy rédigées sur la  base du schéma réf . [1] sont justes et complètes 
+mais elles ne prennent pas en compte les fonctions des clefs J7 et E2 réellement installées. Ce qui peut 
+introduire un biais si l'opérateur ne respecte pas totalement ces procédures de lignage. 
+Des propositions de solutions sont proposées dans le tableau ci-dessous : 
+ 
+Cellules concernées Solutions proposées 
+LHC 007 JA « Point Neutre »  La clef J7 doit rester prisonnière quand le tiroir est débroché. 
+LHC 008 JA « Remontée de jeu de barres »  
+La clef E2 doit rester prisonnière quand le tiroir est débroché. 
+Solution 1 Schneider : Rajout d’une serrure complémentaire 
+X sur le pont de barres et la clef X dans la serrure mère 
+LHC 009 CM. 
+Solution 2 EDF  : Rajout d’une serrure complémentaire X sur 
+le pont de barres et la clef X dans la  serrure mère 
+LHC 003 CM. 
+Supprimer la clef E6 de la serrure mère LHC  003 CM et la 
+rajouter dans la serrure mère LHC 004 CM. 
+LHC 011 JA « TP 2° demi-jeu de barres »  La clef H2 doit être supprimée. 
+LHC 013 JA « Départ Moteur Pompe ND » La clef M1 doit être rajoutée à la serrure mère LHC 009 CM. 
+LHC 014 JA « Départ Moteur Pompe ASG-U »  La clef N1 doit être rajoutée à la serrure mère LHC 009 CM. 
+LHC 009 JA « Départ moteur réserve » La clef I1 doit être rajoutée à la serrure mère LHC 009 CM. 
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623048768
+01 - Tous les utilisateurs EDF de l'ECM
+2023
+Référence :  Indice :  Page  /
+VÉRIFICATION DU PRINCIPE DE VERROUILLAGE À CLEF DU TABLEAU LHC DES PALIERS
+900 ET N4
+A
+12
+DIPDE_DE
+D455623048768
+11
+ 
+Page/Total :    /
+46
+12
+ Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 13]
+Nota : Le choix d’intégrer à la serrure mère LHC  009 CM, les cl efs M1, N1 et I1 correspondants aux 
+cellules en réserves présente l’avantage d’être exhaustif dans la consignation de la demi barre 2 en 
+incluant ces départs inutilisés.  
+Pour autant ce choix de conception peut présenter quelques désavantages dans certaines situations. 
+Puisque ces cl efs servent également à accéder aux cais sons de raccordement de leur cellule. En 
+rendant prisonnières ces clefs dans LHC 009 CM lors de la consignation de la demi barre 2, on se prive 
+alors d’accéder aux caissons de raccordement. Ce choix de con ception méritera d’être réinterrogé lors 
+des éventuelles études de définition (d’autres mise en œuvre peuvent être étudiées).  
+ 
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623048768
+01 - Tous les utilisateurs EDF de l'ECM
+2023
+Référence :  Indice :  Page  /
+VÉRIFICATION DU PRINCIPE DE VERROUILLAGE À CLEF DU TABLEAU LHC DES PALIERS
+900 ET N4
+A
+12
+DIPDE_DE
+D455623048768
+12
+ 
+Page/Total :    /
+46
+13
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 14]
+ANNEXE 1 Page 1 / 2 
+ANNEXE 1 : SYNOPTIQUE VERROUILLAGE (VUE DU DUS) 
+ 
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+ 
+Page/Total :    /
+46
+14
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 15]
+N° Classification interne du documentPagePLAN64/100PLAN DE VERROUILLAGELHC, LUU, LBU, LCUPLN-PWB15G04-809-OATCode EDFP W B 1 5 G 0 4 8 0 9 2 1 6 4 M M I P Indice du document:F
+5 ANNEXE 1 :5.1SYNOPTIQUE DE VERROUILLAGE (VUE DU DUS)
+ LUU001TR
+RDU : D455616001203Accessibilité : INTERNE00 - Tous les utilisateurs de l'ECMING/DIPDEDocument issu de la GED DPI Nucléaire le 03/01/2023
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+ 
+Page/Total :  /
+46
+15 Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 16]
+ANNEXE 2 Page 1 / 16 
+ANNEXE 2 : SEQUENCES VERROUILLAGES A CLEFS 
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+ 
+Page/Total :    /
+46
+16
+ Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 17]
+SEQUENCE CONSIGNATION LHC 003 JA ET LGi xxx TB
+A la cellule arrivée Réseau EDF permanent LGi
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Ouvrir le disjoncteur de la cellule HT disjoncteur « arrivée EdF permanent LGi » (LHC 003 JA) du tableau LHC 001 TB
+Débrocher le disjoncteur de la cellule HT disjoncteur « arrivée EdF permanent LGi » (LHC 003 JA) du tableau LHC 001 TB
+Verrouiller le disjoncteur de la cellule HT disjoncteur « arrivée EdF permanent LGi » (LHC 003 JA) du tableau LHC 001 TB en position débroché
+Libération de la clef C1
+Récupérer la clef C1
+Déverrouiller la serrure mère (LHC 002 CM) avec la clef C1
+La clef C1 reste prisonnière 
+Libération des clefs C2 et C5
+Récupérer la clef C2
+Au tableau LGB 
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Ouvrir le contacteur HTA de la cellule HT contacteur fusibles « départ vers le DUS » (LGi xxx JA) du tableau LGi xxx TB de la tranche
+Débrocher le contacteur de la cellule HT contacteur fusibles « départ vers le DUS » (LGi xxx JA) du tableau LGi xxx TB de la tranche
+Verrouiller le contacteur de la cellule HT contacteur fusibles « départ vers le DUS » (LGi xxx JA) du tableau LGi xxx TB de la tranche en position débroché 
+Libération de la clef GB24.1
+Récupérer la clef GB24.1
+Déverrouiller la serrure mère (LGi 001 CM) dans la tranche avec les clefs C2 et GB24.1
+Les clefs C2 et GB24.1 restent prisonnières
+Libération des clefs C3 et GB24.2
+Récupérer les clefs C3 et GB24.2
+Déverrouiller le sectionneur de mise à la terre de la position ouvert de la cellule HT contacteur fusibles 
+« départ vers le DUS » (LGi xxx JA) du tableau LGi xxx TB de la tranche avec la clef GB24.2
+Fermer le sectionneur de terre de la cellule HT contacteur fusibles « départ vers le DUS » (LGi xxx JA) du tableau LGi xxx TB de la tranche
+Verrouiller le sectionneur de terre en position fermée de la cellule HT contacteur fusibles « départ vers le DUS » (LGi xxx JA)
+ du tableau LGi xxx TB de la tranche
+La clef GB24.2 reste prisonnière
+A la cellule arrivée Réseau EDF permanent LGi
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Déverrouiller le sectionneur de mise à la terre de la position ouvert de la cellule HT disjoncteur « arrivée EDF permanent LGi » (LHC 003 JA) 
+du tableau LHC 001 TB avec la clef C3
+Fermer le sectionneur de terre de la cellule HT disjoncteur « arrivée EdF permanent LGi » (LHC 003 JA) 
+du tableau LHC 001 TB
+La clef C3 reste prisonnière
+Verrouiller le sectionneur de terre en position fermée de la cellule HT disjoncteur « arrivée EdF permanent LGi » (LHC 003 JA) du tableau LHC 001 TB
+Libération de la clef C4
+Récupérer la clef C4
+Déverrouiller de la position fermée du panneau d’accès aux bornes de raccordement HTA de la cellule
+HT disjoncteur « arrivée EdF permanent LGi » (LHC 003 JA) du tableau LHC 001 TB avec la clef C4
+Ouvrir le panneau d’accès de raccordement HTA de la cellule HT disjoncteur « arrivée EdF permanent LGi » (LHC 003 JA) du tableau LHC 001 TB 
+La clef C4 reste prisonnière
+Faire la vérification de l’absence de tension sur les bornes de la cellule HT disjoncteur (Avec la perche VAT adaptée)
+La cellule HT disjoncteur « arrivée EdF permanent LGi » (LHC 003 JA) du tableau LHC 001 TB et la liaison HTA alimentant le tableau 
+LHC 001 TB venant du tableau de la tranche LGi xxx TB est alors consignée
+La clef C3 récuperée de la serrure mère LGi 001 CM autorise le déverrouillage 
+et la fermeture du secteur de terre LHC 103 JS  
+La clef C3 est unique et reste prisonnière 
+LGi 001 CM Concerne serrure mère de la cellule 
+réseau permanent LGB
+LGB 024 JS
+Porte Rac. Sortie 
+HT
+Pas de risque pour les personnes et le matériel car concerne la serrure mère
+Concerne cellule réseau permanent 
+LGB
+La clef GB24.1 avec la clef C2 permettent de déverrouiller la serrure mère LGi 
+001 CM
+Les clefs GB24.1 et C2 sont uniques et restent prisonnières
+Elles permettent de récupèrer les clefs C3 et GB24.2
+Les clefs GB24.2 et C3 sont uniques
+Concerne serrure mère de la cellule 
+arrivée réseau EDF permanent LGBLHC 002 CM
+La clef C1 verrouillle le disjoncteur LHC 003 JA en position débroché
+Une fois le disjoncteur ouvert, elle permet de déverrouiller seulement la 
+serrure mère LHC 002 CM pour récupérer la clef C2 qui va permettre  le 
+deverrouillage de la serrure mère LGi 001 CM
+La clef C1 est unique et reste prisonnière
+Pas de risque pour les personnes et le matériel car concerne la serrure mère
+Concerne cellule arrivée réseau EDF 
+permanent LGB
+LHC 103 JS
+On ne peut pas fermer le sectionneur de terre sans avoir récuperer la clef C3 de la cellule mère 
+LGi 001 CM
+==> Pas de risque pour les personnes et le matériel  
+Pas de risque pour les personnes et le matériel
+La clef C4 permet de déverrouiller et ouvrir  le panneau d’accès de 
+raccordement HTA de la cellule HT disjoncteur
+ « arrivée EdF permanent LGi » (LHC 003 JA)
+La clef C4 est unique et reste prisonnière 
+Si on commence la consignation par cette étape, il n'est pas pas possible de fermer le 
+sectionneur de terre LGB 024 JS car la clef GB24.2 est toujours prisonnière (pas de clef C2 pour 
+la libérer de la cellule mère LGi  001 CM)
+S'il existe un double des clefs GB24.2 et C2, le sectionneur de terre 
+LGB 024 JS ne peut pas être fermé car il y a un "dur mécanique" 
+==> Pas de risque pour les personnes et le matériel  
+On ne peut pas fermer le sectionneur de terre LGB 024 JS si on n'a pas récupérè la clef GB24.2 
+dans la cellule mère LGi 001 CM
+==> Pas de risque pour les personnes et le matériel  
+La clef GB24.2 permet de déverrouiller et fermer le sectionneur de terre LGB 
+024 JS 
+La clef GB24.2 est unique et reste prisonnière 
+LGB 024 Concerne cellule réseau permanent 
+LGB
+Note Clemessy
+PWB15G048092164MMIP [F]
+SEQUENCE CONSIGNATION LHC 003 JA ET LGi xxx TB
+4.12 CELLULE DISJONCTEUR ARRIVEE RESEAU EDF PERMANENT LGi (LHC 003 JA)
+4.12.1 Consignation du disjoncteur, Accès aux bornes HTA de la cellule HT disjoncteur « arrivée réseau EdF permanent LGi » (LHC 003 JA) et consignation de la liaison du tableau LHC 001 TB vers le tableau LGi xx TB de la tranche
+ Si le disjoncteur LHC 003 JA est embroché, il n'est pas possible de fermer le sectionneur de terre 
+de LHC 103 JS
+Même si on a récupéré la clef C3 de la cellule mère LGi 001 CM, il existe "dur mécanique" qui 
+permet d'éviter de fermer le sectionneur de terre LHC 103 JS 
+==> Pas de risque pour les personnes et le matériel
+Concerne cellule arrivée réseau EDF 
+permanent LGBLHC 003 JA
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+ 
+Page/Total :  /
+46
+17
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 18]
+SEQUENCE DECONSIGNATION LHC 003 JA ET LGi xxx TB
+A la cellule arrivée Réseau EDF permanent LGi
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Fermer le panneau d’accès aux bornes HTA de la cellule HT disjoncteur « arrivée EdF permanent LGi » (LHC 003 JA) du tableau LHC 001 TB
+Verrouiller le panneau d’accès aux bornes HTA en position fermé de la cellule HT disjoncteur « arrivée EdF permanent LGi » (LHC 003 JA) 
+du tableau LHC 001 TB
+Libération de la clef C4
+Récupérer la clef C4
+Déverrouiller la position fermée du sectionneur de terre de la cellule HT disjoncteur « arrivée EdF permanent LGi » (LHC 003 JA) 
+du tableau LHC 001 TB avec la clef C4
+Ouvrir le sectionneur de terre de la cellule HT disjoncteur « arrivée EdF permanent LGi » (LHC 003 JA) du tableau LHC 001 TB 
+La clef C4 reste prisonnière
+Verrouiller le sectionneur de terre en position ouvert de la cellule HT disjoncteur « arrivée EdF
+permanent LGi » (LHC 003 JA) du tableau LHC 001 TB
+Libération de la clef C3
+Récupérer la clef C3
+Au tableau LGB 
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Déverrouiller la position fermée du sectionneur de terre de la cellule HT contacteur fusibles « départ vers le DUS » (LGi xxx JA) du tableau LGi xxx TB de la tranche
+Ouvrir le sectionneur de terre de la cellule HT contacteur fusibles « départ vers le DUS » (LGi xxx JA)
+du tableau LGi xxx TB de la tranche
+Verrouiller le sectionneur de terre en position ouvert de la cellule HT contacteur fusibles « départ vers le
+DUS » (LGi xxx JA) du tableau LGi xxx TB de la tranche
+Libération de la clef GB24.2
+Récupérer la clef GB24.2
+Déverrouiller la serrure mère (LGi 001 CM) dans la tranche avec les clefs C3 et GB24.2
+Les clefs C3 et GB24.2 restent prisonnières
+Libération des clefs C2 et GB24.1
+Récupérer les clefs C2 et GB24.1
+Déverrouiller le contacteur de la position débroché de la cellule HT contacteur fusibles « départ vers le DUS » (LGi xxx JA) 
+du tableau LGi xxx TB de la tranche avec la clef GB24.1
+Embrocher le contacteur de la cellule HT contacteur fusibles « départ vers le DUS » (LGi xxx JA) du tableau LGi xxx TB de la tranche. 
+La clef GB24.1 reste prisonnière
+Verrouiller en position embrocher le contacteur de la cellule HT contacteur fusibles « départ vers le DUS » (LGi xxx JA) 
+du tableau LGi xxx TB de la tranche
+A la cellule arrivée Réseau EDF permanent LGi
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Déverrouiller la serrure mère (LHC 002 CM) avec les clefs C2 et C5
+Les clefs C2 et la C5 restent prisonnières
+Libération de la clef C1
+Récupérer la clef C1
+Déverrouiller le disjoncteur de la position débroché de la cellule HT disjoncteur « arrivée EdF permanent LGi » (LHC 003 JA) 
+du tableau LHC 001 TB avec la clef C1
+Embrocher le disjoncteur de la cellule HT disjoncteur « arrivée EdF permanent LGi » (LHC 003 JA) du tableau LHC 001 TB.
+La clef C1 reste prisonnière
+Verrouiller en position embrocher le disjoncteur de la cellule HT disjoncteur « arrivée EdF permanent LGi » (LHC 003 JA) du tableau LHC 001 TB
+La clef C3 va permettre de déverrouiller la serrure mère LGi 001 CM
+LHC 103 JS
+Concerne cellule arrivée réseau EDF 
+permanent LGB
+Le disjoncteur LHC 003 JA ne peut pas être embroché et fermé si la clef C1 n'a pas été récupèrée 
+dans la cellule mère LHC 002 CM
+==> Pas de risque pour les personnes et le matériel  
+Concerne cellule réseau permanent 
+LGB
+La cellule HT disjoncteur « arrivée EdF permanent LGi » (LHC 003 JA) du tableau LHC 001 TB est maintenant disponible
+Concerne serrure mère de la cellule 
+arrivée réseau EDF permanent LGBLHC 002 CM Pas de risque pour les personnes et le matériel car concerne la serrure mère
+Quand le sectionneur de terre LHC 103 JS est fermé, est-il possible d'embrocher et de fermer le 
+Disjoncteur LHC 003 JA ?
+Non car il est verrouillé par la clef C1 prisonnière dans la cellule mère 
+LHC 002 CM et il existe "dur mécanique" qui permet d'éviter de fermer le disjoncteur
+==> Pas de risque pour les personnes et le matériel  
+La clef GB24.2 va permettre de déverrouiller la serrure mère LGi 001 CM
+La clef GB24.1 est unique
+Les clefs C2 et GB24.1 vont permmettre de déverrouiller le contacteur LGB 024 
+et la serrure mère LHC 002 CM Pas de risque pour les personnes et le matériel car concerne la serrure mère
+Peut-on commencer la déconsignation à cette étape ? Oui mais tant que l'on aura pas récupéré la 
+clef C3, on ne pourra pas déverrouiler la cellule mère 
+LGi 001 CM pour récupérer la clef GB4,1 et donc fermer le contacteur LGB024
+==> Pas de risque pour les personnes et le matériel  
+Le contacteur LGB024 ne peut pas être embroché et fermé si la clef GB24.1 n'est pas récupérée 
+de la cellule mère LGi 001 CM
+==> Pas de risque pour les personnes et le matériel  
+LGB 001 CM Concerne serrure mère de la cellule 
+réseau permanent LGB
+LGB 024 JS
+LGB 024 Concerne cellule réseau permanent 
+LGB
+LHC 003 JA
+Porte Rac. Sortie 
+HT
+La clef C1 est unique et permet de déverrouiller le disjoncteur LHC 003 JA
+Concerne cellule arrivée réseau EDF 
+permanent LGB
+La liaison HTA alimentant le tableau LHC 001 TB venant du tableau de la tranche LGi xxx TB est alors disponible
+Tant que la clef C4 n'est pas disponible, on ne peut pas déverrouiller le 
+sectionneur de terre LHC 103 JS
+4.12.2 Déconsignation, Mise en service du disjoncteur de la cellule HT disjoncteur « arrivée réseau EdF permanent LGi » (LHC 003 JA) et mise en service de la liaison du tableau LHC 001 TB vers le tableau LGi xx TB de la tranche
+4.12 CELLULE DISJONCTEUR ARRIVEE RESEAU EDF PERMANENT LGi (LHC 003 JA)
+SEQUENCE DECONSIGNATION LHC 003 JA ET LGi xxx TB
+Note Clemessy
+PWB15G048092164MMIP [F]
+1
+2
+3
+4
+5
+6
+7
+14
+11
+12
+13
+8
+9
+10
+15
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total :  /
+46
+18
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 19]
+SEQUENCE CONSIGNATION LHC 003 JA ET LGi xxx TB
+Consignation du disjoncteur, Accès aux bornes HTA de la cellule HT disjoncteur « arrivée réseau EdF permanent LGi » 
+(LHC 003 JA) et consignation de la liaison du tableau LHC 001 TB vers le tableau LGi xx TB de la tranche
+Porte Rac. 
+Sortie HT
+Disjoncteur
+LHC 003 JA
+Contacteur
+LGB 024
+LHC 103 JS
+LGB 024 JS
+1
+2
+8
+5
+4
+3
+9
+7
+6
+10
+11
+13
+12
+14
+15
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total :  /
+46
+19
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 20]
+SEQUENCE DECONSIGNATION LHC 003 JA ET LGi xxx TB
+Déconsignation, Mise en service du disjoncteur de la cellule HT disjoncteur « arrivée réseau EdF permanent LGi » 
+(LHC 003 JA) et mise en service de la liaison du tableau LHC 001 TB vers le tableau LGi xx TB de la tranche
+Porte Rac. 
+Sortie HT
+Disjoncteur
+LHC 003 JA
+LGB 024 JS
+Contacteur
+LGB 024
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+1
+4
+LHC 103 JS
+15
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total :  /
+46
+20
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 21]
+SEQUENCE CONSIGNATION LHC 005 JA ET LHC 008 JA
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre) Analyse Schneider
+Débrocher le disjoncteur, de la cellule HT disjoncteur « Couplage » (LHC 005 JA) du tableau LHC 001 TB
+Verrouiller le disjoncteur de la cellule HT disjoncteur « Couplage » (LHC 005 JA) du tableau LHC 001 TB en position débroché  
+Libération de la clef E1
+Récupérer la clef E1
+Déverrouiller la serrure mère (LHC 003 CM) avec la clef E1 
+La clef E1 reste prisonnière 
+Libération des clefs E2, E5 et E6
+Récupérer les clefs E2, E5 et E6
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre) Analyse Schneider
+Déverrouiller de la position embrochée le tiroir de la cellule HT « remontée de jeu de barres » (LHC 008 JA) du tableau LHC 001 TB avec la clef E2 La clé E2 n'est pas prisonnière
+Débrocher le tiroir de la cellule HT « remontée de jeu de barres » (LHC 008 JA) du tableau LHC 001 TB.
+La clef E2 reste prisonnière Verrouillage pas possible
+Verrouiller le tiroir en position débrochée de la cellule HT « remontée de jeu de barres » (LHC 008 JA) du tableau LHC 001 TB
+Fermer le sectionneur de terre de la cellule HT « remontée de jeu de barres » (LHC 008 JA) du tableau LHC 001 TB
+Verrouiller le sectionneur de terre en position fermée de la cellule HT « remontée de jeu de barres » (LHC 008 JA) du tableau LHC 001 TB. 
+Libération de la clef H2
+Récupérer la clef H2
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre) Analyse Schneider
+Déverrouiller le sectionneur de mise à la terre de la cellule HT disjoncteur « Couplage » (LHC 005 JA) du tableau LHC 001 TB avec la clef H2 récupérée LHC 005JA Concerne cellule disjoncteur de 
+couplage
+Fermer le sectionneur de terre de la cellule HT disjoncteur « Couplage » (LHC 005 JA) du tableau LHC 001 TB
+La clef H2 reste prisonnière
+Verrouiller le sectionneur de terre en position fermée de la cellule HT disjoncteur « Couplage » (LHC 005 JA) du tableau LHC 001 TB      
+Libération de la clef E4
+Récupérer la clef E4
+Déverrouiller la serrure mère (LHC 004 CM) avec la clef E4
+La clef E4 reste prisonnière
+Libération des clefs E3 et H3
+Récupérer les clefs E3 et H3
+Déverrouiller la position fermée du panneau d’accès aux bornes de raccordement HTA de la cellule HT disjoncteur « Couplage » (LHC 005 JA) du tableau LHC 001 TB avec la clef E3
+Ouvrir le panneau d’accès aux bornes HTA de la cellule HT disjoncteur « Couplage » (LHC 005 JA) du tableau LHC 001 TB
+La clef E3 reste prisonnière
+Faire la vérification de l’absence de tension sur les bornes de la cellule HT disjoncteur (Avec la perche VAT adaptée)
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Déverrouiller de la position fermée le panneau d’accès aux bornes de raccordement HTA de la cellule HT « remontée de jeu de barres » (LHC 008 JA) du tableau LHC 001 TB avec la clef H3
+Ouvrir le panneau d’accès aux bornes de raccordement HTA de la cellule HT « remontée de jeu de barres » (LHC 008 JA) du tableau LHC 001 TB. 
+La clef H3 reste prisonnière
+Faire la vérification de l’absence de tension sur les bornes de la cellule HT « remontée de jeu de barres » (Avec la perche VAT adaptée)
+4.16 CELLULE DISJONCTEUR DE COUPLAGE (LHC 005 JA)
+La clé E2 libère uniquement le volet permettant l'accès à la manivelle d'embrochage // débrochage du 
+chariot. L'accès peut avoir lieu chariot embroché ou débroché.
+La clé E2 peut-être libérée chariot pont de barres débroché. Dans ce cas là, il est possible de fermer le 
+SMALT de la cellule remontée de barre car aucune serrure n'empêche cela. 
+Si on récupère la clé E2, il est possible de l'insérer dans la boite mère E1, E2, E5 et E6. Si les clé E5 et E6 
+sont présentes, il est possible de déverrouiller E1 et donc de la récupérer. Il est donc possible de 
+déverrouiller la position débrochée du disjoncteur de couplage, de l'embrocher et donc de le fermer. Ceci 
+entraine un court circruit triphasé à la terre.
+Même problématique avec la clé H2 sur le SMALT de la cellule TP 011JA
+Nota : Le Principe de verrouillage a été modifié sur le palier 1300 MW.
+4.17 CELLULE REMONTEE DE JEU DE BARRES (LHC 008 JA)
+4.17.1 Consignation et Accès aux bornes HTA de la cellule remontée de jeu de barres
+4.16 CELLULE DISJONCTEUR DE COUPLAGE (LHC005JA)
+4.16.1 Consignation et Accès aux bornes HTA de la cellule HT disjoncteur « Couplage » (LHC 005 JA) 
+Concerne cellule disjoncteur de 
+couplage
+La clef E4  permet de déverrouiller la serrure mère LHC 004 CM
+La clef E4 est unique et reste prisonnière 
+Elle permet de récupèrer les clefs E3 et H3
+Les clefs E3 et H3 sont uniquesLHC 004 CM Concerne serrure mère de la cellule 
+disjoncteur de couplage 
+Le clef H2 permet de déverrouiller et fermer le sectionneur de terre 
+LGB 105 JS
+La clef H2 est unique et reste prisonnière 
+Le sectionneur de terre LHC 105 JS ne peut pas être fermé si on n'a pas récupéré la clef H2 de 
+la cellule LHC 008 JA
+==> Pas de risque pour les personnes et le matériel  
+Pas de risque pour les personnes et le matériel car concerne la serrure mère
+La clef E2 déverrouille et autorise le débrochage du tiroir à barres de 
+la cellule HT " Remontée de Jeu de Barres " du tableau LHC 008 JA
+La clef E2 est unique et reste prisonnière
+Concerne cellule remontée de jeu de 
+barres
+Porte Rac. Sortie HT
+Porte Rac. Sortie HT
+La clef H2 déverrouille et autorise la fermeture du sectionneur de 
+mise à la terre de la cellule HT disjoncteur " Couplage " du tableau 
+LHC 005 JA
+La clef H2 est unique
+Concerne cellule disjoncteur de 
+couplage
+LHC 008 JA
+LHC 108 JS
+La cellule HT disjoncteur « Couplage » (LHC 005 JA) du tableau LHC 001 TB est alors consignée
+La clef E3 permet de déverrouiller et ouvrir  le panneau d’accès de 
+raccordement HTA de la cellule HT disjoncteur « Couplage » (LHC 
+005 JA)
+La clef E3 est unique et reste prisonnière 
+4.17.1 Consignation et Accès aux bornes HTA de la cellule remontée de jeu de barres
+LHC 105 JS
+La cellule HT « remontée de jeu de barres » (LHC 008 JA) du tableau LHC 001 TB et la liaison inter jeu de barres sont alors consignées
+Concerne cellule remontée de jeu de 
+barres
+La clef H3 permet de déverrouiller et ouvrir  le panneau d’accès aux 
+bornes de raccordement HTA de la cellule HT « remontée de jeu de 
+barres » (LHC 008 JA) 
+La clef H3 est unique et reste prisonnière 
+Pas de risque pour les personnes et le matériel
+LHC 003 CM
+La clef E1 verrouillle le disjoncteur LHC 005 JA en position 
+débrochée
+Une fois le disjoncteur ouvert, elle permet de déverrouiller 
+seulement la serrure mère LHC 003 CM pour récupérer la clef E2 qui 
+va permettre  le deverrouillage la cellule LHC 008 JS
+La clef E1 est unique et reste prisonnière
+Pas de risque pour les personnes et le matériel car concerne la serrure mère
+Note Clemessy
+PWB15G048092164MMIP [F]
+SEQUENCE CONSIGNATION LHC 005 JA ET LHC 008 JA
+4.16.1 Consignation et Accès aux bornes HTA de la cellule HT disjoncteur « Couplage » (LHC 005 JA) 
+ Si la cellule LHC 008 JS est embrochée, il n'est pas possible de fermer le sectionneur de terre 
+de LHC 108 JS
+Il y a un "dur mécanique" qui permet d'éviter de fermer le sectionneur de terre LHC 108 JS 
+==> Pas de risque pour les personnes et le matériel 
+4.17 CELLULE REMONTEE DE JEU DE BARRES (LHC 008 JA)
+Pas de risque pour les personnes et le matériel
+Concerne serrure mère de la cellule 
+disjoncteur de couplage
+ Si le disjoncteur LHC 005 JA est embroché, il n'est pas possible de fermer le sectionneur de 
+terre de LHC 105 JS car il est verrouillé si on n'a pas récupéré la clef H2 de la cellule LHC 008 
+JA et il y a un "dur mécanique " qui l'empêche
+==> Pas de risque pour les personnes et le matériel  
+Ouvrir le disjoncteur de la cellule HT disjoncteur « Couplage » (LHC 005 JA) du tableau LHC 001 TB
+LHC 005 JA Concerne cellule disjoncteur de 
+couplage
+2
+3
+4
+5
+1
+6
+10
+9
+8
+7
+17
+15
+14
+13
+11
+12
+16
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total :  /
+46
+21
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 22]
+SEQUENCE DECONSIGNATION LHC 005 JA ET LHC 008 JA
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Fermer le panneau d’accès aux bornes HTA de la cellule HT « remontée de jeu de barres » (LHC 008 JA) du tableau LHC 001 TB
+Verrouiller le panneau d’accès aux bornes HTA de la cellule HT « remontée de jeu de barres » (LHC 008 JA) du tableau LHC 001 TB 
+Libération de la clef H3
+Récupérer la clef H3
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Fermer le panneau d’accès aux bornes HTA de la cellule HT disjoncteur « Couplage » (LHC 005 JA) du tableau LHC 001 TB
+Verrouiller le panneau d’accès aux bornes HTA de la cellule HT disjoncteur « Couplage » (LHC 005 JA) du tableau LHC 001 TB  
+Libération de la clef E3
+Récupérer la clef E3
+Déverrouiller la serrure mère (LHC 004 CM) avec les clefs E3 et H3 
+Les clefs E3 et H3 restent prisonnières
+Libération de la clef E4
+Récupérer la clef E4
+Déverrouiller la position fermée du sectionneur de mise à la terre de la cellule HT disjoncteur « Couplage » (LHC 005 JA) du tableau LHC 001 TB avec la clef E4
+Ouvrir le sectionneur de la mise à la terre de la cellule HT disjoncteur « Couplage » (LHC 005 JA) du tableau LHC 001 TB
+La clef E4 reste prisonnière
+Verrouiller la position ouverte du sectionneur de mise à la terre de la cellule HT disjoncteur « Couplage » (LHC 005 JA) du tableau LHC 001 TB 
+Libération de la clef H2
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Récupérer la clef H2 avec le Verrouillage du sectionneur de terre de la cellule HT disjoncteur de couplage du tableau LHC en position ouvert
+Déverrouiller de la position fermée le sectionneur de mise à la terre de la cellule HT remontée de jeu de barres du tableau LHC avec la clef H2
+Ouvrir le sectionneur de terre de la cellule HT « remontée de jeu de barres » (LHC 008 JA) du tableau LHC 001 TB du tableau LHC
+La clef H2 reste prisonnière
+Verrouiller le sectionneur de terre de la cellule HT « remontée de jeu de barres » (LHC 008 JA) du tableau LHC 001 TB en position ouvert
+Embrocher le tiroir de la cellule HT « remontée de jeu de barres » (LHC 008 JA) du tableau LHC 001 TB
+Verrouiller le tiroir de la cellule HT « remontée de jeu de barres » (LHC 008 JA) du tableau LHC 001 TB en position embroché 
+Libération de la clef E2
+Récupérer la clef E2
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Déverrouiller la serrure mère (LHC 003 CM) avec les clefs E2, E5 et E6
+Les clefs E2, E5 et E6 restent prisonnières            
+Libération de la clef E1
+Récupérer la clef E1
+Déverrouiller le disjoncteur de la cellule HT disjoncteur « Couplage » (LHC 005 JA) du tableau LHC 001 TB de la position débroché avec la clef E1
+Embrocher le disjoncteur de la cellule HT disjoncteur « Couplage » (LHC 005 JA) du tableau LHC 001 TB
+Verrouiller le tiroir du disjoncteur en position embroché
+La clef E1 reste prisonnière
+LHC 005 JA
+Note Clemessy
+PWB15G048092164MMIP [F]
+Peut-on embrocher et fermer le disjoncteur LHC 005 JA ?
+Non car il est verrouillé avec la clef E1 prisonniére dans la cellule mère LHC 003 CM tant que 
+la cellule LHC 008 JS n'est pas fermée
+==> Pas de risque pour les personnes et le matériel 
+La clef E2 permet de libérer la clef E1 pour pouver embrocher le 
+disjoncteur LHC 005 JA 
+Concerne serrure mère de la cellule 
+disjoncteur de couplage 
+La clef H2  permet de déverrouiller et ouvrir le sectionneur de terre 
+LHC 108 JS
+La clef H2 est unique et reste prisonnière
+La clef E2 va permettre de déverrouiller la serrure mère LHC 003 CM
+La clef E2 est unique
+4.17 CELLULE REMONTEE DE JEU DE BARRES (LHC 008 JA)
+4.17.2 Déconsignation et Mise en service de la cellule remontée de jeu de barres
+LHC 105 JS
+Peut-on embrocher et fermer la cellule liaison de jeux de barres LHC 008 JS sans avoir ouvert 
+le sectionneur de terre LHC 108 JS ?
+Non car il y a un dur mécanique qui l'empéche
+==> Pas de risque pour les personnes et le matériel 
+La clef E4 permet de déverrouiller et ouvrir le sectionneur de terre 
+LHC 105 JS et libérer la clef H2
+Ces clefs sont uniques
+Concerne cellule remontée de jeu de 
+barres
+Le disjoncteur de la cellule HT disjoncteur « Couplage » (LHC 005 JA) du tableau LHC 001 TB est maintenant disponible
+Concerne cellule disjoncteur de 
+couplage
+LHC 003 CM Concerne serrure mère de la cellule 
+disjoncteur de couplage
+4.16.2 Déconsignation et Mise en service du disjoncteur de la cellule disjoncteur de Couplage (LHC 005 JA) 
+4.16 CELLULE DISJONCTEUR DE COUPLAGE (LHC005JA)
+LHC 108 JS
+La cellule HT « remontée de jeu de barres » (LHC 008 JA) du tableau LHC 001 TB est alors disponible
+LHC 008 JS
+Pas de risque pour les personnes et le matériel car concerne la serrure mère
+Pas de risque pour les personnes et le matériel 
+SEQUENCE DECONSIGNATION LHC 005 JA ET LHC 008 JA
+4.17 CELLULE REMONTEE DE JEU DE BARRES (LHC 008 JA)
+4.17.2 Déconsignation et Mise en service de la cellule remontée de jeu de barres
+La clef H3 permet de déverrouiller la serrure mère LHC 004 CM pour 
+libérer la clef E4
+Le clef H3 est unique
+Quand le sectionneur de terre LHC 105 JS est fermé, est-il possible d'embrocher et de fermer 
+le Disjoncteur LHC 005 JA ?
+Non car il est verrouillé par la clef E4 prisonnière dans la cellule mère LHC 004 CM
+==> Pas de risque pour les personnes et le matériel 
+Pas de risque pour les personnes et le matériel car concerne la serrure mère
+4.16 CELLULE DISJONCTEUR DE COUPLAGE (LHC005JA)
+4.16.2 Déconsignation et Mise en service du disjoncteur de la cellule disjoncteur de Couplage (LHC 005 JA)
+Porte Rac. Sortie HT Concerne cellule remontée de jeu de 
+barres Pas de risque pour les personnes et le matériel 
+La clef H3 permet de déverrouiller la serrure mère LHC 004 CM pour 
+libérer la clef E4
+Le clef H3 est unique
+Concerne cellule disjoncteur de 
+couplage
+LHC 004 CM
+Porte Rac. Sortie HT Concerne cellule disjoncteur de 
+couplage
+1
+2
+5
+6
+7
+12
+13
+14
+15
+16
+8
+9
+11
+3
+4
+10
+17
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total :  /
+46
+22
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 23]
+SEQUENCE CONSIGNATION LHC 005 JA ET LHC 008 JA
+Consignation de la cellule HT disjoncteur de couplage (LHC 005 JA) et de la cellule remontée de jeu de barres (LHC 008 JA)
+LHC 108 JS
+Disjoncteur
+LHC 005 JA
+Cellule de 
+liaison de 
+jeux de 
+barres  
+LHC 008 JS
+Porte Rac. 
+Sortie HT
+Porte Rac. 
+Sortie HT
+LHC 105 JS
+1
+2
+3
+5
+6
+4
+7
+11 8
+10
+912
+13
+14
+15
+16 17
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total :  /
+46
+23
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 24]
+SEQUENCE DECONSIGNATION LHC 005 JA ET LHC 008 JA
+Déconsignation de la cellule HT disjoncteur de couplage (LHC 005 JA) et de la cellule remontée de jeu de barres (LHC 008 JA)
+LHC 108 JS
+Disjoncteur
+LHC 005 JA
+Cellule de 
+liaison de 
+jeux de 
+barres  
+LHC 008 JS
+Porte Rac. 
+Sortie HT
+Porte Rac. 
+Sortie HT
+LHC 105 JS
+4
+6
+7
+5 8
+9
+11
+2
+3
+12
+13
+14
+15
+16
+1
+10
+17
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total :  /
+46
+24
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 25]
+SEQUENCE CONSIGNATION LHC 010 JA ET LHC 007 JA
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre) Analyse Schneider
+LHU 001 GE
+Vérifier que le groupe électrogène du DUS (LHU 001 GE) est à l’arrêt LHU 001  GE GE DUS 6.6kV Pas de risque pour les personnes et le matériel  
+Cellule arrivée GE Alternateur DUS
+Ouvrir le disjoncteur de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA) du tableau LHC 001 TB
+Débrocher le disjoncteur de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA) du tableau LHC 001 TB
+Verrouiller le disjoncteur de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA) du tableau LHC 001 TB en position débroché. 
+Libération de la clef J1
+Récupérer la clef J1
+Déverrouiller la serrure mère (LHC 007 CM) avec la clef J1
+La clef J1 reste prisonnière
+Libération des clefs J2 et J3
+Récupérer la clef J3
+LHU 001 GE
+Fermer la vanne 1 de distribution de l’air de démarrage banc 1 (LHU 350DR)
+Verrouiller cette vanne 1 de distribution de l’air de démarrage banc 1 (LHU 350DR) en positon fermée.
+Libération de la clef J4
+Récupérer la clef J4
+Fermer la vanne 2 de distribution de l’air de démarrage banc 2 (LHU 360 DR)
+Verrouiller cette vanne 2 de distribution de l’air de démarrage banc 2 (LHU 360 DR) en positon fermée
+Libération de la clef J5
+Récupérer la clef J5
+Cellule arrivée GE Alternateur DUS
+Déverrouiller la serrure mère (LHC 008 CM) avec les clefs J3 (Correspondant au disjoncteur arrivée GE alternateur DUS débrocher Voir le chapitre 4.14.1 lignes de 1 à 15 ), 
+J4 (Correspondant à la vanne 1 en position fermée de l’air de démarrage banc 1) 
+et la clef J5 (Correspondant à la vanne 2 en position fermée de l’air de démarrage banc 2)
+Les clefs J3, J4 et J5 restent prisonnières
+Libération de la clef J6
+Récupérer la clef J6
+Déverrouiller la position ouverte du sectionneur de mise à la terre de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA) 
+du tableau LHC 001 TB avec la clef J6
+Fermer le sectionneur de mise à la terre de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA) du tableau LHC 001 TB 
+La clef J6 reste prisonnière
+Verrouiller le sectionneur de mise à la terre en position fermée de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA) du tableau LHC 001 TB
+Libération de la clef J7
+Récupérer la clef J7
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre) Analyse Schneider
+Déverrouiller le débrochage du tiroir de la cellule HT « Point Neutre » (LHC 007 JA) du tableau LHC 001 TB avec la clef J7
+ récupérée par la mise à la terre de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA) du tableau LHC 001 TB
+Débrocher le tiroir de la cellule HT « Point Neutre » (LHC 007 JA) du tableau LHC 001 TB
+La clef J7 reste prisonnière
+Fermer le sectionneur de mise à la terre de la cellule HT « Point Neutre » (LHC 007 JA) du tableau LHC 001 TB
+Verrouiller le sectionneur de mise à la terre en position fermée de la cellule HT « Point Neutre » (LHC 007 JA) du tableau LHC 001 TB 
+Libération de la clef J8
+Récupérer la clef J8
+Déverrouiller la serrure mère (LHC 006 CM) avec la clef J8
+La clef J8 reste prisonnière. 
+Libération des clefs J9, G1 et G2
+Récupérer les clefs J9, G1 et G2
+Déverrouiller la position fermée du panneau d’accès aux bornes de raccordement HTA de la cellule HT « Point Neutre » (LHC 007 JA) 
+du tableau LHC 001 TB avec la clef G2
+Ouvrir le panneau d’accès aux bornes de raccordement HTA de la cellule HT « Point Neutre » (LHC 007 JA) du tableau LHC 001 TB
+La clef G2 reste prisonnière
+Faire la vérification de l’absence de tension sur les bornes de la cellule HT contacteur (Avec la perche VAT adaptée)
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre) Analyse Schneider
+Cellule arrivée GE Alternateur DUS
+Déverrouiller la position fermée du panneau d’accès aux bornes de raccordement HTA de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA)  
+du tableau LHC 001 TB avec la clef J9 
+Ouvrir le panneau d’accès aux bornes HTA de la cellule HT « Point Neutre » (LHC 007 JA) du tableau LHC 001 TB
+La clef J9 reste prisonnière
+Faire la vérification de l’absence de tension sur les bornes de la cellule HT contacteur (Avec la perche VAT adaptée)
+Déverrouiller la position fermée du capot d’accès aux bornes de raccordement HTA de l’alternateur du DUS (LHU 001 GE) avec la récupération de la clef G1
+Ouvrir le panneau d’accès aux bornes HTA de la boite à bornes HT de l’alternateur du DUS (LHU 001 GE)
+La clef G1 reste prisonnière
+Faire la vérification de l’absence de tension sur les bornes de la cellule HT contacteur (Avec la perche VAT adaptée)
+4.15.1 Consignation et Accès aux bornes HTA de la cellule HT « Point Neutre » (LHC 007 JA)
+4.14 CELLULE DISJONCTEUR ARRIVEE GE ALTERNATEUR DUS (LHC 010 JA)
+4.14.1 Consignation, Accès aux bornes HTA de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA) et Accès aux bornes HTA de l’alternateur du DUS (LHU 001 GE)
+La clé J7 n'est pas prisonnière
+Il est possible de récupérer la clé J7 qui n'est pas prisonnière
+La clé J7 peut être récupérée avec la possibilité de déverouiller et d'ouvrir 
+le SMALT de la cellule disjoncteur groupe 
+Il pourrait être envisager, dans un cas extrême, l'embrochage de la partie 
+mobile disjoncteur et la fermeture du disjoncteur avec la cellule point 
+neutre, pont de barre débroché et SMALT fermé
+Note Clemessy
+PWB15G048092164MMIP [F]
+SEQUENCE CONSIGNATION LHC 010 JA ET LHC 007 JA
+4.14 CELLULE DISJONCTEUR ARRIVEE GE ALTERNATEUR DUS (LHC 010 JA)
+4.14.1 Consignation, Accès aux bornes HTA de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA) et Accès aux bornes HTA de l’alternateur du DUS (LHU 001 GE)
+4.15 CELLULE POINT NEUTRE (LHC 007 JA)
+LHC 110 JS Concerne la cellule arrivée GE 
+Alternateur DUS
+Concerne vanne d'air 2
+LHC 010 JA Concerne la cellule arrivée GE 
+Alternateur DUS
+LHC 007 CM Concerne serrure mère de la cellule 
+arrivée GE Alternateur DUS
+La clef J1 verrouillle le disjoncteur LHC 010 JA en position 
+débrochée
+La clef J1 est unique et reste prisonnière
+Une fois le disjoncteur ouvert, elle permet de déverrouiller 
+seulement la serrure mère LHC 007 CM pour récupérer la clef J3 
+qui va permettre  le déverrouillage la serrure mère LHC 008 CM
+ Si le disjoncteur LHC 010 JA est embroché, il n'est pas possible de fermer le 
+sectionneur de terre de LHC 110 JS car il est verrouillé si on n'a pas récupéré la clef 
+J6 de la serrure mère LHC 008 CM et il y a un "dur mécanique " qui l'empêche
+==> Pas de risque pour les personnes et le matériel  
+Pas de risque pour les personnes et le matériel car concerne la serrure mère
+Concerne serrure mère de la cellule 
+arrivée GE Alternateur DUSLHC 008 CM
+Les liaisons HTA alimentant le tableau LHC 001 TB et venant du GE alternateur DUS (LHU 001 GE) est alors consignée
+La cellule HT « Point Neutre » (LHC 007 JA) du tableau LHC 001 TB est alors consignée
+LHC 007 JA
+LHC 107 JS
+LHC 006 CM
+Concerne cellule Point Neutre
+Concerne serrure mère de la cellule 
+Point neutre
+Pas de risque pour les personnes et le matériel  Porte Rac. Sortie HT
+Pas de risque pour les personnes et le matériel  
+Concerne  la cellule Point neutre
+La clef J8 permet de  déverrouiller la serrure mère LCU006CM 
+La clef J8 seule permet la libération des clefs J9, G1 et G2
+La clef J8 est unique et reste prisonnière
+La clef G2 permet de déverrouiller l'ouverture du panneau d'accès 
+aux bornes HTA de la cellule HT " Point Neutre " du tableau LHC 
+007 JA
+Porte Rac. Sortie HT Concerne la cellule arrivée GE 
+Alternateur DUS
+La clef J9 permet de déverrouiller l'ouverture du panneau d'accès 
+aux bornes HTA de la cellule HT " Point Neutre " du tableau LHC 
+010 JA
+Les clefs J4 et J5 permettent de déverrouiller la serrure mère LHC 
+008 CM associées à la clef J3
+Les clefs J4 et J5 sont uniques et restent prisonnières
+La clef J3 associé aux clefs J4 et J5 permettent de déverrouiller la 
+serrure mère LHC 008 CM pour récupérer la clef J6
+Ces clefs sont uniques
+La clef J7 permet le débrochage du tiroir à barres de la cellule HT 
+" Point Neutre " LHC 007 JS
+La clef J7 est unique et reste prisonnière
+Pas de risque pour les personnes et le matériel car concerne la serrure mère
+Le sectionneur de terre LHC 110 JS ne peut pas être fermé si on n'a pas récupéré la 
+clef J6 à la serrure mère LHC 008 CM 
+==> Pas de risque pour les personnes et le matériel  
+Le tiroir LHC 007 JS ne peut pas être débroché sans la clef J7
+==> Pas de risque pour les personnes et le matériel  
+Le sectionneur de terre ne peut pas être fermé si le disjoncteur LHC 007 JS n'est pas 
+ouvert car il existe un "dur mécanique" qui l'empêche
+==> Pas de risque pour les personnes et le matériel  
+Pas de risque pour les personnes et le matériel car concerne la serrure mère
+LHU 350 DR
+La clef J6 permet de déverrouiller et fermer le sectionneur de terre 
+LHC 110 JS 
+La clef J6 est unique et reste prisonnière 
+Elle permet de libérer la clef J7
+Concerne vanne d'air 1
+Pas de risque pour les personnes et le matériel  
+LHU 360DR
+Porte Rac. Sortie HT Concerne alternateur DUS La clef G1 permet de déverrouiller l'ouverture du capot d'accès 
+aux bornes HTA de " l'Alternateur DUS " LHU001GE
+2
+3
+4
+5
+9
+8
+6
+7
+10
+11
+12
+14
+15
+16
+17
+18
+19
+20
+21
+13
+1
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total :  /
+46
+25
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 26]
+SEQUENCE DECONSIGNATION LHC 010 JA ET LHC 007 JA
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Fermer le capot d’accès aux bornes HTA de l’alternateur GE DUS (LHU 001 GE)
+Verrouiller en position fermée le capot d’accès aux bornes HTA de l’alternateur GE DUS (LHU 001 GE)
+Libération de la clef G1
+Récupérer la clef G1
+Cellule arrivée GE Alternateur DUS
+Fermer le panneau d’accès aux bornes HTA de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA) du tableau LHC 001 TB
+Verrouiller en position fermée le panneau d’accès aux bornes HTA de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA) du tableau LHC 001 TB 
+Libération de la clef J9
+Récupérer la clef J9
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Fermer le panneau d’accès aux bornes HTA de la cellule HT « Point Neutre » (LHC 007 JA) du tableau LHC 001 TB
+Verrouiller en position fermée le panneau d’accès aux bornes HTA de la cellule HT « Point Neutre » (LHC 007 JA) du tableau LHC 001 TB
+Libération de la clef G2
+Récupérer la clef G2
+Déverrouiller la serrure mère (LHC 006 CM) avec les clefs J9, G1 et G2
+Les clefs J9, G1 et G2 restent prisonnières. 
+Libération de la clef J8
+Récupérer la clef J8
+Déverrouiller la position fermée du sectionneur de mise à la terre de la cellule HT « Point Neutre » (LHC 007 JA) du tableau LHC 001 TB avec la clef J8
+Ouvrir le sectionneur de la mise à la terre de la cellule HT « Point Neutre » (LHC 007 JA) du tableau LHC 001 TB
+La clef J8 reste prisonnière
+Embrocher le tiroir de la cellule HT « Point Neutre » (LHC 007 JA) du tableau LHC 001 TB
+Verrouiller la position embrochée du tiroir de la cellule HT « Point Neutre » (LHC 007 JA) du tableau LHC 001 TB
+Libération de la clef J7
+Récupérer la clef J7
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Déverrouiller la position fermée du sectionneur de terre de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA) du tableau LHC 001 TB 
+avec la clef J7
+Ouvrir le sectionneur de terre de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA) du tableau LHC 001 TB 
+La clef J7 reste prisonnière 
+Libération de la clef J6
+Récupérer la clef J6
+Déverrouiller la serrure mère (LHC 008 CM) avec la clef J6 
+La clef J6 reste prisonnière
+Libération des clefs J5, J4 et J3
+Récupérer des clefs J5, J4 et J3
+Déverrouiller la position fermée de la vanne 2 de distribution de l’air de démarrage banc 2 (LHU 360 DR) avec la clef J5
+Ouvrir cette vanne 2 de distribution de l’air de démarrage banc 2 (LHU 360 DR)
+La clef J5 reste prisonnière
+Déverrouiller la position fermée de la vanne 1 de distribution de l’air de démarrage banc 1 (LHU 350 DR) avec la clef J4
+Ouvrir cette vanne de distribution de l’air de démarrage banc 1 (LHU 350 DR). 
+La clef J4 reste prisonnière
+Déverrouiller la serrure mère (LHC 007 CM) avec les clefs J2 et J3 
+Les clefs J2 et J3 restent prisonnières 
+Libération de la clef J1
+Récupérer la clef J1
+Déverrouiller le disjoncteur de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA) du tableau LHC 001 TB. de la position débroché avec la clef J1
+Embrocher le disjoncteur de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA) du tableau LHC 001 TB
+Verrouiller le tiroir du disjoncteur en position embroché. 
+La clef J1 reste prisonnière
+LHC 008 CM
+Concerne alternateur DUSPorte Rac. Sortie HT
+Porte Rac. Sortie HT
+Porte Rac. Sortie HT
+LHC 107 JS
+LHC 007 JA
+Concerne cellule Point Neutre
+Concerne la cellule arrivée GE 
+Alternateur DUS
+LHC 006 CM
+La clef G2 va permettre de déverrouiller la serrure mère LHC 006 
+CM associé avec les clefs J9 et G1 pour pouvoir récupérer la clef 
+J8
+La clef G2 est unique
+Pas de risque pour les personnes et le matériel  
+4.14.2 Déconsignation et Mise en service du disjoncteur de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA)
+Le disjoncteur de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA) du tableau LHC 001 TB est maintenant disponible
+La cellule HT « Point Neutre » (LHC 007 JA) du tableau LHC 001 TB est alors disponible
+LHC 010 JA Concerne la cellule arrivée GE 
+Alternateur DUS
+Concerne vanne d'air 2
+Concerne vanne d'air 1
+LHC 007 CM Concerne serrure mère de la cellule 
+arrivée GE Alternateur DUS
+On ne peut pas fermer le sectionneur de terre LHC 110 JS si on n'a pas récupérè la 
+clef J7 de l'embrochage du tiroir LHC 007 JS
+==> Pas de risque pour les personnes et le matériel 
+Pas de risque pour les personnes et le matériel car concerne la serrure mère
+Pas de risque pour les personnes et le matériel car concerne la serrure mère
+On ne peut pas embrocher et fermer le disjoncteur LHC 010 JA si on ne l'a pas 
+déverrouillé avec la clef J1
+==> Pas de risque pour les personnes et le matériel  
+4.14 CELLULE DISJONCTEUR ARRIVEE GE ALTERNATEUR DUS (LHC 010 JA)
+Pas de risque pour les personnes et le matériel car concerne la serrure mère
+Concerne serrure mère de la cellule 
+arrivée GE Alternateur DUS
+La clef J3 permet de dévrrouiller la serrure mère LHC 007 CM pour 
+récupérer la clef J1
+La clef J1 permet de déverrouiller et fermer le disjoncteur LHC 010 
+JA
+La clef J1 est unique et reste prisonnière
+LHU 360 DR
+LHU 350 DR
+Concerne cellule Point Neutre
+Concerne serrure mère de la cellule 
+Point neutre
+4.14 CELLULE DISJONCTEUR ARRIVEE GE ALTERNATEUR DUS (LHC 010 JA)
+La clef J8 permet de déverrouiller et fermer le sectionneur LHC 
+107 JS
+La clef J8 est unique et reste prisonnière
+La clef J7 récupérée va permettre de déverrouiller l'ouverture du 
+sectionneur de terre LHC 110 JS
+La clef J7 est unique 
+On ne peut pas fermer le sectionneur de terre LHC 107 JS si on n'a pas récupérè la 
+clef J8 dans la cellule mère LHC 006 CM
+==> Pas de risque pour les personnes et le matériel 
+On ne peut pas embrocher le tiroir LHC 007 JA car il y a un "dur mécanique" si le 
+sectionneur de terre LHC 107 JS est encore fermé
+==> Pas de risque pour les personnes et le matériel 
+On est à  une étape d'un risque si on passe le dur mécanique car pas de clef
+La clef J7 est unique et reste prisonnière
+La clef J6 permet de déverrouiller la serrure mère LHC 008 CM 
+pour récupérer les clefs J3, J4 et J5
+Ces clefs sont uniques
+Les clefs J4 et J5 permettent d'ouvrir les vannes
+Ces clefs sont uniques et restent prisonnières
+Pas de risque pour les personnes et le matériel
+LHC 110 JS
+4.15 CELLULE POINT NEUTRE (LHC 007 JA)
+4.15.2 Déconsignation et Mise en service de la cellule HT « Point Neutre » (LHC 007 JA)
+La clef J9  va permettre de déverrouiller la serrure mère LHC 006 
+CM associé avec les clefs G1 et G2 pour pouvoir récupérer la clef 
+J8
+La clef J9 est unique
+Pas de risque pour les personnes et le matériel  
+Pas de risque pour les personnes et le matériel  
+Concerne la cellule arrivée GE 
+Alternateur DUS
+La clef G1  va permettre de déverrouiller la serrure mère LHC 006 
+CM associé avec les clefs J9 et G2 pour pouvoir récupérer la clef 
+J8
+La clef G1 est unique
+SEQUENCE DECONSIGNATION LHC 010 JA ET LHC 007 JA
+4.14.2 Déconsignation et Mise en service du disjoncteur de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA)
+Note Clemessy
+PWB15G048092164MMIP [F]
+1
+2
+10
+12
+11
+13
+14
+15
+16
+17
+18
+19
+20
+4
+6
+7
+8
+5
+3
+9
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total :  /
+46
+26
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 27]
+SEQUENCE CONSIGNATION LHC 010 JA ET LHC 007 JA
+Consignation, Accès aux bornes HTA de la cellule HT disjoncteur « arrivée GE alternateur DUS » (LHC 010 JA) 
+et Accès aux bornes HTA de l’alternateur du DUS (LHU 001 GE)
+et 
+Consignation et Accès aux bornes HTA de la cellule HT « Point Neutre » (LHC 007 JA)
+Déconsignation et Mise en service du disjoncteur de la cellule HT disjoncteur « arrivée GE alternateur DUS » 
+(LHC 010 JA)
+et
+ Déconsignation et Mise en service de la cellule HT « Point Neutre » (LHC 007 JA)
+Porte Rac. 
+Sortie HT Porte Rac. 
+Sortie HT
+LHC 110 JSLHC 107 JS
+1
+2
+95
+84
+3
+6
+7
+16
+15
+11
+13
+12
+10
+17
+14
+18
+21
+19 20
+Tiroir LHC 007 JS
+Disjoncteur  
+LHC 010 JA
+10
+3
+9
+6
+8
+4
+5
+7
+2
+1
+LHC 110 JSLHC 107 JS
+Porte Rac. 
+Sortie HT
+Porte Rac. 
+Sortie HT
+11
+13
+12
+14
+15
+18
+16
+19
+17
+20Tiroir LHC 007 JS
+Disjoncteur  
+LHC 010 JA
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total :  /
+46
+27
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 28]
+SEQUENCE DECONSIGNATION LHC 016 JA ET LHC 001 CR
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Vérifier la non présence de liaison par câbles vers un générateur FARN en tranche paire et impaire (ou la consignation de la cellule HT correspondante)
+La validation se fait par contrôle visuel de la consignation de ces liaisons
+La personne habilitée pour ces consignations doit vous remettre la clef Q1, après le contrôle de l’absence de liaison vers un générateur FARN en tranche paire et impaire, ou de la consignation de la 
+cellule HT correspondante au niveau du générateur FARN
+Récupérer les clefs Q1 (une par tranche)
+ Se rendre au bâtiment 2 DUS 2 HDU 1801 ZL
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Ouvrir le disjoncteur de la cellule HT disjoncteur « arrivée FARN du tableau LHC
+Débrocher le disjoncteur de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB
+Verrouiller le disjoncteur de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB en position débroché. 
+Libération de la clef P1
+Récupérer la clef P1
+Déverrouiller la serrure mère (LHC 011 CM) avec la clef P1
+La clef P1 reste prisonnière 
+Libération des clefs P2, P3 et  P10 
+Récupérer les clefs P3 et P10
+Mettre la clef P3 dans la serrure mère (LHC 012 CM) 2 LHC 012 CM La clef P3 permet de déverrouiller la serrure mère LHC 012 CM. Elle doit être 
+accompagné des clefs Q1 et P9 pour récupérer la clef P4 
+ Se rendre au bâtiment 1 DUS, 1 HDU 1801 ZL
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Ouvrir le disjoncteur de la cellule HT disjoncteur « arrivée FARN du tableau LHC
+Débrocher le disjoncteur de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB
+Verrouiller le disjoncteur de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB en position débroché 
+Libération de la clef P1
+Récupérer la clef P1
+Déverrouiller la serrure mère (LHC 011 CM) avec la clef P1
+La clef P1 reste prisonnière
+Libération des clefs P3 et P9
+Récupérer les clefs P3 et P9
+Déverrouiller la serrure mère (LHC 012 CM) avec les clefs P3 (Correspondant au disjoncteur arrivée FARN débroché), 
+Q1 (Correspondant aux consignations des cellules HT générateur FARN en tranche paire et impaire ou de l’absence de ces câbles de liaison) 
+et P10 (de la tranche paire)
+Les clefs Q1, P3 et P10 restent prisonnières
+Libération de la clef P4
+1 LHC 012 CM
+Les clefs P3, P10 et Q1 permettent de déverrouiller la serrure mère LHC 012 CM 
+Les clefs P3 et P10 doivent être accompagnées de la clef Q1  pour la libération de la 
+clef P4
+Déverrouiller la position ouverte du sectionneur de mise à la terre de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) 
+du tableau LHC 001 TB avec la clef P4
+Fermer le sectionneur de mise à la terre de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB
+La clef P4 reste prisonnière
+Verrouiller le sectionneur de mise à la terre en position fermée de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB 
+Libération de la clef P5
+Récupérer la clef P5
+Déverrouiller en tranche impaire la serrure mère (LHC 014 CM) avec la clef P5 
+La clef P5 reste prisonnière
+Libération des clefs P7 et P7
+1 LHC 014 CM Concerne la serrure mère de la tranche 
+1 Pas de risque pour les personnes et le matériel car concerne la serrure mère
+ Se rendre au bâtiment 2 DUS, 2 HDU 1801 ZL
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Déverrouiller la serrure mère (LHC 012 CM) avec les clefs P3 (Correspondant au disjoncteur arrivée FARN débroché), 
+Q1 (Correspondant aux consignations des cellules HT générateur FARN en tranche paire et impaire ou de l’absence de ces câbles de liaison)
+ et P9  (de la tranche impaire)
+Les clefs Q1, P3 et P9 restent prisonnières
+Libération de la clef P4
+2 LHC 012 CM Concerne la serrure mère de la cellule 
+arrivée FARN 2
+Les clefs P3, P9 et Q1 permettent de déverrouiller la serrure mère LHC 012 CM 
+Les clefs P3 et P9 doivent être accompagnées de la clef Q1  pour la libération de la clef 
+P4
+Pas de risque pour les personnes et le matériel car concerne la serrure mère
+Déverrouiller la position ouverte du sectionneur de mise à la terre de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) 
+du tableau LHC 001 TB avec la clef P4
+Fermer le sectionneur de mise à la terre de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB 
+La clef P4 reste prisonnière
+Verrouiller le sectionneur de mise à la terre en position fermée de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB
+Libération de la clef P5
+Récupérer la clef P5
+Déverrouiller en tranche paire la serrure mère (LHC 015 CM) avec la clef P5
+La clef P5 reste prisonnière 
+Libération des clefs P8 et P8
+2 LHC 015 CM Concerne la serrure mère de la tranche 
+2 Pas de risque pour les personnes et le matériel car concerne la serrure mère
+ Se rendre au bâtiment 1 DUS, 1 HDU 1801 ZL et au bâtiment 2 DUS 2 HDU 1801 ZL
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Déverrouiller la serrure mère (LHC 013 CM) avec les clefs P7 et P8 
+Les clefs P7 et P8 restent prisonnières
+Libération des clefs P6, S1, S1 et S1
+Récupérer les clefs P6, S1, S1 et S1 de la serrure mère (LHC 013 CM)
+Déverrouiller la porte d’accès aux bornes de raccordement HTA de la phase 1 du coffret FARN (LHC 001 CR) avec la clef S1
+Ouvrir la porte d’accès aux bornes de raccordement HTA de la phase 1 du coffret FARN (LHC 001 CR).
+La clef S1 reste prisonnière
+Faire la vérification de l’absence de tension sur les bornes HTA de la phase 1 (Avec la perche VAT adaptée)
+Déverrouiller la porte d’accès aux bornes de raccordement HTA de la phase 2 du coffret FARN (LHC 001 CR) avec la clef S1
+Ouvrir la porte d’accès aux bornes de raccordement HTA de la phase 2 du coffret FARN (LHC 001 CR).
+La clef S1 reste prisonnière
+Faire la vérification de l’absence de tension sur les bornes HTA de la phase 2 (Avec la perche VAT adaptée)
+Déverrouiller la porte d’accès aux bornes de raccordement HTA de la phase 3 du coffret FARN (LHC 001 CR) avec la clef S1
+Ouvrir la porte d’accès aux bornes de raccordement HTA de la phase 3 du coffret FARN (LHC 001 CR)
+La clef S1 reste prisonnière
+Faire la vérification de l’absence de tension sur les bornes HTA de la phase 1 (Avec la perche VAT adaptée)
+ Se rendre au bâtiment 1 DUS, 1 HDU 1801 ZL et au bâtiment 2 DUS, 2 HDU 1801 ZL
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Procéder à l’ouverture du panneau d’accès aux bornes de raccordement HTA de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) 
+du tableau LHC 001 TB avec la clef P6 Porte Rac. Sortie HT Concerne les cellules arrivée 
+FARN 1 et  FARN 2
+La clef P6  permet de déverrouiller l'ouverture du panneau d’accès aux bornes de 
+raccordement HTA de la cellule HT disjoncteur « arrivée FARN » LHC 016 JA
+Elle reste prisonnière
+Pas de risque pour les personnes et le matériel
+4.13 CELLULE DISJONCTEUR ARRIVEE FARN (LHC 016 JA)
+4.13.1 Consignation et Accès aux bornes HTA de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA)
+2 LHC 011 CM
+4.20.1 Consignation et Accès aux bornes HTA du coffret de raccordement FARN (LHC 001 CR)
+TRANCHES PAIRE ET IMPAIRE
+TRANCHES PAIRE ET IMPAIRE
+Les clefs P7 et P8 vont permettre de déverrouiller la serrure mère pour récupérer les 
+clefs P6 et S1
+Les 3 clefs S1 permettent de déverrouiller la porte d’accès aux bornes de raccordement 
+HTA de la phase 3 du coffret FARN LHC 001 CR
+Ces 3 clefs restent prisonnières
+4.20 COFFRET RACCORDEMENT FARN (LHC 001 CR)
+Le sectionneur de terre 2 LHC 116 JS ne peut pas être fermé si on n'a pas 
+récupéré la clef P4 à la serrure mère 2 LHC 012 CM 
+==> Pas de risque pour les personnes et le matériel 
+Les liaisons HTA alimentant le tableau LHC et venant du générateur FARN1 et de la liaison FARN2 sont alors consignées
+Le clef P4 permet de déverrouiller et fermer le sectionneur de terre LHC 106 JS
+La clef P5 va permettre de déverrouile la serrure mère pour récupérer les clefs P8
+Les clefs P8 permettent de déverrouiller les serrures mères LHC 013 CM des tranches 1 
+et 2 
+Note D455618084874 [D] Bugey et CPY
+SEQUENCE CONSIGNATION LHC 016 JA ET LHC 001 CR
+4.13 CELLULE DISJONCTEUR ARRIVEE FARN (LHC 016 JA)
+4.13.1 Consignation et Accès aux bornes HTA de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA)
+Le clef P4 permet de déverrouiller et fermer le sectionneur de terre LHC 106 JS
+La clef P5 va permettre de déverrouiller la serrure mère pour récupérer les clefs P7
+Les clefs P7 permettent de déverrouiller les serrures mères LHC 013 CM des tranches 1 
+et 2 
+TRANCHE PAIRE
+2 LHC 116 JS Concerne la cellule arrivée 
+FARN 2
+TRANCHE IMPAIRE
+1 LHC 116 JS Concerne la cellule arrivée 
+FARN 1
+Le sectionneur de terre 1 LHC 116 JS ne peut pas être fermé si on n'a pas 
+récupéré la clef P4 à la serrure mère 1 LHC 012 CM 
+==> Pas de risque pour les personnes et le matériel  
+Auprès du chargé de 
+consignation
+Armoire à clefs au bureau de 
+consignation
+Les clefs Q1 peuvent être récupérées si :
+- aucune source d’alimentation n’est raccordée aux coffrets FARN 1 LHC 001 CR ou 2
+LHC 001 CR
+- la liaison intertranche 1 LHC/2 LHC n’est pas sous tension pour réalimentation du
+tableau
+- 1 LHC 001 TB par le tableau 2 LHC 001 TB ou inversement les alimentations 6,6 kV
+arrivant sur 1 LHC 001 CR ou 2 LHC 001 CR ont été consignées
+Pas de risque pour les personnes et le matériel  
+TRANCHE PAIRE
+2 LHC 016 JA Concerne la cellule arrivée 
+FARN 2
+Si le disjoncteur 2 LHC 016 JA est embroché, il n'est pas possible de fermer 
+le sectionneur de terre de 2 LHC 116 JS car il est verrouillé si on n'a pas 
+récupéré la clef P4 de la serrure mère 2 LHC 012 CM et il y a un "dur 
+mécanique " qui l'empêche
+==> Pas de risque pour les personnes et le matériel  
+Concerne la serrure mère de la cellule 
+arrivée FARN 2 Pas de risque pour les personnes et le matériel car concerne la serrure mère
+La clef P1 verrouillle le disjoncteur LHC 016 JA en position débrochée
+La clef P1 est unique 
+Une fois le disjoncteur ouvert, elle permet de déverrouiller seulement la serrure mère 
+LHC 011 CM pour récupérer la clefs P3 et P10
+La clef P1 reste prisonnière
+1 LHC 016 JA Concerne la cellule arrivée 
+FARN 1 La clef P1 verrouillle le disjoncteur LHC 016 JA en position débrochée
+La clef P1 est unique 
+Une fois le disjoncteur ouvert, elle permet de déverrouiller seulement la serrure mère 
+LHC 011 CM pour récupérer la clefs P3 et P9
+La clef P1 reste prisonnière
+Si le disjoncteur 1 LHC 016 JA est embroché, il n'est pas possible de fermer 
+le sectionneur de terre de 1 LHC 116 JS car il est verrouillé si on n'a pas 
+récupéré la clef P4 de la serrure mère 1 LHC 012 CM et il y a un "dur 
+mécanique " qui l'empêche
+==> Pas de risque pour les personnes et le matériel  
+1  LHC 011 CM
+Concerne la serrure mère de la cellule 
+arrivée FARN 1 Pas de risque pour les personnes et le matériel car concerne la serrure mère
+Pas de risque pour les personnes et le matériel car concerne la serrure mère
+Pas de risque pour les personnes et le matérielConcerne les coffrets de raccordement
+FARN 1 et FARN 2
+1 LHC 001 CR
+2 LHC 001 CR
+1 LHC 001 CR
+2 LHC 001 CR
+1 LHC 001 CR
+2 LHC 001 CR
+1 LHC 013 CM
+2 LHC 013 CM
+Concerne la serrure mère de la tranche 
+1 ou de la tranche 2
+3
+2
+4
+5
+7
+6
+8
+9
+10
+11
+12
+13
+14
+1
+15
+16
+17
+18
+19
+20
+21
+27
+27
+27
+25
+26
+28
+22
+23
+24
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total :  /
+46
+28
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 29]
+SEQUENCE CONSIGNATION LHC 016 JA ET LHC 001 CR
+ Se rendre au bâtiment 1 DUS, 1 HDU 1801 ZL et au bâtiment 2 DUS, 2 HDU 1801 ZL
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Fermer le panneau d’accès aux bornes HTA de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB
+Verrouiller la position fermée du panneau d’accès aux bornes HTA de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA)  du tableau LHC 001 TB.  
+Libération de la clef P6
+Récupérer la clef P6
+ Se rendre au bâtiment 1 DUS, 1 HDU 1801 ZL et au bâtiment 2 DUS, 2 HDU 1801 ZL
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Verrouiller la porte Ph1 d’accès aux bornes HTA du coffret FARN (LHC 001 CR). 
+Libération de la clef S1
+Récupérer la clef S1
+Fermer la porte d’accès aux bornes de raccordement HTA de la phase 1 du coffret FARN (LHC 001 CR)
+Verrouiller la porte Ph2 d’accès aux bornes HTA du coffret FARN (LHC 001 CR)
+Libération de la clef S1
+Récupérer la clef S1
+Fermer la porte d’accès aux bornes de raccordement HTA de la phase 2 du coffret FARN (LHC 001 CR)
+Verrouiller la porte Ph3 d’accès aux bornes HTA du coffret FARN (LHC 001 CR). 
+Libération de la clef S1
+Récupérer la clef S1
+Fermer la porte d’accès aux bornes de raccordement HTA de la phase 3 du coffret FARN (LHC 001 CR)
+Déverrouiller la serrure mère (LHC 013 CM) avec les clefs P6, S1, S1 et S1
+Les clefs P6, S1, S1 et S1 restent prisonnières
+Libération des clefs P7 et P8
+Récupérer les clefs P7 et P8 de la serrure mère (LHC 013 CM)
+ Se rendre au bâtiment 1 DUS, 1 HDU 1801 ZL
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Déverrouiller en tranche impaire la serrure mère (LHC 014 CM) avec les  clefs P7 et P7
+Les clefs P7 et P7 restent prisonnières
+Libération de la clef P5 en tranche impaire
+Le sectionneur de terre LHC 116 JS ne peut pas être fermé si on n'a pas 
+récupéré la clef P5 à la serrure mère LHC 012 CM 
+==> Pas de risque pour les personnes et le matériel 
+Déverrouiller la position fermée du sectionneur de terre de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB
+ avec la récupération de la clef P5 par la serrure mère LHC 014 CM en tranche impaire
+Ouvrir le sectionneur de terre de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB. 
+La clef P5 reste prisonnière
+Verrouiller la position ouverte du sectionneur de terre de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB. 
+Libération de la clef P4
+Récupérer la clef P4
+Déverrouiller la serrure mère (LHC 012 CM) avec la clef P4 
+La clef P4 reste prisonnière
+Libération des clefs P3, Q1 et P10 (tranche impaire)
+1 LHC 012 CM
+Mettre la clef P3 dans la serrure mère (LHC 012 CM) 1 LHC 011 CM La clef P3 va permettre de déverrouiller la serrure mère LHC 011 CM
+ Se rendre au bâtiment 2 DUS, 2HDU 1801 ZL
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Déverrouiller en tranche paire la serrure mère (LHC 015 CM) avec les clefs P8 et P8
+Les clefs P8 et P8 restent prisonnières
+Libération de la clef P5 en tranche paire
+2 LHC 015 CM
+Le sectionneur de terre LHC 116 JS ne peut pas être fermé si on n'a pas 
+récupéré la clef P5 à la serrure mère LHC 012 CM 
+==> Pas de risque pour les personnes et le matériel 
+Déverrouiller la position fermée du sectionneur de terre de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB 
+avec la récupération de la clef P5 par la serrure mère LHC 015 CM en tranche paire
+Ouvrir le sectionneur de terre de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB. 
+La clef P5 reste prisonnière
+Verrouiller la position ouverte du sectionneur de terre de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB. 
+Libération de la clef P4
+Récupérer la clef P4
+Déverrouiller la serrure mère (LHC 012 CM) avec la clef P4 
+La clef P4 reste prisonnière
+Libération des clefs P3, Q1 et P9 (tranche paire)
+Récupérer les clefs P3, Q1 et P9 (tranche paire)
+Déverrouiller la serrure mère (LH C011 CM) avec la clef P3, la clef P2 et la clef P10 en tranche paire 
+Les clefs P2, P3 et P10 en tranche paire restent prisonnières 
+Libération de la clef P1
+Récupérer la clef P1
+Déverrouiller le disjoncteur de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB de la position débroché avec la clef P1
+Embrocher le disjoncteur de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB
+Verrouiller le tiroir du disjoncteur en position embroché. 
+La clef P1 reste prisonnière
+ Se rendre au bâtiment 1 DUS, 1 HDU 1801 ZL
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Déverrouiller la serrure mère (LH C011 CM) avec la clef P3, la clef P2 et la clef P9 en tranche impaire
+Les clefs P2, P3 et P9 en tranche impaire restent prisonnières 
+Libération de la clef P1
+Récupérer la clef P1
+Déverrouiller le disjoncteur de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB de la position débroché avec la clef P1
+Embrocher le disjoncteur de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA) du tableau LHC 001 TB
+Verrouiller le tiroir du disjoncteur en position embroché. 
+La clef P1 reste prisonnière
+Actions Repères Cellules et serrures concernées Commentaires sur la gestion des clefs Risques humains ou matèriels (court-circuit, double couplage, mise à la terre)
+Remettez les clefs Q1 des tranches 1 et 2 à la personne habilitée de ces consignations de la tranche Auprès du chargé de 
+consignation
+Armoire à clefs au bureau de 
+consignation Pas de risque pour les personnes et le matériel  
+2 LHC 016 JA Concerne la cellule arrivée 
+FARN 2
+Concerne la serrure mère de la tranche 
+2
+Pas de risque pour les personnes et le matériel car concerne la serrure mère
+On ne peut pas embrocher et fermer le disjoncteur LHC 016 JA si on ne l'a pas 
+déverrouillé avec la clef P1
+==> Pas de risque pour les personnes et le matériel 
+Les liaisons HTA alimentant le tableau LHC et venant du générateur FARN1 et de la liaison FARN2 sont alors disponibles
+Concerne la serrure mère de la tranche 
+1 et tranche 2
+TRANCHE PAIRE ET IMPAIRE
+Concerne la serrure mère de la tranche 
+1
+TRANCHE PAIRE
+Pas de risque pour les personnes et le matériel
+La clef P5 permet de déverrouiller et fermer le sectionneur de terre LHC 116 JS de la 
+tranche paire
+La clef P4 permet de déverrouiller la serrure mère LHC 012 CM pour récuprer les clefs 
+P3, Q1 et P10 
+Le sectionneur de terre LHC 116 JS ne peut pas être déverrouiller et fermer si 
+on n'a pas récupéré la clef P5
+==> Pas de risque pour les personnes et le matériel
+1 LHC 116 JS Concerne la cellule arrivée 
+FARN 1
+1 LHC 014 CM Concerne la serrure mère de la tranche 
+1
+La clef P1 permet de déverrouiller le disjoncteur LHC 016 JA
+4.13.2 Déconsignation et Mise en service du disjoncteur de la cellule arrivée FARN
+1 LHC 001 CR
+2 LHC 001 CR
+Concerne la cellule arrivée 
+FARN 1 et FARN 2
+4.13 CELLULE DISJONCTEUR ARRIVEE FARN (LHC 016 JA)
+SEQUENCE DECONSIGNATION LHC 016 JA ET LHC 001 CR
+4.13 CELLULE DISJONCTEUR ARRIVEE FARN (LHC 016 JA)
+4.13.2 Déconsignation et Mise en service du disjoncteur de la cellule arrivée FARN
+Note D455618084874 [D] Bugey et CPY
+TRANCHES PAIRE ET IMPAIRE
+Porte Rac. Sortie HT Concerne les cellules arrivée 
+FARN 1 et  FARN 2
+Les 3 clefs S1 permettent de déverrouiller la serrure mère LHC 013 CM associées à la 
+clef P6 pour libérer les clefs P7 et P8
+Les clefs S1 et P6 restent prisonnières
+Les clefs P7 et P8 permettent de déverrouiler les serrures mères
+ LHC 014 CM et LHC 015 CM
+Pas de risque pour les personnes et le matériel
+4.20.2 Déconsignation et Fermetures des portes du coffret FARN (LHC 001 CR)
+TRANCHE IMPAIRE
+1 LH C011 CM Concerne la serrure mère de la tranche 
+1 ou de la tranche 2
+1 LHC 016 JA Concerne la cellule arrivée 
+FARN 1 
+2 LH C012 CM
+2 LH C011 CM
+Le sectionneur de terre LHC 116 JS ne peut pas être déverrouiller et fermer si 
+on n'a pas récupéré la clef P5
+==> Pas de risque pour les personnes et le matérielConcerne la cellule arrivée 
+FARN 2
+Pas de risque pour les personnes et le matériel car concerne la serrure mère
+ Pas de risque pour les personnes et le matériel 
+Pas de risque pour les personnes et le matériel car concerne la serrure mère
+On ne peut pas embrocher et fermer le disjoncteur LHC 016 JA si on ne l'a pas 
+déverrouillé avec la clef P1
+==> Pas de risque pour les personnes et le matériel  
+2 LHC 116 JS
+Tant que la clef P6 n'est pas disponible, on ne peut pas déverrouiller la serrure mère 
+LHC 014 CM
+TRANCHE IMPAIRE
+4.20 COFFRET RACCORDEMENT FARN (LHC001CR)
+1 LHC 013 CM
+2 LHC 013 CM
+La clef P4 permet de déverrouiller la serrure mère LHC 012 CM pour récuprer les clefs 
+P3, Q1 et P10 
+La clef P5 permet de déverrouiller et fermer le sectionneur de terre LHC 116 JS de la 
+tranche impaire
+La clef P1 permet de déverrouiller le disjoncteur LHC 016 JA
+Concerne la serrure mère de la tranche 
+2
+1
+23
+15
+16
+17
+18
+20
+21
+22
+19
+2
+2
+3
+4
+5
+13
+14
+2
+6
+28
+7
+8
+9
+10
+11
+12
+27
+24
+25
+26
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total :  /
+46
+29
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 30]
+SEQUENCE DECONSIGNATION LHC 016 JA ET LHC 001 TR
+Consignation et Accès aux bornes HTA de la cellule HT disjoncteur « arrivée FARN » (LHC 016 JA)
+ Consignation et Accès aux bornes HTA du coffret de raccordement FARN (LHC 001 CR)
+27
+8
+4
+5
+6
+3
+9
+13
+24
+10
+1
+11
+24
+23
+1LHC 116 JS 2LHC 116 JS
+25
+25
+27
+26
+27 27
+272727
+28 28
+Récupérer les clefs Q1 
+auprès du chargé de 
+consignation (une par 
+tranche)
+1
+Disjoncteur 1 LHC 016 JA Disjoncteur 2 LHC 016 JA
+Porte Rac. Sortie 
+HT
+Porte Rac. Sortie 
+HT
+1
+15
+16
+19
+18
+20
+21
+22
+17
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total :  /
+46
+30
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 31]
+SEQUENCE CONSIGNATION LHC 016 JA ET LHC 001 TR
+Déconsignation et Mise en service du disjoncteur de la cellule arrivée FARN
+Déconsignation et Fermetures des portes du coffret FARN (LHC 001 CR)
+Disjoncteur 1 LHC 016 JA
+1LHC 116 JS
+Disjoncteur 2 LHC 016 JA
+2LHC 116 JS
+Remettre les clefs Q1 
+auprès du chargé de 
+consignation (une par 
+tranche)
+28Porte Rac. Sortie 
+HT
+Porte Rac. Sortie 
+HT
+7
+146
+5
+44
+2
+11
+8
+1
+33
+222
+22
+23
+22
+25
+17
+16
+15
+9
+24
+19
+18
+11
+10
+21
+20
+27
+26
+1
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total :  /
+46
+31
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 32]
+ANNEXE 3 Page 1 / 4 
+ANNEXE 3 : CR DE REUNION DU 28/11/2023 SUR 
+L’ANALYSE DU VERROUILLAGE A CLEF DES PALIERS 900 
+ET N4 
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+ 
+Page/Total :    /
+46
+32
+ Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 33]
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+ 
+Page/Total :    /
+46
+33
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 34]
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total :    /
+46
+34
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 35]
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total :    /
+46
+35
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 36]
+ANNEXE 4 Page 1 / 4 
+ANNEXE 4 : SCHEMA SCHNEIDER SURCHARGE 
+(PWB15G042012164MMIP [I]) 
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+ 
+Page/Total :    /
+46
+36
+ Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 37]
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+ 
+Page/Total :    /
+46
+37
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 38]
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total :    /
+46
+38
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 39]
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total :    /
+46
+39
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 40]
+ANNEXE 5 Page 1 / 2 
+ANNEXE 5 : SCHEMA VERROUILLAGE DUS WEF AAM70280 
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+ 
+Page/Total :    /
+46
+40
+ Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 41]
+iA1CentralesiA4XJi172iY2iY3iA3iB1CentraleiB2iE3CentralesiE1iE2  iE5 iE8iE4iE6  iE7iF1iE2iJ1iK1iL1  iM1 iN4  iP4 iR4CentraleiA4  iB3  iC1 iD1 iE8
+iA1  iHCiB1iC1iD1iE1
+iC2iA2iA3iB4iGF29.3iD2iE4iE3iF1iA2iB4iC4iD4iE520-00130-002PIX HLHC2001JCAAM70282iLHA034JAALIMENTATIONiLHA001TB1600APIX HLHC2002JCAAM70283iLGF029JAARRIVEEiLGF001TB1600APIX H - M50LHC2003JCAAM7028140-003400AiLUU2001TRAUXILIAIRES DUSPIX H - M50LHC2004JCAAM70281iLUU002TRAUXILIAIRES REF-U50-004400APIX HLHC2005JCAAM7028460-0051600AiLHC2007JPPONT DE BARRESPIX HLHC2006JCAAM7028570-006630AMESURE TENSIONDEMI-RAMEAUXILIAIRES
+LEGENDE DES VERROUILLAGESPENE SORTI CLE ABSENTEPENE SORTI CLE PRESENTE LIBREPENE RENTRE CLE PRISONNIEREVERROUILLAGE MECANIQUEPANNEAU OU PORTEMANIVELLE D'EMBROCHAGEiB3
+N° SCHEMAType celluleN° CelluleINDICATRICEPLAQUETEXTE
+iJ4CentraleiJ2CentraleiJ3iK2iK3  iK4iL3CentraleiL2iL4
+iJ1 iK1iG1 iL3iM2iJ5iJ4iE7iK2Q1
+iL1iM1
+iE6iJ5 iK3iL2iM480-00790-008PIX HLHC2007JPAAM702871600AiLHC2005JCCOUPLAGEPIX HLHC2008JCAAM702891600AiLHU8101GAARRIVEE GE DUSPIX HLHC2009JCAAM70286100-009630AMESURE TENSIONDEMI-RAMEGELHC2010JCAAM70291PIX HiLHC2001CR110-0101600AARRIVEE PLUGFARNPIX HLHC2011JCAAM70290120-0111600AiLHC2002CRRACCORDEMENTBANC DE CHARGEPIX H - M50LHC2012JCAAM70281iLUU003TRNOYAU DURREF-U130-012400A
+CentraleiN1 iN2  iN4CentraleiP1iP2  iP4CentraleiR1  iR2  iR4
+iN1iP1iR1iN3iP3iR3
+iN2iP2iR2LHC2013JCAAM70288PIX H - M50iASG501PO400APOMPE ASG-ULHC2014JCAAM70288PIX H - M50iEAS520PO400APOMPE ND (H3/U3)PIX H - M50LHC2015JCAAM70288RESERVE400A140-013150-014160-015
+0 1 2 3 4 5 6 7 8 9
+Désignation :Folio :CODE EDF :TABLEAU LHC 001TB / "DUS WESTINGHOUSE''PALIER 1300MW SCHEMA DE VERROUILLAGE-----A001
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+ 
+Page/Total :  /
+46
+41
+ Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 42]
+ANNEXE 6 Page 1 / 5 
+ANNEXE 6 : RETOUR DAMPIERRE 
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+ 
+Page/Total :    /
+46
+42
+ Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 43]
+Propositions intégrées dans la note.
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+ 
+Page/Total : /
+46
+43
+ Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 44]
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total : /
+46
+44
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 45]
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total : /
+46
+45
+Document issu de la GED DPI Nucléaire le 15/01/2024
+
+[Page 46]
+Modèle de sécurité : 
+-
+ING/DIPDE
+01 - Tous les utilisateurs EDF de l'ECM
+Accessibilité : INTERNE
+RDU : D455623048768
+ 
+ 
+Page/Total : /
+46
+46
+Document issu de la GED DPI Nucléaire le 15/01/2024

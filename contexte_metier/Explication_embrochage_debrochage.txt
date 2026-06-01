@@ -1,0 +1,949 @@
+[Page 1]
+EDF DIRECTION DU PARC NUCLEAIRE ET 
+THERMIQUE 
+CENTRE NUCLEAIRE DE PRODUCTION 
+D’ELECTRICITE DE DAMPIERRE EN BURLY 
+ 
+ 
+B.P. 18 - 45570 OUZOUER SUR LOIRE - TÉL.  02.30.18.80.00 – EDF SA Siret 552 081 317 41178 - APE 401Z 
+Ce document est la propriété d’EDF SA. Toute communication, reproduction, publication, même partielle, est interdite sauf autorisation écrite. 
+  Date :    
+  
+Emetteur : SCO CONSIGNE PERMANENTE GENERALE 
+CG D 62 
+ 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+ 
+Réf : D5140/CG D 62 Indice : c 27 pages 12 annexe(s) 
+ 
+ 
+ 
+Documents associés :  / 
+ 
+Résumé : Cette procédure traite de l'utilisation des manœuvres des ouvrages électriques des 
+DUS. 
+Domaine(s) métier(s) : / 
+ Accessibilité 
+Concerne le manuel qualité : Oui  Non X    Libre  Restreinte   
+             
+Document de référence : Oui X Non     Interne (EDF SA) X Confidentielle   
+             
+Niveau de Qualité AIP X QS          
+ 
+CG_D62-c.docx  -  13/01/2023 14:33:44  -  5096826 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+BPA
+
+[Page 2]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 2 / 27 
+Réf. : D5140/CG D 62 
+ 
+   
+Durée de conservation Réexaminable Périodicité de réexamen 
+100 ans Oui :  Non : X / 
+ 
+Indice 
+REDACTION CONTROLE 
+EXAMEN DATE B.P.A. 
+NOM VISA NOM VISA 
+c SCO 
+L. VOILLARD 
+ SCO 
+P. PORET 
+   Appui Technique  
+SCO 
+ 
+ 
+ 
+F. GAUTIER 
+Documentations : de référence - satellites - de travail 
+LIEU DE CONSERVATION Nb LIEU DE CONSERVATION Nb 
+Cf. Listes de diffusion type    
+Diffusion interne au CNPE (électronique) 
+DESTINATAIRE Nb DESTINATAIRE Nb 
+    
+Diffusion externe 
+DESTINATAIRE (papier) Nb DESTINATAIRE (électronique) Nb 
+    
+13/01/2023
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 3]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 3 / 27 
+Réf. : D5140/CG D 62 
+ 
+ 
+ 
+ 
+REVISIONS 
+IND. DATE REPERE 
+PARAGRAPHE OBJET DE LA REVISION 
+a 07/05/2019  Création du document. 
+b 29/11/2019  Mise à jour annexes 1 et 3. 
+c 13/01/2023  Mise à jour des annexes 2, 4 et 5 selon le CS C0000368850. 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 4]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 4 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+S O M M A I R E 
+ 
+Pages 
+0 -  INFORMATIONS GENERALES ........................................................... 5 
+0.1 -  PRÉALABLES À LA MISE EN SERVICE DU SYSTÈME ÉLÉMENTAIRE .................... 5 
+0.2 -  INDISPONIBILITÉ DU SYSTÈME AU TITRE DES STE .......................................... 8 
+1 -  PRÉPARATION DES CIRCUITS .......................................................... 8 
+1.1 -  CONTACTEUR « SCHNEIDER ELECTRIC » ...................................................... 8 
+1.2 -  DISJONCTEUR « SCHNEIDER ELECTRIC » ...................................................... 9 
+1.3 -  CELLULES TU ET CELLULES JS .................................................................. 11 
+ANNEXE 1 - EMBROCHAGE D’UN CONTACTEUR ................................ 12 
+ANNEXE 2 - DÉBROCHAGE D’UN CONTACTEUR ................................ 13 
+ANNEXE 3 - FERMETURE/OUVERTURE DU SMALT SUR UN 
+CONTACTEUR ................................................................................... 14 
+ANNEXE 4 - EMBROCHAGE D’UN DISJONCTEUR ............................... 16 
+ANNEXE 5 - DÉBROCHAGE D’UN DISJONCTEUR ................................ 17 
+ANNEXE 6 - FERMETURE/OUVERTURE DU SMALT SUR UN 
+DISJONCTEUR .................................................................................. 18 
+ANNEXE 7 - SORTIE/ENTR ÉE CONTACTEUR AVEC LE 
+CHARIOT DE MANUTENTION .......................................................... 20 
+ANNEXE 8 - SORTIE/ENTRÉE DISJONCTEUR AVEC LE 
+CHARIOT DE MANUTENTION .......................................................... 22 
+ANNEXE 9 - POSE D’UNE CO NDAMNATION DISJONCTEUR 
+DÉBROCHÉ ....................................................................................... 24 
+ANNEXE 10 - POSE D’UNE CO NDAMNATION AUX VOLETS 
+SUR UN DISJONCTEUR ................................................................... 25 
+ANNEXE 11 - POSE D’UNE CO NDAMNATION CONTACTEUR 
+DÉBROCHÉ ....................................................................................... 26 
+ANNEXE 12 - POSE D’UNE CO NDAMNATION AUX VOLETS 
+SUR UN CONTACTEUR .................................................................... 27 
+ 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 5]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 5 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+0 - INFORMATIONS GENERALES 
+0.1 -  P RÉALABLES À LA MISE EN SERVICE DU SYSTÈME ÉLÉMENTAIRE 
+Toutes les manœuvres et les manipulations sur les tableaux Haute Tension et Basse Tension 
+doivent être réalisées en toute sécurité  
+Le personnel doit être équipé des EPI et VAT adaptés à la tension d’utilisation et détenir 
+l’habilitation correspondante à ces manœuvres et ces manipulations. 
+Il est prescrit d’utiliser obligatoirement les dispositifs de protection appropriés 
+L’inscription 220 V sur les prises Maréchal correspond à leur caractéristique propre, la tension de 
+commande sur LHC est de 125 Vcc. 
+Des problèmes peuvent survenir lors des manipulations d'appareils de coupure électrique Haute et 
+Basse tension, par exemple : 
+ Difficultés lors des embrochages, débrochages ou lors des manœuvres de Sectionneurs de 
+Mise A La Terre (SMALT). 
+ Position anormale des volets d'obturation. 
+ Bruits anormaux, etc…. 
+Ces anomalies peuvent faire courir des risques graves pour la sécurité des intervenants. 
+Dans tous ces cas, il faut impérativement : 
+ Stopper l'intervention. 
+ Mettre l'installation en état de sécurité vis-à- vis du personnel et du matériel et baliser. 
+ Signaler l'incident au Service concerné (appel et/ou DT). 
+ Définir conjointement avec les services concernés les actions immédiates à mener. 
+Nota : Avant de remettre en place la partie mobile d’une cellule (contacteur ou disjoncteur), il faut 
+faire attention aux dangers potentiels et inspecter attentivement la zone de travail pour s’assurer 
+qu’aucun outil ou objet n’est resté à l’intérieur de la cellule suite à d’éventuels travaux en fond de 
+cellule. 
+Toutes les portes doivent être fermées et les capots en place sur la cellule avant d’embrocher le 
+contacteur ou le disjoncteur. 
+ Descriptif d’un contacteur : 
+ 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 6]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 6 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+Descriptif d’un disjoncteur : 
+ 
+Leviers, manivelles et clefs de manœuvre des contacteurs et disjoncteurs LHC : 
+ 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 7]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 7 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+La tige de commande manuelle du disjoncteur et contacteur à accrochage permet de 
+le manœuvrer en l’introduisant dans deux orifices marqués « 0 » et « I » sur la porte. 
+Cette manœuvre ne peut être envisagée que dans des cas exceptionnels ou/et en cas 
+de manque 125 V de commande
+ 
+Pour des raisons de sécurité, il faut utiliser la boîte à bouton qui permet de se tenir à 
+l’écart de la cellule 
+Nota : 
+ 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 8]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 8 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+Particularité des contacteurs à accrochage dont l’ouverture est possible en utilisant la tige de 
+commande manuelle 
+ 
+0.2 -  I NDISPONIBILITÉ DU SYSTÈME AU TITRE DES STE 
+Pour toute indisponibilité sur le système, se reporter aux STE suivant le domaine d’exploitation. 
+1 - PRÉPARATION DES CIRCUITS 
+1.1 -  C ONTACTEUR « SCHNEIDER ELECTRIC » 
+Verrouillage électrique : 
+Lorsque la manivelle d’embrochage est introduite, un contact auxiliaire de position est actionné et 
+la télécommande de fermeture ou d’ouverture du contacteur est impossible. 
+Verrouillages mécaniques : 
+Lorsque le connecteur 125 V de commande est débroché, le trou de la manivelle d’embrochage/ 
+débrochage est verrouillé fermé. 
+Le SMALT ne peut se fermer que si le contacteur est débroché. 
+La porte de visite des câbles de sortie ne peut s’ouvrir que si le SMALT est fermé. 
+La fermeture ou l’ouverture du contacteur est impossible si la partie mobile n’est pas dans une 
+position extrême (embrochée ou débrochée) ou si la manivelle d’embrochage/débrochage n’est 
+pas retirée. 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 9]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 9 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+1.2 -  D ISJONCTEUR « SCHNEIDER ELECTRIC » 
+Verrouillage électrique : 
+Lorsque la manivelle d’embrochage est introduite, un contact auxiliaire de position est actionné et 
+la fermeture du disjoncteur est impossible. 
+Verrouillages mécaniques : 
+L’embrochage est impossible si le connecteur 125 V n’est pas embroché ou si le disjoncteur est en 
+position « fermé ». 
+La fermeture du disjoncteur est impossible si la partie mobile n’est pas dans une position extrême 
+(embrochée ou débrochée). 
+Particularité sur les disjoncteurs : 
+Il est possible de recharger le ressort interne avec une manivelle dans le cas d’un manque 125 V. 
+ 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 10]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 10 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+Particularité sur les disjoncteurs où deux indicateurs sont rapprochés l’un de l’autre mais 
+n’ont pas le même rôle 
+ 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 11]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 11 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+1.3 -  C ELLULES TU ET CELLULES JS 
+ 
+Les manœuvres de débrochage, embrochage et consignations sur ces appareils sont identiques 
+aux disjoncteurs. 
+MISE EN SERVICE 
+ANNEXE 1 : Embrochage d’un contacteur.  
+ANNEXE 2 : Débrochage d’un contacteur. 
+ANNEXE 3 : Fermeture/ouverture du SMALT sur un contacteur.  
+ANNEXE 4 : Embrochage d’un disjoncteur. 
+ANNEXE 5 : Débrochage d’un disjoncteur. 
+ANNEXE 6 : Fermeture/ouverture du SMALT sur un disjoncteur.  
+ANNEXE 7 : Sortie/entrée contacteur avec le chariot de manutention.  
+ANNEXE 8 : Sortie/entrée disjoncteur avec le chariot de manutention.  
+ANNEXE 9 : Pose d’une condamnation disjoncteur débroché. 
+ANNEXE 10 : Pose d’une condamnation aux volets sur un disjoncteur.  
+ANNEXE 11 : Pose d’une condamnation contacteur débroché. 
+ANNEXE 12 : Pose d’une condamnation aux volets sur un contacteur. 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 12]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 12 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+ANNEXE 1 - EMBROCHAGE D’UN CONTACTEUR 
+ 
+ Vérifier/confirmer que la terre soit « Ouverte » + levier Inter verrouillage en position basse. 
+  
+Mode opératoire pour embrocher : 
+ Contrôler la position fermée de tous les FU dans le caisson supérieur de la cellule. 
+ Contrôler ou mettre sur la position « 0 » le commutateur JB d’alimentation en 125 V situé sur le 
+compartiment supérieur de la cellule concernée. 
+ Embrocher ou contrôler embroché le connecteur 125 V du contacteur. 
+ Contrôler l’Etat correct des fusibles sur le voyant (5) qui doit être de couleur verte. 
+ Contrôler la position ouverte du contacteur gr âce au voyant mécanique (4) voyant en position  
+« O » en blanc sur fond noir. 
+ Pousser la tirette de verrouillage (1) vers la gauche afin de dégager le trou d’insertion (2) pour la 
+manivelle. 
+ Introduire la manivelle d’embrochage/débrochage comprenant un limiteur de couple dans le trou 
+(2) et la tourner en sens horaire (3) jusqu’au fonctionnement du limiteur de couple (pour info, il 
+existe un point dur au moment de l’entrée des pinces du contacteur dans le jeu de barre, il faut 
+continuer la rotation de la manivelle). 
+ Contrôler la position embrochée du contacteur par le fonctionnement du limiteur de couple 
+intégré dans la manivelle. 
+ Retirer la manivelle. 
+ Mettre sur la position « 1 » le commutateur LHC 001 JB d’alimentation en 125 V situé sur le 
+compartiment supérieur de la cellule concernée. 
+ Le contacteur est embroché. 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 13]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 13 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+ANNEXE 2 - DÉBROCHAGE D’UN CONTACTEUR 
+ 
+ S’assurer de l’absence de tension en aval du contacteur à l’aide des diodes de VAT (Vérification 
+Absence Tension) sur la partie haute du contacteur avant de le débrocher. 
+ Contrôler la position ouverte du contacteur sur le voyant mécanique (4) voyant en position O en 
+blanc sur fond noir. 
+ Contrôler ou mettre sur la position « 0 » le commutateur 01 JB d’alimentation en 125 V situé sur 
+le compartiment supérieur de la cellule concernée. 
+ Pousser la tirette de verrouillage (1) vers la gauche afin de dégager le trou d’insertion (2) pour la 
+manivelle. 
+ Introduire la manivelle de débrochage/embroch age (comprenant un limiteur de couple) et la 
+tourner en sens anti horaire (3) jusqu’au fonctionnement du limiteur de couple (pour info : il 
+existe un point dur au moment de la sortie des pinces du jeu de barre, continuer la rotation de la 
+manivelle). 
+ Retirer la manivelle. 
+ Contrôler l’Etat correct des fusibles sur le voyant (5) qui doit être de couleur verte. Si la couleur 
+du voyant est rouge émettre une DT. 
+ Mettre sur la position « 1 » le commutateur JB d’alimentation en 125 V situé sur  le compartiment 
+supérieur de la cellule concernée. 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 14]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 14 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+ANNEXE 3 - FERMETURE/OUVERTURE DU SMALT SUR UN CONTACTEUR 
+Nota : La fermeture du SMALT est bloquée quand le contacteur est embroché. 
+ ATTENTION Très important : 
+Il existe deux types de manivelle pour actionner les SMALT, une pour les disjoncteurs/TU/JS sans 
+cylindre de guidage au bout et une autre pour les contacteurs avec cylindre. 
+Si une mauvaise utilisation est faite avec la manivelle sans cylindre sur une cellule contacteur, de 
+gros dégâts mécaniques peuvent être occasionnes sur la commande du SMALT. 
+ 
+Fermeture du sectionneur de mise à la terre sur un contacteur : 
+ Contrôler par le hublot que le contacteur est en position rapprochée qui indique son débrochage. 
+ S’assurer de l’absence de tension en aval du contacteur à l’aide des diodes de VAT (1). 
+ Pousser le levier d’inter verrouillage (2) vers le haut. 
+ Enficher le levier de commande du sectionneur de mise à la terre (C) avec la tige du levier en 
+position verticale dans le trou de commande (3). 
+ Tourner le levier (C) d’environ 95° dans le sens des aiguilles d’une montre. 
+ Contrôler l’indicateur de position (4), celui-ci doit indiquer que le sectionneur de terre est fermé 
+(position horizontale). 
+ Retirer le levier de commande (C) du sectionneur de mise à la terre. 
+ Contrôler l’Etat correct des fusibles sur le voyant  (5) qui doit être de couleur verte. Dans le cas 
+où ce voyant serait rouge, émettre une DT. 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 15]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 15 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+Ouverture du sectionneur de mise à la terre sur un contacteur : 
+ Pousser le levier d’inter verrouillage (2) vers le haut. 
+ Enficher le levier de commande du sectionneur de mise à la terre (C) avec la tige du levier en 
+position verticale dans le trou de commande (3). 
+ Tournez le levier (C) d’environ 95° dans le sens anti-horaire. 
+ Contrôler l’indicateur de position (4), celui-ci doit indiquer que le sectionneur de terre est ouvert 
+(position verticale). 
+ Retirer le levier de commande (C) du sectionneur de mise à la terre. 
+ Pousser le levier d’Inter verrouillage (2) vers le bas. 
+  
+ Contrôler les clés en position horizontale. 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 16]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 16 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+ANNEXE 4 - EMBROCHAGE D’UN DISJONCTEUR 
+ 
+ Contrôler le branchement du connecteur 125 V de la cellule. 
+ Fermer ou contrôler fermé dans le caisson supérieur de la cellule tous les FU. 
+ Contrôler la position ouverte du disjoncteur sur le voyant mécanique (4). 
+ Contrôler ou mettre sur la position « 0 » le commutateur JB d’alimentation en 125 V situé sur le 
+compartiment supérieur de la cellule concernée. 
+ Pousser la tirette de verrouillage (1) vers la gauche afin d’ouvrir le trou d’insertion pour la 
+manivelle. 
+ Introduire la manivelle de commande (2) et la tourner en sens horaire (3) jusqu’à la butée (pour 
+info : il existe un point dur au moment de la rentrée des pinces dans le jeu de barre, continuer la 
+rotation de la manivelle). 
+ Contrôler la position embrochée du disjoncteur sur le voyant (5) qui doit indiquer la lettre I. 
+ Retirer la manivelle. 
+ Mettre sur la position « 1 » le commutateur JB d’alimentation en 125 V situé sur le compartiment 
+supérieur de la cellule concernée. 
+ 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 17]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 17 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+ANNEXE 5 - DÉBROCHAGE D’UN DISJONCTEUR 
+ 
+ Contrôler que le disjoncteur est en position ouverture sur le voyant mécanique (4) au travers du 
+hublot avant de le débrocher. 
+ S’assurer de l’absence de tension en aval du disjoncteur à l’aide des diodes de VAT (Vérification 
+Absence Tension) sur la partie basse du disjoncteur. 
+ Contrôler ou mettre sur la position « 0 » le commutateur JB d’alimentation en 125 V situé sur le 
+compartiment supérieur de la cellule concernée. 
+ Pousser la tirette de verrouillage (1) vers la gauche afin d’ouvrir le trou d’insertion pour la 
+manivelle. 
+ Introduire la manivelle de commande (2) et la tourner en sens anti horaire (3) jusqu’à la butée 
+(pour info, il existe un point dur au moment de la sortie des pinces du jeu de barre il faut 
+continuer la rotation de la manivelle). 
+ Contrôler la position débrochée du disjoncteur par le voyant mécanique (5) qui doit indiquer la 
+lettre O. 
+ Retirer la manivelle. 
+ Mettre sur la position « 1 » le commutateur JB d’alimentation en 125 V situé sur le compartiment 
+supérieur de la cellule concernée. 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 18]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 18 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+ANNEXE 6 - FERMETURE/OUVERTURE DU SMALT SUR UN DISJONCTEUR 
+La fermeture du SMALT est bloquée quand le disjoncteur est embroché. 
+ATTENTION Très important : 
+Il existe deux types de manivelle pour actionner les SMALT, une pour les disjoncteurs/TU/JS (sans 
+cylindres) et une autre pour les contacteurs (avec cylindre). 
+Si une mauvaise utilisation est faite avec la manivelle sans cylindre sur une cellule contacteur, de 
+gros dégâts mécaniques peuvent être occasionnes sur la commande du SMALT. 
+ 
+Fermeture du sectionneur de mise à la terre sur un disjoncteur : 
+ Contrôler que le disj oncteur est en position « débroché » sur l’indicateur de position (1) de la 
+cellule (pour cela, actionner la commande (2) de l’obturateur). 
+ S’assurer de l’absence de tension en aval de celle-ci à l’aide des diodes de VAT (3). 
+ Pousser le levier d’inter verrouillage (4) vers la droite. 
+ Pousser la tirette (5) vers le haut et enficher le levier de commande (D) du sectionneur de mise 
+à la terre avec la tige du levier en position verticale dans le trou de commande (6). 
+ Tourner le levier (D) d’environ 95° dans le sens des aiguilles d’une montre. 
+ Contrôler l’indicateur de position (7), celui-ci doit indiquer que le sectionneur de terre est fermé 
+ Retirer le levier de commande du sectionneur de mise à la terre (D). 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 19]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 19 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+Ouverture du sectionneur de mise à la terre sur un disjoncteur : 
+ Pousser la tirette (5) vers le haut et enficher le levier de commande (D) du sectionneur de mise 
+à la terre avec la tige du levier en position verticale dans le trou de commande (6). 
+ Tourner le levier (D) d’environ 95° dans le sens contraire des aiguilles d’une montre. 
+ Contrôler l’indicateur de position (7), celui-ci doit indiquer que le sectionneur de terre est ouvert. 
+ Retirer le levier de commande du sectionneur de mise à la terre (D). 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 20]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 20 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+ANNEXE 7 - SORTIE/ENTRÉE CONTACTEUR AVEC LE CHARIOT DE 
+MANUTENTION 
+ 
+Sortie de la cellule : 
+ Mettre le chariot en position haute en actionnant le levier (1) dans le sens horaire. 
+ Mettre en place le chariot en positionnant correc tement les deux crochets (2) côté gauche et 
+côté droit dans la cellule. 
+ Abaisser le tiroir du chariot en tournant le levier (1) dans le sens anti-horaire. 
+ Enfoncer la manette (3) dans le contacteur « débroché » encore en place dans sa cellule pour 
+actionner le système qui désolidarise le contacteur de sa cellule et ainsi pouvoir le sortir sur le 
+chariot. 
+ Reculer complètement le contac teur sur le chariot jusqu’à entendre le claquement du système de 
+verrouillage (4). 
+ Mettre le chariot en position haute en actionnant le levier (1) dans le sens horaire. 
+ Reculer le chariot avec le contacteur dessus. 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 21]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 21 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+Remise en place dans la cellule : 
+ Mettre le chariot en position haute en actionnant le levier (1) dans le sens horaire. 
+ Mettre en place le chariot en positionnant correc tement les deux crochets (2) côté gauche et 
+côté droit dans la cellule avant d’abaisser le tiroir du chariot en tournant le levier (1) dans le sens 
+anti- horaire. 
+ Appuyer sur le système (5) pour désolidariser la cellule du chariot juste avant de remettre le 
+contacteur dans sa cellule et alors que le chariot est verrouillé dans la cellule. 
+ Enfoncer complètement le contacteur dans sa cellule jusqu’à entendre le claquement du système 
+de verrouillage interne à la cellule et non visible. 
+ Mettre le chariot en position haute en actionnant le levier (1) dans le sens horaire. 
+ Retirer le chariot. 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 22]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 22 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+ANNEXE 8 - SORTIE/ENTRÉE DISJONCTEUR AVEC LE CHARIOT DE 
+MANUTENTION 
+ 
+ 
+Sortie de la cellule : 
+Nota : Il y a un verrouillage mécanique entre le connecteur et le levier (2) donc pour lever le levier 
+(2) et permettre la sortie de la cellule, il faut d’abord débrancher le connecteur 125 V. 
+ Mettre le chariot en position haute en actionnant le levier (1) dans le sens horaire. 
+ Positionner les deux crochets (4) du chariot dans la cellule (droite et gauche). 
+ Abaisser le tiroir du chariot en tournant le levier (1) dans le sens anti-horaire. 
+ Débrancher le connecteur 125 V (3). 
+ Déverrouiller le disjoncteur en levant le levier (2) et permettre ainsi sa sortie sur le chariot. 
+ Reculer le disjoncteur sur le chariot. 
+ Quand le disjoncteur est reculé entièrement sur le  chariot, il faut le solidariser avec celui-ci en 
+abaissant le levier (2). 
+ Mettre le chariot en position haute en actionnant le levier (1) dans le sens horaire. 
+ Reculer le chariot avec  le disjoncteur dessus. 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 23]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 23 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+Remise en place dans la cellule : 
+ Mettre le chariot en position haute en actionnant le levier (1) dans le sens horaire. 
+ Positionner les deux crochets (4) du chariot dans la cellule (droite et gauche). 
+ Abaisser le tiroir du chariot en tournant le levier (1) dans le sens anti-horaire. 
+ Déverrouiller le disjoncteur en levant le levier  (2) et permettre ainsi sa sortie du chariot, le 
+pousser dans la cellule. 
+ Verrouiller le disjoncteur dans la cellule en abaissant le levier (2). 
+ Désolidariser le chariot de la cellule en tournant le levier (1) dans le sens horaire et retirer  
+celui-ci. 
+ Rebrancher le connecteur 125 V. 
+ Fermer la porte de la cellule. 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 24]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 24 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+ANNEXE 9 - POSE D’UNE CONDAMNATION DISJONCTEUR DÉBROCHÉ 
+ Contrôler la position débrochée du disjoncteur avant de poser le cadenas et sa pancarte :  
+le voyant mécanique doit indiquer la lettre O. 
+ 
+ Poser un cadenas dans le trou de la tirette, le disjoncteur est alors condamné en position  
+« débrochée ». 
+Nota : L’ouverture de la porte est possible dans ce cas, mais l’embrochage du disjoncteur avec sa 
+porte ouverte est impossible mécaniquement. 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 25]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 25 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+ANNEXE 10 - POSE D’UNE CONDAMNATION AUX VOLETS SUR UN 
+DISJONCTEUR 
+ Sortir le disjoncteur de sa cellule suivant ANNEXE 8. 
+La pose d’une condamnation aux volets autorise des travaux en fond de cellule. 
+ 
+La pose des cadenas de consignation sur les volets n’est pas la même entre les côtés gauche et 
+droit (voir détails ci-dessous). 
+ 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 26]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 26 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+ANNEXE 11 - POSE D’UNE CONDAMNATION CONTACTEUR DÉBROCHÉ 
+ Débrocher le contacteur selon ANNEXE 2. 
+ Dans le cas où le contacteur est déjà débroché au moment de poser la condamnation, constater 
+la position débrochée par le hublot (contacteur en position proche du hublot). En cas de doute 
+on peut confirmer le débrochage en essayant la manivelle dans le sens anti-horaire, le limiteur 
+de couple doit fonctionner. 
+Nota : L’ouverture de la porte avec la pancarte de consignation accrochée est possible dans ce 
+cas, mais l’embrochage du contacteur avec sa porte ouverte est impossible mécaniquement. 
+ 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023
+
+[Page 27]
+E.D.F. 
+C.N.P.E. 
+Dampierre 
+MANOEUVRES DES OUVRAGES ELECTRIQUES DU DUS 
+Indice Page 
+c 27 / 27 
+Réf. : D5140/CG D 62 
+ 
+  
+ANNEXE 12 - POSE D’UNE CONDAMNATION AUX VOLETS SUR UN 
+CONTACTEUR 
+ 
+ 
+ Débrocher le contacteur. 
+ Fermer le SMALT de la cell ule concernée selon ANNEXE 3. 
+ Contrôler la fermeture du SMALT sur le  voyant (2) en position horizontale. 
+ Tourner la clef (3) dans le sens anti-horaire ce qui a pour effet de mettre en face les trous pour 
+la pose du cadenas. 
+ Poser le cadenas de consignation dans le trou (1). 
+Nota : En condamnant la cellule avec pose du cadenas en (1) les volets sont bloqués fermés 
+mécaniquement le contacteur est bloqué débroché mécaniquement et le SMALT est condamné 
+fermé. 
+Le travail en fond de cellule requiert cette condamnation, il suffit de sortir le contacteur de sa 
+cellule avant de tourner la clef et de poser le cadenas. 
+Modèle de sécurité : 
+-
+EXP/DAM
+Accessibilité : INTERNE
+RDU : D453319031237
+00 - Tous les utilisateurs de l'ECM
+ 
+ 
+Document issu de la GED DPI Nucléaire le 01/02/2023

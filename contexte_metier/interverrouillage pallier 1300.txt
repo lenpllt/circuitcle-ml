@@ -1,0 +1,318 @@
+[Page 1]
+Palier                                1300MW / P4                                                          1300MW / P'4 
+Tranches 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Flamanville 
+Paluel St Alban Belleville Cattenom Golfech Nogent Penly 
+Accessibilité EDF : INTERNE RESTREINT COPYRIGHT EDF 
+Nom du sous traitant : 
+Type de document (produit type) : 
+Titre : 
+NAIP 
+AIP 
+Division de l'Ingenierie du Parc, 
+de la Déconstruction et de l'Environnement 
+Centrale Nucléaire d'Etude du Parc en Exploitation 
+Ce cartouche, y compris le réference EDF, est à remplir par l'émetteur 
+M
+PREMIERE DIFFUSION A
+Contrôleur Rédacteur Indice Modifications - Observations Approbateur Résultat de la 
+surveillance 
+PIDU : 
+Etat de 
+validité 
+Date 
+d'approbation 
+Nom du fournisseur (Entité Emettrice Principale) : Référence fournisseur (Référence 2) : 
+N° CONTRAT : Affaire(s) technique(s) : 
+Bâtiment(s) : Localisation : Système(s) 
+Elémentaire(s) : 
+Repère(s) 
+Fonctionnel(s) : 
+CONFIDENTIEL 
+Référence du sous traitant : 
+Echelle : Format : Couleur significative : Nbre de pages : 
+Matériel(s) : Mot clés : Domaine(s) 
+Métier(s) : 
+Projet(s) ou 
+Programme(s) 
+nationaux concerné(s) : 
+BPE 
+HDT PSC BPD 
+20/10/16 *** 
+B BPE 
+HDT PSC BPD 
+05/01/18 
+Mise à jour des repérages des coffrets de clés de verrouillage 
+C BPE 
+GCS PCI LMC 
+13/10/23 
+PNPEi262 - Ajout unifilaire du LHT-GUS (HTA, CC) 
+& Maj repérage coffrets et clés de verrouillage suite à 
+DEND 1300MW PNPE3068. 
+ 
+P C A 1 7 L 0 0 0 0 1 - - - - C I S X
+***** ***** 
+**** PNPP3666F 
+BL+HDU ***** ***** ***** ***** ***** FKS - GK 
+Palier 1300 P'4 
+Site de CATTENOM 
+INTERVERROUILLAGE HTA DIESEL ULTIME SECOURS 
+Schéma unifilaire 
+SELS 
+1/*** A3 1/7 
+***** ***** 
+** X 2016 
+LGi - LHi - 
+LHj - LHU - 
+LHT 
+-  PNPEi262 
+-  PNPE3068 
+GC GC GC SS
+ 
+ 
+PC PC PC PC PC PC PC PC PC PC PC PC PC PC PC PC IIIIIIIIIIIII
+ LM C
+LASSUS 
+-MENOT 
+Claude 
+Signature 
+numérique de 
+LASSUS-MENOT 
+Claude 
+Date : 2023.11.23 
+09:26:45 +01'00' 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623137182
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ 
+ 
+ 
+Document issu de la GED DPI Nucléaire le 31/07/2024
+
+[Page 2]
+G G G
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+P'4 - CATTENOM - INTERVERROUILLAGE DES DIESELS LHP/Q, DUS et LHT N° EDF 
+INDICE COURANT 
+Planche 
+2/7 
+C
+PCA 17 L 00 001 - - MCIS 
+C
+C
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623137182
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 31/07/2024
+
+[Page 3]
+G G G
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+P'4 - CATTENOM - INTERVERROUILLAGE DES DIESELS LHP/Q, DUS et LHT N° EDF 
+INDICE COURANT 
+Planche 
+3/7 
+C
+PCA 17 L 00 001 - - MCIS 
+C
+C
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623137182
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 31/07/2024
+
+[Page 4]
+G G G
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+P'4 - CATTENOM - INTERVERROUILLAGE DES DIESELS LHP/Q, DUS et LHT N° EDF 
+INDICE COURANT 
+Planche 
+4/7 
+C
+PCA 17 L 00 001 - - MCIS 
+C
+C
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623137182
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 31/07/2024
+
+[Page 5]
+G G G
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPE3068 
+P'4 - CATTENOM - INTERVERROUILLAGE DES DIESELS LHP/Q, DUS et LHT N° EDF 
+INDICE COURANT 
+Planche 
+5/7 
+C
+PCA 17 L 00 001 - - MCIS 
+C
+C
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623137182
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 31/07/2024
+
+[Page 6]
+C
+PNPE3068 
+C
+PNPE3068 
+C
+PNPEi262 
+C
+PNPE3068 
+C
+PNPE3068 
+P'4 - CATTENOM - INTERVERROUILLAGE DES DIESELS LHP/Q, DUS et LHT N° EDF 
+INDICE COURANT 
+Planche 
+6/7 
+C
+PCA 17 L 00 001 - - MCIS 
+C
+C
+C
+PNPEi262 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623137182
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ 
+ 
+Document issu de la GED DPI Nucléaire le 31/07/2024
+
+[Page 7]
+1
+2
+1
+2
+1
+2
+1
+2
+1
+2
+0LHT110AR 
+1
+2
+1
+2
+P'4 - CATTENOM - INTERVERROUILLAGE DES DIESELS LHP/Q, DUS et LHT N° EDF 
+INDICE COURANT 
+Planche 
+7/7 
+C
+PCA 17 L 00 001 - - MCIS 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455623137182
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ 
+ 
+Document issu de la GED DPI Nucléaire le 31/07/2024

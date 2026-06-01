@@ -1,0 +1,613 @@
+[Page 1]
+Produit - type  
+ 
+    
+  Référence :                                                  Indice :                                                     Nb de pages :
+  Résultat de publication
+ 
+ 
+ 
+Téléphone :
+Télécopie :
+www.edf.com  
+EDF - SA au capital de  
+euros – 552 081 317 R.C.S. Paris  
+Siège social : 22-30 avenue de Wagram 
+75382 Paris Cedex 08 - France 
+04.91.74.88.00
+140, AVENUE VITON 13401
+MARSEILLE CEDEX 20
+DIVISION DE L'INGENIERIE DU
+PARC ET DE L'ENVIRONNEMENT
+2 084 365 041
+-
+ 
+ 
+ 
+ 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : LIBRE
+RDU : D455624012015
+00 - Accès libre
+Page/Total :    /
+22
+1
+D455624012015
+22
+COMPTE RENDU DE RÉUNION DU 31/01/2024 - VERROUILLAGE À
+CLEF DE LHC - PALIERS 900 ET N4
+DIPDE_DE
+Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 2]
+COMPTE-RENDU DE RÉUNION 
+ 
+  
+Référence :  D455621029640 Date :  07/02/2024 Page 1/21 
+Rédacteur(s) :  CABANAC Philippe Service : ING/DIPDE/SEI 
+Réunion : Diffusion : 
+Lieu : DIPDE Marseille Participants 
+Date : 31/01/2024  
+Objet : Verrouillage à clef de LHC - Paliers 900 et N4  
+Participants : SANCHEZ Sebastien (UNIE) 
+SCHROEDER Christophe (UNIE) 
+DJIBRILLAH Mahamat (UNIE) 
+CEREZA Yannick (UNIE) 
+GUERIN Jean François (UNIE) 
+LEFEVRE Loic (CNPE Chooz) 
+PEREIRA Christophe (EIFFAGE) 
+Philippe MONNIN (Eiffage) 
+Stephane BANACHE (Schneider) 
+Yann Jacquet (Schneider) 
+AVIAT Anthony (Projet) 
+BOYADJIAN Camille (Projet) 
+PAYS Fanny (Projet) 
+ROUX Jeremy (SEI) 
+AZEMAS Susie (SEI) 
+DELORT Herve (SEI) 
+PARICAUD Benjamin (SEI) 
+ 
+ 
+ 
+ 
+1. RAPPEL DU CONTEXTE  
+Le système de verrouillage à clefs a été conçu pour assurer la sécurité du matériel et des personnes en 
+empêchant tout contact direct avec des parties actives et afin d’éviter les fausses manœuvres en assurant la 
+coordination entre des appareils ayant des fonctions diff érentes. Il empêche toute manœuvre des appareils 
+si les conditions de sécurité ne sont pas satisfaites. Seul le respect des procédures permet la réalimentation 
+correcte et sûre. 
+Le REX évènementiel des DUS 900 et 1300 a mis en évidence des signaux faibles de conception des 
+interverrouillages ou des protections électriques des DUS. 
+Lors de la revue de performance DUS du 10 Juin 2022, une action à destination de l’UNIE a été validée, en 
+vue de mandater DIPDE pour analyser la complétude des moyens d’interverro uillages ou de protections et 
+supprimer les risques. 
+ 
+Page 1/3 
+DIPDE_P10_Compte-rendu de réunion_1 signature_v2.1 
+ 
+ 
+CABANAC Philippe
+Le 07/02/2024
+ 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : LIBRE
+RDU : D455624012015
+00 - Accès libre
+Téléphone :
+Télécopie :
+www.edf.com  
+EDF - SA au capital de  
+euros – 552 081 317 R.C.S. Paris  
+Siège social : 22-30 avenue de Wagram 
+75382 Paris Cedex 08 - France 
+04.91.74.88.00
+140, AVENUE VITON 13401
+MARSEILLE CEDEX 20
+DIVISION DE L'INGENIERIE DU
+PARC ET DE L'ENVIRONNEMENT
+2 084 365 041
+-
+Page/Total :    /
+22
+2
+Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 3]
+2. ORDRE DU JOUR 
+La r evue du 31/01/2024 sur  la conception des systèmes d’interverrouillage logique et mécanique des 
+tableaux LHC associés aux DUS doit permettre d’identifier  les actions correctives nécessaires  (voir 
+Annexe 1). 
+3. ANALYSES ET RELEVE DE DECISIONS 
+A. Cellule disjoncteur de couplage (LHC005JA) et cellule remontée jeu de barres (LHC008JA)  : voir 
+Annexe 1 slide 6 
+L’analyse confirme que la clef E2 ne reste pas prisonnière. La clef E2 libère uniquement le volet permettant 
+l'accès à la manivelle d'embrochage/débrochage du chariot. 
+Solutions proposées : 
+a) Solution 1  proposée par Philippe MONNIN (Eiffage) propose de supprimer la clef E2 de la cellule 
+LHC008JA et la remplacer par deux clefs (voir Annexe 2 : Proposition Verrouillage Cellules LHC005JA  
+008 JS). Cette solution entraîne les modifications suivantes : 
+ Supprimer la clef E2  et la remplacer par deux clefs H7 et H1. La clef H7 est à récupérer dans une 
+nouvelle serrure mère LHC018CM avec la présence des nouvelles clefs E2, H5 et H6 prisonnières 
+respectivement des serrures mère LHC003CM, LHC007CM et LHC011CM.  
+ Les serrures mère LHC003CM, LHC007CM et LHC011CM sont à modifier. 
+ La clef J6 de la cellule LHC010JA est à supprimer (ainsi que dans la serrure mère LHC008CM). 
+ La clef E6 prisonnière dans la serrure mère LHC003CM (libérable avec la clef E1) est supprimée. La 
+clef E6 est aussi à supprimer de la serrure mère LHC009CM  ; elle autorise la libération de la clef K3 
+(cette clef K3 autorise la fermeture du sectionneur de mise à la terre de cette cellule TP 2° demi JdB 
+(LHC 011 JA) du tableau LHC 001 TB). 
+ La clef J7 est à remplacer par une clef G4 dans la cellule LHC010JA alors que cette clef J7 permet 
+de déverrouiller la position embrochée du tiroir point neutre de la cellule LHC007JA .   
+b) Solution 2, comme sur le 1300 proposée par Schneider (voir Annexe 1 slide 15), consiste à rajouter une 
+clef pour conditionner le débrochage de la cellule LHC008JA. Cette solution entraîne les modifications 
+suivantes : 
+ Rajouter une clef X au niveau de la clef E2 pour permettre le débrochage de la cellule LHC008JA. La 
+clef X est récupérée dans la serrure mère LHC003CM. 
+ La serrure mère LHC003CM est à modifier : suppression de la clef E2 et rajout de la nouvelle clef X.   
+Décision 1 : La solution à retenir sera étudiée avec Schneider et Clemessy. 
+B. Cellule point neutre (LHC007JA) et cellule d’arrivée alternateur GE Alternateur DUS (LHC010JA) : 
+voir Annexe 1 slide 7 
+L’analyse confirme que la clef J7 ne reste pas prisonnière. La clef J7 libère uniquement le volet permettant 
+l'accès à la manivelle d'embrochage/débrochage du chariot. 
+La solution consisterait à rajouter une clef au niveau de la clef J7 comme dans la solution 2. 
+Décision 2 : Cette solution est à étudier avec Schneider et Clemessy. 
+C. Cellule Remontée jeu de barres (LHC008JA) : voir Annexe 1 slide 8 
+Concerne la consignation com plète du demi-jeu de barre avec la clef K3 (prisonnière dans la serrure mère 
+LHC009CM). 
+Deux solutions ont été proposées : 
+a) Solution 1 Schneider avec le rajout d’une serrure complémentaire au niveau de la cellule LHC008JA et 
+une modification de la serrure mère LHC009CM pour libérer la clef K3. 
+b) Solution 2 CNEPE Dampierre avec le rajout d’une clef X et la rendre libérable par la clef E1 de la serrure 
+mère LHC003CM.  
+ 
+ Page  /
+3
+2
+ 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : LIBRE
+RDU : D455624012015
+00 - Accès libre
+Page/Total :    /
+22
+3
+Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 4]
+Décision 3 : Ces deux solutions sont à étudier avec Schneider et Clemessy. 
+D. Cellule Départ Moteur Pompe ND (LHC013JA) et cellule Départ Moteur Pompe ASGU (LHC014JA) : 
+voir Annexe 1 slide 10 
+Concerne la consignation complète du de mi-jeu de barre avec la clef K3 (prisonnière dans la serrure mère 
+LHC009CM). 
+Les clefs M1 et N1  auquel il faut rajouter la clef I1 de la cellule LHC009JA sont  à rajouter à la serrure mère 
+LHC009CM pour libérer K3.  
+Décision 4 : Cette modification est à mettre en œuvre comme sur le palier 1300 pour réaliser une 
+consignation complète du jeu de barres.  
+E. Cellule TP 2° demi-jeu de barres (LHC011JA) : voir Annexe slide 9 
+Schneider propose de supprimer la serrure H2 sur la cellule LHC011JA. 
+Décision 5 : La serrure H2 est à supprimer. 
+F. Cellule arrivée FARN (LHC016JA) : voir Annexe slide 12 
+Gestion des clefs Q1. Proposition de différencier cette clef par tranche. 
+Décision 6 : L’action n’est pas prioritaire aujourd’hui car elle ne remet pas en question la sécurité du 
+personnel et du matériel. 
+G. REX exploitants (voir Annexe 1 slide 16) : Cellule pouvant être embrochée sur SMALT fermée.  
+Décision 8 : UNIE et CNPE Dampierre doivent identifier la cellule Disjoncteur ou la cellule Contacteur 
+à expertiser. 
+H. CNPE de Chooz : Exploitation hors charge et hors tension 
+Décision 7 : La consignation du demi -jeu de barres se fait seulement hors charge.  L’embrochage-
+débrochage sous tension du pont de barres est possible, autorisé et nécessaire.  
+I. Schémas Schneider et Clemessy à mettre à jour 
+Décision 9 : Il faudra uniformiser la représentation des verrouillages sur les documents Schneider et 
+Clemessy et définir quel est le document de référence pour EDF.  
+4. AUTRES POINTS 
+Inscrire à l’ordre du jour du DPT d’avril le sujet suivant : 
+ Jalon A – Modification du système d’interverrouillage des tableaux électriques LHC  
+Le projet de rattachement est : VD Réalisation PIT – Correspondant : Camille BOYADJIAN. 
+ 
+ 
+ 
+ Page  /
+3
+3
+ 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : LIBRE
+RDU : D455624012015
+00 - Accès libre
+Page/Total :    /
+22
+4
+ Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 5]
+31/01/2024
+Revue verrouillage 
+à clefs de LHC -
+Paliers 900, 1300 
+et N4
+ Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 6]
+CONTEXTE
+Le système de verrouillage à clefs a été conçu pour assurer
+la sécurité du matériel et des personnes en empêchant
+tout contact direct avec des parties actives et afin d’éviter
+les fausses manœuvres en assurant la coordination entre
+des appareils ayant des fonctions différentes. Il empêche
+toute manœuvre des appareils si les conditions de sécurité
+ne sont pas satisfaites. Seul le respect des procédures
+permet la réalimentation correcte et sûre.
+Le REX évènementiel des DUS 900 et 1300 a mis en
+évidence des signaux faibles de conception des
+interverrouillages ou des protections électriques des DUS.
+Lors de la revue de performance DUS du 10 Juin 2022, une
+action à destination de l’UNIE a été validée, en vue de
+mandater DIPDE pour analyser la complétude des moyens
+d’interverrouillages ou de protections et supprimer les
+risques.
+2
+ Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 7]
+Evènement survenu le 19/01/2021 sur le DUS BUG4
+Rappel des faits et chronologie des évènements DUS BUG4
+19/01/2021 : réalisation de l’Essai Périodique LHU 010 (essai sur banc de charge avec différents niveaux de puissance)
+• 11h00 : démarrage du DUS à vide conformément à la gamme d’EP LHU 010
+• 12h00 : déclenchement par action manuelle sur arrêt d’urgence (action non voulue)
+• 13h00 : nouveau démarrage du DUS à vide pour réalisation de l’EP LHU 010
+• 14h00 : passage en charge du DUS jusqu’au palier 25% Pn
+• 14h15 : passage en charge du DUS jusqu’au palier 50%Pn
+• 14h17 :
+- Un bruit important et un dégagement important de fumée sont constatés en local. Appel du 18.
+- Apparition des alarmes 4 KUS 002 AA (défaut isolement HTA) / 4 KUS 008 AA (défaut simple et groupe et auxiliaires)
+/ 4 KUS 009 AA (groupe inopérant / 4 KUS 012 AA (protection non prioritaires actives) + AA FEU (détecteurs fumées)
+3
+ Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 8]
+Evènement survenu le 03/06/2021 sur le DUS DAM4
+Le 03/06/21, réalisation d’une activité de maintenance pour le contrôle des relais de tension sur les cellules potentielles 4LHC006TU &
+4LHC011TU.
+LGB
+A la fermeture de la cellule 4LHC008JA, un défaut
+provoquant le déclenchement de la cellule
+4LGB024JA. La cellule 4LHC008JS était à la terre et
+4LHC010JA débrochée et à la terre.
+Constat : court-circuit franc du 6.6kV vers la
+masse via le SMALT LHC008JS
+Pourquoi la séquence d’interverrouillage n’a-t-elle
+pas empêché la fermeture du LHC005JA alors que le
+LHC008JS est à la terre ?
+4
+ Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 9]
+Vérification du principe de verrouillage à clef 
+L’analysea été réalisée sur (voir note D455623048768 [A]) :
+1. LHC003JA, cellule disjoncteur arrivée LGB ;
+2. LHC005JA et LHC008JA, respectivement cellule disjoncteur de couplage et cellule remontée jeu de barres ;
+3. LHC007JA et LHC010JA : respectivement cellule point neutre et cellule d’arrivée alternateur GE Alternateur DUS ;
+4. LHC016JA, cellule arrivée FARN.
+5
+ Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 10]
+Analyse de LHC005JA et LHC008JA, respectivement cellule disjoncteur de couplage et cellule remontée JdB
+Dans cette note Clemessy PWB15G048092164MMIP [F] , il est écrit au § 4.17.1, que la clef E2 reste
+prisonnière quand le tiroir de la cellule HT « Remontée de jeu de barres » LHC 008 JA est débroché.
+Dans le document Schneider PWB15G042012164MMIP [I], on constate qu’après avoir débroché la
+cellule avec la manivelle d’embrochage, la clef E2 ne reste pas prisonnière.
+La clef E2 libère uniquement le volet permettant l'accès à la
+manivelle d'embrochage/débrochage du chariot.
+L'accès peut avoir lieu chariot embroché ou débroché
+La clef E2 peut être libérée chariot pont de barres débroché. Dans ce cas-là, il est possible de fermer le SMALT de la cellule « Remontée de jeu de barres » LHC008JA car aucune serrure n'empêche cela.
+Si on récupère la clef E2, il est possible de l'insérer dans la boite mère LHC003CM (E1, E2, E5 et E6). Si les clefs E5 et E6 sont présentes, il est possible de déverrouiller E1 et donc de la récupérer. Il est donc
+possible de déverrouiller la position débrochée du disjoncteur de couplage LHC005JA, de l'embrocher et donc de le fermer. Ceci entraîne un court-circuit triphasé à la terre.
+La solution : Rendre prisonnière la clef E2. 6
+ Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 11]
+Analyse de LHC007JA et LHC010JA : respectivement cellule point neutre et cellule d’arrivée alternateur GE alternateur DUS
+Dans cette note Clemessy, il est écrit au § 4.15.1, que la clef J7 reste prisonnière quand le tiroir de la
+cellule HT « Point Neutre » LHC 007 JA est débroché.
+Dans le document Schneider, on constate qu’après avoir débroché la cellule avec la manivelle
+d’embrochage, la clef J7 ne reste pas prisonnière.
+La clef J7 peut être récupérée avec la possibilité de déverrouiller et d'ouvrir le SMALT de la cellule « Arrivée GE alternateur DUS » LHC010JA.
+Il pourrait être envisager, dans un cas extrême, l'embrochage de la partie mobile disjoncteur et la fermeture du disjoncteur LHC010JA avec la cellule « Point Neutre » LHC007JA, pont de barre débroché
+et SMALT fermé. Ceci entraîne un court-circuit triphasé à la terre.
+La solution : Rendre prisonnière la clef J7.
+La clef J7 libère uniquement le volet permettant l'accès à la
+manivelle d'embrochage/débrochage du chariot.
+L'accès peut avoir lieu chariot embroché ou débroché
+7
+ Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 12]
+Cellule LHC 008 JA « Remontée jeu de barres » :
+ANALYSES COMPLEMENTAIRES SCHNEIDER ET CNPE DAMPIERRE
+CNPE DAMPIERRE : Concernant l’ajout de la clef X proposée par Schneider pour la
+consignation du demi-jeu de barres, une autre solution consisterait de rendre
+libérable la clef X par la clef E1 de LHC005JA (serrure mère LHC003CM) et donner
+l’accès à la clef H2 (fermeture du SMALT LHC008JS) pour la fermeture du SMALT de
+LHC005JA.
+La clef E6 sera libérable par la clef E4 (serrure mère LHC004CM) suite à la fermeture
+du SMALT de LHC005JA pour la consignation du demi-jeu de barres LHC.
+SCHNEIDER : Au niveau de la cellule LHC008JA, il faudrait rajouter une serrure
+complémentaire X pour permettre la consignation complète du demi-jeu de barres 2. La
+serrure serait libre pont de barres débroché.
+Elle serait complémentaire à la modification de la clef E2 qui resterait prisonnière pont de
+barres débroché.
+Cette clef X serait insérée à la serrure mère LHC009CM en complément des clefs M1 et N1
+pour permettre de récupérer la clef K3 du SMALT du demi-jeu de barres 2.
+ 8
+ Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 13]
+SCHNEIDER : Au niveau de la cellule LHC011JA, la consignation pour MALT du jeu de barres HTA du
+tableau ne prend pas en compte les départs contacteurs vers les moteurs HTA. Ce point est à
+ajouter pour réaliser une consignation complète du jeu de barres.
+Il est donc demandé la suppression de la serrure H2 sur la cellule LHC011JA car la mise à la terre de
+la cellule LHC005JA doit être réalisée uniquement si la cellule LHC008JA est à la terre.
+La mise à la terre ne peut pas être réalisée via le pont de barre.
+Cellule LHC 011 JA « TP 2° demi-jeu de barres » :
+9
+ Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 14]
+SCHNEIDER : Sur les cellules LHC013JA et LHC014JA, il faudrait modifier la gestion des
+clefs M1 N1 et les rajouter à la serrure mère LHC009CM pour libérer la clef K3.
+La clef K3 autorise la fermeture du sectionneur de mise à la terre de cette cellule
+LHC011JA « TP 2° demi-jeu de barres ».
+Il faudrait faire comme sur la cellule LHC012JA « Départ Transfo Auxiliaire Noyau Dur »
+et sur le palier 1300 MW.
+Cellules LHC013JA « Départ Moteur Pompe ND » et LHC014JA « Départ Moteur Pompe ASGU » :
+10
+ Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 15]
+CNPE DAMPIERRE : Sur la cellule LHC009JA, il faudrait modifier la gestion de la clef I1 et la
+rajouter à la serrure mère LHC 009 CM pour libérer la clef K3.
+La clef K3 autorise la fermeture du sectionneur de mise à la terre de cette cellule LHC 011 JA
+« TP 2° demi-jeu de barres ».
+Il faudrait faire comme sur la cellule LHC012JA « Départ Transfo Auxiliaire Noyau Dur » et
+sur le palier 1300 MW.
+Cellule LHC009JA « Départ moteur réserve » :
+11
+ Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 16]
+ANALYSE COMPLEMENTAIRE CLEMESSY
+Cellule disjoncteur arrivée FARN (LHC 016 JA) :
+Deux clefs Q1 sont à récupérer au bureau de consignation (1 par tranche)
+Clef Q1 : Autorisation de déverrouiller la serrure mère (LHC012CM) (cette clef Q1
+doit être accompagnée de la clef P3 pour la libération de la clef P4)
+Doit-on différencier la clef Q1 selon la tranche ?
+Récupérer les clefs Q1 
+auprès du chargé de 
+consignation (une par 
+tranche)
+12
+ Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 17]
+CONCLUSION PALIERS 900 ET N4
+Nota : Le choix d’intégrer à la serrure mère LHC009CM, les clefs M1, N1 et I1 correspondants aux cellules en réserves présente l’avantage d’être exhaustif dans la consignation de la demi-barre 2 en incluant ces départs inutilisés.
+Pour autant ce choix de conception peut présenter quelques désavantages dans certaines situations.
+Puisque ces clefs servent également à accéder aux caissons de raccordement de leur cellule. En rendant prisonnières ces clefs dans LHC009CM lors de la consignation de la demi-barre 2, on se prive alors d’accéder aux caissons
+de raccordement. Ce choix de conception méritera d’être réinterrogé lors des éventuelles études de définition (d’autres mises en œuvre peuvent être étudiées).
+L’analyse des systèmes de verrouillage à clef a montré que la sécurité du matériel et des personnes est assurée si on respecte les séquences de consignation et déconsignation décrite dans la note de
+Clemessy (PWB15G048092164MMIP [F]).
+Par contre, il a été constaté un écart de représentation graphique entre le schéma de verrouillage Clemessy (PWB15G048092164MMIP [F]) et le plan d'équipement Schneider (PWB15G042012164MMIP [I]).
+Le schéma de verrouillage Clemessy attribue aux clefs J7 et E2 des fonctions de verrouillage qu'elles ne sont pas en mesure de remplir. Alors que le plan d'équipement Schneider représente la réalité du
+verrouillage installé (fonction d'obstruction de la manivelle).
+Les procédures de lignage Clemessy rédigées sur la base du schéma (PWB15G048092164MMIP [F]) sont justes et complètes mais elles ne prennent pas en compte les fonctions des clefs J7 et E2 réellement
+installées. Ce qui peut introduire un biais si l'opérateur ne respecte pas totalement ces procédures de lignage.
+Des propositions de solutions sont proposées dans le tableau ci-dessous :
+13
+ Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 18]
+Configuration électrique à risques à sécuriser sur les DUS 1300 
+RER 26/01/2022 : Le PA constat SA2.20.00179772, relatif au système d’inter-verrouillage des tableaux LHC associés aux DUS du palier
+1300 MWe, précise que la mise la terre du pont de barre LHC007JP n'est protégée par aucun système d'inter verrouillage.
+Schéma Verrouillage DUS WEF AAM70280 :
+Dans la configuration où le disjoncteur LHC2005JA est embroché et enclenché, il
+est possible de débrocher le pont de barre LHC2007JP et de fermer le
+sectionneur de mise à la terre associé LHC2007JS pouvant conduire à la mise en
+court-circuit du tableau LGF.
+Le verrouillage du pont de barres LHC2007JP dépend de la clef iG1 qui n’est pas
+prisonnière lorsque le disjoncteur LHC2005JA est embroché.
+14
+ Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 19]
+Solution pour sécuriser sur les DUS 1300 
+PNPE 2/3480 : Le but de la modification est d'interdire la fermeture du disjoncteur LHC2005JA quand le sectionneur de terre LHC2007JS
+est en position fermée.
+La fermeture du sectionneur de terre LHC2007JS sera possible uniquement quand le disjoncteur LHC2005JA sera verrouillé en position
+débrochée et le pont de barre LHC2007JA en position débrochée
+La solution proposée par Schneider est la suivante :
+• La clef iG1 conditionne le débrochage du pont de barre.
+• Ajout d’une serrure de verrouillage sur la cellule LHC2007 JP (clef iE3).
+• Et modification des serrures mère pour atteindre les conditions suivantes :
+1. Le débrochage de la cellule LHC2005JC permet de récupérer iG1 via iE1.
+2. iG1 permet le débrochage du pont de barre LHC2007JP.
+3. Ceci permet la mise à la terre coté LHC2007 JP et de récupérer la clef iE3
+4. Cette dernière permettra de mettre à la terre la cellule LHC2005 JC
+Déploiement en TEM de la solution de janvier 2025 à fin 2026
+15
+ Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 20]
+REX exploitants
+Des essais ont été effectués sur St Laurent et Dampierre :
+Dampierre sur une cellule LHC009JA : L’essaia été réalisé en deux temps avec LHC109JS
+ouvert et fermé, il est possible d’embrocher la cellule sauf que la différence c’est la
+présence d’un dur mécanique (au niveau de la manivelle débrayable) quand LHC109JS
+est fermé, ce dur mécanique peut être dépassé facilement.
+St Laurent :
+1° essai : La cellule était en place débrochée on a essayé de l’embroché avec la
+manivelle. Echec
+2° essai : On a sorti la cellule puis on l’a remise légèrement de travers. On a ensuite fait
+la tentative d’embrochageavec la manivelle. Echec
+Nous n’avons pas réussi à embrocher la cellule avec le SMALT fermé.
+Certaines cellules peuvent être embrochées alors même que le SMALT était en place.
+16
+ Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 21]
+Merci
+17
+ Document issu de la GED DPI Nucléaire le 07/02/2024
+
+[Page 22]
+Disjoncteur
+de
+Couplage
+Présences Phases
+Tiroir
+LHC 005 JA
+Cellule
+LHC 005 JA
+Porte
+Rac. Sortie
+HT
+Clé 
+.E3.
+Clé 
+.E4.
+Clé 
+.H3.
+Serrure Mère
+LHC 004 CM
+16
+Clé .E3.
+Légende
+Penne Serrure sorti
+Penne Serrure rentré
+Clé absente
+Clé présent & libre
+Clé prisonnière Panneau de porte
+1
+Disjoncteur de Couplage
+& Remonté de JdB
+DUS - CFI
+2
+Etapes de consignationsN°
+14
+15
+17
+Clé 
+.E2.
+Clé 
+.E1.
+Clé 
+.E5.3
+Serrure Mère
+LHC 003 CM
+Clé 
+.H5.
+Clé 
+.E2.
+Clé 
+.H6. 10
+Serrure Mère
+LHC 018 CM
+Clé 
+.H7.
+Clé .E4.
+Clé .H2.
+Clé .E1.
+Remontée de
+Jeu de Barre
+Présences Phases
+Tiroir
+LHC 008 JS
+Cellule
+LHC 008 JS
+Porte
+Rac. Sortie
+HT
+Clé .H3.
+11
+12
+13
+18
+LHC 108 JS
+LHC 105 JS
+Clé .H2.
+Clé .H7. Clé .H1.
+Arrivée
+GE
+Alternateur DUS
+Présences Phases
+Tiroir
+LHC 010 JA
+Cellule
+LHC 010 JA
+Porte
+Rac. Sortie
+HT
+LHC 110 JS
+Clé .J9.
+4
+5
+Clé .G4.
+Clé .J1.
+Clé 
+.J2.
+Clé 
+.J1.
+Clé 
+.J3.
+Clé 
+.H5.6
+Serrure Mère
+LHC 007 CM
+Arrivée
+depuis JdB
+FARN
+Présences Phases
+Tiroir
+LHC 016 JA
+Cellule
+LHC 016 JA
+Porte
+Rac. Sortie
+HT
+LHC 116 JS
+Clé .P6.
+7
+8
+Clé .P5.
+Clé .P4.
+Clé .P1.Clé .P1.
+Clé 
+.P2.
+Clé 
+.P1.
+Clé 
+.P3.
+Clé 
+.P10.
+Clé 
+.H6.9
+Serrure Mère
+LHC 011 CM
+Modèle de sécurité : 
+-
+ING/DIPDE
+00 - Accès libre
+Accessibilité : LIBRE
+RDU : D455624012015
+Page/Total :  /
+22
+22
+Document issu de la GED DPI Nucléaire le 07/02/2024

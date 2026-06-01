@@ -1,0 +1,1547 @@
+[Page 1]
+Produit - type  
+  5pIpUHQFH  ,QGLFH     Nb de pages :
+Applicabilité :
+Affaire
+Projet(s) :
+5pIpUHQFHWHFKQLTXH 
+Rédaction Contrôle Approbation Visa final (*) 
+5pVXPp :
+(*) La présence de cette icône atteste que le document a été approuvé par un circuit de signature électronique
+ 
+ 
+Ne peut être transmis à l'extérieur d'EDF/DPI et entités autorisées, que par une personne habilitée.
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+NOTE D'ETUDE
+ 
+ 
+ 
+ 
+Téléphone :
+Télécopie :
+www.edf.com  
+EDF - SA au capital de  
+euros – 552 081 317 R.C.S. Paris  
+Siège social : 22-30 avenue de Wagram 
+75382 Paris Cedex 08 - France 
+04.91.74.88.00
+140, AVENUE VITON 13401
+MARSEILLE CEDEX 20
+DIVISION DE L'INGENIERIE DU
+PARC ET DE L'ENVIRONNEMENT
+2 084 365 041
+-
+ 
+D455624066262
+27
+KIEL Bruno 16/07/2024
+Le présent document  a pour objectif de définir le Dossier de conception V2 associé à l'affaire PNPE2/3480 tome A
+qui traite de l'interverrouillage LHC pour le palier 1300.
+PROJET VD EN REALISATION
+1300
+DIPDE_PP
+A
+PNPE2480, PNPE3480
+NICOLET Serge 16/07/2024
+PAYS Fanny 12/07/2024
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A -
+INTERVERROUILLAGE LHC
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 2]
+Vérification indépendante : Auprès de (Nom/Société) :  
+ 
+ 
+ 
+ 
+Pré-diffusion formalisée (indice en cours) :   
+Auprès de :  
+Philippe Cabanac (DIPDE/SEI/DIS) 
+Cédric Spelleman (DIPDE/SEI/DIS) 
+Alexandre Chanteux (DIPDE/SEI/I2E) 
+ 
+Nolwenn Solier (DIPDE/FCT/INC) 
+Emilie Mikdjian (DIPDE/CTI/QLD) 
+Sébastien Jouve (DIPDE/DPP/CTI/PR) 
+Laurane Maria-Pellen (DIPDE/DPP/CTI/PR) 
+Christophe Gastambide (DIPDE/DPP/DTP-IM)  
+ 
+Guillaume Massot (DIPDE/ECE/RAID) 
+Jean Baptiste Wellele-Rostand (DIPDE/ECE/RAID) 
+Dominique Mussard (DIPDE/ECE) 
+ 
+Bruno Kiel (DIPDE/ DPP/DTP/CTC)  
+ 
+François Epaule (DIPDE/DR) 
+ 
+Bertrand Fanget (RTF Saint-Alban) 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+INDICE MODIFICATIONS 
+A Création du document  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Code OTP : Renseigner le code dans la FID 
+DIPDE_P4_Dossier de Conception_DOC_V4 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+2
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 3]
+Diffusion formalisée (indice en cours) : 
+Auprès de : Projet VD en réalisation 
+C. BOYADJIAN (DIPDE/DPP/PROJET VD REAL) 
+O. ANTUNES DA COSTA (DIPDE/DPP/PROJET VD REAL) 
+ 
+Projet VD4 1300 
+E. AUSSEIL (DIPDE/DPP) 
+ 
+RTP Projet VD Réalisation 
+S NICOLET (DIPDE/DPP/PROJET VD REAL) 
+ 
+CTC 
+B. KIEL (DIPDE/DPP/DTP/CTC)  
+ 
+DIPDE/DE : 
+P. CABANAC (DIPDE/DE/SEI/DIS) 
+C SPELLEMAN (DIPDE/DE/SEI/DIS) 
+H. DELORT (DIPDE/DE/SEI) 
+A CHANTEUX (DIPDE/DE/SEI/I2E) 
+G. MASSOT (DIPDE/DE/ECE)  
+D. MUSSARD (DIPDE/DE/ECE)  
+M. BENZEKRI (DIPDE/DE/SGC) 
+ 
+Chargés d’études / Domaines transverses 
+L. MARIA-PELLEN (DIPDE/DPP/CTI/PR) 
+C. GASTAMBIDE (DIPDE/DPP/DTP-IM)  
+S. JOUVE (DIPDE/DPP/CTI/PR) 
+E. MIKDJIAN (DIPDE/QLD)  
+N. SOLIER (DIPDE/FCT/INC) 
+ 
+Délégué réalisation 
+F. EPAULE (DIPDE/DR)  
+ 
+CNPE 
+M. PARE (ICL/Belleville) 
+D. COUDRAT (RTF Belleville) 
+D. PIATON (ICL/Cattenom) 
+D. De AZEVEDO (RTF Cattenom) 
+M. LELIEVRE (ICL/Flamanville) 
+D. PRUD'HOMME (RTF Flamanville) 
+A. GAUTRON (ICL/Golfech) 
+S. JEBBOURI (RTF Golfech) 
+O. ROTSAERT (ICL/Nogent) 
+B. HADDOU (RTF/Nogent) 
+B. BORNIAMBUC (ICL/Paluel) 
+C. AHAMADA (RTF Paluel) 
+A. DECROIX (ICL/Penly) 
+G. LEJEUNE (RTF Penly) 
+P. WAJDA (ICL/Saint Alban) 
+B. FANGET (RTF Saint-Alban) 
+ 
+UTO/DPRL 
+ (BAL: BE-DPN-UTO-POLE-FTPDR/F/EDF/FR)  
+ 
+SP 1300 
+O. BOURNAS 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+3
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 4]
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+4
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 5]
+SOMMAIRE 
+ 
+ 
+Pages 
+1. CLASSEMENT DU DOCUMENT ....................................................................................... 7 
+2. DOCUMENTS DE REFERENCE ........................................................................................ 7 
+2.1. DOCUMENTS DE CADRAGE ................................ ................................ ...............................  7 
+2.2. DOCUMENTS D’AFFAIRE ................................ ................................ ................................ .. 7 
+2.3. DOCUMENTS METIER ................................ ................................ ................................ ...... 7 
+3. ANALYSE DE LA DEMANDE ........................................................................................... 8 
+3.1. ORIGINE DE LA DEMANDE ................................ ................................ ................................  8 
+3.2. ANALYSE DU BESOIN ................................ ................................ ................................ ....... 8 
+3.3. INVENTAIRE DES DONNEES D’ENTREE ................................ ................................ ............... 9 
+3.4. ELEMENTS DE REX ................................ ................................ ................................ ........... 9 
+3.5. STRUCTURATION DE L’AFFAIRE ET PREREQUIS ................................ ................................ ... 9 
+4. PRESENTATION SUCCINCTE DE LA MODIFICATION ......................................................... 9 
+5. PRINCIPES GENERAUX DE CONCEPTION ...................................................................... 10 
+5.1. EXIGENCES FONCTIONNELLES / EXIGENCES DE SURETE ................................ ..................... 10 
+5.1.1. OBJECTIF DE LA MODIFICATION .............................................................................................. 10 
+5.1.2. EXIGENCES DE SURETE OU EN LIEN AVEC LES INTERETS PROTEGES ........................................... 10 
+5.1.3. EXIGENCES FONCTIONNELLES AUTRES .................................................................................... 10 
+5.2. CONDITIONS DE FONCTIONNEMENT / CONDITIONS DE CALCUL ET CAS DE CHARGEMENT ... 10 
+5.3. EXIGENCES REGLEMENTAIRES, CODES ET NORMES, REFERENTIELS TECHNIQUES ................ 11 
+5.3.1. EXIGENCES REGLEMENTAIRES, ............................................................................................... 11 
+5.3.2. CODES ET NORMES ................................................................................................................ 11 
+5.3.3. REFERENTIELS TECHNIQUES METIERS ..................................................................................... 11 
+5.4. VERIFICATION DES EXIGENCES DE CONCEPTION ET ESSAIS USINE ................................ ...... 11 
+5.4.1. APPROCHE GENERALE ............................................................................................................ 11 
+5.4.2. ESSAIS USINE ET ESSAIS PLATEFORME .................................................................................... 11 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+5
+ 
+ Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 6]
+5.4.3. CONCLUSION ......................................................................................................................... 11 
+5.5. PRESTATIONS NECESSAIRES A L’INTEGRATION ET A L’EXPLOITATION EN PHASE CHANTIER .. 11 
+6. DESCRIPTION DE LA MODIFICATION ........................................................................... 12 
+6.1. DESCRIPTION DES CIRCUITS, MATERIELS ET STRUCTURES AVANT ET APRES MODIFICATION 12 
+6.2. FONCTIONS SUPPORT ................................ ................................ ................................ .... 14 
+6.3. INFORMATION SUR LES MATERIELS ................................ ................................ ................ 14 
+7. ÉLEMENTS D’OPTIMISATION TECHNICO-ECONOMIQUE, STANDARDISATION ET CHOIX DE 
+SOLUTION ................................................................................................................. 14 
+8. IDENTIFICATION ET GESTION DES INTERFACES METIER ................................................ 14 
+9. ANALYSE DE RISQUE LIEE A LA CONCEPTION ............................................................... 15 
+9.1. ADRC................................ ................................ ................................ ............................ 15 
+9.2. SOH EN PHASE CHANTIER ET EXPLOITATION ................................ ................................ .... 16 
+9.3. RADIOPROTECTION ................................ ................................ ................................ ....... 17 
+9.4. IMPACT DE LA MODIFICATION SUR LA SECURITE DU PERSONNEL ................................ ...... 17 
+9.4.1. EN EXPLOITATION/MAINTENANCE ......................................................................................... 17 
+9.4.2. EN PHASE TRAVAUX .............................................................................................................. 17 
+9.5. BESOIN EN QUALIFICATION DE MATERIEL ................................ ................................ ....... 17 
+9.6. MAITRISE DES FABRICATIONS ET ANALYSE DE RISQUE EN LIEN AVEC LA STRATEGIE 
+INDUSTRIELLE ................................ ................................ ................................ ............... 18 
+10. ANALYSE DES CONDITIONS DE REALISATION SUR SITE ................................................. 18 
+10.1. ÉLEMENTS DE PLANNING DE LA REALISATION SUR SITE ................................ ............. 18 
+10.2. IMPACT DE LA REALISATION (HORS REQUALIFICATION) SUR L’EXPLOITATION DE LA 
+TRANCHE ................................ ................................ ................................ ...................... 18 
+10.2.1. DESCRIPTIF DES TRAVAUX ...................................................................................................... 18 
+10.2.2. IMPACT DES TRAVAUX SUR L’EXPLOITATION DE LA TRANCHE .................................................. 19 
+10.3. CONCEPTION DE LA REQUALIFICATION ................................ ................................ ..... 19 
+10.3.1. ORGANIGRAMME PREVISIONNEL DES ESSAIS DE REQUALIFICATION ........................................ 19 
+10.3.2. CONFIGURATION DE TRANCHE REQUISE ................................................................................. 19 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+6
+ 
+ Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 7]
+10.3.3. IMPACT DE LA REQUALIFICATION SUR L’EXPLOITATION DE LA TRANCHE .................................. 19 
+10.4. SERVITUDE ET LOGISTIQUE ................................ ................................ ...................... 19 
+11. LOTISSEMENT CONTRACTUEL ..................................................................................... 20 
+12. EXPLOITATION ET MAINTENANCE ............................................................................... 20 
+12.1. INDISPONIBILITE MATERIELS ................................ ................................ ................... 20 
+12.2. EXPLOITATION DE LA MODIFICATION ................................ ................................ ....... 20 
+12.3. MAINTENANCE DE LA MODIFICATION ................................ ................................ ...... 20 
+13. PIECE DE RECHANGE .................................................................................................. 20 
+14. IMPACT SUR LES DOCUMENTS DE CONCEPTION ET D’EXPLOITATION ............................ 20 
+15. PLANNING GENERAL DE L’AFFAIRE ............................................................................. 21 
+16. ESTIMATION DU QUANTITATIF ................................................................................... 21 
+ 
+ 
+ 
+ 
+Liste des ANNEXES 
+Annexe 1 : Synthèse ADRC 
+Annexe 2 : Planning PALADIN 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+7
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 8]
+CLASSEMENT DU DOCUMENT 
+Ce document est le dossier de conception d'une modification traitant un risque pour la protection des personnes et sans impac t sur 
+la protection des intérêts. 
+Le présent DOC V2 ne constitue donc pas une AIP car il ne concerne pas directement ou indirectement un EIP. C'est une note de 
+catégorie 3. 
+2. DOCUMENTS DE REFERENCE 
+2.1. DOCUMENTS DE CADRAGE 
+[1] D455022005767 : DPT DUS 15/12/22 
+[2] D455622069253 : DOC V1 
+[3] D455623001100 : RER 26012022 
+[4] PA CSTA SA2.20.00179772 (réponse DIPDE : D455620089925) 
+ 
+2.2. DOCUMENTS D’AFFAIRE 
+[5] D455622060071 : FAMED (NB : FAMED initiée par l’affaire PNPP 2/3 666E, reste applicable à cette affaire) 
+[6] D455622112647 : TRD 
+[7] PXZ15G040050050MPPD : ADRC 
+[8] D455623032035 : FTT incendie P4 
+[9] D455623138932 : FTT incendie PP’4 
+[10] D455623086921 : FACR 
+[11] D455623091048 : ADS SOH 
+[12] D455621039932 : MDUS-SEI-0084 
+[13] D455623061494 : Fiche de surveillance du document PXZ15G044230420MMIP ind H - Plan d'équipement et nomenclature 
+des matériels - Tableau HTA  
+[14] D455621103355 : Fiche de surveillance des documents  PXZ15G040010420MMIF ind H - Note d'interverrouillage  et 
+PXZ15G040220420MMIP ind N - Plan d'interverrouillage HT/BT 
+[15] D455623047277 : CSCT 
+[16] PXZ15F040010935MIPD : LDA 
+[17] PXZ15F040030935MIPB : DRT 
+[18] PXZ15F040040935MIPD : DSI 
+[19] PXZ15F040020935MIPD : Analyse de Risques 
+[20] PXZ15F040010935MSEZ : PEE 
+[21] PXZ15F040110935MIPD : Liste des servitudes nécessaires au chantier 
+[22] PXZ15F040160935MIPD : Description des déchets occasionnés par le chantier 
+[23] PXZ15F040200935MIPD : Compte rendu d'essai en salle maquette 
+ 
+2.3. DOCUMENTS METIER 
+[24] PXZ17LHC0021320MMIP : Plan d’interverrouillage HT/BT 
+[25] PXZ15F040027848MSEP : Plan d’équipement et nomenclature des matériels 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+8
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 9]
+[26] PXZ15G040010420MMIF : Note d’interverrouillage 
+[27] D455624044009A : LEM V2 
+[28] PXZPPRLHC000PNPE2480A : PPR 
+3. ANALYSE DE LA DEMANDE 
+3.1. ORIGINE DE LA DEMANDE 
+EDF a mis en évidence un défaut de conception relatif au système d’interverrouillage des tableaux LHC associés aux DUS du 
+palier 1300 MWe : la mise à la terre du pont de barre LHC 007 JP est protégée par un système d'interverrouillage peu fiable et 
+facilement contournable. 
+En effet, le verrouillage du pont de barres LHC 007 JP dépend de la clé iG1 qui n’est pas prisonnière lorsque le disjoncteur 
+LHC 005 JA est embroché.  
+Dans la configuration où le disjoncteur LHC 005 JA (contenu dans la cellule LHC 005 JC) est embroché et enclenché, il est possible 
+de débrocher le pont de barre LHC 007 JP et de fermer le sectionneur de mise à la terre associé LHC 007 JS pouvant conduire à 
+la mise en court-circuit des tableaux LHC et LGF. Ce court -circuit représente un risque électrique vis -à-vis des intervenants et 
+peut conduire à un incendie sur un matériel EIPS et donc à son indisponibilité.  
+Actuellement les CNPE ont fait le choix de détenir la  clé iG1 au bureau de consignation. Ce procédé n’est pas suffisant pour 
+garantir la sécurité des intervenants car le risque de fausse manipulation ne peut être exclu.  
+Ce défaut de conception a été remonté via un constat (PA CSTA référence SA2.20.00179772 [4]). 
+ 
+Précision sur la codification des repères fonctionnels :  
+Spécificité des DUS 1300, une double numérotation 3 et 4 digits est mise en place. 
+Dans le présent document , les références utilisées sont les références EDF en 3 digits. Cependant, dans la documentation 
+initiale fournie par le titulaire du projet DUS (Westinghouse), les références sont en 4 digits. 
+Afin de faciliter la conversion, un tableau de correspondance est donné ci-dessous : 
+4 digits 3 digits 4 digits 3 digits 
+LHC 2001 TB LHC 001 TB LHC 2012 JC LHC 012 JC 
+LHC 2005 JA LHC 005 JA LHC 2013 JC LHC 013 JC 
+LHC 2005 JC LHC 005 JC LHC 2014 JC LHC 014 JC 
+LHC 2005 JS LHC 005 JS LHC 2015 JC LHC 015 JC 
+LHC 2007 JA LHC 007 JA LHC 2016 JC LHC 016 JC 
+LHC 2007 JC LHC 007 JC LHC 2105 CM LHC 105 CM 
+LHC 2007 JP LHC 007 JP LHC 2106 CM LHC 106 CM 
+LHC 2007 JS LHC 007 JS LHC 2107 JS LHC 107 JS 
+LHC 2008 JC LHC 008 JC LHC 2109 JS LHC 109 JS 
+LHC 2009 JC LHC 009 JC LHC 2205 CM LHC 205 CM 
+LHC 2010 JC LHC 010 JC LHC 2305 CM LHC 305 CM 
+LHC 2011 JC LHC 011 JC   
+ 
+3.2. ANALYSE DU BESOIN 
+Cette modification répond à un problème de sécurité des personnes et a pour but de solder l’écart présenté au chapitre 
+précédent.  
+Le détail technique proposé par Schneider (concepteur du tableau) est décrit dans le chapitre 6.1. 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+9
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 10]
+3.3. INVENTAIRE DES DONNEES D’ENTREE 
+Le tome A de cette présente affaire porte la modification MDUS SEI -0084 [12]. Cette modification a été initiée lors du 
+déploiement de l’affaire PNPE2/3666E. Mais la solution proposée par Westinghouse, titulaire du pro jet DUS, n’ayant pas 
+apporté satisfaction (cf. fiches de surveillance  [13] et [14]), EDF/DIPDE a décidé de se tourner vers Schneider , fournisseur des 
+tableaux électriques du DUS dont le tableau LHC. 
+Cette affaire, au travers du tome A, ne porte que la modi fication de l’interverrouillage entre les cellules LHC 005  JC et 
+LHC 007 JC. 
+La solution définie par Schneider est décrite au chapitre 6.  
+Cette solution a été testée sur la maquette du tableau LHC disponible dans les locaux de Clemessy à Mulhouse.  
+Cet essai a permis de valider le design de l’interverrouillage d’une cellule pont de barre et de définir les gestes techniques à 
+réaliser sur les différents sites par un technicien confirmé. 
+En effet, s’agissant d’une problématique liée à la sécurité du personnel et le verrouillage proposé sur la cellule pont de barre 
+étant un nouveau design , Schneider souhaitait profiter de la salle maquette pour créer et valider le mode opératoire de la 
+modification. (cf. Compte rendu d'essai en salle maquette [23]). 
+ 
+3.4. ELEMENTS DE REX 
+Aucun cas similaire n’a été traité précédemment. Aucun REX ne peut être utilisé pour la conception de cette modification.  
+ 
+3.5. STRUCTURATION DE L’AFFAIRE ET PREREQUIS 
+Structuration de l’affaire :  
+ Projet : VD Réalisation 
+ N° d’affaire : PNPE2/3480 tome A 
+ Palier : 1300, toutes les tranches  
+Dans un souci d’optimisation, il est préconisé de déployer la modification de cette affaire avant ou a minima en même temps 
+que la modification portée par le tome A de l’affaire PNPE2/3068. 
+Toutefois, il n’y a aucune contrainte technique liée à ce jumelage, chacune de ces deux affaires peut être déployée 
+indépendamment l’une de l’autre. 
+4. PRESENTATION SUCCINCTE DE LA MODIFICATION 
+L’actuelle procédure de consignation de l’interverrouillage entre les cellules LHC 005 JC et LHC 007 JP est jugée peu robuste car 
+elle fait courir un risque d’erreur humaine pouvant conduire à la mise en court-circuit accidentellement.  
+Cet impact SOH négatif doit être pris en considération, la sécurisation de la mise à la terre se doit d’être physique. 
+Pour sécuriser la mise à la terre du pont de barre LHC 007 JP, la modification consiste donc à changer les principes 
+d’interverrouillage entre les cellules LHC 005 JC et LHC 007 J P afin que la clé iG1 ne soit disponible que si le disjoncteur 
+LHC 005 JA (présent dans la cellule LHC 005 JC) est débroché et que la clé iE3 ne soit disponible que si la clé iE9 est présente 
+pour effectuer la fermeture du sectionneur de terre LHC 107 JS. 
+Les détails de la modification sont décrits dans la partie 6.1.2 et dans le LEM V2 [27].  
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+10
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 11]
+5. PRINCIPES GENERAUX DE CONCEPTION 
+5.1. EXIGENCES FONCTIONNELLES / EXIGENCES DE SURETE 
+5.1.1. Objectif de la modification  
+La modification consistant à modifier le principe d’interverrouillage, il ne sera plus possible de se retrouver dans une situation 
+où le tableau peut être mis à la terre accidentellement par l’intermédiaire du sectionneur de terre LHC 107 JS. 
+De plus, le bureau de consignation n’aura plus à gérer la clef dans le cadre du RER [3] mis en place , ceci éliminera le risque 
+d’erreur humaine. 
+Un volet complémentaire de modifications est ajouté  afin de sécuriser  la consignation complète du demi -jeu de b arres 
+LHC 009 JC et sa mise à la terre par LHC 109 JS.  
+ 
+5.1.2. Exigences de sûreté ou en lien avec les intérêts protégés 
+Le système élémentaire LHC de chaque Diesel Ultime Secours (DUS) est destiné à assurer l’alimentation électrique 6,6 kV, 
+nécessaire à la mise à l’arrêt sûr, et au maintien à l’arrêt en toutes circonstances de la tranche à laquelle il est raccordé , y 
+compris en situation accidentelle cumulée avec la perte totale des sources électriques externes et internes de la centrale, 
+initiées potentiellement par une agression au-delà du dimensionnement de la tranche (séisme, inondation, Grand Chaud, Grand 
+Froid, tornade).  
+La présente modification concerne le tableau LHC 001 TB, matériel EIPS classé IPS -NC et qualifié K3. Le tableau est situé dans 
+les locaux HDU1501, HDU1801 dans le bâtiment DUS.  
+Les serrures mères ne sont pas des matériels classés. Elles ne sont pas en contact avec les tableaux car installées sur le voile en 
+face de ce dernier. Elles ne sont pas agresseur d’EIPS.  
+La modification de la tringlerie de verrouillage des tableaux ne modifie d’aucune manière le fonctionnement des tableaux. 
+Le rajout des barillets n’a pas d’impact sur le thème séisme évènement. 
+La modification n’impacte pas le classement des matériels concernés. 
+ 
+5.1.3. Exigences fonctionnelles autres 
+La modification permet d’éliminer les risques vis-à-vis du personnel ainsi qu’un risque de perte du matériel (incendie). 
+La note d’interverrouillage [26] sera mise à jour pour prendre en compte les changements apportés par cette modification.  
+Cette mise à jour est portée par la PNPE2/3068 et sera effective fin juillet 2024.  
+La modification n’impacte pas de manière significative le fonctionnement du tableau LHC 001 TB. L’intégrité de celui -ci n’est 
+pas remise en cause. 
+ 
+5.2. CONDITIONS DE FONCTIONNEMENT / CONDITIONS DE CALCUL ET CAS DE CHARGEMENT 
+Cette modification n’impacte pas le fonctionnement du tableau. Seules les opérations de lignages seront modifiées notamment 
+lors de séquences de prise et récupération de la clef iG1. 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+11
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 12]
+5.3. EXIGENCES REGLEMENTAIRES, CODES ET NORMES, REFERENTIELS TECHNIQUES  
+5.3.1. Exigences réglementaires,  
+Les exigences réglementaires sont :  
+- L’application du décret 92. La coactivité est avec l’exploitant. Les Plans de prévention sont à charge des CNPE. Aucune 
+exigence réglementaire suite à l’analyse des thèmes transverses.  
+- L’application de l’article R.4215-1 du code du travail sur la préventi on des risques de brûlures, d'incendie, d'explosion 
+d'origine électrique : « Le maître d’ouvrage s’assure que les installations électriques sont conçues et réalisées de façon à 
+prévenir les risques de choc électrique, par contact direct ou indirect, ou de brûlure et les risques d’incendie ou d’explosion 
+d’origine électrique ». 
+La FACR [11] conclut à une modification non notable.  
+ 
+5.3.2. Codes et normes 
+La modification respectera le RCCE 2012. 
+ 
+5.3.3. Référentiels techniques Métiers 
+Le CST Tableau HTA pour centrales nucléaires (CST74.C022.04) est applicable. 
+ 
+5.4. VERIFICATION DES EXIGENCES DE CONCEPTION ET ESSAIS USINE 
+5.4.1. Approche générale 
+Le système d’interverrouillage n’étant habituellement pas installé sur les cellules pont de barres, Schneider a réalisé un essai 
+de vérification sur la maquette du tableau LHC de propriété Clemessy (cf. Compte rendu d'essai en salle maquette [23]). 
+ 
+5.4.2. Essais usine et essais plateforme 
+Cet essai a consisté à réaliser la modification sur la maquette du tableau LHC conformément au design retenu lors des études. 
+Il a ainsi permis de valider ce design au travers d’essais intrinsèques selon la PEE titulaire [20]. 
+ 
+5.4.3. Conclusion 
+Cet essai a validé les études de conception et a permis au personnel Schneider qui aura la charge de déployer cette modification 
+de s’entrainer au montage de l’interverrouillage, ce dernier n’ayant jamais été réalisé par Schneider sur ce type de cellule. 
+ 
+5.5. PRESTATIONS NECESSAIRES A L’INTEGRATION ET A L’EXPLOITATION EN PHASE CHANTIER 
+Pour ce chantier, Schneider a listé les servitudes nécessaires (cf. Liste des servitudes nécessaires au chantier [21]). 
+- Mise à disposition des accessoires de commande et manutention des parties mobile PIX-H 
+- Désignation de l’emplacement des prises 220Vac/16A avec accès garanti durant l’intervention.  
+ 
+Aucune exigence supplémentaire.  
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+12
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 13]
+6. DESCRIPTION DE LA MODIFICATION 
+6.1. DESCRIPTION DES CIRCUITS, MATERIELS ET STRUCTURES AVANT ET APRES MODIFICATION 
+Comme évoqué précédemment, DIPDE/SEI a mis en évidence un défaut de conception relatif au système d’interverrouillage 
+des tableaux LHC associés aux DUS du palier 1300 MWe : la mise à la terre du pont de barre LHC 007  JP n'est protégée par 
+aucun système d'interverrouillage, cet état peut conduire à la mise à la terre et en court-circuit accidentel du tableau. 
+Cette situation représente un risque électrique vis-à-vis des intervenants.  
+ 
+Figure 1 : Schéma de verrouillage LHC 005 JC - LHC 007 JP avant modification 
+ 
+En effet, le verrouillage du pont de barres LHC  007 JP dépend de la clé iG1 qui n’est pas prisonnière lorsque le disjoncteur 
+LHC 005 JA est embroché. 
+Dans la configuration où le disjoncteur LHC 005 JA (contenu dans la cellule LHC 005 JC) est embroché et enclenché, il est possible 
+de débrocher le pont de barre LHC 007 JP et de fermer le sectionneur de mise à la terre associé LHC 007 JS pouvant conduire à 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+13
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 14]
+la mise en court -circuit des tableaux LHC et LGF. Ce court-circuit représente un risque électrique vis-à-vis des intervenant et 
+peut conduire à un incendie sur un matériel EIPS et donc à son indisponibilité.  
+Actuellement les CNPE ont fait le choix de détenir la clé iG1 au bureau de consignation. Ce procédé n’est pas suffisant pour 
+garantir la sécurité des intervenants car le risque de fausse manipulation ne peut être exclu.  
+ 
+Pour sécuriser la mise à la terre du pont de barre LHC 007 JP, la modification consiste à changer les principes d’interverrouillage 
+afin que la clé iG1 ne soit disponible que si le disjoncteur LHC 005 JA (présent dans la cellule LHC 005 JC) est débroché et que la 
+clé iE3 ne soit disponible seulement si la clé iE9 est présente pour effectuer la fermeture du sectionneur de terre LHC 107 JS. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 2 : Schéma de verrouillage LHC 005 JC - LHC 007 JP après modification 
+ 
+La solution validée lors des essais maquette est la suivante : (Figure 2) 
+1. Sécurisation de l’obtention de la clé iG1 en la libérant par le débrochage de LHC 005 JA :  
+ Modification de la centrale à clés LHC 205 CM.  
+           
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+14
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 15]
+2. Sécurisation de l’obtention de la clé iE3 en présence de la clé iE9 de la cellule LHC 007 JP :  
+ Modification de la centrale à clés LHC 205 CM.  
+ 
+3. Remplir toutes les conditions pour mettre à la terre la liaison câblée entre les cellules LHC 005 JC et LHC 007 JP :  
+ Modification des centrales à clés LHC 205 CM et LHC 305 CM ;  
+ Modification de la porte et de la tringlerie de verrouillage de la cellule LHC  007 JP avec des rajouts de barillets (pour 
+LHC 007 JA et LHC 107 JS).  
+ 
+D’autres modifications sont rajoutées :  
+4. Sécurisation de l’obtention de la clé iE7 permettant la fermeture du sectionneur de mise à la terre LHC 109 JS pour la mise à 
+la terre du demi-jeu de barres LHC 009 JC :  
+ Modification de la centrale à clés LHC 305 CM.  
+Cette modification sécurise la consignation complète du demi-jeu de barres LHC 009 JC et sa mise à la terre par LHC 109 JS (iE7) 
+avec au préalable l’ouverture des départs LHC 007 JP (iE2), LHC 008 JC (iJ1), LHC 010 JC (iK1), LHC 011 JC (iL1), LHC 012 JC (iM1), 
+LHC 013 JC (iN1), LHC 014 JC (iN4) et LHC 015 JC (iR4).  
+ 
+5. Modification des serrures centrales LHC 105 CM et LHC 106 CM :  
+ LHC 105 CM : la clé iE7 est à remplacer par la clé iE5 pour donner suite à la modification du verrouillage du couplage 
+pont de barre.  
+ LHC 106 CM : La serrure iF1 est déplacée sur la droite de la centrale à clés pour correspondre à la disposition (l'ordre) 
+des serrures sur site, selon les photos du DUS de PAL1.  
+ 
+6.2. FONCTIONS SUPPORT 
+Sans objet 
+6.3. INFORMATION SUR LES MATERIELS  
+Le tableau LHC est classé IPS-NC avec un requis sismique au niveau SND. 
+Cependant, comme évoqué précédemment, la présente modification ne remet pas en cause la qualification et la robustesse au 
+séisme du tableau (cf.§5.1.2). 
+7. ÉLEMENTS D’OPTIMISATION TECHNICO-ECONOMIQUE, STANDARDISATION ET CHOIX DE SOLUTION 
+La solution proposée par Schneider répond au risque de mise en court-circuit et respecte la norme NF13-200. 
+Il n’existe pas d’autre solution technique permettant de répondre à la problématique. 
+8. IDENTIFICATION ET GESTION DES INTERFACES METIER 
+Métier Périmètre concerné Interlocuteur 
+DIPDE/SEI 
+Surveillance des livrables du titulaire 
+Contribution au dossier de conception (exemple : 
+LEM V2…) 
+Philippe Cabanac 
+DIPDE/ECE 
+Surveillance de la PEE 
+Contribution au dossier opérationnel (exemple : 
+PPR…) 
+Guillaume Massot 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+15
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 16]
+9. ANALYSE DE RISQUE LIEE A LA CONCEPTION 
+9.1. ADRC 
+L’analyse de risque ne fait pas apparaitre d’enjeu majeur vis-à-vis de cette modification. Le tableau ci-dessous ne reprend que 
+les thèmes impactés. 
+La suite de ce chapitre énonce les conclusions des principaux point clefs de cette affaire,  pour les autres thèmes veuillez-vous 
+référer à l’ADRC [7]. L’onglet synthèse de l’ADRC est situé en annexe [1].  
+ 
+Thème Impact 
+SOH Faible 
+Essais de requalification Faible 
+Impact sur la documentation (FAMED) Faible 
+Adhérences avec d'autres modifications Faible 
+ 
+Essais de requalification 
+Cette modification sera requalifiée au travers d’essais de requalifications usuels. Au-delà des essais intrinsèques, des essais de 
+non-régressions seront réalisés. 
+ 
+Thème classement et qualification 
+Il n’y a pas d’impact sur ce thème dans la mesure où la modification ne modifie pas les exigences de classement du tableau, 
+n’impacte pas de manière significative le fonctionnement du tableau et qu'elle ne rajoute pas de nouveaux matériels classés  
+(cf FAMED [5]).  
+ 
+Adhérence avec d’autres modifications 
+Cette modification sera déployée  en mutualisation avec l’affaire PNPE2/3068  afin d’optimiser les sollicitations des différents 
+acteurs liés au déploiement ainsi que les coûts de déploiement. 
+En effet, au travers de cette affaire, Schneider Electric doit ajouter un nouveau départ sur la cellule LHC 016 JC qui est en 
+réserve. Cette modification fait l’objet elle aussi des mêmes contraintes vis-à-vis de l’indisponibilité du DUS. 
+Ainsi, cette modification pourra être aisément intégrée dans la programmation des différents CNPE. Les ressources nécessaires 
+pour le pilotage et la surveillance de ces interventions pourront être optimisés. 
+Une dérive du planning études ne remettrait pas en cause la tenue des jalons de l’affaire PNPE2/3068. Cependant cette dérive 
+engendrerait un surcoût sur les études. En effet, les documents d’études ([24], [25] et [26]) prenant en compte ces deux affaires, 
+il serait alors nécessaire de les faire modifier pour supprimer les modifications portées par la présente affaire afin de rendre la 
+documentation cohérente avec l’état de l’installation. 
+ 
+Thème incendie 
+Les FTT incendie du palier P4 [8] et PP4 [9] démontrent l’absence d’impact sur le thème incendie de cette modification. 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+16
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 17]
+9.2. SOH EN PHASE CHANTIER ET EXPLOITATION 
+L’ADS SOH V2 [11] estime l’impact SOH global à faible. 
+Ci-dessous le tableau de synthèse de cette analyse :  
+ 
+Impact SOH global Faible 
+L’enjeu SOH global de l’affaire est Faible. 
+ 
+Risque identifié à ce stade de remise en cause de la solution par l’exploitant ou de réingénierie future ? :    Non 
+ 
+Impacts Conduite : Faible 
+- Nouveauté : AGT / Consignation 
+Modification des EP existants pour prise en compte de la modification de la procédure de consignation 
+- Risques & parades : S.O    
+ 
+Impacts Maintenance : Faible 
+- Nouveauté : ELEC   
+Connaissance de la modification de la procédure de consignation existante lors des cas de diagnostic/fortuit => Les Elecs 
+n’auront plus à aller chercher la clé au bureau de consignation pour mettre à la terre la cellule LHC 005 JC / Sécurité de 
+l’intervenant améliorée 
+- Risques & parades : S.O    
+ 
+Impacts autres métiers : S. O.t 
+ 
+Autres impacts transverses en exploitation : Sans impact   
+ 
+Impacts pendant les travaux : Sans impact  
+ 
+Impacts d’intégration :  Oui 
+- Modification mineure des gammes d’EP mutualisées LHU 001 et LHU 002 expliquant que les sites qui ont déployé la 
+modification doivent récupérer la clé d’interverrouillage après débrochage de la cellule LHC 005 JC (au lieu de la 
+récupérer auprès du bureau de consignation auparavant) 
+- Inclure la modification dans les formations DUS et des Chargés de Consignation 
+ 
+Exigences de conception : Non 
+ 
+Accompagnement particulier à prévoir : Oui    
+- Ajouter un commentaire dans les gammes d’EP mutualisées EP LHU001 et LHU002 expliquant que les sites qui ont 
+déployé la modification doivent récupérer la clé d’interverrouillage après débrochage de la cellule LHC 005 JC (au lieu de 
+la récupérer auprès du bureau de consignation auparavant).  
+ 
+Zones d’ombre à lever :   Non 
+ 
+ 
+Détail des métiers impactés 
+Conduite-SdC : Sans impact Conduite-Terrain : Faible  Conduite-Consignation : Faible 
+Mécanique : Sans impact Robinetterie : Sans impact Chaudronnerie : Sans impact 
+Electricité : Faible Automatismes : Sans impact Info industrielle : Sans impact 
+Génie civil : Sans impact Essais : Sans impact Chimie : Sans impact 
+Enviro – Effluents : Sans impact Combustible : Sans impact Logistique : Sans impact 
+Protection de site : Sans impact SPR : Sans impact Projets TEM/AT/Pluri : Sans impact 
+Crise : Sans impact FARN : Sans impact Autres métiers : Sans impact 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+17
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 18]
+9.3. RADIOPROTECTION 
+Sans objet, l’intervention se situe hors zone contrôlée/surveillée. 
+ 
+9.4. IMPACT DE LA MODIFICATION SUR LA SECURITE DU PERSONNEL 
+L’affaire est : 
+ Non classée à enjeu sécurité : l’affaire intervient dans le cadre d’une résorption d’un écart de sécurité. 
+ Non proposée avec des critères NTE sécurité (NTE = Notation Technico Economique) 
+ Non concernée par la rédaction d’une charte sécurité 
+ 
+9.4.1. En exploitation/Maintenance 
+Un impact positif sur le thème électricité a été identifié dans l’onglet «  Sécurité à la conception » de l’ADRC [7] pour la phase 
+exploitation : 
+ Electrique : Cette modification permet d’éliminer le risque mise à la terre accidentelle du tableau LHC. Elle élimine 
+donc le risque vital identifié et apposé sur le sectionneur de mise à la terre LHC 005 JS. 
+ 
+9.4.2. En phase Travaux 
+Les dangers avérés ou supposés, identifiés dans l’onglet « Sécurité à la conception » de l’ADRC [7], sont les suivants :  
+ Manutention manuelle : manutention de l’outillage et des petits matériels. Les poids à manutentionner sont très 
+faibles (respect de la COS28). Aucun outil d’aide à la manutent ion manuelle ne sera nécessaire pour acheminer les 
+matériels et les outillages depuis la zone de livraison sur site jusqu’à la zone d’intervention. La manutention de la 
+partie mobile se fait par l’intermédiaire du chariot soutenant celle-ci. 
+ Bruit : le bât iment DUS est un bâtiment nécessitant le port des doubles protections auditives du fait du possible 
+déclenchement du diesel. 
+Les dangers suivants ont été identifiés puis écartés :  
+ Electrisation : Danger écarté car le tableau LHC complet sera consigné (consignation complète par la PNPE2/3068) et 
+absence de pièces nues sous tension accessibles. 
+ Silice Cristalline Alvéolaire : Exposition à la silice cristalline alvéolaire due aux travaux intrusifs sur GC (perçages de 
+petits DN, ne nécessitant pas d'aspiration à la source) => Danger écarté car il n’y a pas de travaux sur GC. 
+ Champs électromagnétiques : Danger écarté car dans les locaux HDU1501 et HDU1801 du bâtiment DUS, il n'y a que 
+les tableaux LHC et le coffret FARN et car le tableau LHC complet sera consign é (consignation complète par la 
+PNPE2/3068).  
+L’ADR [19] du titulaire est disponible.  
+ 
+9.5. BESOIN EN QUALIFICATION DE MATERIEL 
+Le matériel installé ne remet pas en cause la tenue au séisme du tableau. 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+18
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 19]
+9.6. MAITRISE DES FABRICATIONS ET ANALYSE DE RISQUE EN LIEN AVEC LA STRATEGIE INDUSTRIELLE 
+Compte tenu de la charge de l’usine de fabrication Schneider, notamment sur le projet EPR UK, un risque planning n’est pas 
+exclu totalement. Aucune alerte de la part de Schneider n’a été donnée. A ce jour aucun suivi de fabrication n’est envisagé.  
+En effet, le matériel installé est de conception simple et un essai maquette a permis de valider la conception et le design : nous 
+estimons qu’il n’est pas nécessaire de mettre en place ce suivi. 
+Le projet se réserve la possibilité, si une dérive est constatée, de solliciter la DI pour mettre en place un suivi spécifique. 
+ 
+10. ANALYSE DES CONDITIONS DE REALISATION SUR SITE 
+10.1. ÉLEMENTS DE PLANNING DE LA REALISATION SUR SITE  
+Les travaux sont possibles tous états de tranche (de RP à RCD). Afin de ne pas surcharger les arrêts de tranche, il est prévu de 
+réaliser les travaux en RP. 
+La durée des travaux, incluant la logistique et la requalification est estimée à 1 semaine par tranche. 
+Le site TTS sera Paluel dont les travaux devraient débuter en janvier 2025 et la dernière tranche (Golfech) sera réalisée en 
+septembre 2026.  
+Dans un but d’optimisation économique et des ressources, le planning de déploiement sera mutualisé avec l’affaire 
+PNPE2/3068 (Modification de l’architecture électrique pour couvrir les besoins de la VD4-1300 (ND-DC-AG) Travaux HTA). 
+Cette modification nécessite le retrait d’exploitation du tableau LHC afin que le titulaire puisse réaliser les essais de 
+requalification. Ce retrait d’exploitation rend le DUS indisponible.  
+Ces travaux seront réalisés à l’état VD3. Le DUS reste donc sous couvert de la prescription MND du DUS (durée de 1 mois, pas 
+de contrainte RGE).  
+Cette modification devra être déployée avant les jalons suivants :  
+ Pour les sites de Belleville, Cattenom, Nogent et Golfech : Avant l’application du DA H1 de site  
+En effet, pour ces sites le refroidissement ultime de la piscine BK est assuré par la pompe SEG, qui est elle-même alimentée par 
+le tableau LUU du DUS. Ainsi,  l’application du DA valorise le DUS dans le cadre de cette alimentation. De fait, la perte de 
+l’alimentation du tableau LUU (alimenté par LHC) entraine un évènement de groupe N dès la première minute. Ceci impliquera 
+alors le recours aux MT STE déclaratifs.  
+ Pour les sites de Flamanville, Paluel, Penly et Saint-Alban : Avant l’état VD4 lot A  
+En effet, à l’état VD4 le DUS est valorisé. Son indisponibilité ou en l’occurrence celle du tableau LHC entraine un évènement de 
+groupe N dès la première minute. Ceci impliquera alors le recours aux MT STE déclaratifs. Par ailleurs, le refroidissement de la 
+piscine BK de ces sites n’est pas assuré par SEG mais par JP . L’application du DA H1 pour ces sites n’a donc pas d’impact sur la 
+prescription générale MND. 
+Dans le cas d’une replanification des travaux, il sera nécessaire de tenir compte du changement éventuel de requis vis-à-vis du 
+DUS. Il y aura alors recours aux MT STE déclaratifs  qui auront un impact conséquent sur le planning de cette modification.  La 
+modification deviendrait notable.  
+ 
+10.2. IMPACT DE LA REALISATION (HORS REQUALIFICATION) SUR L’EXPLOITATION DE LA TRANCHE 
+10.2.1. Descriptif des travaux 
+Ces travaux seront réalisés sous couvert de le prescription générale MND du DUS (durée de 1 mois, pas de contrainte RGE à 
+l’état VD3).  
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+19
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 20]
+Le phasage des travaux est le suivant :  
+ Préparation de la nouvelle porte en usine ;  
+ Remplacement de la porte et de la tringlerie de la cellule LHC 007 JP et modification des centrales à clés présentes 
+dans le local (sur le mur) : environ 3 jours ;  
+ Requalification de la modification : 1 jour.  
+Des compléments d’information sont disponibles dans le DRT [17] et le DSI [18].  
+ 
+10.2.2. Impact des travaux sur l’exploitation de la tranche 
+Les travaux de cette affaire ne nécessitent pas de consignation complète du tableau. Seules les cellules LHC 005 JC et LHC 007 JP 
+ont besoin d’être consignées pendant la phase travaux.  
+Comme les travaux auront lieu en même temps que ceux de la PNPE2/3068 tome A, le tableau LHC complet sera consigné.  
+Cette consignation est couverte par la prescription générale MND du DUS (durée de 1 mois, pas de contrainte RGE à l’état VD3). 
+ 
+10.3. CONCEPTION DE LA REQUALIFICATION 
+10.3.1. Organigramme prévisionnel des essais de requalification 
+Des essais de requalification de la modification sont à réaliser après la fin des travaux. 
+Des essais de récolement fonctionnel (PEE EDF) sont à prévoir sur les matériels modifiés. 
+Des essais élémentaires et fonctionnels (PEE Titulaire Schneider [20]) seront également nécessaires pour requalifier : 
+ Le bon fonctionnement de la nouvelle porte de LHC 007 JC, 
+ La logique d’interverrouillage modifiée entre les cellules LHC 005 JC et LHC 007 JC, 
+ Le bon fonctionnement des serrures mères modifiées. 
+Le détail et le séquencement des essais de requalification sont décrits dans le PPR [28]. 
+ 
+10.3.2. Configuration de tranche requise 
+Les travaux sont possibles tous états de tranches (de RP à RCD).  
+ 
+10.3.3. Impact de la requalification sur l’exploitation de la tranche 
+La requalification requiert une consignation du tableau LHC, le DUS sera donc considéré indisponible. 
+La requalification est estimée à moins d’une journée. Elle sera également couverte par la prescription générale MND du DUS 
+(durée de 1 mois, pas de contrainte RGE à l’état VD3). 
+ 
+10.4. SERVITUDE ET LOGISTIQUE 
+La liste des servitudes nécessaires au chantier est référencée [21].  
+La description des déchets occasionnés par le chantier est référencée [2 2]. Les principaux déchets sont l’ancienne porte et la 
+visserie associée, les barillets des serrures mères et les cartons d’emballage du nouveau matériel (porte, barillets...).  
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+20
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 21]
+11. LOTISSEMENT CONTRACTUEL 
+Schneider est le propriétaire et le concepteur du tableau LHC. A ce titre cette modification est contractualisée en gré à gré. 
+Lotissement contractuel : Marché C4P2109350 pour :  
+- Création d’une nouvelle PEE [20];  
+- Fourniture des approvisionnements pour l’essai sur la maquette ;  
+- Essais sur la maquette avant déploiement sur la TTS ;  
+- Approvisionnement pour les travaux ;  
+- Réalisation des travaux.  
+12. EXPLOITATION ET MAINTENANCE 
+12.1. INDISPONIBILITE MATERIELS 
+Sans objet.  
+12.2. EXPLOITATION DE LA MODIFICATION 
+Sans objet.  
+12.3. MAINTENANCE DE LA MODIFICATION 
+Sans objet.  
+13. PIECE DE RECHANGE 
+Sans objet.  
+14. IMPACT SUR LES DOCUMENTS DE CONCEPTION ET D’EXPLOITATION 
+Documentation de conception : 
+ Fiche de modification DSE (FM Système) : la FM citée dans le LEM V2 [27] est portée par la PNPE2/3068A.  
+ Fiche de modification installation (FM Instal) : Pas de FM prévue 
+ Rapport de sûreté : pas d’impact 
+ Notes d’études émises : pas d’impact 
+ Cahiers des charges : pas d’impact 
+ Bilan de qualification (ou NSQ si BQ pas dispo) : pas d’impact 
+Documents RGE (voir TRD[6]) : 
+ Agressions (RASA1 ou Ch agression à venir) : pas d’impact 
+ STE (chap III) : pas d’impact 
+ APE, FAIOp (chap VI) : pas d’impact 
+ EP (chap IX) : pas d’impact 
+ Essais physiques de redémarrage (chap X) : pas d’impact 
+Il sera nécessaire de mettre à jour la procédure de lignage du tableau. Cette mise à jour pourra s’effectuer sur la base de l a 
+mise à jour de note d’interverrouillage [26].  
+  
+                                                      
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+21
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 22]
+15. PLANNING GENERAL DE L’AFFAIRE 
+Le macro-planning de l’affaire est le suivant :  
+ 
+ 
+Le planning prévisionnel de déploiement est le suivant :  
+ 
+Le détail du planning Paladin est disponible en annexe 2.   
+ 
+16. ESTIMATION DU QUANTITATIF 
+Sans objet, se référer au contrat C4P2109350.  
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+22
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 23]
+ANNEXE Page 1 / 4 
+ 
+ 
+ 
+ANNEXE 1 : Synthèse ADRC 
+ 
+ 
+Responsable Thème Impact 
+DTP/CTC - M. Sahbane Déclaration ASN (régime d'autorisation) Non 
+Envoyer les AdRC via la B.A.L. 
+RDS 
+DESA/DSR - J. Vehrle 
+Rapport de sûreté Non 
+DESA/DSR - C. Rouaud / J. 
+Langlois Domaine sécuritaire Non 
+FCT/FG - S. Julliard Criticité Non 
+FCT/SEF - S. Biz 
+DTP/QCA - M. Zehraoui Classement / Qualification Non 
+Envoyer les sollicitations à la 
+B.A.L. RESP 
+MCP/RES - L. Dechaux 
+Equipements sous pression Non 
+MCP/Q2R - T. Bertrand Matériel de robinetterie et accessoires Non 
+INS/BEIM - J. M. Cortes Vibration Tuyauterie / Piquages Sensibles Non 
+FCT/SFN - J. Nercessian Capacités d'air secouru Non 
+DEEB/EC - C. Berenger / B. 
+Courtois Environnement Non 
+Envoyer les sollicitations à la 
+B.A.L EIPr 
+DE/RC - L. Magnin 
+Risques conventionnels et EIPr Non 
+0 Eco-conception Non 
+DPP/MdF - G. Jeanselme Maitrise des fabrications Non 
+FCT/GCV – W. Jackson (CPY) 
+FCT/GCV - J-B. Girault (CP0) 
+FCT/GCV - A. Artero (1300) 
+FCT/GCV – L. Cailliau (N4) 
+Température extrême AIR Non 
+FCT/SFN - K. Pianetti Températures extrêmes EAU Non 
+FCT/AGR - C. Vial Tornade neige vents PGVE Non 
+FCT/AGR - N. Sachot (900-
+1300) 
+FCT/AGR - D. Buda (N4) 
+Explosions internes Non 
+FCT/AGR - A. Gueniffey (900 et 
+1300) 
+FCT/AGR - S. Birou (N4) 
+Fouettement et effet de jet Non 
+FCT/AGR - A. Gueniffey (900 et 
+1300) 
+FCT/AGR - S. Birou (N4) 
+Inondations internes Non 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+23
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 24]
+ANNEXE Page 2 / 4 
+ 
+Responsable Thème Impact 
+FCT/AGR - A. Gueniffey (900 et 
+1300) 
+FCT/AGR - S. Birou (N4) 
+Défaillances robinetteries et capacités HE Non 
+FCT/AGR - K. Bernard (900) 
+FCT/AGR - A. Belrose (1300-N4) Collisions et chute de charge Non 
+Envoyer les sollicitations à la 
+B.A.L. Incendie 
+FCT/INC - N. Solier et J. El 
+Atallati 
+Incendie Non 
+FCT/AGR - A. Belrose Effets induits ND Non 
+FCT/AGR - E. Serre Conséquences radio des agressions Non 
+C2I/PFC - P. Albaladejo Relayage Non 
+C2I/PFC - J. Goslini Controbloc et alarmes 1300 Non 
+C2I/PFC - P. Humbert Contronic N4 Non 
+Envoyer les sollicitations à la 
+B.A.L Cybersécurité C2I/ADIC - 
+A. Tarrago 
+Cybersécurité Non 
+C2I/SPC - J. M. Pierotti Risque d'AAR Non 
+C2I/SPC - A. Reynier de 
+Montlaux Recueil des points de consigne Non 
+SEI/QME - P. Molinatti Capteurs Non 
+C2I/SCII - C. Le Alarmes 900 Non 
+C2I/PFC - M. Fredianelli Alarmes N4 Non 
+C2I/SCII - C. Le Salle de commande 900 Non 
+C2I/SCII - G. Richard Salle de commande 1300 Non 
+C2I/SCII - C. Labeque Salle de commande N4 Non 
+C2I/ADIC - Y. Bloyet (900-1300) 
+C2I/PFC - M. Fredianelli (N4) 
+Info. Indus. (impact sur les données et 
+l'imagerie) Non 
+C2I/SIM - A. Grapin (1300) 
+C2I/SIM - S. Rouy (900 et N4) Simulateurs Non 
+FCT/AGR - D. Bernard (1300 et 
+N4)   FCT/AGR P. FORCADA 
+(900) 
+Foudre Non 
+SEI/I2E - M. Colombe Mise à la terre Non 
+Envoyer les sollicitations à la 
+B.A.L. Départs électriques 
+SEI/DIS - L. Ragoin 
+Départs électriques et Bilans de puissance Non 
+GC/SE - F. Lucas Séisme évènement Non 
+GC/MR - E. Dridi Génie Civil et Ancrages Non 
+Envoyer les sollicitations à la 
+B.A.L. Traversées 
+GC/MR - C. Cazzola 
+Traversées hors BR Non 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+24
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 25]
+ANNEXE Page 3 / 4 
+ 
+Responsable Thème Impact 
+SEI/I2E - K. Toure Traversées d'enceinte électriques Non 
+Contacter la BAL Traversée Traversées d'enceinte mécaniques Non 
+GC/MR - F. Duvernay Rétentions Non 
+Envoyer les AdRC via la B.A.L. 
+RP 
+CTI/PR - Lauriane Gamain  
+Radioprotection Non 
+Envoyer les AdRC via la B.A.L. 
+Secu  
+CTI/PR - D. Rosso 
+Sécurité à la conception Pas d'enjeu sécurité 
+CTI/PR - L. Graglia SOH Faible 
+Pilotes systemes Dossiers de systèmes élémentaires Non 
+Envoyer les sollicitations à la 
+B.A.L GID 
+DAC/SIP - J. Eymard 
+Demande de repères fonctionnels Non 
+ECE/FDC - D. Mussard Essais de requalification Faible 
+DTP/PLD - I. Klefstad Impact sur la documentation (FAMED) Faible 
+FCT/EPS - V. Rolland Impact des modifications sur l'EPS de 
+référence Non 
+UNIE/GPEX - A. Godet Condamnations administratives Non 
+Envoyer les AdRC via la B.A.L. 
+PdR 
+DPP/MdF - G. Jeanselme 
+UTO/DPRL - P. Le-Saux 
+UTO/DPRL - L. Wachowiak 
+UTO/DPRL - E. Daumerie 
+UTO/DPRL - Y. Xie 
+Pièces de rechange Non 
+DR/TPS - O. Reynard Impact sur la durée d'arrêt de tranche Non 
+CNEPE/SEE - S. Lefeuvre Inondation externe Non 
+FCT/AGR - D. Leonard Projectiles externes - chute d'avion Non 
+FCT/AGR - A. Barrier Environnement industriel extérieur au CNPE Non 
+CNEPE/DETU - B. Fernez Impact équipements / bâtiments CNEPE Non 
+CNEPE/IES - G. Lequette Protection de site Non 
+CNEPE/GC - F. Cottet-Dumoulin Impact sur les plans masse Non 
+Liste des ICL cf. Sharepoint 
+Prestation UCE vers ICL 
+Pilotes de bâtiments (cliquer 
+dans la case ci-dessous) 
+Enquêtes sites Non 
+Envoyer les AdRC à la B.A.L. 
+PGB 
+Pilotes de bâtiments 
+Bâtiments / installation Non 
+Emmanuel Ausseil (IP 2/3 068) Adhérences avec d'autres modifications Faible 
+ 
+  
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+25
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 26]
+ANNEXE Page 4 / 4 
+ 
+ 
+ANNEXE 2 : Planning PALADIN 
+ 
+ 
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+26
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024
+
+[Page 27]
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distribuer, divulguer, ou d'utiliser de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+Modèle de sécurité : 
+-
+ING/DIPDE
+Accessibilité : INTERNE
+RDU : D455624066262
+00 - Tous les utilisateurs de l'ECM
+2024
+Référence :  Indice :  Page  /
+DOSSIER DE CONCEPTION V2 (DOC V2) - PNPE 2/3480 TOME A - INTERVERROUILLAGE
+LHC
+A
+27
+DIPDE_PP
+D455624066262
+NOTE D'ETUDE
+27
+ 
+Document issu de la GED DPI Nucléaire le 16/07/2024

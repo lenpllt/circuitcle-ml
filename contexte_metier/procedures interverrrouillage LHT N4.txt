@@ -1,0 +1,3113 @@
+[Page 1]
+Produit - type  
+ 
+    
+  Référence :                                                  Indice :                                                     Nb de pages :
+  Résultat de publication
+ 
+Téléphone :
+Télécopie :
+   
+   
+ 
+www.edf.fr 
+EDF - SA au capital de 924 433 331 euros –
+552 081 317 R.CS. Paris
+Le groupe EDF est certifié ISO 14 001 
+04.91.74.88.00
+140, AVENUE VITON 13401
+MARSEILLE CEDEX 20
+-
+DIVISION DE L'INGENIERIE DU
+PARC DE LA DECONSTRUCTION
+ET DE L'ENVIRONNEMENT
+ 
+ 
+ 
+ 
+NOTE D'ETUDE
+Accessibilité : INTERNE
+RDU : D455616022310
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR
+LHA - PALIER N4
+59
+DIPDE_DE-SEI
+D455616022310
+A
+Document issu de la GED DPI Nucléaire le 02/08/2024
+BPA
+
+[Page 2]
+Produit - type  
+ 
+    
+  5pIpUHQFH  ,QGLFH     Nb de pages :
+Applicabilité :  
+$IIDLUH
+Projet(s) :  
+5pIpUHQFHWHFKQLTXH 
+  
+ 
+               Rédaction Contrôle Approbation Visa final (*) 
+ 
+(*) La présence de cette icône atteste que le document a été approuvé par un circuit de signature électronique
+5pVXPp :  
+ 
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+NOTE D'ETUDE
+ 
+ 
+ 
+ 
+Téléphone :
+Télécopie :
+   
+   
+ 
+www.edf.fr 
+EDF - SA au capital de 924 433 331 euros –
+552 081 317 R.CS. Paris
+Le groupe EDF est certifié ISO 14 001 
+04.91.74.88.00
+140, AVENUE VITON 13401
+MARSEILLE CEDEX 20
+-
+DIVISION DE L'INGENIERIE DU
+PARC DE LA DECONSTRUCTION
+ET DE L'ENVIRONNEMENT
+ 
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR
+LHA - PALIER N4
+21
+DIPDE_DE-SEI
+PNPP4666F
+PROJET POST FUKUSHIMA
+D455616022310
+A
+N4
+LABETOULLE Thierry 05/09/2016
+Cette note présente et définit le principe de raccordement du DUS en 6,6kV lors de la phase 2 Post-Fukushima. Il
+s'agit notamment de raccorder sur le tableau LHA, l'arrivée DUS en double attache sur la même cellule 6,6kV que
+l'arrivée TAC. Cette note aborde les modifications à apporter sur le tableau 0LHT001TB ainsi que sur le système
+d'interverrouillage à clés entre LHA-LHT-LHC.
+PARICAUD Benjamin 05/09/2016
+DELORT Herve 05/09/2016
+Document issu de la GED DPI Nucléaire le 02/08/2024
+BPA
+
+[Page 3]
+Vérification indépendante : Auprès de (Nom/Société) : 
+Pré-diffusion formalisée (indice en cours) :
+Auprès de : 
+DIPDE/DE : Alexandre CYPCURA
+DIPDE/SEI : Christophe BOURDON, Jean-Michel DOUBLEIN, Patrick MOLINATTI, Gilles FERRER, 
+Nicolas PETITJEAN, Jean-François LEULIET, Benjamin PARICAUD, Claude LASSUS-MENOT, 
+Christophe PONS, Serge PORTA, Aurélien GONIN, Daniel VANNUCCI, Damien GARRIGUES
+DIPDE/EIM: Ludovic MARCE, Guillaume APPY
+DIPDE/FC : Olivier LEGROS, Marc CELERIER, Justine METHO, Yildirim TURGUT
+DIPDE/SN : Thierry RIFFARD
+DIPDE/DR : Christophe GUIBERT, Michael TESTON
+CNPE CIVAUX : Jean Philippe RIBY, Franck TRIPONNEY
+CNPE CHOOZ : Philippe TATINCLAU
+DPN/UNIE : Fréderic STOSCHEK, Frédéric ONILLON, Eric JONCQUEL
+STRUCTURE PALIER N4 : Philippe LAMBARE, Patrice LAMBOURG, Cécile LADJADJ
+SEPTEN/SE/MD : Pascal GIRARD
+INDICE MODIFICATIONS
+A Création du document 
+Code OTP : E233/083811/I_ETU_DIPDE
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+2
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 4]
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+3
+ 
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 5]
+SOMMAIRE
+Pages
+0. CLASSEMENT..........................................................................................................6
+1. CONTEXTE...............................................................................................................6
+2. PRINCIPE DE LA SOLUTION "DOUBLE–ATTACHE" PROPOSEE SUR N4.........6
+3. FAISABILITE DU RACCORDEMENT EN "DOUBLE ATTACHE" DANS LA 
+CELLULE 6,6KV.......................................................................................................8
+3.1. PLAGES DE RACCORDEMENT................................ ................................ ..................8
+3.2. TREMIE ET ARRIVEE CABLES................................ ................................ ...................8
+3.3. ENCOMBREMENT DES ENTREPONTS................................ ................................ ......9
+4. MODIFICATION MATERIELLES ET NOUVEAUX EQUIPEMENTS A INSTALLER 
+POUR CETTE SOLUTION......................................................................................10
+4.1. VERROUILLAGES LHC/LHP/LHQ/LHA/LHB/LHT ................................ ....................10
+4.2. COFFRET DE COMMANDE A DISTANCE................................ ................................ .10
+4.3. COFFRET LIGNAGE CC TAC/LHP EN LD0708 ................................ ........................ 12
+4.3.1. LIGNAGE CONTROLE-COMMANDE TAC/LHP ............................................................... 12
+4.3.2. BOITIER A CLE LIGNAGE LHP......................................................................................... 12
+4.4. VERROUILLAGE SECTIONNEUR DE TERRE DE LA CELLULE LHA34 .................13
+4.5. VERROUILLAGE SECTIONNEUR DE TERRE DE LA CELLULE LHC002 ...............13
+4.6. VERROUILLAGE LIGNAGE TAC ET DUS................................ ................................ .14
+4.7. BUREAU CHEF D’EXPLOITATION ................................ ................................ ...........15
+5. SCHEMA ELECTRIQUE 6,6KV ET SYSTEME DE VERROUILLAGE A CLES LHT 
+(N4 TR1/2)...............................................................................................................15
+6. LES SITUATIONS D'EXPLOITATION RENCONTREES........................................16
+6.1. ALIMENTATION DE LHA PAR LE DUS................................ ................................ .....16
+6.2. ALIMENTATION DE LHA PAR LA TAC................................ ................................ .....16
+6.3. ALIMENTATION DE LHA PAR LE DUS ET DE LHB PAR LA TAC........................... 17
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+4
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 6]
+6.4. ALIMENTATION DE LHB PAR LE DUS................................ ................................ .....17
+6.5. ALIMENTATION DE LA TRANCHE I PAR SON DUS LORSQUE LA TRANCHE J EST 
+DEJA EN SECOURS DUS................................ ................................ .......................... 18
+6.6. ALIMENTATION DE LA TRANCHE I PAR LA TAC LORSQUE LA TRANCHE J EST 
+DEJA EN SECOURS DUS................................ ................................ .......................... 18
+6.7. ALIMENTATION DE LA TRANCHE I PAR LE DUS LORSQUE LA TRANCHE J EST 
+DEJA EN SECOURS PAR LA TAC................................ ................................ ............18
+6.8. ALIMENTATION DE LHA OU LHB PAR LE(S) DIESEL(S) DE LA TRANCHE JUMELLE
+19
+6.9. TEST A VIDE DE LA TAC ................................ ................................ .......................... 20
+6.10. MISE A LA TERRE DE LA LIAISON A TROIS EXTREMITES LHA-LHC-LHT....20
+7. CONCLUSION ........................................................................................................21
+ANNEXES:
+ANNEXE 1 Plan d’interverrouillage DUS- TAC-LHA [Civaux]
+ANNEXE 2 Procédure d'alimentation de 1LHA par le DUS (1LHU)
+ANNEXE 3 Procédure d'alimentation de 1LHA par la TAC
+ANNEXE 4 Procédure d’alimentation de 1LHB par la TAC
+ANNEXE 5 Procédure d’alimentation de 2LHA par la 1LHP
+ANNEXE 6 Procédure d’alimentation de 2LHB par la 1LHP
+ANNEXE 7 Procédure d’alimentation de 2LHA par la 1LHQ
+ANNEXE 8 Procédure d’alimentation de 2LHB par la 1LHQ
+ANNEXE 9 Procédure de lignage TAC à vide
+ANNEXE 10 Procédure de mise à la terre de la liaison à trois extrémités LHC-LHT-LHA
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+5
+ 
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 7]
+0. CLASSEMENT
+Note en catégorie 2 (voir organigramme en page 3)
+1. CONTEXTE 
+En phase 2 Post-Fukushima, le Diesel d'Ultime Secours (DUS) doit être raccordé à la tranche en 6,6kV. Il 
+doit réalimenter le tableau LHA. 
+Différentes solutions de raccordement 6,6kV ont été étudiées. La solution retenue pour l’ensemble des 
+paliers est la solution de raccordement du DUS en "double attache" sur la cellule départ TAC (LHT) du 
+tableau LHA qui a été proposée par CIPN/SEI.
+Cette note d'études a pour objet d'analyser et de conclure sur la faisabilité technique sur le palier N4 de cett e 
+solution de raccordement.
+Cette note d'études aborde les modifications à apporter sur le système d'inter -verrouillage à clés.
+Les autres points à instruire pour valider tous les aspects de la solution (sûreté, impacts en exploitation, 
+RGE, STE, temps de lignage DUS,…) ont été étudiés au sein de groupes de travail ad' hoc.
+2. PRINCIPE DE LA SOLUTION "DOUBLE–ATTACHE" PROPOSEE SUR N4 
+La solution de "double attache", présentée ci après, consiste à raccorder les câbles issus du DUS dans le 
+compartiment câbles de la cellule du tableau LHA où sont déjà raccordés les câbles d’alimentation issus de 
+la TAC (cellule iLHA 34).
+Cette solution crée une liaison 6,6kV à trois extrémités où les câbles entre LHA, LHT et LHC sont sous 
+tension lorsque que la TAC ou le DUS sont en fonctionnement. 
+Bien que facilitante en terme de faible modification de l'architecture 6,6kV, cette solution de raccordement en 
+"double attache", présente l'inconvénient d'interférer avec le système LHT. 
+Les tableaux du système LHT ne possèdent aucun organe de coupure électrique. Ces tableaux 6,6kV sont 
+basés sur le principe de sectionnement par des cellules pont de barre. Ces cellules sont opérables 
+uniquement hors tension et mettent en œuvre un système de verrouillage à clés déjà complexe. L'insertion 
+du DUS dans le système LHT complexifie encore plus ces verrouillages à clés.
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+6
+ 
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 8]
+Figure 1 : Palier N4 / réseau HTA 6,6 kV / Solution de raccordement du DUS en phase 2 "double attache LHT"
+Afin d'assurer la sécurité des personnes, dans sa note d'analyse D305914022154, SEPTEN/SE 
+recommande pour cette solution, de mettre en place des sy stèmes d’inter-verrouillages entre les organes de 
+coupure et/ou de sectionnement au niveau des tableaux LHC, LHA et LHT. 
+Notamment, mettre en place un verrouillage qui interdise l’alimentation par les 2 sources en même temps :
+ Le disjoncteur de la cellule « départ » du DUS vers LHA ne doit pas pouvoir être fermé lorsque la 
+cellule pont de barre du tableau LHT est en place sur la voie A.
+ La cellule voie A du tableau LHT ne doit pas pouvoir être mise en place lorsque le disjoncteur de 
+la cellule « départ » du DUS vers LHA est fermé.
+De plus, en "sortie de crise", lors d’un retour en fonctionnement normal (alimentation de LHA par le TS), il 
+faut garantir l’impossibilité d’alimenter LHA par le TS alors que LHA est déjà alimenté par le DUS. Pour cela, 
+il faut garantir l’impossibilité de fermer LHA001JA depuis la SdC ou le PdR. Pour cela et si nécessaire, les 
+cellules LHA001JA seront systématiquement débrochées et verrouillées lors des différentes procédures de 
+lignage
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+7
+ 
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 9]
+3. FAISABILITE DU RACCORDEMENT EN "DOUBLE ATTACHE" DANS LA CELLULE 6,6KV
+3.1. PLAGES DE RACCORDEMENT 
+ Faisabilité validée: 1 plage sur 3 est disponible 
+photo 1: plages de raccordement 1LHA(34) de Civaux photo 2 : compartiment câbles cellule disj. Fluair 100
+3.2. TREMIE ET ARRIVEE CABLES 
+L'espace sous la trémie, dans l'entrepont de câblage, est suffisant pour épanouir 3 câbles unipolaires 
+630mm2. 
+ Faisabilité validée
+photo 3 : caisson arrivée câbles 1LHA(34) Civaux photo 4 : trémie au droit de la cellule 1LHA(34) Civaux
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+8
+ 
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 10]
+3.3. ENCOMBREMENT DES ENTREPONTS 
+Dans les entreponts au droit des cellules LHA(34) bien que dense, la présence des tablettes et chemins 
+de câbles rendent encore réalisable dans des conditions normales le tirage et l'amenée des câbles.
+photos 5 et 6 : encombrement entrepont au droit  de 1LHA(34) Civaux
+ Faisabilité validée
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+9
+ 
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 11]
+4. MODIFICATION MATERIELLES ET NOUVEAUX EQUIPEMENTS A INSTALLER POUR 
+CETTE SOLUTION
+4.1. VERROUILLAGES LHC/LHP/LHQ/LHA/LHB/LHT
+L’insertion des nouveaux tableaux LHC peut se faire en conservant les différents scénarios de lignage 
+existants. Cependant, le système de verrouillage par clé s’en trouve profondément remanié. Le système de 
+verrouillage modifié permet d’assurer, pour chaque tranche, les scénarios suivants :
+ Alimentation de iLHA par le DUS (iLHU)
+ Alimentation de iLHA par la TAC
+ Alimentation de iLHB par la TAC
+ Alimentation de iLHA par la jLHP
+ Alimentation de iLHB par la jLHP
+ Alimentation de iLHA par la jLHQ
+ Alimentation de iLHB par la jLHQ
+ Essais TAC à vide
+ Essais TAC à vide et test des liaisons en aval
+ Mise à la terre de la liaison à trois extrémités LHC-LHT-LHA
+Les procédures inhérentes à ces différents scénarios sont détaillées dans les documents annex es 2 à 11.
+Le schéma HTA, en annexe 1, montre l’ensemble des modifications du système de verrouillage.
+Nota important : Afin de répondre au mieux aux contraintes SOH liées aux déplacements entre les 
+différents locaux et de garantir un temps de lignage du DUS inférieur à 2h, les sectionneurs de terre
+au tableau LHT et aux cellules 34 des tableaux LHA/LHB sont positionnés ouverts en situation 
+d’exploitation normale. Jusqu’à ce jour, sur le palier N4, les sectionneurs de terre étaient exploités 
+normalement fermés.
+4.2. COFFRET DE COMMANDE A DISTANCE
+Installation à proximité du tableau LHA d'un coffret mural (iLHC100CR) permettant la commande à distance, 
+depuis la tranche, du disjoncteur LHC002JA. Lors des opérations de lignage du DUS, ce coffret permet de 
+mettre sous tension le tableau LHA et évite un déplacement physique vers le bâtiment HDU.
+Photo 7 : Implantation coffret LHC100CR (rapport IEG Civaux 2 - PCV16J040049000MICR)
+Coffret 
+LHC100CR
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+10
+ 
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 12]
+Figures 2 et 3 : Schémas de principe du coffret de commande iLHC100CR
+La logique de fermeture à distance du disjoncteur LHC002JA est associée au système de verrouillage à 
+clés. La clé prisonnière iHU n'est libérée que lorsque les conditions de lignage du DUS sur LHA sont 
+respectées :
+ La cellule 002JA sur LHA(35) est débrochée
+ La cellule 003JA sur LHA(34) est embrochée et son sectionneur de terre ouvert
+ La cellule 002JA sur LHC est embrochée et son sectionneur de terre ouvert
+ La cellule pont de barre LHA est débrochée sur LHT001TB(14) et son sectionneur de terre ouvert.
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+11
+ 
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 13]
+4.3. COFFRET LIGNAGE CC TAC/LHP EN LD0708
+4.3.1. Lignage contrôle-commande TAC/LHP
+Le lignage du contrôle-commande de la TAC sur LHA est interverrouillé avec la position débrochée de la 
+cellule 002JA en LHC, représentée par la clé 11HC. La clé 7HC garantit que la cellule 34 est en place sur 
+LHA et de ce fait que le câble DUS-LHA n’est pas à la terre.
+Le système à clé du coffret LHP100CR est modifié comme suit :
+Figure 4 : Coffret lignage CC TAC/LHP actuel Figure 5 : Coffret lignage CC TAC/LHP modifié
+ Le cylindre à clé 2HA (cellule 35 débrochée) est remplacé par un nouveau cylindre à clé 7HC 
+(cellule 34 embrochée),
+ Un nouveau cylindre 11HC est ajouté, celui ci garantit que la cellule 002JA du tableau LHC est 
+débrochée
+En situation de lignage DUS vers LHA, le connecteur CC Diesel/TAC est laissé déconnecté.
+4.3.2. Boitier à clé lignage LHP
+Figure 6 : Boitier à clé lignage LHP actuel Figure 7 : Boitier à clé lignage LHP modifié
+ Le cylindre à clé 7HA (cellule 34 débrochée) est remplacé par le cylindre à clé 2HA, autorisant la 
+mise en place de la cellule 34 (cas du secours 1LHP vers la tranche jumelle en utilisant le 
+disjoncteur de la cellule 33 de LHA),
+ Un nouveau cylindre 11HC est ajouté, celui ci garantit que la cellule 002JA du tableau LHC est 
+débrochée
+ La nouvelle clé 3HC est entreposée au bureau du chef d’exploitation, elle permet d’assurer le 
+verrouillage afin de garantir qu’un seul diesel de tranche soit ligné sur le tab leau LHT. On retrouvera 
+cette clé sur les autres coffrets LHP/LHQ100CR des autres tranches.
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+12
+ 
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 14]
+4.4. VERROUILLAGE SECTIONNEUR DE TERRE DE LA CELLULE LHA34
+La manœuvre de fermeture du sectionneur de terre de la cellule 34 sur LHA ne peut se faire qu’aux 
+conditions suivantes :
+ Cellule 002JA sur LHC débrochée
+ Cellule pont de barre LHA sur LHT absente
+Ces deux informations sont regroupées avec la présence de la clé 1HT (Tr1) ou 2HT (Tr2), nécessaire au 
+déverrouillage de la position verrouillée ouvert du sectionneur de terre.
+Figure 8 : Verrouillage sectionneur de terre cellule 34 LHA 
+actuel
+Figure 9 : Verrouillage sectionneur de terre cellule 34 LHA 
+modifié
+ Le cylindre à clé 6HA est supprimé et remplacé par un nouveau cylindre à clé XJ(Tr1) ou XL(Tr2). La 
+clé XJ autorise la manœuvre du sectionneur de terre de la cellule 002JA sur LHC. Cette manœuvre 
+n’est possible que si le sectionneur de terre de la cellule 34 sur LHA est en position verrouillé fermé.
+ Les cylindres à clé 7HA et 12HT sont remplacés par les cylindres à clé 2HA et 7HC pour permettre 
+les différents scénarios de lignage de la cellule 34 sur LHA.
+ La clé 1HT (Tr1) et la clé 2HT (Tr2) sont insérées aux conditions de lignage du DUS et de la TAC 
+sur LHA.
+4.5. VERROUILLAGE SECTIONNEUR DE TERRE DE LA CELLULE LHC002
+Comme indiqué au paragraphe précédent, la manœuvre d u sectionneur de terre de la cellule 002JA au LHC 
+n’est possible que si le sectionneur de terre de la cellule 34 sur LHA a été préalablement verrouillé en 
+position fermée. La clé XJ (Tr1) ou XL (Tr2) permet cet interverrouillage.
+Figure 10 : Schéma de la cellule 002JA sur LHC
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+13
+ 
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 15]
+4.6. VERROUILLAGE LIGNAGE TAC ET DUS
+Le système de verrouillage du tableau LHT est profondément remanié, outre les modifications nécessaires 
+aux différents scénarios de lignage, des verrouillages complémentaires ont été apportés notamment :
+ Le verrouillage de la mise en place des cellules pont de barre (cylindres et clés repérés 15HT à 
+19HT).
+ Le verrouillage du sectionneur de terre de la cellule 15HT en position fermé par le cylindre et la clé 
+repérés 25HT
+Figure 11 : Schéma du tableau LHT actuel
+Figure 12 : Schéma du tableau LHT modifié
+ Modifications des boitiers à clé 1HT, 2HT, 3HT, 4HT et X0
+ Suppression des boitiers à clé 12HT et 13HT
+ Création de nouveaux boitiers à clé 9HT, TAC1, 2HA1, 2HA2, 2HB1 et 2HB2.
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+14
+ 
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 16]
+4.7. BUREAU CHEF D’EXPLOITATION
+Une nouvelle clé, pour chaque tranche, repérée iHC est entreposée au bureau du chef d’exploitation. La 
+présence de cette clé au bureau du chef d’exploitation indique que la cellule 002JA au LHC est embrochée 
+et libre de manœuvre.
+Une nouvelle clé 3HC est également entreposée au bureau du chef d’exploitation, son rôle est de limiter le 
+nombre de diesel de tranche, ligné sur LHT, à 1 seul.
+Figure 13 : Situation avant DUS Figure 14 : Situation après DUS
+5. SCHEMA ELECTRIQUE 6,6KV ET SYSTEME DE VERROUILLAGE A CLES LHT (N4 TR1/2)
+ Voir ANNEXE 1
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+15
+ 
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 17]
+6. LES SITUATIONS D'EXPLOITATION RENCONTREES
+6.1. ALIMENTATION DE LHA PAR LE DUS
+Les conditions à respecter
+2 conditions de sécurité à respecter
+1. garantir l’impossibilité d’une alimentation simultanée de LHA par la TAC et le DUS 
+validation par mise en place d'un verrouillage certain au coffret de mise sous tension 
+à distance (iLHC100CR) et à la clé 1HT (Tr1) ou 2HT (Tr2) verrouillant l’embrochage du 
+disjoncteur iLHC002JA lorsque la TAC est en voie A et inversement
+2. garantir que la liaison LHA/TAC n’est pas à la terre  validation par la clé 1HT (Tr1) ou 
+2HT (Tr2) qui verrouille ouvert le sectionneur de terre de la cellule iLHA034 lorsque le 
+disjoncteur iLHC002JA est embroché ou qu’une cellule pont de barre est présente en 
+voie A sur LHT.
+3 conditions électriques à respecter
+1. La TAC n'est pas déjà lignée sur iLHA  validation par récupération de la clé 1HT (Tr1), 
+ou 2HT (Tr2)
+2. Ne pas renvoyer les ordres de contrôle-commande de la voie A vers la TAC  validation 
+par la clé 11HC (Tr1) ou 12HC (Tr2) prisonnière en LHC lorsque la cellule 002JA est 
+embrochée. Le lignage du CC de la TAC ne peut être réalisé.
+3. Au bâtiment DUS sur le tableau iLHC, la cellule départ 6,6kV, ne doit pas être à la terre 
+et doit être embrochée et libre de manœuvre  validation par présence de la clé iHC au 
+bureau de consignation.
+2 conditions de durée d'intervention à respecter
+1. Pas de déplacement vers le bâtiment DUS pour les opérations de lignage:  validation 
+par dépôt de la clé iHC au bureau de consignation (la clé iHC assure que, sur iLHC, 
+la cellule départ vers iLHA est embrochée et libre de manœuvre).
+2. Mise sous tension de iLHA depuis la tranche.--> validation par installation du coffret 
+iLHC100CR en tranche à proximité du tableau iLHA. 
+Procédure de lignage DUS sur LHA 
+ Voir ANNEXE 2
+6.2. ALIMENTATION DE LHA PAR LA TAC
+Les conditions à respecter
+2 conditions de sécurité à respecter
+1. garantir l’impossibilité d’une alimentation simultanée de iLHA par la TAC et le DUS 
+validation par verrouillage à clé de l’embrochage du disjoncteur de la cellule iLHC002.
+2. Maitriser les mises à la terre de la double attache  validation par verrouillage à clé
+des ST
+3 conditions électriques à respecter
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+16
+ 
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 18]
+1. Le DUS n'est pas ligné sur iLHA  validation par débrochage du disjoncteur iLHC002JA 
+et verrouillage de son ré-embrochage du par clé 1HT (Tr1), ou 2HT (Tr2) (clé non 
+présente dans râtelier et clé iB2 prisonnière)
+2. Le câble entre iLHC et iLHA n'est pas mis à la terre  validation par verrouillage ST de 
+la cellule iLHC002JA par clé XJ (tr. impaire) et XL (tr. paire)
+3. La TAC est lignée sur LHA  validation par mise en place d'un verrouillage certain
+entre le tableau LHT et le tableau LHC .
+Procédure de lignage TAC sur LHA 
+ Voir ANNEXE 3
+6.3. ALIMENTATION DE LHA PAR LE DUS ET DE LHB PAR LA TAC
+Les conditions à respecter
+1 condition de sécurité à respecter
+1. garantir l’impossibilité de couplage entre la TAC et le DUS  la seule possibilité de 
+connexion entre la voie A et la voie B se situe au niveau du tableau 0LHT001TB. La 
+mise en place d'un verrouillage certain, par la clé 1HT (Tr1) ou 2HT (Tr2), rend 
+impossible la mise en place simultanée d’une cellule pont de barre en voie A sur LHT et 
+la cellule 002JA sur LHC.
+3 conditions électriques à respecter
+1. La TAC est lignée sur iLHB  validation par la présence de la cellule pont de barre en 
+voie B ce qui rend impossible le couplage en voie A du fait que cette cellule est unique, 
+l’autre cellule pont de barre au LHT étant couplée sur la TAC.
+2. Ne pas renvoyer les ordres de contrôle-commande de la voie A vers la TAC  validation 
+par la clé 11HC (Tr1) ou 12HC (Tr2) prisonnière au boitier B2 sur LHC pour condition de 
+démarrage DUS, ce qui rend impossible le lignage du CC de la TAC en voie A.
+3. Au bâtiment DUS sur le tableau iLHC, la cellule départ 6,6kV, ne doit pas être à la terre 
+et doit être embrochée et libre de manœuvre  validation par présence de la clé iHC au 
+bureau de consignation.
+2 conditions de durée d'intervention à respecter
+1. Pas de déplacement vers le bâtiment DUS pour les opérations de lignage:  validation 
+par dépôt de la clé iHC au bureau de consignation (la clé iHC assure que, sur iLHC, 
+la cellule départ vers iLHA est embrochée et libre de manœuvre).
+2. Mise sous tension de LHA depuis la tranche.--> validation par installation du coffret 
+iLHC100CR en tranche à proximité du tableau iLHA. 
+Procédure de lignage TAC sur LHB 
+ Voir ANNEXE 4
+6.4. ALIMENTATION DE LHB PAR LE DUS
+Malgré la présence du tableau d'aiguillage 0LHT001TB, le système de verrouillage rend 
+impossible un scenario de d'alimentation de LHB par le DUS.
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+17
+ 
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 19]
+6.5. ALIMENTATION DE LA TRANCHE I PAR SON DUS LORSQUE LA TRANCHE J EST DEJA E N SECOURS 
+DUS
+Les conditions à respecter
+1 condition de sécurité à respecter
+1. Garantir l’impossibilité de couplage entre les deux DUS  validation grâce à 
+l’interverrouillage interdisant la mise en place simultanée d’une cellule pont de barre en 
+voie A sur LHT et la cellule 002JA sur LHC.
+1 condition électrique à respecter
+1. Aux bâtiments DUS sur les tableaux iLHC, les cellules départ 6,6kV, ne doivent pas être 
+à la terre et doivent être embrochées et libres de manœuvre  validation par présence 
+des clés iHC au bureau de consignation.
+2 conditions de durée d'intervention à respecter
+1. Pas de déplacement vers les bâtiments DUS pour les opérations de lignage: 
+validation par dépôt des clés iHC au bureau de consignation (les clés iHC assurent 
+que, sur iLHC, la cellule départ vers iLHA est embrochée et libre de manœuvre).
+2. Mise sous tension de iLHA depuis la tranche.--> validation par installation des coffrets 
+iLHC100CR en tranche à proximité des tableaux iLHA. 
+6.6. ALIMENTATION DE LA T RANCHE I PAR LA TAC LORSQUE LA T RANCHE J EST DEJA E N SECOURS 
+DUS
+ Idem §6.3
+6.7. ALIMENTATION DE LA TRANCHE I PAR LE DUS LORSQUE LA TRANCHE J EST DEJA EN SECOURS PAR 
+LA TAC
+ Idem §6.3
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+18
+ 
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 20]
+6.8. ALIMENTATION DE LHA OU LHB PAR LE(S) DIESEL(S) DE LA TRANCHE JUMELLE
+Bien que viables électriquement, les scénarios de sauvegarde par le(s) diesel(s)de la tranche jumelle 
+sont profondément complexifiés par la solution « double-attache LHT » qui impose entre autres des 
+déplacements vers les bâtiments DUS.
+Telle que conçue actuellement, la solution "double attache LHT"  n e remet pas en cause cette 
+possibilité. 
+Les conditions à respecter
+4 conditions de sécurité à respecter
+1. garantir l’impossibilité de couplage entre la TAC et le diesel de la tranche  la seule 
+possibilité de connexion se situe au niveau du tableau 0LHT001TB. Validation par la 
+mise en place d'un verrouillage certain , interdisant le lignage de la TAC et d’un diesel 
+de tranche par les boitiers TAC et 2HA/2HB.
+2. Garantir l’impossibilité de couplage des diesels de tranche entre eux  Validation par la 
+clé unique 3HC que n’autorise qu’un seul lignage de diesel de tranche à la fois sur LHT.
+3. Garantir l’impossibilité de couplage d’un DUS avec le diesel de tranche Validation par 
+La clé 11HC (Tr1) ou 12HC (Tr2) qui interdit le lignage simultanée du DUS avec le 
+diesel de la tranche.
+4. Garantir l’impossibilité de couplage d’un DUS avec le diesel de tranche jumelle
+Validation par les clés 1HT et 2HT qui interdisent le lignage simultanée du DUS et d ’une 
+cellule pont de barre sur la même voie
+2 conditions électriques à respecter
+1. Pas de sectionneur de terre fermé sur la cellule d’arrivée 34 de la tranche jumelle 
+validation par le verrouillage par clé rendant impossible le lignage d’une cellule pont de 
+barre sur LHT avec un sectionneur de terre fermé sur la voie correspondante. En 
+situation de stand-by les sectionneurs de terre sont positionnés et verrouillés ouvert
+2. Pas de sectionneur de terre sur le tableau LHT  validation par le verrouillage par clé
+des sectionneur de terre du tableau LHT qui sont asservis aux sectionneur de terre des 
+cellules 34 des tableaux LHA/LHB.
+Conditions de durée d'intervention à respecter
+Ce type de manœuvres ne peut être lié à des conditions de durée d’intervention car elles 
+nécessiteront des déplacements importants entre les différents locaux
+Procédure de lignage LHA ou LHB par le(s) diesel(s) de la tranche jumelle 
+ Voir ANNEXES 5, 6, 7 et 8
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+19
+ 
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 21]
+6.9. TEST A VIDE DE LA TAC
+2 conditions de sécurité à respecter
+1. Garantir l’impossibilité de couplage TAC/DUS/LHP/LHQ entre eux  Validation par 
+verrouillage à clés (déjà évoqué aux § précédents)
+2. Garantir la maintien en position ouverte des sectionneur de terre sur le circuit  Validation 
+par verrouillage à clés (déjà évoqué aux § précédents).
+Procédures de test à vide de la TAC
+ Voir ANNEXES 9
+6.10. MISE A LA TERRE DE LA LIAISON A TROIS EXTREMITES LHA-LHC-LHT
+2 conditions de sécurité à respecter
+1. Les circuits sont hors tension validation par la présence des clés X0, 1HC et 2HC au bureau 
+du chef d’exploitation
+2. La manœuvre des sectionneurs de terre est asservie ou verrouillée avec l’absence de cellule 
+embrochée en LHA(34), LHB(34), LHC(002JA) et LHT validation par les verrouillages des 
+clés 1HT, 2HT, 3HT et 4HT.
+Procédure de mise à la terre de la liaison double attache LHA, LHC, LHT
+ Voir ANNEXE 10
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+20
+ 
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 22]
+7. CONCLUSION 
+En termes de modifications matérielles et d'installation (raccordement 6,6kV sur LHA, installation 
+de coffrets de commande à distance, installation de clés de verrouillage), la faisabilité technique 
+de la solution "double attache LHT" est validée. 
+Des études de détails restent nécessaires avec le(s) prestataire(s) tableautier et/ou serrurier pour 
+affiner les modifications des clés de verrouillage.
+En termes de situations d'exploitation couvertes, la solution "double attache LHT" permet de 
+couvrir dans les conditions de sécurité nécessaires et suffisantes les scénarios de sauvegarde 
+directs sur une tranche:
+ DUS sur LHA
+ TAC sur LHA ou LHB
+ DUS sur LHA et TAC sur LHB
+Pour les scénarios de sauvegarde simultanés sur la paire de tranche, cette solution "double 
+attache LHT" permet de couvrir dans les conditions de sécurité nécessaires et suffisantes les 
+scénarios :
+ iDUS sur iLHA alors que jDUS réalimente jLHA
+ TAC sur iLHA alors que jDUS réalimente jLHA
+ TAC sur iLHB alors que jDUS réalimente jLHA
+ TAC sur jLHA alors que iDUS réalimente iLHA
+ TAC sur jLHB alors que iDUS réalimente iLHA
+Par contre, les scénarios :
+ iDUS sur iLHA alors que TAC réalimente jLHA ou jLHB 
+ jDUS sur jLHA alors que TAC réalimente iLHA ou iLHB 
+ 1LHP sur 2LHA (et inversement)
+ 1LHP sur 2LHB (et inversement)
+ 1LHQ sur 2LHA (et inversement)
+ 1LHQ sur 2LHB (et inversement)
+sont assujettis à la maitrise du schéma d'exploitation sur le réseau LHT 6,6kV et le respect des 
+procédures de lignage. 
+La solution "double attache LHT" ne permet pas la sauvegarde des tableaux LHB par les DUS .
+La solution "double attache LHT", sur le palier N4, permet les scenarios de renvoi d'un diesel 
+d'une tranche vers un tableau LH des autres tranches.
+ 
+ 
+ 
+Ce document contient des informations sensibles relevant du secret et juridiquement protégées. Il est réservé à l’usage exclusif des personnes désignées comme destinataires du document et/ou autorisées à y accéder. Il est illégal de photocopier, 
+distri
+buer, divulguer, ou d'utilis
+er de toute autre manière les informations contenues dans ce document sans accord du service émetteur. 
+Copyright EDF SA –            . Ce document est la propriété d’EDF SA 
+ 
+Accessibilité : INTERNE
+RDU : D455616022310
+2016
+Référence :                 Indice :       Page          /
+21
+ETUDE DE RACCORDEMENT DU DUS EN DOUBLE ATTACHE SUR LHA - PALIER N4
+D455616022310
+A
+NOTE D'ETUDE
+DIPDE_DE-SEI
+21
+ 
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 23]
+ANNEXE 1 Page 1 / 2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANNEXE 1 
+ 
+Interverrouillage Diesel Ultime Secours []  
+ 
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 24]
+VERIFI-CATEURAUTEURINDICEDATEETATMODIFICATIONS OBSERVATIONSAPPROBA-TEURACCESSIBILITE :CONFIDENTIEL TRESTREINTEDFCOPYRIGHT EDF CIPN 20
+Pour A0 et A1 : ABERPFTHLIJOOCGQUVWMNSZXKY&HWWHPLUHGRLWrWUHOLVLEOHGDQVVRQLQWHJUDOLWp
+0127142385690zsaeocmuvnwxirfkhbdpqgyjlt435678910
+NUMERO D'IDENTIFICATIONSIGLE EMETTEURCLASSE DOCUMENTAIREPAGES
+LIBELLE :ECHELLE
+=RQH5pVHUYpH6,'
+NUMEROD'AFFAIRESYSTEMEELEMENTAIRELOCALISATIONOu BATIMENTOu MATERIEL
+1&2175$7
+INDICEATITULAIRE DU MARCHECODEIPDEOUINONNONOUIIPS
+DIRECTION PRODUCTION INGENIERIE&HQWUHG
+,QJpQLHULHGX3DUF1XFOpDLUHHQH[SORLWDWLRQ140 AVENUE VITON 13401 MARSEILLE CEDEX 20  TEL 04.91.74.88.00 &HFDUWRXFKH\FRPSULVOHFRGH(')HVWjUHPSOLUSDUO
+pPHWWHXUEDF
+VERIFI-CATEURAUTEURINDICEDATEETATMODIFICATIONS OBSERVATIONSAPPROBA-TEUR PREMIERE DIFFUSIONA
+M
+FORMAT
+GRILLE DE VALIDITE1CZCVSITES
+PCV17L00SES
+Palier 1450 N4BATIMENT ELECTRIQUESITE DE CIVAUXINTER-VERROUILLAGE DIESEL ULTIME SECOURSA3NOMENCLATURE1/6
+PNPP4666F
+BL / HDULGH/LHT/LHC
+15
+29/03/2016PREL
+Situation avant modifications
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 25]
+GG
+G
+GG
+EDFIND.CODESMSEPLANCHE PCV10000Palier 1450 N4BATIMENT ELECTRIQUE ET DE LIAISON7LSITE DE CIVAUX1 Inter-verrouillage du Diesel Ultime Secours2/6 A
+12345678910
+A
+B
+C
+D
+E
+F
+---- Situation avant modification
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 26]
+GG
+EDFIND.CODESMSEPLANCHE PCV10000Palier 1450 N4BATIMENT ELECTRIQUE ET DE LIAISON7LSITE DE CIVAUX1 Inter-verrouillage du Diesel Ultime Secours3/6 A
+12345678910
+A
+B
+C
+D
+E
+F
+---- Situation avant modification
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 27]
+GG
+EDFIND.CODESMSEPLANCHE PCV10000Palier 1450 N4BATIMENT ELECTRIQUE ET DE LIAISON7LSITE DE CIVAUX1 Inter-verrouillage du Diesel Ultime Secours4/6 A
+12345678910
+A
+B
+C
+D
+E
+F
+---- Situation avant modification
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 28]
+EDFIND.CODESMSEPLANCHE PCV10000Palier 1450 N4BATIMENT ELECTRIQUE ET DE LIAISON7LSITE DE CIVAUX1 Inter-verrouillage du Diesel Ultime Secours5/6 A
+12345678910
+A
+B
+C
+D
+E
+F
+----
+DUS - TRANCHE 1DUS - TRANCHE 2
+Situation avant modification
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 29]
+G
+EDFIND.CODESMSEPLANCHE PCV10000Palier 1450 N4BATIMENT ELECTRIQUE ET DE LIAISON7LSITE DE CIVAUX1 Inter-verrouillage du Diesel Ultime Secours6/6 A
+12345678910
+A
+B
+C
+D
+E
+F
+---- Situation avant modification
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 30]
+VERIFI-CATEURAUTEURINDICEDATEETATMODIFICATIONS OBSERVATIONSAPPROBA-TEURACCESSIBILITE :CONFIDENTIEL TRESTREINTEDFCOPYRIGHT EDF CIPN 20
+Pour A0 et A1 : ABERPFTHLIJOOCGQUVWMNSZXKY&HWWHPLUHGRLWrWUHOLVLEOHGDQVVRQLQWHJUDOLWp
+0127142385690zsaeocmuvnwxirfkhbdpqgyjlt435678910
+NUMERO D'IDENTIFICATIONSIGLE EMETTEURCLASSE DOCUMENTAIREPAGES
+LIBELLE :ECHELLE
+=RQH5pVHUYpH6,'
+NUMEROD'AFFAIRESYSTEMEELEMENTAIRELOCALISATIONOu BATIMENTOu MATERIEL
+1&2175$7
+INDICEATITULAIRE DU MARCHECODEIPDEOUINONNONOUIIPS
+DIRECTION PRODUCTION INGENIERIE&HQWUHG
+,QJpQLHULHGX3DUF1XFOpDLUHHQH[SORLWDWLRQ140 AVENUE VITON 13401 MARSEILLE CEDEX 20  TEL 04.91.74.88.00 &HFDUWRXFKH\FRPSULVOHFRGH(')HVWjUHPSOLUSDUO
+pPHWWHXUEDF
+VERIFI-CATEURAUTEURINDICEDATEETATMODIFICATIONS OBSERVATIONSAPPROBA-TEUR PREMIERE DIFFUSIONA
+M
+FORMAT
+GRILLE DE VALIDITE1CZCVSITES
+PCV17L00SES
+Palier 1450 N4BATIMENT ELECTRIQUESITE DE CIVAUXINTER-VERROUILLAGE DIESEL ULTIME SECOURSA3NOMENCLATURE1/6
+PNPP4666F
+BL / HDULGH/LHT/LHC
+15
+29/03/2016PREL
+6LWXDWLRQDSUqVPRGLILFDWLRQV
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 31]
+GG
+G
+G
+GG
+G
+EDFIND.CODESMSEPLANCHE PCV10000Palier 1450 N4BATIMENT ELECTRIQUE ET DE LIAISON7LSITE DE CIVAUX1 Inter-verrouillage du Diesel Ultime Secours2/6 A
+12345678910
+A
+B
+C
+D
+E
+F
+---- 6LWXDWLRQDSUqVPRGLILFDWLRQ
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 32]
+GG
+EDFIND.CODESMSEPLANCHE PCV10000Palier 1450 N4BATIMENT ELECTRIQUE ET DE LIAISON7LSITE DE CIVAUX1 Inter-verrouillage du Diesel Ultime Secours3/6 A
+12345678910
+A
+B
+C
+D
+E
+F
+---- 6LWXDWLRQDSUqVPRGLILFDWLRQ
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 33]
+GG
+EDFIND.CODESMSEPLANCHE PCV10000Palier 1450 N4BATIMENT ELECTRIQUE ET DE LIAISON7LSITE DE CIVAUX1 Inter-verrouillage du Diesel Ultime Secours4/6 A
+12345678910
+A
+B
+C
+D
+E
+F
+---- 6LWXDWLRQDSUqVPRGLILFDWLRQ
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 34]
+GG
+EDFIND.CODESMSEPLANCHE PCV10000Palier 1450 N4BATIMENT ELECTRIQUE ET DE LIAISON7LSITE DE CIVAUX1 Inter-verrouillage du Diesel Ultime Secours5/6 A
+12345678910
+A
+B
+C
+D
+E
+F
+----
+DUS - TRANCHE 1DUS - TRANCHE 2
+6LWXDWLRQDSUqVPRGLILFDWLRQ
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 35]
+G
+EDFIND.CODESMSEPLANCHE PCV10000Palier 1450 N4BATIMENT ELECTRIQUE ET DE LIAISON7LSITE DE CIVAUX1 Inter-verrouillage du Diesel Ultime Secours6/6 A
+12345678910
+A
+B
+C
+D
+E
+F
+---- 6LWXDWLRQDSUqVPRGLILFDWLRQ
+Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 36]
+ANNEXE 2 Page 1 / 2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANNEXE 2  
+ 
+Procédure d'alimentation de LHA par le DUS (LHU)  
+ 
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 37]
+ANNEXE 2 Page 2 / 2 
+ 
+ 
+Lieux Actions Clés rendues 
+prisonnières 
+Clés rendues 
+libres Clés emportées Clés libérées 
+restant en place 
+Trousseau 
+virtuel Commentaires 
+Bureau chef d'exploitation Récupérer la clé 1HC(1875 ) --- --- 1HC(1875) --- 1HC(1875) --- 
+Débrocher le disjoncteur 1 LHA 002 JA dans la cellule 35 
+Tourner les clés 2HA(1224) et 2HP(1222) 
+Récupérer la clé 2HA(1224) 
+--- 2HA(1224) 
+2HP(1222) 2HA(1224) 2HP(1222) 1HC(1875) 
+2HA(1224) 
+Débrocher le disjoncteur 1 LHA 001 JA dans la cellule 33 
+Tourner les clés 1HA(1051) et 1GD(1050) 
+Récupérer la clé 1HA(1051) 
+--- 1HA(1051) 
+1GD(1050) 1HA(1051) 1GD(1050) 
+1HC(1875) 
+2HA(1224) 
+1HA(1051) 
+Insérer et tourner la clé 2HA(1224) dans la serrure interdisant l'embrochage de la partie mobile dans la cellule 34 
+Embrocher le disjoncteur issu de la cellule 35 dans la cellule 34 
+Tourner et récupérer la clé 7HC(1877) 
+2HA(1224) 7HC(1877) 7HC(1877) --- 
+1HC(1875) 
+7HC(1877) 
+1HA(1051) 
+--- 
+Insérer et tourner les clés 1HC(1875) et 7HC(1877) dans la cellule à clés 1HC 
+Tourner et récupérer la clé 1HU(1876) 
+1HC(1875) 
+7HC(1877) 1HU(1876) 1HU(1876) --- 1HU(1876) 
+1HA(1051) --- 
+Introduire la clé 1HU(1876) dans le commutateur LHC 100 CC 1HU(1876) --- --- --- 1HA(1051) 
+Prévenir la salle de commande lignage 1-LHU sur 1-LHA 
+terminé 
+Attendre l'autorisation de la salle de commande de 
+tourner la clé 1HU(1876). 
+Bureau chef d'exploitation Déposer la clé 1HA(1051) --- --- --- --- --- Fin de la procédure 
+Lignage du diesel 1-LHU sur le tableau 1-LHA 
+Local 1 LD 0708 
+sur 1 LHC 100 CR 
+Local 1 LD 0708 
+sur 1 LHA 001 TB 
+ 
+ 
+ 
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 38]
+ANNEXE 3 Page 1 / 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANNEXE 3  
+ 
+Procédure d'alimentation de 1LHA par la TAC  
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 39]
+ANNEXE 3 Page 2 / 3 
+ 
+Lieux Actions Clés rendues 
+prisonnières 
+Clés rendues 
+libres Clés emportées Clés libérées 
+restant en place 
+Trousseau 
+virtuel Commentaires 
+Bureau chef d'exploitation Récupérer la clé 1HC(1875) 
+Récupérer la clé X0(0050) --- --- X0(0050) 
+1HC(1875) --- X0(0050) 
+1HC(1875) --- 
+Insérer et tourner la clé 1HC(1875) dans la serrure interdisant le débrochage dans la cellule 02 
+Débrocher le disjoncteur 1 LHC 002 JA de la cellule 02 
+Tourner et récupérer la clé B2(1806) 
+1HC(1875) B2(1806) B2(1806) --- X0(0050) 
+B2(1806) 
+Le disjoncteur est verrouillé débroché 
+dans la cellule 02 
+Insérer la clé B2(1806) dans la cellule à clés B2 
+Tourner les clés B1(1805), 11HC(1879) et 1HT(0038) 
+Récupérer les clés 11HC(1879) et 1HT(0038) 
+B2(1806) 
+B1(1805) 
+11HC(1879) 
+1HT(0038) 
+11HC(1879) 
+1HT(0038) B1(1805) 
+X0(0050) 
+11HC(1879) 
+1HT(0038) 
+--- 
+Insérer et tourner la clé X0(0050) dans la cellule à clés X0 
+Récupérer la clé 20HT(0106) X0(0050) 
+20HT(0106) 
+21HT(0107) 
+22HT(0108) 
+23HT(0109) 
+20HT(0106) 
+21HT(0107) 
+22HT(0108) 
+23HT(0109) 
+20HT(0106) 
+11HC(1879) 
+1HT(0038) 
+--- 
+Insérer la clé 20HT(0106) et la clé 1HT(0038) dans la cellule à clés 1HT 
+Tourner les clés 20HT(0106), 10HT(0030), 1HT(0038) et 19HT(0105) 
+Récupérer la clé 19HT(0105) 
+20HT(0106) 
+10HT(0030) 
+1HT(0038) 
+19HT(0105) 19HT(0105) --- 11HC(1879) 
+19HT(0105) --- 
+Insérer et tourner la clé 19HT(0105) dans le cadenas 19HT au niveau de la cellule 14 
+Retirer le cadenas 19HT afin de libérer les volets d'embrochage 19HT(0105) --- --- --- 11HC(1879) L'intervenant conserve en sa possession le cadenas et 
+la clé 19HT(0105) 
+Embrocher une partie mobile "pont de barres" dans la cellule 14 
+Tourner et récupérer la clé 13HT(0059) --- 13HT(0059) 13HT(0059) --- 11HC(1879) 
+13HT(0059) --- 
+Connecter les prises TAC et 1LHA à l'aide du cordon disponible au niveau du caisson BT de la cellule 15 --- --- --- --- 11HC(1879) 
+13HT(0059) Lignage du Ctrl / Cde 1 LHP sur TAC 
+Tourner la clé 25HT(0111), verrouillant la position fermée du sectionneur de terre 015JS 
+ Ouvrir le sectionneur de terre 015 JS de la cellule 15 
+Tourner et récupérer les clés B2(0077) et 15HT(0101 ) 
+25HT(0111) B2(0077) 
+15HT(0101) 
+B2(0077) 
+15HT(0101) --- 
+11HC(1879) 
+13HT(0059) 
+B2(0077) 
+15HT(0101) 
+--- 
+Insérer et tourner la clé 15HT(0101) dans le cadenas 15HT au niveau de la cellule 15 
+Retirer le cadenas 15HT afin de libérer les volets d'embrochage 15HT(0101) --- --- --- 
+11HC(1879) 
+13HT(0059) 
+B2(0077) 
+L'intervenant conserve en sa possession le cadenas et 
+la clé 15HT(0101) 
+Embrocher une partie mobile "pont de barres" dans la cellule 15 
+Tourner et récupérer la clé 13HT(0059) --- 13HT(0059) 13HT(0059) --- 
+11HC(1879) 
+13HT(0059) 
+13HT(0059) 
+B2(0077) 
+--- 
+Débrocher le disjoncteur 1 LHA 002 JA dans la cellule 35 
+Tourner les clés 2HA(1224) et 2HP(1222) 
+Récupérer la clé 2HA(1224) 
+--- 2HA(1224) 
+2HP(1222) 2HA(1224) 2HP(1222) 
+11HC(1879) 
+13HT(0059) 
+13HT(0059) 
+B2(0077) 
+2HA(1224) 
+--- 
+Débrocher le disjoncteur 1 LHA 001 JA dans la cellule 33 
+Tourner les clés 1HA(1051) et 1GD(1050) 
+Récupérer la clé 1HA(1051) 
+--- 1HA(1051) 
+1GD(1050) 1HA(1051) 1GD(1050) 
+11HC(1879) 
+13HT(0059) 
+13HT(0059) 
+B2(0077) 
+2HA(1224) 
+1HA(1051) 
+Insérer et tourner la clé 2HA(1224) dans la serrure interdisant l'embrochage de la partie mobile dans la cellule 34 
+Embrocher le disjoncteur issu de la cellule 35 dans la cellule 34 
+Tourner et récupérer la clé 7HC(1877) 
+2HA(1224) 7HC(1877) 7HC(1877) --- 
+11HC(1879) 
+13HT(0059) 
+13HT(0059) 
+B2(0077) 
+1HA(1051) 
+7HC(1877) 
+--- 
+Local 1 LD 0708 
+sur 1 LHP 100 CR 
+Déconnecter la prise au niveau du connecteur diesel
+Insérer et tourner les clés 7HC(1877) et 11HC(1879)
+Basculer le cache pour découvrir la prise TAC 
+Connecter la prise sur le connecteur TAC 
+Tourner et récupérer la clé 7HA(1054) 
+7HC(1877) 
+11HC(1879) 7HA(1054) 7HA(1054) --- 
+7HA(1054) 
+13HT(0059) 
+13HT(0059) 
+B2(0077) 
+1HA(1051) 
+--- 
+Bâtiment HDU - Tr1 
+sur 1 LHC 001 TB 
+Local 0 BN 0501 
+sur 0 LHT 001 TB 
+Local 1 LD 0708 
+sur 1 LHA 001 TB 
+ 
+ 
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 40]
+ANNEXE 3 Page 3 / 3 
+ 
+Lieux Actions Clés rendues 
+prisonnières 
+Clés rendues 
+libres Clés emportées Clés libérées 
+restant en place 
+Trousseau 
+virtuel Commentaires 
+ 
+Local 0 BN 0501 
+sur 0 LHT 001 TB 
+Insérer et tourner les clés 13HT(0059), 13HT(0059) et 7HA(1054)  dans la cellule à clés 2HA1 
+Récupérer la clé XT(0057) 
+13HT(0059) 
+13HT(0059) 
+7HA(1054) 
+XT(0057) XT(0057) --- 
+XT(0057) 
+B2(0077) 
+1HA(1051) 
+--- 
+Insérer et tourner la clé XT(0057) dans la serrure du sectionneur de terre 505 JS 
+Ouvrir le sectionneur de terre 505 JS 
+Tourner et récupérer la clé B1 
+XT(0057) B1 B1 --- 
+B1 
+B2(0077) 
+1HA(1051) 
+--- 
+Insérer et tourner les clés B1 et B2(0077) dans la serrure de la partie mobile 501 JS 
+Embrocher la partie mobile dans la cellule 501 JS 
+Tourner et récupérer la clé XP(0058) 
+B1 
+B2(0077) XP(0058) XP(0058) --- XP(0058) 
+1HA(1051) --- 
+Insérer et tourner la clé XP(0058) dans le commutateur de fonctionnement du groupe XP(0058) --- --- --- 1HA (1051) 
+Excitation de la TAC autorisée 
+Prévenir la salle de commande de la fin de lignage de la 
+TAC sur 1-LHA 
+Bureau chef d'exploitation Déposer les ensembles clé s + cadenas 15HT(0101) et 19HT(0105) et la clé 1HA(1051) --- --- --- --- --- Fin de la procédure 
+TAC 
+ 
+ 
+ 
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 41]
+ANNEXE 4 Page 1 / 2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANNEXE 4  
+ 
+Procédure d’alimentation de 1LHB par la TAC  
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 42]
+ANNEXE 4 Page 2 / 2 
+Lieux Actions Clés rendues 
+prisonnières 
+Clés rendues 
+libres Clés emportées Clés libérées 
+restant en place 
+Trousseau 
+virtuel Commentaires 
+Bureau chef d'exploitation Récupérer la clé X0(0050) --- X0(0050) X0(0050) --- X0(0050) --- 
+Insérer et tourner la clé X0(0050) dans la cellule à clés X0 
+Récupérer la clé 22HT(0108) X0(0050) 
+20HT(0106) 
+21HT(0107) 
+22HT(0108) 
+23HT(0109) 
+22HT(0108) 
+20HT(0106) 
+21HT(0107) 
+23HT(0109) 
+22HT(0108) --- 
+Récupérer la clé libre 10HT(0030) dans la cellule à clés 1HT 19HT(0105) 10HT(0030) 10HT(0030) --- 22HT(0108) 
+10HT(0030) --- 
+Insérer les clés 10HT(0030) et 22HT(0108) dans la cellule à clés 3HT 
+Tourner les clés 22HT(0108), 10HT(0030) et 17HT(010 3) 
+Récupérer la clé 17HT(0103) 
+22HT(0108) 
+10HT(0030) 17HT(0103) 17HT(0103) --- 17HT(0103) --- 
+Insérer et tourner la clé 17HT(0103) dans le cadenas 17HT au niveau de la cellule 12 
+Retirer le cadenas 17HT afin de libérer les volets d'embrochage 17HT(0103) --- --- --- --- L'intervenant conserve en sa possession le cadenas et 
+la clé 17HT(0103) 
+Embrocher une partie mobile "pont de barres" dans la cellule 12 
+Tourner et récupérer la clé 13HT(0059) --- 13HT(0059) 13HT(0059) --- 13HT(0059) --- 
+Connecter les prises TAC et 1LHB à l'aide du cordon disponible au niveau du caisson BT de la cellule 15 --- --- --- --- 13HT(0059) Lignage du Ctrl / Cde 1 LHQ sur TAC 
+Tourner la clé 25HT(0111), verrouillant la position fermée du sectionneur de terre 015JS 
+Ouvrir le sectionneur de terre 015 JS de la cellule 15 
+Tourner et récupérer les clés B2(0077) et 15HT(0101 ) 
+25HT(0111) B2(0077) 
+15HT(0101) 
+B2(0077) 
+15HT(0101) --- 
+13HT(0059) 
+B2(0077) 
+15HT(0101) 
+--- 
+Insérer et tourner la clé 15HT(0101) dans le cadenas 15HT au niveau de la cellule 15 
+Retirer le cadenas 15HT afin de libérer les volets d'embrochage 15HT(0101) --- --- --- 13HT(0059) 
+B2(0077) 
+L'intervenant conserve en sa possession le cadenas et 
+la clé 15HT(0101) 
+Embrocher une partie mobile "pont de barres" dans la cellule 15 
+Tourner et récupérer la clé 13HT(0059) --- 13HT(0059) 13HT(0059) --- 
+13HT(0059) 
+13HT(0059) 
+B2(0077) 
+--- 
+Débrocher le disjoncteur 1 LHB 002 JA dans la cellule 35 
+Tourner les clés 2HB(1232) et 2HQ(1246) 
+Récupérer la clé 2HB(1232) 
+--- 2HB(1232) 
+2HQ(1246) 2HB(1232) 2HQ(1246) 
+13HT(0059) 
+13HT(0059) 
+B2(0077) 
+2HB(1232) 
+--- 
+Débrocher le disjoncteur 1 LHB 001 JA dans la cellule 33 
+Tourner les clés 1HB(1059) et 4GF(1058) 
+Récupérer la clé 1HB(1059) 
+--- 1HB(1059) 
+4GF(1058) 1HB(1059) 4GF(1058) 
+13HT(0059) 
+13HT(0059) 
+B2(0077) 
+2HB(1232) 
+1HB(1059) 
+Local 1 LC 0709 
+sur 1 LHQ 100 CR 
+Déconnecter la prise au niveau du connecteur diesel
+Insérer et tourner la clé 2HB(1232) 
+Basculer le cache pour découvrir la prise TAC 
+Connecter la prise sur le connecteur TAC 
+Tourner et récupérer la clé 7HB(1062) 
+2HB(1232) 7HB(1062) 7HB(1062) --- 
+13HT(0059) 
+13HT(0059) 
+B2(0077) 
+7HB(1062) 
+1HB(1059) 
+--- 
+Local 1 LC 0709 
+sur 1 LHB 001 TB 
+Insérer la clé 7HB(1062) et tourner les clés 7HB(1062) et 3HT(0039) dans les serrures interdisant l'embrochage de la 
+partie mobile dans la cellule 34 
+Embrocher le disjoncteur issu de la cellule 35 dans la cellule 34 
+Tourner et récupérer la clé 9HB(1878) 
+7HB(1062) 
+3HT(0039) 9HB(1878) 9HB(1878) --- 
+13HT(0059) 
+13HT(0059) 
+B2(0077) 
+9HB(1878) 
+1HB(1059) 
+Local 0 BN 0501 
+sur 0 LHT 001 TB 
+Insérer et tourner les clés 13HT(0059), 13HT(0059) et 9HB(1878)  dans la cellule à clés 2HB1 
+Récupérer la clé XT(0057) 
+13HT(0059) 
+13HT(0059) 
+9HB(1878) 
+XT(0057) XT(0057) --- 
+XT(0057) 
+B2(0077) 
+1HB(1059) 
+--- 
+Insérer et tourner la clé XT(0057) dans la serrure du sectionneur de terre 505 JS 
+Ouvrir le sectionneur de terre 505 JS 
+Tourner et récupérer la clé B1 
+XT(0057) B1 B1 --- 
+B1 
+B2(0077) 
+1HB(1059) 
+--- 
+Insérer et tourner les clés B1 et B2(0077) dans la serrure de la partie mobile 501 JS 
+Embrocher la partie mobile dans la cellule 501 JS 
+Tourner et récupérer la clé XP(0058) 
+B1 
+B2(0077) XP(0058) XP(0058) --- XP(0058) 
+1HB(1059) --- 
+Insérer et tourner la clé XP(0058) dans le commutat eur de fonctionnement du groupe XP(0058) --- --- --- 1HB(1059) 
+Excitation de la TAC autorisée 
+Prévenir la salle de commande de la fin de lignage de la 
+TAC sur 1-LHB 
+Bureau chef d'exploitation Déposer les ensembles clé s + cadenas 15HT(0101) et 17HT(0103) et la clé 1HB( 1059) --- --- --- --- --- Fin de la procédure 
+Local 0 BN 0501 
+sur 0 LHT 001 TB 
+TAC 
+Local 1 LC 0709 
+sur 1 LHB 001 TB 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 43]
+ANNEXE 5 Page 1 / 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANNEXE 5  
+ 
+Procédure d’alimentation de 2LHA par la 1LHP  
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 44]
+ANNEXE 5 Page 2 / 3 
+Lieux Actions Clés rendues 
+prisonnières 
+Clés rendues 
+libres Clés emportées Clés libérées 
+restant en place 
+Trousseau 
+virtuel Commentaires 
+Bureau chef d'exploitation 
+Récupérer la clé 1HC(1875) 
+Récupérer la clé 2HC(2875) 
+Récupérer la clé 3HC(0882) 
+Récupérer la clé X0(0050) 
+--- 
+X0(0050) 
+1HC(1875) 
+2HC(2875) 
+3HC(0882) 
+X0(0050) 
+1HC(1875) 
+2HC(2875) 
+3HC(0882) 
+--- 
+X0(0050) 
+1HC(1875) 
+2HC(2875) 
+3HC(0882) 
+--- 
+Insérer et tourner la clé 1HC(1875) dans la serrure interdisant le débrochage dans la cellule 02 
+Débrocher le disjoncteur 1 LHC 002 JA de la cellule 02 
+Tourner et récupérer la clé B2(1806) 
+1HC(1875) B2(1806) B2(1806) --- 
+X0(0050) 
+2HC(2875) 
+3HC(0882) 
+B2(1806) 
+Le disjoncteur est verrouillé débroché 
+dans la cellule 02 
+Insérer la clé B2(1806) dans la cellule à clés B2 
+Tourner les clés B1(1805), 11HC(1879) et 1HT(0038) 
+Récupérer les clés 11HC(1879) et 1HT(0038) 
+B2(1806) 
+B1(1805) 
+11HC(1879) 
+1HT(0038) 
+11HC(1879) 
+1HT(0038) B1(1805) 
+X0(0050) 
+2HC(2875) 
+3HC(0882) 
+1HT(0038) 
+Insérer et tourner la clé 2HC(2875) dans la serrure interdisant le débrochage dans la cellule 02 
+Débrocher le disjoncteur 2 LHC 002 JA de la cellule 02 
+Tourner et récupérer la clé B2(2806) 
+2HC(2875) B2(2806) B2(2806) --- 
+X0(0050) 
+3HC(0882) 
+11HC(1879) 
+1HT(0038) 
+B2(2806) 
+Le disjoncteur est verrouillé débroché 
+dans la cellule 02 
+Insérer la clé B2(2806) dans la cellule à clés B2 
+Tourner les clés B1(2805), 12HC(2879) et 2HT(0040) 
+Récupérer les clés 12HC(2879) et 2HT(0040) 
+B2(2806) 
+B1(2805) 
+12HC(2879) 
+2HT(0040) 
+12HC(2879) 
+2HT(0040) B1(2805) 
+X0(0050) 
+3HC(0882) 
+11HC(1879) 
+1HT(0038) 
+12HC(2879) 
+2HT(0040) 
+Insérer et tourner la clé X0(0050) dans la cellule à clés X0 
+Récupérer les clés 20HT(0106) et 21HT(0107) X0(0050) 
+20HT(0106) 
+21HT(0107) 
+22HT(0108) 
+23HT(0109) 
+20HT(0106) 
+21HT(0107) 
+22HT(0108) 
+23HT(0109) 
+3HC(0882) 
+11HC(1879) 
+1HT(0038) 
+12HC(2879) 
+2HT(0040) 
+20HT(0106) 
+21HT(0107) 
+--- 
+Insérer les clés 20HT(0106) et 1HT(0038) dans la cellule à clés 1HT 
+Tourner les clés 20HT(0106), 10HT(0030), 1HT(0038) et 19HT(0105) 
+Récupérer la clé 19HT(0105) 
+20HT(0106) 
+10HT(0030) 
+1HT(0038) 
+19HT(0105) 19HT(0105) --- 
+3HC(0882) 
+11HC(1879) 
+12HC(2879) 
+2HT(0040) 
+21HT(0107) 
+19HT(0105) 
+--- 
+Insérer et tourner la clé 19HT(0105) dans le cadenas 19HT au niveau de la cellule 14 
+Retirer le cadenas 19HT afin de libérer les volets d'embrochage 19HT(0105) --- --- --- 
+3HC(0882) 
+11HC(1879) 
+12HC(2879) 
+2HT(0040) 
+21HT(0107) 
+L'intervenant conserve en sa possession le cadenas et 
+la clé 19HT(0105) 
+Embrocher une partie mobile "pont de barres" dans la cellule 14 
+Tourner et récupérer la clé 13HT(0059) --- 13HT(0059) 13HT(0059) --- 
+3HC(0882) 
+11HC(1879) 
+12HC(2879) 
+2HT(0040) 
+21HT(0107) 
+13HT(0059) 
+--- 
+Insérer la clé 21HT(0107) dans la cellule à clés 2HT 
+Tourner les clés 21HT(0107), 11HT(0031), 2HT(0040) et 18HT(0104) 
+Récupérer la clé 18HT(0104) 
+21HT(0107) 
+11HT(0031) 
+2HT(0040) 
+18HT(0104) 18HT(0104) --- 
+3HC(0882) 
+11HC(1879) 
+12HC(2879) 
+18HT(0104) 
+13HT(0059) 
+--- 
+Insérer et tourner la clé 18HT(0104) dans le cadenas 18HT au niveau de la cellule 13 
+Retirer le cadenas 18HT afin de libérer les volets d'embrochage 18HT(0104) --- --- --- 
+3HC(0882) 
+11HC(1879) 
+12HC(2879) 
+13HT(0059) 
+L'intervenant conserve en sa possession le cadenas et 
+la clé 18HT(0104) 
+Bâtiment HDU - Tr1 
+sur 1 LHC 001 TB 
+Bâtiment HDU - Tr2 
+sur 2 LHC 001 TB 
+Local 0 BN 0501 
+sur 0 LHT 001 TB 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 45]
+ANNEXE 5 Page 3 / 3 
+Lieux Actions Clés rendues 
+prisonnières 
+Clés rendues 
+libres Clés emportées Clés libérées 
+restant en place 
+Trousseau 
+virtuel Commentaires 
+ 
+Embrocher une partie mobile "pont de barres" dans la cellule 13 
+Tourner et récupérer la clé 13HT(0059) --- 13HT(0059) 13HT(0059) --- 
+3HC(0882) 
+11HC(1879) 
+12HC(2879) 
+13HT(0059) 
+13HT(0059) 
+--- 
+Vérifier que le sectionneur de terre 015 JS de la cellule 15 est fermé, sinon fermer le sectionneur de terre 015JS et 
+récupérer la clé 25HT(0111). 
+Les clés B2(0077)et 15HT(0101) deviennent prisonnières
+B2(0077) 
+15HT(0101) --- 25HT(0111) --- 
+3HC(0882) 
+11HC(1879) 
+12HC(2879) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+Ce contrôle garantit que le sectionneur de terre de la 
+cellule 15 est bloqué fermé et que les volets 
+d'embrochage sont bloqués fermés, interdisant ainsi 
+l'embrochage d'un partie mobile dans la cellule 15 
+Débrocher le disjoncteur 1 LHA 001 JA dans la cellule 33 
+Tourner les clés 1HA(1051) et 1GD(1050) 
+Récupérer la clé 1HA(1051) 
+--- 1HA(1051) 
+1GD(1050) 1HA(1051) 1GD(1050) 
+3HC(0882) 
+11HC(1879) 
+12HC(2879) 
+1HA(1051) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+--- 
+Insérer et tourner les clés 1HA(1051), 3HC(0882) et 11 HC(1879) dans la cellule à clés du coffret 1LHP100CR 
+Tourner et récupérer la clé 2HA(1224) 
+1HA(1051) 
+11HC(1879) 
+3HC(0882) 
+2HA(1224) 2HA(1224) --- 
+2HA(1224) 
+12HC(2879) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+--- 
+Insérer et tourner la clé 2HA(1224) dans la serrure interdisant l'embrochage de la partie mobile dans la cellule 34 
+Embrocher le disjoncteur issu de la cellule 33 dans la cellule 34 
+Tourner et récupérer la clé 7HC(1877) 
+2HA(1224) 7HC(1877) 7HC(1877) --- 
+12HC(2879) 
+7HC(1877) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+--- 
+Débrocher le disjoncteur 2 LHA 002 JA dans la cellule 35 
+Tourner les clés 2HA(2224) et 2HP(1222) 
+Récupérer la clé 2HA(2224) 
+--- 2HA(2224) 
+2HP(1222) 2HA(2224) 2HP(1222) 
+2HA(2224) 
+12HC(2879) 
+7HC(1877) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+--- 
+Débrocher le disjoncteur 2 LHA 001 JA dans la cellule 33 
+Tourner les clés 1HA(2051) et 1GD(1050) 
+Récupérer la clé 1HA(2051) 
+--- 1HA(2051) 
+1GD(1050) 1HA(2051) 1GD(1050) 
+2HA(2224) 
+12HC(2879) 
+7HC(1877) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+1HA(2051) 
+Insérer et tourner la clé 2HA(2224) dans la serrure interdisant l'embrochage dans la cellule 34 
+Embrocher le disjoncteur issu de la cellule 35 dans la cellule 34 
+Tourner et récupérer la clé 8HC(2877) 
+2HA(2224) 8HC(2877) 8HC(2877) --- 
+8HC(2877) 
+12HC(2879) 
+7HC(1877) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+1HA(2051) 
+--- 
+Local 2 LD 0708 
+sur 2 LHP 100 CR 
+Déconnecter la prise au niveau du connecteur diesel 
+Insérer et tourner les clés 12HC(2879) et 8HC(2877) 
+Basculer le cache pour découvrir la prise TAC 
+Tourner et récupérer la clé 7HA(2054) 
+12HC(2879) 
+8HC(2877) 7HA(2054) 7HA(2054) --- 
+7HC(1877) 
+13HT(0059) 
+13HT(0059) 
+7HA(2054) 
+25HT(0111) 
+1HA(2051) 
+Ne pas connecter la prise Diesel sur le connecteur TAC 
+Prévenir la salle de commande de la fin de lignage de 1- 
+LHP sur 2-LHA 
+Bureau chef d'exploitation Déposer les clés 13HT(0059), 13HT(0059), 7HA(2054), 7H C(1877), 25HT(0111), 1HA(2051), 18HT(0104), 19HT(0105) et 
+les cadenas 18HT et 19HT --- --- --- --- --- Fin de la procédure 
+Local 1 LD 0708 
+sur 1 LHA 001 TB 
+Local 2 LD 0708 
+sur 2 LHA 001 TB 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 46]
+ANNEXE 6 Page 1 / 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANNEXE 6  
+ 
+Procédure d’alimentation de 2LHB par la 1LHP  
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 47]
+ANNEXE 6 Page 2 / 3 
+ 
+Lieux Actions Clés rendues 
+prisonnières 
+Clés rendues 
+libres Clés emportées Clés libérées 
+restant en place 
+Trousseau 
+virtuel Commentaires 
+Bureau chef d'exploitation Récupérer la clé 1HC(1875) 
+Récupérer la clé X0(0050) 
+X0(0050) 
+1HC(1875) 
+3HC(0882) 
+X0(0050) 
+1HC(1875) 
+3HC(0882) 
+--- 
+X0(0050) 
+1HC(1875) 
+3HC(0882) 
+--- 
+Insérer et tourner la clé 1HC(1875) dans la serrure interdisant le débrochage dans la cellule 02 
+Débrocher le disjoncteur 1 LHC 002 JA de la cellule 02 
+Tourner et récupérer la clé B2(1806) 
+1HC(1875) B2(1806) B2(1806) --- 
+X0(0050) 
+3HC(0882) 
+B2(1806) 
+Le disjoncteur est verrouillé débroché 
+dans la cellule 02 
+Insérer la clé B2(1806) dans la cellule à clés B2 
+Tourner les clés B1(1805), 11HC(1879) et 1HT(0038) 
+Récupérer les clés 11HC(1879) et 1HT(0038) 
+B2(1806) 
+B1(1805) 
+11HC(1879) 
+1HT(0038) 
+11HC(1879) 
+1HT(0038) B1(1805) 
+X0(0050) 
+3HC(0882) 
+11HC(1879) 
+1HT(0038) 
+Insérer et tourner la clé X0(0050) dans la cellule à clés X0 
+Récupérer les clés 20HT(0106) et 23HT(0109) X0(0050) 
+20HT(0106) 
+21HT(0107) 
+22HT(0108) 
+23HT(0109) 
+20HT(0106) 
+23HT(0109) 
+21HT(0107) 
+22HT(0108) 
+3HC(0882) 
+11HC(1879) 
+1HT(0038) 
+20HT(0106) 
+23HT(0109) 
+--- 
+Insérer les clés 20HT(0106) et 1HT(0038) dans la cellule à clés 1HT 
+Tourner les clés 20HT(0106), 10HT(0030), 1HT(0038) et 19HT(0105) 
+Récupérer la clé 19HT(0105) 
+20HT(0106) 
+1HT(0038) 
+10HT(0030) 
+19HT(0105) 19HT(0105) --- 
+3HC(0882) 
+11HC(1879) 
+23HT(0109) 
+19HT(0105) 
+--- 
+Insérer et tourner la clé 19HT(0105) dans le cadenas 19HT au niveau de la cellule 14 
+Retirer le cadenas 19HT afin de libérer les volets d'embrochage 19HT(0105) --- --- --- 
+3HC(0882) 
+11HC(1879) 
+23HT(0109) 
+L'intervenant conserve en sa possession le cadenas et 
+la clé 19HT(0105) 
+Embrocher une partie mobile "pont de barres" dans la cellule 14 
+Tourner et récupérer la clé 13HT(0059) --- 13HT(0059) 13HT(0059) --- 
+3HC(0882) 
+11HC(1879) 
+23HT(0109) 
+13HT(0059) 
+--- 
+Récupérer la clé libre 11HT(0031) dans la cellule à clés 2HT 18HT(0104) 11HT(0031) 11HT(0031) --- 
+3HC(0882) 
+11HC(1879) 
+23HT(0109) 
+13HT(0059) 
+11HT(0031) 
+--- 
+Insérer les clés 11HT(0031) et 23HT(0109) dans la cellule à clés 4HT 
+Tourner les clés 23HT(0109), 11HT(0031) et 16HT(0102) 
+Récupérer la clé 16HT(0102) 
+23HT(0109) 
+11HT(0031) 16HT(0102) 16HT(0102) --- 
+3HC(0882) 
+11HC(1879) 
+13HT(0059) 
+16HT(0102) 
+Insérer et tourner la clé 16HT(0102) dans le cadenas 16HT au niveau de la cellule 11 
+Retirer le cadenas 16HT afin de libérer les volets d'embrochage 16HT(0102) --- --- --- 
+3HC(0882) 
+11HC(1879) 
+13HT(0059) 
+L'intervenant conserve en sa possession le cadenas et 
+la clé 16HT(0102) 
+Embrocher une partie mobile "pont de barres" dans la cellule 11 
+Tourner et récupérer la clé 13HT(0059) --- 13HT(0059) 13HT(0059) --- 
+11HC(1879) 
+13HT(0059) 
+13HT(0059) 
+--- 
+Vérifier que le sectionneur de terre 015 JS de la cellule 15 est fermé, sinon fermer le sectionneur de terre 015JS et 
+récupérer la clé 25HT(0111). 
+Les clés B2(0077)et 15HT(0101) deviennent prisonnières 
+B2(0077) 
+15HT(0101) --- 25HT(0111) --- 
+3HC(0882) 
+11HC(1879) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+Ce contrôle garantit que le sectionneur de terre de la 
+cellule 15 est bloqué fermé et que les volets 
+d'embrochage sont bloqués fermés, interdisant ainsi 
+l'embrochage d'un partie mobile dans la cellule 15 
+Bâtiment HDU - Tr1 
+sur 1 LHC 001 TB 
+Local 0 BN 0501 
+sur 0 LHT 001 TB 
+ 
+ 
+ 
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 48]
+ANNEXE 6 Page 3 / 3 
+Lieux Actions Clés rendues 
+prisonnières 
+Clés rendues 
+libres Clés emportées Clés libérées 
+restant en place 
+Trousseau 
+virtuel Commentaires 
+ 
+Débrocher le disjoncteur 1 LHA 001 JA dans la cellule 33 
+Tourner les clés 1HA(1051) et 1GD(1050) 
+Récupérer la clé 1HA(1051) 
+--- 1HA(1051) 
+1GD(1050) 1HA(1051) 1GD(1050) 
+3HC(0882) 
+11HC(1879) 
+1HA(1051) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+--- 
+Insérer et tourner les clés 1HA(1051), 3HC(0882) et 11HC(1879) dans la cellule à clés du coffret 1LHP100CR 
+Tourner et récupérer la clé 2HA(1224) 
+1HA(1051) 
+11HC(1879) 
+3HC(0882) 
+2HA(1224) 2HA(1224) --- 
+2HA(1224) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+--- 
+Insérer et tourner la clé 2HA(1224) dans la serrure interdisant l'embrochage de la partie mobile dans la cellule 34 
+Embrocher le disjoncteur issu de la cellule 33 dans la cellule 34 
+Tourner et récupérer la clé 7HC(1877) 
+2HA(1224) 7HC(1877) 7HC(1877) --- 
+7HC(1877) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+--- 
+Local 2 LC 0709 
+sur 2 LHB 001 TB 
+Débrocher le disjoncteur 2 LHB 002 JA dans la cellule 35 
+Tourner les clés 2HB(2232) et 2HQ(2246) 
+Récupérer la clé 2HB(2232) 
+--- 2HB(2232) 
+2HQ(2246) 2HB(2232) 2HQ(2246) 
+2HB(2232) 
+7HC(1877) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+--- 
+Local 2 LC 0709 
+sur 2 LHB 001 TB 
+Débrocher le disjoncteur 2 LHB 001 JA dans la cellule 33 
+Tourner les clés 1HB(2059) et 4GF(2058) 
+Récupérer la clé 1HB(2059) 
+--- 1HB(2059) 
+4GF(2058) 1HB(2059) 4GF(2058) 
+2HB(2232) 
+7HC(1877) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+1HB(2059) 
+Local 2 LC 0709 
+sur 2 LHQ 100 CR 
+Déconnecter la prise au niveau du connecteur diesel
+Insérer et tourner la clé 2HB(2232) 
+Basculer le cache pour découvrir la prise TAC 
+Tourner et récupérer la clé 7HB(2062) 
+2HB(2232) 7HB(2062) 7HB(2062) --- 
+7HB(2062) 
+7HC(1877) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+1HB(2059) 
+Ne pas connecter la prise Diesel sur le connecteur TAC 
+Local 2 LC 0709 
+sur 2 LHB 001 TB 
+Insérer la clé 7HB(2062) et tourner les clés 7HB(2062) et 4HT(0041) dans les serrures interdisant l'embrochage de la 
+partie mobile dans la cellule 34 
+Embrocher le disjoncteur issu de la cellule 35 dans la cellule 34 
+Tourner et récupérer la clé 9HB(2878) 
+7HB(2062) 
+4HT(0041) 9HB(2878) 9HB(2878) --- 
+9HB(2878) 
+7HC(1877) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+1HB(2059) 
+Prévenir la salle de commande de la fin de lignage de 1- 
+LHP sur 2-LHB 
+Bureau chef d'exploitation Déposer les clés 13HT(0059), 13HT(0059), 7HC(1877), 9HB(2878), 25HT(0111), 1HB(2059), 16HT(0102), 19HT(0105) et 
+les cadenas 16HT et 19HT --- --- --- --- --- Fin de la procédure 
+Local 1 LD 0708 
+sur 1 LHA 001 TB 
+ 
+ 
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 49]
+ANNEXE 7 Page 1 / 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANNEXE 7  
+ 
+Procédure d’alimentation de 2LHA par la 1LHQ  
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 50]
+ANNEXE 7 Page 2 / 3 
+Lieux Actions Clés rendues 
+prisonnières 
+Clés rendues 
+libres Clés emportées Clés libérées 
+restant en place 
+Trousseau 
+virtuel Commentaires 
+Bureau chef d'exploitation Récupérer les clés 2HC(2875) et 3HC(0882) 
+Récupérer la clé X0(0050) 
+X0(0050) 
+2HC(2875) 
+3HC(0882) 
+X0(0050) 
+2HC(2875) 
+3HC(0882) 
+--- 
+X0(0050) 
+2HC(2875) 
+3HC(0882) 
+--- 
+Insérer et tourner la clé 2HC(2875) dans la serrure interdisant le débrochage dans la cellule 02 
+Débrocher le disjoncteur 2 LHC 002 JA de la cellule 02 
+Tourner et récupérer la clé B2(2806) 
+2HC(2875) B2(2806) B2(2806) --- 
+X0(0050) 
+3HC(0882) 
+B2(2806) 
+Le disjoncteur est verrouillé débroché 
+dans la cellule 02 
+Insérer et tourner la clé B2(2806) dans la serrure B2(2806) de la cellule 02 
+Tourner les clés B1(2805),12HC(2879) et 2HT(0040) e t récupérer les clés 12HC(2879) et 2HT(0040) B2(2806) 
+B1(2805) 
+12HC(2879) 
+2HT(0040) 
+12HC(2879) 
+2HT(0040) --- 
+X0(0050) 
+3HC(0882) 
+12HC(2879) 
+2HT(0040) 
+Insérer et tourner la clé X0(0050) dans la cellule à clés X0 
+Récupérer les clés 21HT(0107) et 22HT(0108) X0(0050) 
+20HT(0106) 
+21HT(0107) 
+22HT(0108) 
+23HT(0109) 
+21HT(0107) 
+22HT(0108) 
+20HT(0106) 
+23HT(0109) 
+3HC(0882) 
+12HC(2879) 
+2HT(0040) 
+21HT(0107) 
+22HT(0108) 
+--- 
+Insérer les clés 21HT(0107) et 2HT(0040) dans la cellule à clés 2HT 
+Tourner les clés 21HT(0107), 2HT(0040), 11HT(0031) et 18HT(0104) 
+Récupérer la clé 18HT(0104) 
+21HT(0107) 
+2HT(0040) 
+11HT(0031) 
+18HT(0104) 18HT(0104) --- 
+3HC(0882) 
+12HC(2879) 
+22HT(0108) 
+18HT(0104) 
+--- 
+Insérer et tourner la clé 18HT(0104) dans le cadenas 18HT au niveau de la cellule 13 
+Retirer le cadenas 18HT afin de libérer les volets d'embrochage 18HT(0104) --- --- --- 
+3HC(0882) 
+12HC(2879) 
+22HT(0108) 
+L'intervenant conserve en sa possession le cadenas et 
+la clé 18HT(0104) 
+Embrocher une partie mobile "pont de barres" dans la cellule 13 
+Tourner et récupérer la clé 13HT(0059) --- 13HT(0059) 13HT(0059) --- 
+3HC(0882) 
+12HC(2879) 
+22HT(0108) 
+13HT(0059) 
+--- 
+Récupérer la clé libre 10HT(0030) dans la cellule à clés 1HT 19HT(0105) 10HT(0030) 10HT(0030) --- 
+3HC(0882) 
+12HC(2879) 
+22HT(0108) 
+13HT(0059) 
+10HT(0030) 
+Insérer les clés 10HT(0030) et 22HT(0108) dans la cellule à clés 3HT 
+Tourner les clés 22HT(0108), 10HT(0030) et 17HT(010 3) 
+Récupérer la clé 17HT(0103) 
+22HT(0108) 
+10HT(0030) 17HT(0103) 17HT(0103) --- 
+3HC(0882) 
+12HC(2879) 
+13HT(0059) 
+17HT(0103) 
+--- 
+Insérer et tourner la clé 17HT(0103) dans le cadenas 17HT au niveau de la cellule 12 
+Retirer le cadenas 17HT afin de libérer les volets d'embrochage 17HT(0103) --- --- --- 
+3HC(0882) 
+12HC(2879) 
+13HT(0059) 
+L'intervenant conserve en sa possession le cadenas et 
+la clé 17HT(0103) 
+Embrocher une partie mobile "pont de barres" dans la cellule 12 
+Tourner et récupérer la clé 13HT(0059) --- 13HT(0059) 13HT(0059) --- 
+3HC(0882) 
+12HC(2879) 
+13HT(0059) 
+13HT(0059) 
+--- 
+Vérifier que le sectionneur de terre 015 JS de la cellule 15 est fermé, sinon fermer le sectionneur de terre 015JS et 
+récupérer la clé 25HT(0111). 
+Les clés B2(0077) et 15HT(0101) deviennent prisonni ères 
+B2(0077) 
+15HT(0101) --- 25HT(0111) --- 
+3HC(0882) 
+12HC(2879) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+Ce contrôle garantit que le sectionneur de terre de la 
+cellule 15 est bloqué fermé et que les volets 
+d'embrochage sont bloqués fermés, interdisant ainsi 
+l'embrochage d'un partie mobile dans la cellule 15 
+Bâtiment HDU - Tr2 
+sur 2 LHC 001 TB 
+Local 0 BN 0501 
+sur 0 LHT 001 TB 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 51]
+ANNEXE 7 Page 3 / 3 
+Lieux Actions Clés rendues 
+prisonnières 
+Clés rendues 
+libres Clés emportées Clés libérées 
+restant en place 
+Trousseau 
+virtuel Commentaires 
+ 
+Débrocher le disjoncteur 1 LHB 001 JA dans la cellule 33 
+Tourner les clés 1HB(1059) et 4GF(1058) 
+Récupérer la clé 1HB(1059) 
+--- 1HB(1059) 
+4GF(1058) 1HB(1059) 4GF(1058) 
+3HC(0882) 
+1HB(1059) 
+12HC(2879) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+--- 
+Insérer et tourner les clés 1HB(1059) et 3HC(0882) dans la cellule à clés du coffret 1LHQ100CR 
+Tourner et récupérer la clé 7HB(1062) 
+1HB(1059) 
+3HC(0882) 7HB(1062) 7HB(1062) --- 
+7HB(1062) 
+12HC(2879) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+--- 
+Insérer la clé 7HB(1062) et tourner les clés 7HB(1062) et 3HT(0039) dans les serrures interdisant l'embrochage de la 
+partie mobile dans la cellule 34 
+Embrocher le disjoncteur issu de la cellule 33 dans la cellule 34 
+Tourner et récupérer la clé 9HB(1878) 
+7HB(1062) 
+3HT(0039) 9HB(1878) 9HB(1878) --- 
+9HB(1878) 
+12HC(2879) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+--- 
+Débrocher le disjoncteur 2 LHA 002 JA dans la cellule 35 
+Tourner les clés 2HA(2224) et 2HP(2222) 
+Récupérer la clé 2HA(2224) 
+--- 2HA(2224) 
+2HP(2222) 2HA(2224) 2HP(2222) 
+9HB(1878) 
+12HC(2879) 
+2HA(2224) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+--- 
+Débrocher le disjoncteur 2 LHA 001 JA dans la cellule 33 
+Tourner les clés 1HA(2051) et 1GD(2050) 
+Récupérer la clé 1HA(2051) 
+--- 1HA(2051) 
+1GD(2050) 1HA(2051) 1GD(2050) 
+9HB(1878) 
+12HC(2879) 
+2HA(2224) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+1HA(2051) 
+Insérer et tourner la clé 2HA(2224) dans la serrure interdisant l'embrochage dans la cellule 34 
+Embrocher le disjoncteur issu de la cellule 35 dans la cellule 34 
+Tourner et récupérer la clé 8HC(2877) 
+2HA(2224) 8HC(2877) 8HC(2877) --- 
+9HB(1878) 
+12HC(2879) 
+8HC(2877) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+1HA(2051) 
+--- 
+Local 2 LD 0708 
+sur 2 LHP 100 CR 
+Déconnecter la prise au niveau du connecteur diesel
+Insérer et tourner les clés 12HC(2879) et 8HC(2877)
+Basculer le cache pour découvrir la prise TAC 
+Tourner et récupérer la clé 7HA(2054) 
+12HC(2879) 
+8HC(2877) 7HA(2054) 7HA(2054) --- 
+9HB(1878) 
+7HA(2054) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+1HA(2051) 
+Ne pas connecter la prise Diesel sur le connecteur TAC 
+Prévenir la salle de commande de la fin de lignage de 1- 
+LHP sur 2-LHA 
+Bureau chef d'exploitation Déposer les clés 13HT(0059), 13HT(0059), 7HA(2054), 9HB(1878), 25HT(0111),1HA(2051), 17HT(0103), 18HT(0104) et 
+les cadenas 17HT et 18HT --- --- --- --- --- Fin de la procédure 
+Local 1 LC 0709 
+sur 1 LHB 001 TB 
+Local 2 LD 0708 
+sur 2 LHA 001 TB 
+ 
+ 
+ 
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 52]
+ANNEXE 8 Page 1 / 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANNEXE 8  
+ 
+ 
+Procédure d’alimentation de 2LHB par la 1LHQ  
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 53]
+ANNEXE 8 Page 2 / 3 
+Lieux Actions Clés rendues 
+prisonnières 
+Clés rendues 
+libres Clés emportées Clés libérées 
+restant en place 
+Trousseau 
+virtuel Commentaires 
+Bureau chef d'exploitation Récupérer les clés 3HC(08 82) et X0(0050) --- X0(0050) 
+3HC(0882) 
+X0(0050) 
+3HC(0882) --- X0(0050) 
+3HC(0882) --- 
+Insérer et tourner la clé X0(0050) dans la cellule à clés X0 
+Récupérer les clés 22HT(0108) et 23HT(0109) X0(0050) 
+20HT(0106) 
+21HT(0107) 
+22HT(0108) 
+23HT(0109) 
+22HT(0108) 
+23HT(0109) 
+20HT(0106) 
+21HT(0107) 
+3HC(0882) 
+22HT(0108) 
+23HT(0109) 
+--- 
+Récupérer la clé libre 10HT(0030) dans la cellule à clés 1HT 19HT(0105) 10HT(0030) 10HT(0030) --- 
+3HC(0882) 
+22HT(0108) 
+23HT(0109) 
+10HT(0030) 
+Insérer les clés 10HT(0030) et 22HT(0108) dans la cellule à clés 3HT 
+Tourner les clés 22HT(0108), 10HT(0030) et 17HT(0103) 
+Récupérer la clé 17HT(0103) 
+22HT(0108) 
+10HT(0030) 17HT(0103) 17HT(0103) --- 
+3HC(0882) 
+23HT(0109) 
+17HT(0103) 
+--- 
+Insérer et tourner la clé 17HT(0103) dans le cadenas 17HT au niveau de la cellule 12 
+Retirer le cadenas 17HT afin de libérer les volets d'embrochage 17HT(0103) --- --- --- 3HC(0882) 
+23HT(0109) 
+L'intervenant conserve en sa possession le cadenas et 
+la clé 17HT(0103) 
+Embrocher une partie mobile "pont de barres" dans la cellule 12 
+Tourner et récupérer la clé 13HT(0059) --- 13HT(0059) 13HT(0059) --- 
+3HC(0882) 
+23HT(0109) 
+13HT(0059) 
+--- 
+Récupérer la clé libre 11HT(0031) dans la cellule à clés 2HT 18HT(0104) 11HT(0031) 11HT(0031) --- 
+3HC(0882) 
+23HT(0109) 
+13HT(0059) 
+11HT(0031) 
+--- 
+Insérer les clés 11HT(0031) et 23HT(0109) dans la cellule à clés 4HT 
+Tourner les clés 23HT(0109), 11HT(0031) et 16HT(0102) 
+Récupérer la clé 16HT(0102) 
+23HT(0109) 
+11HT(0031) 16HT(0102) 16HT(0102) --- 
+3HC(0882) 
+13HT(0059) 
+16HT(0102) 
+Insérer et tourner la clé 16HT(0102) dans le cadenas 16HT au niveau de la cellule 11 
+Retirer le cadenas 16HT afin de libérer les volets d'embrochage 16HT(0102) --- --- --- 3HC(0882) 
+13HT(0059) 
+L'intervenant conserve en sa possession le cadenas et 
+la clé 16HT(0102) 
+Embrocher une partie mobile "pont de barres" dans la cellule 11 
+Tourner et récupérer la clé 13HT(0059) --- 13HT(0059) 13HT(0059) --- 
+3HC(0882) 
+13HT(0059) 
+13HT(0059) 
+--- 
+Vérifier que le sectionneur de terre 015 JS de la cellule 15 est fermé, sinon fermer le sectionneur de terre 015JS et 
+récupérer la clé 25HT(0111). 
+Les clés B2(0077)et 15HT(0101) deviennent prisonnières 
+B2(0077) 
+15HT(0101) --- 25HT(0111) --- 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+Ce contrôle garantit que le sectionneur de terre de la 
+cellule 15 est bloqué fermé et que les volets 
+d'embrochage sont bloqués fermés, interdisant ainsi 
+l'embrochage d'un partie mobile dans la cellule 15 
+Débrocher le disjoncteur 1 LHB 001 JA dans la cellule 33 
+Tourner les clés 1HB(1059) et 4GF(1058) 
+Récupérer la clé 1HB(1059) 
+--- 1HB(1059) 
+4GF(1058) 1HB(1059) 4GF(1058) 
+3HC(0882) 
+1HB(1059) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+--- 
+Insérer et tourner les clés 1HB(1059) et 3HC(0882) dans la cellule à clés du coffret 1LHQ100CR 
+Tourner et récupérer la clé 7HB(1062) 
+1HB(1059) 
+3HC(0882) 7HB(1062) 7HB(1062) --- 
+7HB(1062) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+--- 
+Insérer la clé 7HB(1062) et tourner les clés 7HB(1062) et 3HT(0039) dans les serrures interdisant l'embrochage de la 
+partie mobile dans la cellule 34 
+Embrocher le disjoncteur issu de la cellule 33 dans la cellule 34 
+Tourner et récupérer la clé 9HB(1878) 
+7HB(1062) 
+3HT(0039) 9HB(1878) 9HB(1878) --- 
+9HB(1878) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+--- 
+Local 0 BN 0501 
+sur 0 LHT 001 TB 
+Local 1 LC 0709 
+sur 1 LHB 001 TB 
+ 
+ 
+ 
+ 
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 54]
+ANNEXE 8 Page 3 / 3 
+Lieux Actions Clés rendues 
+prisonnières 
+Clés rendues 
+libres Clés emportées Clés libérées 
+restant en place 
+Trousseau 
+virtuel Commentaires 
+ 
+Débrocher le disjoncteur 2 LHB 002 JA dans la cellule 35 
+Tourner les clés 2HB(2232) et 2HQ(2246) 
+Récupérer la clé 2HB(2232) 
+--- 2HB(2232) 
+2HQ(2246) 2HB(2232) 2HQ(2246) 
+2HB(2232) 
+9HB(1878) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+--- 
+Débrocher le disjoncteur 2 LHB 001 JA dans la cellule 33 
+Tourner les clés 1HB(2059) et 4GF(2058) 
+Récupérer la clé 1HB(2059) 
+--- 1HB(2059) 
+4GF(2058) 1HB(2059) 4GF(2058) 
+2HB(2232) 
+9HB(1878) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+1HB(2059) 
+Local 2 LC 0709 
+sur 2 LHQ 100 CR 
+Déconnecter la prise au niveau du connecteur diesel
+Insérer et tourner la clé 2HB(2232) 
+Basculer le cache pour découvrir la prise TAC 
+Tourner et récupérer la clé 7HB(2062) 
+2HB(2232) 7HB(2062) 7HB(2062) --- 
+7HB(2062) 
+9HB(1878) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+1HB(2059) 
+Ne pas connecter la prise Diesel sur le connecteur TAC 
+Local 2 LC 0709 
+sur 2 LHB 001 TB 
+Insérer la clé 7HB(2062) et tourner les clés 7HB(20 62) et 4HT(0041) dans les serrures interdisant l'embrochage de la 
+partie mobile dans la cellule 34 
+Embrocher le disjoncteur issu de la cellule 35 dans la cellule 34 
+Tourner et récupérer la clé 9HB(2878) 
+7HB(2062) 
+4HT(0041) 9HB(2878) 9HB(2878) --- 
+9HB(1878) 
+9HB(2878) 
+13HT(0059) 
+13HT(0059) 
+25HT(0111) 
+1HB(2059) 
+Prévenir la salle de commande de la fin de lignage de 1- 
+LHQ sur 2-LHB 
+Bureau chef d'exploitation Déposer les clés 13HT(0059), 13HT(0059), 9HB(1878), 9HB(2878), 25HT(0111), 1HB(2059), 16HT(0102), 17HT(0103) et 
+les cadenas 16HT et 17HT --- --- --- --- --- Fin de la procédure 
+Local 2 LC 0709 
+sur 2 LHB 001 TB 
+ 
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 55]
+ANNEXE 9 Page 1 / 2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANNEXE 9  
+ 
+Procédure de lignage TAC à vide  
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 56]
+ANNEXE 9 Page 2 / 2 
+ 
+Lieux Actions Clés rendues 
+prisonnières 
+Clés rendues 
+libres Clés emportées Clés libérées 
+restant en place 
+Trousseau 
+virtuel Commentaires 
+Bureau chef d'exploitation Récupérer la clé X0(0050) --- X0(0050) X0(0050) --- X0(0050) --- 
+Tourner la clé 25HT(0111) pour permettre l'ouverture du sectionneur de terre 015JS 
+Ouvrir le sectionneur de terre 015 JS de la cellule 15 
+Tourner et récupérer les clés B2(0077)et 15HT(0101)
+25HT(0111) B2(0077) 
+15HT(0101) 
+B2(0077) 
+15HT(0101) --- 
+X0(0050) 
+B2(0077) 
+15HT(0101) 
+--- 
+Insérer et tourner la clé 15HT(0101) dans le cadenas 15HT au niveau de la cellule 15 
+Retirer le cadenas 15HT afin de libérer les volets d'embrochage 15HT(0101) --- --- --- X0(0050) 
+B2(0077) 
+L'intervenant conserve en sa possession le cadenas et 
+la clé 15HT(0101) 
+Embrocher une partie mobile "pont de barres" dans la cellule 15 
+Tourner et récupérer la clé 13HT(0059) --- 13HT(0059) 13HT(0059) --- 
+X0(0050) 
+B2(0077) 
+13HT(0059) 
+--- 
+Insérer les clés X0(0050) et 13HT(0059) dans la cellule à clés TAC1 
+Tourner les clés X0(0050), 13HT(0059) et XT(0057) 
+Récupérer la clé XT(0057) 
+X0(0050) 
+13HT(0059) XT(0057) XT(0057) --- B2(0077) 
+XT(0057) --- 
+Insérer et tourner la clé XT(0057) dans la serrure du sectionneur de terre 505 JS 
+Ouvrir le sectionneur de terre 505 JS 
+Tourner et récupérer la clé B1 
+XT(0057) B1 B1 --- B1 
+B2(0077) --- 
+Insérer et tourner les clés B1 et B2(0077)dans la s errure de la partie mobile 501 JS 
+Embrocher la partie mobile dans la cellule 501 JS 
+Tourner et récupérer la clé XP(0058) 
+B1 
+B2(0077) XP(0058) XP(0058) --- XP(0058) --- 
+Insérer et tourner la clé XP(0058) dans le commutat eur de fonctionnement du groupe XP(0058) --- --- --- ---
+Excitation de la TAC autorisée. 
+Prévenir la salle de commande de la fin de lignage de la 
+TAC pour essais à vide 
+Bureau chef d'exploitation Déposer la clé 15HT(0101)  et le cadenas 15HT --- --- --- --- --- Fin de la procédure 
+TAC 
+Local 0 BN 0501 
+sur 0 LHT 001 TB 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 57]
+ANNEXE 10 Page 1 / 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANNEXE 10  
+ 
+Procédure de mise à la terre de la liaison à trois extrémités LHC-LHT-LHA  
+ 
+ 
+ 
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 58]
+ANNEXE 10 Page 2 / 3 
+ 
+Lieux Actions Clés rendues 
+prisonnières 
+Clés rendues 
+libres Clés emportées Clés libérées 
+restant en place 
+Trousseau 
+virtuel Commentaires 
+Bureau chef d'exploitation Récupérer la clé 1HC(1875) 
+récupérer la clé 2HC(2875) --- 1HC(1875) 
+2HC(2875) 
+1HC(1875) 
+2HC(2875) --- 1HC(1875) 
+2HC(2875) --- 
+Insérer et tourner la clé 1HC(1875) dans la serrure interdisant le débrochage dans la cellule 02 
+Débrocher le disjoncteur 1 LHC 002 JA de la cellule 02 
+Tourner et récupérer la clé B2(1806) 
+1HC(1875) B2(1806) B2(1806) --- 2HC(2875) 
+B2(1806) 
+Le disjoncteur est verrouillé débroché 
+dans la cellule 02 
+Insérer la clé B2 dans la cellule à clés B2 
+Tourner les clés B1(1805), 11HC(1879) et 1HT(0038) 
+Récupérer la clé 1HT(0038) 
+B2(1806) 
+B1(1805) 
+11HC(1879) 
+1HT(0038) 
+1HT(0038) B1(1805) 
+11HC(1879) 
+1HT(0038) 
+2HC(2875) 
+Insérer et tourner la clé 2HC(2875) dans la serrure interdisant le débrochage dans la cellule 02 
+Débrocher le disjoncteur 2 LHC 002 JA de la cellule 02 
+Tourner et récupérer la clé B2(2806) 
+2HC(2875) B2(2806) B2(2806) --- 1HT(0038) 
+B2(2806) 
+Le disjoncteur est verrouillé débroché 
+dans la cellule 02 
+Insérer et tourner la clé B2 dans la serrure B2(2806) de la cellule 02 
+Tourner les clés B1(2805),12HC(2879) et 2HT(0040) et récupérer la clé 2HT(0040) B2(2806) 
+B1(2805) 
+12HC(2879) 
+2HT(0040) 
+2HT(0040) B1(2805) 
+12HC(2879) 
+1HT(0038) 
+2HT(0040) 
+Local 1 LD 0708 
+sur 1 LHA 001 TB 
+Insérer et tourner la clé 1HT(0038) dans la serrure du sectionneur de terre de la cellule 34 
+Fermer le sectionneur de terre 
+Tourner les clés 8HA(1066) et XJ(1886) et récupérer la clé 8HA(1066) 
+1HT(0038) 8HA(1066) 
+XJ(1886) 8HA(1066) XJ(1886) 8HA(1066) 
+2HT(0040) --- 
+Récupérer la clé libre 3HT(0039) dans la serrure interdisant l'embrochage de la cellule 34 9HB(1878) 3HT (0039) 3HT(0039) --- 
+8HA(1066) 
+2HT(0040) 
+3HT(0039) 
+--- 
+Insérer et tourner la clé 3HT(0039) dans la serrure du sectionneur de terre de la cellule 34 
+Fermer le sectionneur de terre 
+Tourner et récupérer la clé 8HB(1067) 
+3HT(0039) 8HB(1067) 8HB(1067) --- 
+8HA(1066) 
+8HB(1067) 
+2HT(0040) 
+--- 
+Local 2 LD 0708 
+sur 2 LHA 001 TB 
+Insérer et tourner la clé 2HT(0040) dans la serrure du sectionneur de terre de la cellule 34 
+Fermer le sectionneur de terre 
+Tourner les clés 8HA(2066) et XL(2886) et récupérer  la clé 8HA(2066) 
+2HT(0040) 8HA(2066) 
+XL(2886) 8HA(2066) XL(2886) 
+8HA(1066) 
+8HA(2066) 
+8HB(1067) 
+--- 
+Récupérer la clé libre 4HT(0041) dans la serrure interdisant l'embrochage de la cellule 34 9HB(2878) 4HT (0041) 4HT(0041) --- 
+8HA(1066) 
+8HA(2066) 
+8HB(1067) 
+4HT(0041) 
+--- 
+Insérer et tourner la clé 4HT(0041) dans la serrure du sectionneur de terre de la cellule 34 
+Fermer le sectionneur de terre 
+Tourner et récupérer la clé 8HB(2067) 
+4HT(0041) 8HB(2067) 8HB(2067) --- 
+8HA(1066) 
+8HA(2066) 
+8HB(1067) 
+8HB(2067) 
+--- 
+Local 1 LC 0709 
+sur 1 LHB 001 TB 
+Local 2 LC 0709 
+sur 2 LHB 001 TB 
+Bâtiment HDU - Tr2 
+sur 2 LHC 001 TB 
+Bâtiment HDU - Tr1 
+sur 1 LHC 001 TB 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024
+
+[Page 59]
+ANNEXE 10 Page 3 / 3 
+Lieux Actions Clés rendues 
+prisonnières 
+Clés rendues 
+libres Clés emportées Clés libérées 
+restant en place 
+Trousseau 
+virtuel Commentaires 
+ 
+Insérer et tourner la clé 8HA(1066) dans la serrure du sectionneur de terre de la cellule 14 
+Fermer le sectionneur de terre 
+Tourner et récupérer la clé 5HT(0045) 
+8HA(1066) 5HT(0045) 5HT(0045) --- 
+5HT(0045) 
+8HA(2066) 
+8HB(1067) 
+8HB(2067) 
+--- 
+Insérer et tourner la clé 8HA(2066) dans la serrure du sectionneur de terre de la cellule 13 
+Fermer le sectionneur de terre 
+Tourner et récupérer la clé 6HT(0046) 
+8HA(2066) 6HT(0046) 6HT(0046) --- 
+5HT(0045) 
+6HT(0046) 
+8HB(1067) 
+8HB(2067) 
+--- 
+Insérer et tourner la clé 8HB(1067) dans la serrure du sectionneur de terre de la cellule 12 
+Fermer le sectionneur de terre 
+Tourner et récupérer la clé 7HT(0047) 
+8HB(1067) 7HT(0047) 7HT(0047) --- 
+5HT(0045) 
+6HT(0046) 
+7HT(0047) 
+8HB(2067) 
+--- 
+Insérer et tourner la clé 8HB(2067) dans la serrure du sectionneur de terre de la cellule 11 
+Fermer le sectionneur de terre 
+Tourner et récupérer la clé 8HT(0048) 
+8HB(2067) 8HT(0048) 8HT(0048) --- 
+5HT(0045) 
+6HT(0046) 
+7HT(0047) 
+8HT(0048) 
+--- 
+Fermer le sectionneur de terre 015 JS de la cellule 15, 
+Récupérer la clé 25HT(0111), 
+Les clés B2(0077)et 15HT(0101) sont prisonnières 
+B2(0077) 
+15HT(0101) 25HT(0111) 25HT(0111) --- 
+5HT(0045) 
+6HT(0046) 
+7HT(0047) 
+8HT(0048) 
+25HT(0111) 
+Ce contrôle garantit que le sectionneur de terre de la 
+cellule 15 est bloqué fermé et que les volets 
+d'embrochage sont bloqués fermés, interdisant ainsi 
+l'embrochage d'un partie mobile dans la cellule 15 
+Insérer et tourner les clés 5HT(0045), 6HT(0046), 7 HT(0047), 8HT(0048) et 25HT(0111) dans la cellule à clés 9HT 
+Tourner et récupérer la clé 9HT(0049) 
+5HT(0045) 
+6HT(0046) 
+7HT(0047) 
+8HT(0048) 
+25HT(0111) 
+9HT(0049) 
+14HT(0089) 9HT(0049) 14HT(0089) 9HT(0049) --- 
+Insérer et tourner la clé 9HT(0049) dans la serrure du sectionneur de terre de la cellule 10 
+Fermer le sectionneur de terre 
+Tourner et récupérer la clé 24HT(0110) 
+9HT(0049) 24HT(0110) 24HT(0110) --- 24HT(0110) --- 
+Bureau chef d'exploitation Déposer la clé 24HT(0110) --- --- --- --- --- Fin de la procédure 
+Local 0 BN 0501 
+sur 0 LHT 001 TB 
+ 
+ 
+ 
+ Document issu de la GED DPI Nucléaire le 02/08/2024

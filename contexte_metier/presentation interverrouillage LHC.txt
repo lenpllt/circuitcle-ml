@@ -1,0 +1,4708 @@
+[Page 1]
+G 19/08/21 G.Gaume J.BOULLET J.BOULLET VSO-D455621068658 du 18/08/2021 BPE FKS 
+G 27/05/21 F.HARMO J.BOULLET J.BOULLET 
+Maj suivant WEF-20-DUS-GENE-FC-54 rev 03 et ajout 
+des consignes préventive des vannes de purge 
+(LHC2008JC) 
+BPO FKS 
+F 20/11/20 
+ 
+F.HARMO 
+ 
+P. AGOGUE 
+ 
+J.BOULLET 
+Maj suivant WEF-20-DUS-GENE-FNC-51 & WEF-20-
+DUS-GENE-FNC-54 + Suppression des soudés pour le 
+banc de charge YLH2001RS- 
+BPO FKS 
+A 27/09/16 A. IMBS B. VITALI J. ALLOEND-BESSAND CREATION DU DOCUMENT  BPO FKS 
+IND  DATE  AUTEUR C O N T R O L E U R A P P R O B A T E U R MODIFICATIONS OBSERVATIONS  ETAT 
+DOC ETAT TECH 
+ 
+DIRECTION PRODUCTION INGENIERIE  
+Centre D'Ingénierie du Parc Nucléaire en exploitation 
+140 AVENUE VITON 13401 MARSEILLE CEDEX 20 TEL 04.91.74.88.00 
+ Ce cartouche, y compris le code EDF, est à remplir par l'émetteur  
+CODE 
+EDF  
+                   
+P X Z 1 5 G 0 4 0 0 1 0 4 2 0 M M I F 
+                   
+Activité Importante pour la Protection des intérêts (AIP) : oui  non  
+TITULAIRE DU MARCHE : 
+  
+WESTINGHOUSE ELECTRIQUE FRANCE 
+Orsay Parc – Bâtiment Séquoia 
+86 Rue de Paris 
+91401 ORSAY Cedex 
+WEQ  WEF-16-DUS-INEO1-NTD-0472  
+ 
+ 
+   SIGLE   NUMERO D'IDENTIFICATION   
+NUMERO(S)  
+DE CONTRAT(S) : C4554C0420 NUMERO(S)  
+D’AFFAIRE(S) : PNPP2808, PNPP3808 
+BATIMENT(S) LOCAL(AUX) / 
+ZONE(S) : 
+HDU 
+MATERIEL(S) 
+ 
+- 
+SYSTEME ELEMENTAIRE(S) : 
+ 
+ 
+LHC 
+LBU 
+LDU 
+LUU 
+FORMAT : 
+ 
+ 
+A4 CODE EDF COMPLEMENTAIRE : 
+(Uniquement pour les Essais) 
+ 
+               
+ 
+APPLICABILITE :  
+Palier 1300MW, P4 et P’4 
+TITRE : 
+NOTE D'INTERVERROUILLAGE 
+PRODUIT TYPE : NOTE DE FONCTIONNEMENT Nb total de pages : 87 
+EMETTEUR : WESTINGHOUSE FRANCE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+WEF  WEF-16-DUS-INEO1-NTD-0472 
+ 
+      SIGLE   NUMERO D'IDENTIFICATION   
+Accessibilité :   INTERNE                                      RESTREINT  COPYRIGHT EDF 2016 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 2]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+2 sur 87 
+ 
+HISTORIQUE DES REVISIONS 
+ 
+ECR prises en compte : 23322 / 25171 / 16752 
+ 
+Rév. Date Descriptions 
+A 29/06/2016 
+Rédacteur : S.SEUZARET 
+Vérificateur : A.IMBS 
+Approbateur : T. SALVADO 
+➔ Création du document 
+B 27/09/16 
+Rédacteur : A. IMBS 
+Vérificateur : T. GILBERT 
+Approbateur : T. SALVADO 
+➔ Mise à jour suite SDR WEF-16-DUS-SDR-8266 R00 du 17/08/16 
+➔ Prise en compte FME0112-B : ECR-7788-B - Prise en compte des nouveaux repères 
+fonctionnels pour les équipements HT. 
+➔ Prise en compte FME0113-A : Ajout interverrouillage sur coffrets PLUG FARN et Banc de 
+charge. 
+C 15/11/16 
+Rédacteur : A. IMBS 
+Vérificateur : T. GILBERT 
+Approbateur : T. SALVADO 
+➔ Mise à jour suite SDR WEF-16-DUS-SDR-8266 R01 et R02 du 14/11/16 
+➔ Mise à jour suite VSO-SR EDF  D455616072080du 09/11/16 
+D 27/03/17 
+Rédacteur : A. IMBS 
+Vérificateur : T. GILBERT 
+Approbateur : T. SALVADO 
+➔ Ajout interverrouillage Coffrets Banc de décharge batteries 125Vcc et 24Vcc 
+E 22/02/18 
+Rédacteur : JF. DEVIN 
+Vérificateur : A. IMBS 
+Approbateur : T. SALVADO 
+➔ §7.1 : 6 clés pour -LHC2106CM au lieu de 3 
+F 27/03/19 
+Rédacteur : C. JEAN 
+Vérificateur : P. AGOGUE 
+Approbateur : K. ENNADIFI 
+➔ Prise en compte WEF-18-DUS-ECR-23322 : inversion des clefs iS1/iS2 et iT1/iT2 de la page 
+76 à 85. 
+➔ Prise en compte WEF-19-DUS-ECR-25171 : modification procédure de consignation et 
+déconsignation pour -LHC2008JC 
+➔ Prise en compte WEF-17-DUS-ECR-16752 : ajout des références des clés XG, XH et XI du 
+banc de charge YLH2001RS  
+G 20/11/20 
+Rédacteur : F.HARMOUCHA 
+Vérificateur : P. AGOGUE 
+Approbateur : J.BOULLET 
+➔ WEF-20°-DUS-GENE-FNC-51 :-Remplacement de la consignation administrative par des 
+serrures d’interverrouillage pour les vannes d’air start skid en interface avec la cellule 
+LHC2008JC-.  
+➔ WEF-20°-DUS-GENE-FNC-54 : Ajout d’une serrure iG1 dans la boite LHC2205CM- afin de 
+sécuriser la manipulation de la cellule LHC2007JP- 
+➔ Suppression des anneaux soudés par des serrures d’interverrouillages pour le coffret 
+banc de charge en interface avec la cellule LHC2011JC-.  
+H 27/05/21 
+Rédacteur : F.HARMOUCHA 
+Vérificateur : J.BOULLET 
+Approbateur : J.BOULLET 
+ Maj suivant WEF-20-DUS-GENE-FC-54 rev 03 et ajout des consignes préventive des vannes de purge (LHC2008JC) 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 3]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+3 sur 87 
+ 
+SOMMAIRE 
+1 OBJET ....................................................................................................................................... 5 
+2 DOCUMENTS DE REFERENCE ......................................................................................................... 5 
+3 HABILITATIONS ............................................................................................................................. 5 
+4 EQUIPEMENTS DE PROTECTION ...................................................................................................... 5 
+4.1 Les équipements de protection individuelle (EPI) ................................................................................. 5 
+4.2 Les équipements individuels de sécurité (EIS) ..................................................................................... 6 
+4.3 Les équipements collectifs de sécurité (ECS) ...................................................................................... 7 
+5 LES ETAPES DE LA CONSIGNATION .................................................................................................. 8 
+5.1 Le chargé de consignation .................................................................................................................... 8 
+5.2 Consignation électrique ........................................................................................................................ 8 
+5.3 La phase de séparation/identification ................................................................................................... 8 
+5.4 La phase de consignation ..................................................................................................................... 9 
+5.5 La phase de dissipation ........................................................................................................................ 9 
+5.6 La phase de vérification ........................................................................................................................ 9 
+6 TRAVAUX HORS TENSION ............................................................................................................... 9 
+6.1 Mesure de l’absence tension : VAT ...................................................................................................... 9 
+6.2 Mise à la terre et court-circuit ................................................................................................................ 9 
+7 SCHEMA DE PRINCIPE DE L’INTERVERROUILLAGE ........................................................................... 10 
+7.1 Liste des centrales à clés .................................................................................................................... 10 
+7.2 Liste des clés d'interverrouillage ......................................................................................................... 11 
+7.3 -LHC2001JC- Alimentation -LHA001TB ............................................................................................. 13 
+7.3.1 Synoptique d’interverrouillage ................................................................................................................................................................ 13 
+7.3.2 Procédure de consignation ..................................................................................................................................................................... 14 
+7.3.3 Procédure de déconsignation ................................................................................................................................................................. 15 
+7.4 -LHC2002JC- Cellule Arrivée tranche -LGF001TB ............................................................................. 17 
+7.4.1 Synoptique d’interverrouillage ................................................................................................................................................................ 17 
+7.4.2 Procédure de consignation ..................................................................................................................................................................... 18 
+7.4.3 Procédure de déconsignation ................................................................................................................................................................. 19 
+7.5 -LHC2003JC- Cellule départ auxiliaire DUS ....................................................................................... 21 
+7.5.1 Synoptique d’interverrouillage ................................................................................................................................................................ 21 
+7.5.2 Procédure de consignation ..................................................................................................................................................................... 22 
+7.5.3 Procédure de déconsignation ................................................................................................................................................................. 23 
+7.6 -LHC2004JC- Cellule Aux REF-U -LUU002TR ................................................................................... 25 
+7.6.1 Synoptique d’interverrouillage ................................................................................................................................................................ 25 
+7.6.2 Procédure de consignation ..................................................................................................................................................................... 26 
+7.6.3 Procédure de déconsignation ................................................................................................................................................................. 27 
+7.7 -LHC2005JC- Cellule disjoncteur de couplage ................................................................................... 28 
+7.7.1 Synoptique d’interverrouillage ................................................................................................................................................................ 28 
+7.7.2 Procédure de consignation ..................................................................................................................................................................... 29 
+7.7.3 Procédure de déconsignation ................................................................................................................................................................. 32 
+7.8 -LHC2006JC- Cellule TP 1erdemi-Jeu de Barres ................................................................................ 35 
+7.8.1 Synoptique d’interverrouillage ................................................................................................................................................................ 35 
+7.8.2 Procédure de consignation ..................................................................................................................................................................... 36 
+7.8.3 Procédure de déconsignation ................................................................................................................................................................. 38 
+7.9 -LHC2007JP- Cellule remontée de jeu de barre ................................................................................. 40 
+7.9.1 Synoptique d’interverrouillage ................................................................................................................................................................ 40 
+7.9.2 Procédure de consignation ..................................................................................................................................................................... 41 
+7.9.3 Procédure de déconsignation ................................................................................................................................................................. 44 
+7.10 -LHC2008JC- Cellule arrivée GE Alternateur DUS ......................................................................... 48 
+7.10.1 Synoptique d’interverrouillage ............................................................................................................................................................ 48 
+7.10.2 Procédure de consignation ................................................................................................................................................................ 49 
+7.10.3 Procédure de déconsignation ............................................................................................................................................................ 51 
+7.11 -LHC2009JC- Cellule TP 2ème demi jeu de barres ........................................................................... 53 
+7.11.1 Synoptique d’interverrouillage ............................................................................................................................................................ 53 
+7.11.2 Procédure de consignation ................................................................................................................................................................ 54 
+7.11.3 Procédure de déconsignation ............................................................................................................................................................ 57 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 4]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+4 sur 87 
+ 
+7.12 -LHC2010JC- Cellule arrivé coffret PLUG FARN ............................................................................ 60 
+7.12.1 Synoptique d’interverrouillage ............................................................................................................................................................ 60 
+7.12.2 Procédure de consignation ................................................................................................................................................................ 61 
+7.12.3 Procédure de déconsignation ............................................................................................................................................................ 62 
+7.13 -LHC2011JC- Cellule départ Banc de charge ................................................................................. 64 
+7.13.1 Synoptique d’interverrouillage ............................................................................................................................................................ 64 
+7.13.2 Procédure de consignation ................................................................................................................................................................ 65 
+7.13.3 Procédure de déconsignation ............................................................................................................................................................ 67 
+7.14 -LHC2012JC- Cellule départ noyau dur ref-u -LUU003TR .............................................................. 69 
+7.14.1 Synoptique d’interverrouillage ............................................................................................................................................................ 69 
+7.14.2 Procédure de consignation ................................................................................................................................................................ 70 
+7.14.3 Procédure de déconsignation ............................................................................................................................................................ 71 
+7.15 -LHC2013JC- Cellule départ pompe ASG-U ................................................................................... 72 
+7.15.1 Synoptique d’interverrouillage ............................................................................................................................................................ 72 
+7.15.2 Procédure de consignation ................................................................................................................................................................ 73 
+7.15.3 Procédure de déconsignation ............................................................................................................................................................ 74 
+7.16 -LHC2014JC- Cellule départ pompe ND (H3/U3) ............................................................................ 75 
+7.16.1 Synoptique d’interverrouillage ............................................................................................................................................................ 75 
+7.16.2 Procédure de consignation ................................................................................................................................................................ 76 
+7.16.3 Procédure de déconsignation ............................................................................................................................................................ 77 
+7.17 -LBU2001TB-  Consignation du tableau source 125Vcc ................................................................. 78 
+7.17.1 Synoptique d’interverrouillage ............................................................................................................................................................ 78 
+7.17.2 Procédure de consignation ................................................................................................................................................................ 79 
+7.17.3 Procédure d’ouverture du coffret banc de décharge –LBU0131CR- ................................................................................................. 80 
+7.17.4 Procédure de déconsignation ............................................................................................................................................................ 81 
+7.17.5 Procédure de fermeture du coffret banc de décharge –LBU0131CR- ............................................................................................... 82 
+7.18 -LDU2001TB-  Consignation du tableau source 24Vcc ................................................................... 83 
+7.18.1 Synoptique d’interverrouillage ............................................................................................................................................................ 83 
+7.18.2 Procédure de consignation ................................................................................................................................................................ 84 
+7.18.3 Procédure d’ouverture du coffret banc de décharge –LDU0131CR- ................................................................................................. 85 
+7.18.4 Procédure de déconsignation ............................................................................................................................................................ 86 
+7.18.5 Procédure de fermeture du coffret banc de décharge –LDU0131CR- ............................................................................................... 87 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 5]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+5 sur 87 
+ 
+1 OBJET 
+Le présent document a pour but de décrire : 
+- les procédures à suivre en cas de consignation/déconsignation d’une cellule du tableau HT -LHC2001TB- du 
+bâtiment DUS, 
+- les procédures à suivre en cas de consignation/déconsignation des tableaux source 125Vcc -LBU2001TB- et 
+24Vcc -LDU2001TB. 
+ 
+2 DOCUMENTS DE REFERENCE 
+Numéro Désignation 
+WESF-13-DUS-SPE-0045 SPECIFICATION TECHNIQUE D’APPROVISIONNEMENT - LOT INSTALLATIONS 
+ELECTRIQUES GENERALES 
+WEF-14-DUS-INEO1-DRW-0041-F SCHEMA ELECTRIQUE UNIFILAIRE 
+WEF-14-DUS-INEO1-DRW-0342-R PLAN D'INTERVERROUILLAGE HT/BT 
+WEF-14-DUS-SCHN1-DRW-0014-L PLAN D'EQUIPEMENT ET NOMENCLATURES DES MATERIELS-TABLEAU HTA 
+Clés WEF final VERSION DEFINITIVE DES N° DE CLES A FOURNIR 
+WEF-16-DUS-MDR01-DRW-0017-B PLAN D'INTERVERROUILLAGE DU BANC DE CHARGE 
+16-DIP-DUSWH-FQR-0113-A HYPOTHESES D’ETUDE COFFRET BANC DE DECHARGE BATTERIES -
+LBU0131CR- 
+ 
+3 HABILITATIONS 
+Le personnel intervenant est habilité conformément à la publication UTE C 18-510, dès lors qu'il travaille à 
+proximité d'installations sous tension. 
+ 
+Toutes les habilitations sont précédées d'une formation aux risques Électriques.  
+ 
+Tout exécutant a son titre d'habilitation sur lui en permanence. 
+ 
+4 EQUIPEMENTS DE PROTECTION 
+4.1 LES EQUIPEMENTS DE PROTECTION INDIVIDUELLE (EPI) 
+Ils sont obligatoires pour les travaux au voisinage et les travaux sous tension. 
+ 
+Utiliser des gants isolants et un casque isolant. 
+ 
+       
+ 
+ 
+Les lunettes anti-UV sont interdites. 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 6]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+6 sur 87 
+ 
+ 
+Pour la protection de l'œil, utiliser des écrans faciaux anti-UV. 
+ 
+ 
+ 
+ 
+Porter des vêtements de protection, des chaussures isolantes et ne pas porter d'objets personnels 
+métalliques (bracelet, chaîne...). 
+ 
+ 
+ 
+Tester l’état des équipements avant chaque utilisation et signaler un mauvais état éventuel des EPI au 
+Chargé de Travaux. 
+ 
+4.2 LES EQUIPEMENTS INDIVIDUELS DE SECURITE (EIS) 
+Utiliser un tapis isolant, des outils isolants et un tabouret isolant. 
+ 
+  
+ 
+    
+ 
+Utiliser cadenas et étiquettes de consignation. 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 7]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+7 sur 87 
+ 
+   
+ 
+Utiliser VAT et dispositifs de MALT et CCT. 
+   
+ 
+ 
+4.3 LES EQUIPEMENTS COLLECTIFS DE SECURITE (ECS) 
+Utiliser les écrans de protection (nappe isolante, tôle épaisse mise à la terre...). 
+ 
+ 
+ 
+Délimiter l'emplacement de travail par un balisage et une pancarte d'avertissement de travaux 
+(responsabilité du BR ou du B2). 
+Ce balisage est obligatoire dans le cas où l'intervenant ne sert pas lui-même d'écran de protection. 
+   
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 8]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+8 sur 87 
+ 
+Utiliser des baladeuses conformes à la réglementation. 
+ 
+ 
+ 
+ 
+Le document qui contient les instructions relatives à la sécurité est le recueil des prescriptions UTE  18 510. 
+ 
+5 LES ETAPES DE LA CONSIGNATION 
+5.1 LE CHARGE DE CONSIGNATION 
+Le chargé de consignation doit être habilité BC pour la consignation des parties BT et HC pour les parties HT.  
+ 
+Il a reçu les formations nécessaires permettant de mettre en œuvre toutes les opérations de consignations 
+en toute sécurité. 
+ 
+5.2 CONSIGNATION ELECTRIQUE 
+Pour effectuer la consignation il faut procéder aux quatre opérations suivantes : 
+ 
+SEPARATION 
+IDENTIFICATION  CONDAMNATION 
+SIGNALISATION  DISSIPATION  VERIFICATION 
+ 
+5.3 LA PHASE DE SEPARATION/IDENTIFICATION 
+C’est la suppression de l’énergie et la vérification que la zone de travail est bien située sur l'ouvrage mis hors 
+tension (étude des schémas, des plans...). 
+ 
+La séparation entre la source d’énergie et l’installation. (Ouverture d'un interrupteur, d'un disjoncteur, d'un 
+sectionneur...). 
+ 
+La séparation doit porter sur tous les conducteurs actifs.  
+ 
+Attention: Un sectionneur ne doit jamais être manœuvré en charge (il n’a pas de pouvoir de coupure). 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 9]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+9 sur 87 
+ 
+5.4 LA PHASE DE CONSIGNATION 
+C’est le blocage physique de l’organe de manœuvre utilisé dans la phase de séparation. 
+ 
+La consignation par immobilisation de l'organe de séparation est obligatoire en BT et HT. 
+ 
+Ce blocage vise à empêcher toute personne de réalimenter l’installation. 
+ 
+La Signalisation est réalisée par le balisage de l’organe consigné, et l’affichage de la date, de l’objet de l’arrêt 
+et surtout du nom du personnel ayant procédé à la consignation (Pancarte d'interdiction de manœuvre, cadenas...). 
+ 
+5.5 LA PHASE DE DISSIPATION 
+C’est l’élimination de toutes les énergies potentielles et résiduelles (mise à la terre du circuit). 
+ 
+5.6 LA PHASE DE VERIFICATION 
+C’est la vérification de l’absence d’énergie dans l’installation considérée. C’est l’assurance que le travail 
+amont à bien été réalisé. 
+ 
+C’est également le balisage de la zone, installation, ou partie d’installation consignée. Ce balisage est destiné 
+à l’intervenant chargé d’effectuer les travaux.  
+ 
+Toute zone ou installation non identifiée est à considérer comme en charge énergétique. 
+ 
+6 TRAVAUX HORS TENSION 
+6.1 MESURE DE L’ABSENCE TENSION : VAT 
+Le bon fonctionnement du vérificateur d'absence de tension (VAT) est contrôlé avant et après son utilisation. 
+La vérification d'absence de tension sur tous les conducteurs actifs (neutre compris) est obligatoire avant 
+toute opération sur une installation qui a été mise hors tension. 
+ 
+ En effet, un disjoncteur (ou un interrupteur) peut avoir été soumis à des arcs électriques importants lors 
+d'ouvertures précédentes: les pôles peuvent rester soudés ou avoir une mauvaise résistance d'isolement à cause 
+de la métallisation des chambres de coupure. 
+ 
+6.2 MISE A LA TERRE ET COURT-CIRCUIT 
+Cette opération permet de se prémunir contre les risques dus aux tensions induites, aux condensateurs 
+chargés, aux ré alimentations éventuelles. 
+ 
+La mise à la terre (MALT) et en court-circuit (CCT) est obligatoire sur un long câble BTA en BTB et en HT. 
+ 
+Le raccordement se fait aux points de séparation de l'ouvrage concerné et au plus près de la zone de travail. 
+Le raccordement se fait d'abord sur le circuit de terre, puis sur tous les conducteurs actifs (neutre compris), au plus 
+près de la zone de travail. 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 10]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+10 sur 87 
+ 
+7 SCHEMA DE PRINCIPE DE L’INTERVERROUILLAGE 
+Définitions : 
+- Centrale à clefs : Ensemble de serrures à combinaison pour les clefs d'interverrouillage. 
+- Serrure mère : Serrure d'interverrouillage de l'équipement désigné. 
+ 
+ 
+ 
+7.1 LISTE DES CENTRALES A CLES 
+Référence centrale à clés Equipement rattaché Nombre de clés 
+-LBU2101CM -LBU2001TB- 3 
+-LDU2101CM -LDU2001TB- 3 
+-LHC2101CM -LHC2001JC- 3 
+-LHC2201CM -LHC2001JC- 3 
+-LHC2102CM -LHC2002JC- 3 
+-LHC2105CM -LHC2005JC- 3 
+-LHC2205CM -LHC2005JC- 5 
+-LHC2305CM -LHC2005JC- 9 
+-LHC2106CM -LHC2006JC- 6 
+-LHC2108CM -LHC2008JC- 3 
+-LHC2110CM -LHC2010JC- 3 
+-LHC2111CM -LHC2011JC- 5 
+-LHC2113CM -LHC2013JC- 3 
+-LHC2114CM -LHC2014JC- 3 
+-LHC2115CM -LHC2015JC- 3 
+-LUU2101CM -LUU2001TB- 4 
+ 
+ 
+- LHC 2 1 01 CM 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Nota : La centrale à clés -LHC2111CM contient 3 exemplaires de la clé iL2. 
+Numéro de centrale à clefs 
+Numéro de cellule/colonne associée 
+Serrure 
+Système élémentaire 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 11]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+11 sur 87 
+ 
+7.2 LISTE DES CLES D'INTERVERROUILLAGE 
+Le tableau suivant est issu de la liste des clefs fournie par WestingHouse le 16/02/16. 
+ 
+repère tranche 1 tranche 2 tranche 3 tranche 4 site 
+  ref. 
+EDF ref.fab ref. 
+EDF ref.fab ref. 
+EDF ref.fab ref. 
+EDF ref.fab ref. 
+EDF ref.fab 
+iA1 1801 GM221136 2801 GT221136 3801 GP221136 4801 GK221136     
+IA2 1802 GM221154 2802 GT221154 3802 GP221154 4802 GK221154     
+iA3 1803 GM221316 2803 GT221316 3803 GP221316 4803 GK221316     
+iA4 1804 GM221334 2804 GT221334 3804 GP221334 4804 GK221334     
+iB1 1805 GM221352 2805 GT221352 3805 GP221352 4805 GK221352     
+iB2 1806 GM221514 2806 GT221514 3806 GP221514 4806 GK221514     
+iB3 1807 GM221532 2807 GT221532 3807 GP221532 4807 GK221532     
+iB4 1808 GM243136 2808 GT243136 3808 GP243136 4808 GK243136     
+iC1 1809 GM243154 2809 GT243154 3809 GP243154 4809 GK243154     
+iC2 1810 GM243316 2810 GT243316 3810 GP243316 4810 GK243316     
+iC3 1811 GM243334 2811 GT243334 3811 GP243334 4811 GK243334     
+iC4 1812 GM243352 2812 GT243352 3812 GP243352 4812 GK243352     
+iC5 1813 GM243514 2813 GT243514 3813 GP243514 4813 GK243514     
+iC6 1814 GM243532 2814 GT243532 3814 GP243532 4814 GK243532     
+iD1 1815 GM265136 2815 GT265136 3815 GP265136 4815 GK265136     
+iD2 1816 GM265154 2816 GT265154 3816 GP265154 4816 GK265154     
+iD3 1817 GM265316 2817 GT265316 3817 GP265316 4817 GK265316     
+iD4 1818 GM265334 2818 GT265334 3818 GP265334 4818 GK265334     
+iD5 1819 GM265352 2819 GT265352 3819 GP265352 4819 GK265352     
+iD6 1820 GM265514 2820 GT265514 3820 GP265514 4820 GK265514     
+iE1 1821 GM265532 2821 GT265532 3821 GP265532 4821 GK265532     
+iE2 1822 GM441136 2822 GT441136 3822 GP441136 4822 GK441136     
+iE3 1823 GM441154 2823 GT441154 3823 GP441154 4823 GK441154     
+iE4 1824 GM441316 2824 GT441316 3824 GP441316 4824 GK441316     
+iE5 1825 GM441334 2825 GT441334 3825 GP441334 4825 GK441334     
+iE6 1826 GM441352 2826 GT441352 3826 GP441352 4826 GK441352     
+iE7 1827 GM441514 2827 GT441514 3827 GP441514 4827 GK441514     
+iE8 1828 GM441532 2828 GT441532 3828 GP441532 4828 GK441532     
+iE9 1891 GM443514 2891 GT443514 3891 GP443514 4891 GK443514   
+iF1 1829 GM463136 2829 GT463136 3829 GP463136 4829 GK463136     
+iG1 1830 GM463154 2830 GT463154 3830 GP463154 4830 GK463154     
+iGF29-3 1833 GM463352 2833 GT463352 3833 GP463352 4833 GK463352     
+iHC 1834 GM463514 2834 GT463514 3834 GP463514 4834 GK463514     
+iJ1 1836 GM625136 2836 GT625136 3836 GP625136 4836 GK625136     
+iJ2 1837 GM625154 2837 GT625154 3837 GP625154 4837 GK625154     
+iJ3 1838 GM625316 2838 GT625316 3838 GP625316 4838 GK625316     
+iJ4 1839 GM625334 2839 GT625334 3839 GP625334 4839 GK625334     
+iJ5 1840 GM625352 2840 GT625352 3840 GP625352 4840 GK625352     
+iK1 1841 GM625514 2841 GT625514 3841 GP625514 4841 GK625514     
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 12]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+12 sur 87 
+ 
+repère tranche 1 tranche 2 tranche 3 tranche 4 site 
+  ref. 
+EDF ref.fab ref. 
+EDF ref.fab ref. 
+EDF ref.fab ref. 
+EDF ref.fab ref. 
+EDF ref.fab 
+iK2 1842 GM625532 2842 GT625532 3842 GP625532 4842 GK625532     
+iK3 1843 GM661136 2843 GT661136 3843 GP661136 4843 GK661136     
+iK4 1844 GM661154 2844 GT661154 3844 GP661154 4844 GK661154     
+iL1 1845 GM661316 2845 GT661316 3845 GP661316 4845 GK661316     
+iL2 1846 GM661334 2846 GT661334 3846 GP661334 4846 GK661334     
+iL3 1847 GM661352 2847 GT661352 3847 GP661352 4847 GK661352     
+L4                 855 GV223532 
+iM1 1848 GM661514 2848 GT661514 3848 GP661514 4848 GK661514     
+iM2 1849 GM661532 2849 GT661532 3849 GP661532 4849 GK661532     
+iM3 1850 GM223112 2850 GT223112 3850 GP223112 4850 GK223112     
+iM4 1851 GM223156 2851 GT223156 3851 GP223156 4851 GK223156     
+iM5 1852 GM223336 2852 GT223336 3852 GP223336 4852 GK223336     
+iM6 1853 GM223354 2853 GT223354 3853 GP223354 4853 GK223354     
+iN1 1854 GM223516 2854 GT223516 3854 GP223516 4854 GK223516     
+iN2 1855 GM223534 2855 GT223534 3855 GP223534 4855 GK223534     
+iN3 1856 GM245112 2856 GT245112 3856 GP245112 4856 GK245112     
+iN4 1857 GM245156 2857 GT245156 3857 GP245156 4857 GK245156     
+iP1 1858 GM245336 2858 GT245336 3858 GP245336 4858 GK245336     
+iP2 1859 GM245354 2859 GT245354 3859 GP245354 4859 GK245354     
+iP3 1860 GM245516 2860 GT245516 3860 GP245516 4860 GK245516     
+iP4 1861 GM245534 2861 GT245534 3861 GP245534 4861 GK245534     
+iR1 1862 GM245552 2862 GT245552 3862 GP245552 4862 GK245552     
+iR2 1863 GM421112 2863 GT421112 3863 GP421112 4863 GK421112     
+iR3 1864 GM421156 2864 GT421156 3864 GP421156 4864 GK421156     
+iR4 1865 GM421336 2865 GT421336 3865 GP421336 4865 GK421336     
+iS1 1866 GM421354 2866 GT421354 3866 GP421354 4866 GK421354     
+iS2 1867 GM421516 2867 GT421516 3867 GP421516 4867 GK421516     
+iS3 1876 GM245352 2876 GT245352 3876 GP245352 4876 GK245352   
+iT1 1868 GM421534 2868 GT421534 3868 GP421534 4868 GK421534     
+iT2 1869 GM421552 2869 GT421552 3869 GP421552 4869 GK421552     
+iT3 1877 GM443516 2877 GT443516 3877 GP443516 4877 GK443516   
+iY2 1872 GM443336 2872 GT443336 3872 GP443336 4872 GK443336     
+iY3 1873 GM245136 2873 GT245136 3873 GP245136 4873 GK245136     
+Q1                 800 GV223514 
+XJ 1172 EM 41125 2172 ET 41125 3172 EP 41125 4172 EL 41125     
+XG                 13  EP30351 
+XH                 12 EP30315 
+XI                 14 EP30513 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 13]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+13 sur 87 
+ 
+7.3 -LHC2001JC- ALIMENTATION -LHA001TB 
+7.3.1 Synoptique d’interverrouillage 
+ 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 14]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+14 sur 87 
+ 
+ 
+7.3.2 Procédure de consignation 
+Conditions initiales : 
+ 
+- Cellule -LHC2001JC- de la zone HDU : 
+o Tiroir disjoncteur  -LHC2001JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+o Clef iA1 prisonnière de la serrure du disjoncteur -LHC2001JA-. 
+o Clef iA2 prisonnière de la serrure du sectionneur de terre. 
+o Clefs iA4, iY3 prisonnières dans la centrale à clefs -LHC2101CM. 
+o Clef iA3 prisonnière dans  la centrale à clefs -LHC2201CM. 
+o Clef iY2 présente et libre  dans la centrale à clefs -LHC2201CM. 
+ 
+- Zone EDF : 
+o Clefs XJi172 et iHC disposées au niveau de la Tranche. 
+ 
+Procédure de consignation : 
+ 
+- Ouvrir l'arrivée -LHA034JA- coté tableau -LHA001TB. 
+ 
+- Récupérer les clefs XJi172 et iHC. 
+ 
+- Débrochage du tiroir -LHC2001JA- (-LHC2001JC-). 
+o Ouverture du disjoncteur. 
+o Insérer la clef iHC dans la serrure mère. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iA1. 
+o Récupération de la clef iA1. 
+ 
+- Mise à disposition des clefs iA4 (clef pour MALT de la cellule HT « TP 1er demi jeu de barres ») et iY3 : 
+o  Insérer la clef iA1 dans la centrale à clefs -LHC2101CM. 
+o  Libération des clefs iA4 et iY3. 
+o  Laisser les clefs iA4 et iY3 dans la centrale à clefs. 
+ 
+- Mise à la terre de la cellule HT alimentation -LHA001TB  (-LHC2001JC-). 
+o Insérer la clef XJi172 dans la centrale à clefs -LHC2201CM. 
+o Récupération de la clef iA3. 
+o Insérer la clef iA3 dans la serrure mère. 
+o Déverrouiller le sectionneur de mise à la terre 
+o Fermeture du sectionneur de mise à la terre de la cellule. 
+o Verrouillage du sectionneur de terre en position fermée. 
+o Libération de la clef iA2. 
+o Récupération de la clef iA2. 
+ 
+- Accès aux bornes HT de la cellule HT alimentation -LHA001TB  (-LHC2001JC-). 
+o Déverrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef 
+iA2. 
+o Ouverture du panneau d’accès aux bornes HT de la cellule HT. 
+o La clef iA2 reste prisonnière. 
+ 
+- Contrôle de sécurité sur la cellule HT alimentation -LHA001TB  (-LHC2001JC-) 
+o Vérification de la non possibilité d’embrochage du tiroir disjoncteur HT. 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 15]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+15 sur 87 
+ 
+o Vérification de la non possibilité d’ouvrir le sectionneur de terre de la cellule HT. 
+Etat final : 
+ 
+- Cellule -LHC2001JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2001JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes 
+HT ouvert. 
+o Clef iHC prisonnière dans la serrure du disjoncteur -LHC2001JA-. 
+o Clef iA3 prisonnière dans la serrure du sectionneur de terre. 
+o Clef iA2 prisonnière du panneau d’accès aux bornes HT. 
+o Présence des clefs iA1, iA4, iY3 dans la centrale à clefs -LHC2101CM. 
+o Présence des clefs XJi172, iY2 dans la centrale à clefs -LHC2201CM. 
+ 
+- Zone EDF : 
+o Clefs XJi172 et iHC absentes. 
+ 
+7.3.3 Procédure de déconsignation 
+ 
+Conditions initiales : 
+ 
+- Cellule -LHC2001JC- de la zone HDU : 
+o Tiroir disjoncteur  -LHC2001JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes 
+HT ouvert. 
+o Clef iHC prisonnière dans la serrure du disjoncteur -LHC2001JA-. 
+o Clef iA3 prisonnière dans la serrure du sectionneur de terre. 
+o Clef iA2 prisonnière du panneau d’accès aux bornes HT. 
+o Présence des clefs iA1, iA4, iY3 dans la centrale à clefs -LHC2101CM. 
+o Présence des clefs XJi172, iY2 dans la centrale à clefs -LHC2201CM. 
+ 
+- Zone EDF : 
+o Clefs XJi172 et iHC absentes. 
+ 
+Procédure de déconsignation : 
+ 
+- Fermeture de l’accès aux bornes HT de la cellule HT alimentation -LHA001TB (-LHC2001JC-). 
+o Fermeture du panneau d’accès aux bornes HT de la cellule HT. 
+o Verrouillage en position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef iA2. 
+o Récupérer la clef iA2. 
+ 
+- Ouverture du sectionneur de la Mise à la terre de la cellule HT alimentation -LHA001TB (-LHC2001JC-). 
+o Insérer la clef iA2 dans la serrure mère. 
+o Déverrouillage du sectionneur de terre. 
+o Ouverture du sectionneur de mise à la terre. 
+o Verrouillage en position ouverte du sectionneur de terre. 
+o Récupérer la clef iA3. 
+o Insérer la clef iA3 dans la centrale à clefs -LHC2201CM. 
+o Récupération de la clef XJi172. 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 16]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+16 sur 87 
+ 
+- Embrochage du tiroir -LHC2001JA- (-LHC2001JC-) 
+o Récupération de la clef iA1 dans la centrale à clefs -LHC2101CM. 
+o Insérer la clef iA1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Libération de la clef iHC. 
+o Récupération de la clef iHC. 
+o Fermeture du disjoncteur. 
+ 
+Etat final : 
+ 
+- Cellule -LHC2001JC- de la zone HDU : 
+o Tiroir disjoncteur  -LHC2001JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+o Clef iA1 prisonnière de la serrure du disjoncteur -LHC2001JA- 
+o Clef iA2 prisonnière de la serrure du sectionneur de terre. 
+o Clef iA4, iY3 prisonnières dans la centrale à clefs -LHC2101CM. 
+o Clef iA3 prisonnière dans la centrale à clefs -LHC2201CM. 
+o Clef iY2 présente et libre dans la à clefs -LHC2201CM. 
+ 
+- Zone EDF : 
+o Clef XJi172 et iHC disposées au niveau de la Tranche. 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 17]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+17 sur 87 
+ 
+7.4 -LHC2002JC- CELLULE ARRIVEE TRANCHE -LGF001TB 
+7.4.1 Synoptique d’interverrouillage 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 18]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+18 sur 87 
+ 
+7.4.2 Procédure de consignation 
+Conditions initiales : 
+- Cellule -LHC2002JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2002JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+o Clef iB1 prisonnière de la serrure du disjoncteur -LHC2002JA-. 
+o Clef iB4 prisonnière de la serrure du sectionneur de terre. 
+o Clefs iB2, iB3 prisonnières dans la centrale à clefs -LHC2102CM. 
+ 
+- Zone EDF : 
+o Sectionneur de mise à la terre -LGF029JA- ouvert. 
+o Clef iGF29.3 prisonnière de -LFG029JA-. 
+ 
+Procédure de consignation : 
+- Hors périmètre GME 
+o Ouverture du départ -LGF029JA- du tableau -LGF001TB. 
+ 
+- Débrochage du tiroir « Arrivée tranche -LGF001TB » (-LHC2002JC-). 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iB1. 
+o Récupération de la clef iB1. 
+ 
+- Mise à disposition des clefs iB2 (clef pour verrouillage sectionneur de terre Tableau -LGF001TB) et iB3 (clef 
+pour mise à terre de la cellule HT « TP 1er demi jeu de barres »). 
+o Insérer la clef iB1 dans la centrale à clefs -LHC2102CM. 
+o Libération des clefs iB2 et iB3. 
+o Laisser les clefs iB2 et iB3 dans la centrale à clefs -LHC2102CM. 
+ 
+- Récupération de la clef iGF29.3 au niveau du tableau LGF001TB. 
+o Récupérer la clef iB2 dans la centrale à clefs -LHC2102CM. 
+o Insérer la clef iB2 dans la serrure mère. 
+o Fermeture du sectionneur de mise à la terre de la colonne. 
+o Récupération de la clef iGF29.3. 
+ 
+- Mise à la terre de la cellule HT « Arrivée tranche -LGF001TB » (-LHC2002JC-). 
+o Insérer la clef iGF29.3 dans la serrure mère. 
+o Déverrouillage du sectionneur de terre. 
+o Fermeture du sectionneur de mise à la terre. 
+o Verrouillage en position fermée du sectionneur de terre. 
+o Libération de la clef iB4. 
+o Récupération de la clef iB4. 
+ 
+- Ouverture du capot d’accès de la cellule HT « Arrivée tranche -LGF001TB » (-LHC2002JC-). 
+o Déverrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef 
+iB4. 
+o Ouverture du panneau d’accès aux bornes HT de la cellule HT. 
+o La clef iB4 reste prisonnière. 
+ 
+- Contrôle de sécurité sur la cellule HT « Arrivée tranche -LGF001TB » (-LHC2002JC-). 
+o Vérification de la non possibilité d’embrochage du tiroir disjoncteur HT. 
+o Vérification de la non possibilité d’ouvrir le sectionneur de terre de la cellule HT. 
+Etat final : 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 19]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+19 sur 87 
+ 
+ 
+- Cellule -LHC2002JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2002JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes 
+HT ouvert. 
+o Clef iGF29.3 prisonnière de la serrure du sectionneur de terre. 
+o Clef iB1 prisonnière dans la centrale à clefs -LHC2102CM. 
+o Clef iB3 présente dans la centrale à clefs -LHC2102CM. 
+o Clef iB4 prisonnière du panneau d’accès aux bornes HT. 
+ 
+- Zone EDF : 
+o Sectionneur de mise à la terre -LGF029JA- fermé. 
+o Clef iB2 prisonnière de -LFG029JA-. 
+ 
+7.4.3 Procédure de déconsignation 
+Conditions initiales : 
+ 
+- Cellule -LHC2002JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2002JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes 
+HT ouvert. 
+o Clef iGF29.3 prisonnière de la serrure du sectionneur de terre. 
+o Clef iB1 prisonnière dans la centrale à clefs -LHC2102CM. 
+o Clef iB3 présente dans la centrale à clefs -LHC2102CM. 
+o Clef iB4 prisonnière du panneau d’accès aux bornes HT. 
+ 
+- Zone EDF : 
+o Sectionneur de mise à la terre -LGF029JA- fermé 
+o Clef iB2 prisonnière de -LFG029JA-. 
+ 
+Procédure de déconsignation : 
+ 
+- Fermeture du capot d’accès de la cellule HT « Arrivée tranche -LGF001TB » (-LHC2002JC-). 
+o Fermeture du panneau d’accès aux bornes HT de la cellule HT. 
+o Verrouillage en position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef iB4. 
+o Récupérer la clef iB4. 
+ 
+- Ouverture du sectionneur de la Mise à la terre de la cellule HT « Arrivée tranche -LGF001TB » (-LHC2002JC-). 
+o Insérer la clef iB4 dans la serrure mère. 
+o Déverrouillage du sectionneur de terre. 
+o Ouverture du sectionneur de mise à la terre de la cellule. 
+o Verrouillage en position ouverte du sectionneur de terre. 
+o Libération de la clef iGF29.3. 
+o Récupération de la clef iGF29.3. 
+ 
+- Récupération de la clef iB2 sur la cellule -LGF0029JC-. 
+o Insérer la clef iGF29.3 dans la serrure mère. 
+o Déverrouillage du sectionneur de mise à la terre. 
+o Ouverture du sectionneur de mise à la terre. 
+o Verrouillage en position ouvert. 
+o Libération de la clef iB2. 
+o Récupération de la clef iB2. 
+- Récupération de la clef iB1. 
+o Insérer la clef iB2 dans la centrale à clefs -LHC2102CM. 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 20]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+20 sur 87 
+ 
+o Récupération de la clef iB1 
+ 
+- Embrochage du tiroir « Arrivée tranche -LGB001TB » (-LHC2002JC-). 
+o Insérer la clef iB1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+Etat final : 
+ 
+- Cellule -LHC2002JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2002JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+o Clef iB1 prisonnière de la serrure du disjoncteur -LHC2002JA-. 
+o Clef iB4 prisonnière de la serrure du sectionneur de terre. 
+o Clefs iB2, iB3 prisonnières dans la centrale à clefs -LHC2102CM. 
+ 
+- Zone EDF : 
+o Sectionneur de terre -LGF029JC- ouvert. 
+o Clef iGF29.3 prisonnière de -LGF029JC-. 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 21]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+21 sur 87 
+ 
+7.5 -LHC2003JC- CELLULE DEPART AUXILIAIRE DUS 
+7.5.1 Synoptique d’interverrouillage 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 22]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+22 sur 87 
+ 
+7.5.2 Procédure de consignation 
+ 
+Conditions initiales : 
+ 
+- Cellule -LHC2003JC- de la zone HDU : 
+o Tiroir -LHC2003JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes HT fermé, 
+contacteur fermé. 
+o Clef iC1 prisonnière de la serrure du porte fusible -LHC2003JA-. 
+o Clef iC2 prisonnière de la serrure du sectionneur de terre. 
+ 
+- Transformateur HT/BT -LUU2001TR- : 
+o Panneaux d’accès HT/BT fermés. 
+ 
+- Tableau BT - LUU2001TB- : 
+o Clef iC3 prisonnière de la serrure du sectionneur de terre. 
+o Clefs iC4, iC5, iC6 prisonnières dans la centrale à clefs -LUU2101CM. 
+ 
+Procédure de consignation : 
+ 
+- Débrochage du tiroir « Départ auxiliaire DUS » (-LHC2003JC-). 
+o Ouverture du contacteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iC1. 
+ 
+- Mise à la terre de la cellule HT « Départ auxiliaire DUS » (-LHC2003JC-). 
+o Fermeture du sectionneur de mise à la terre de la cellule. 
+o Verrouillage en position fermée du sectionneur de terre. 
+o Libération de la clef iC2. 
+o Récupération de la clef iC2. 
+ 
+- Mise à la terre coté transformateur -LUU2001TR- / tableau BT -LUU2001TB-. 
+o Déverrouillage du panneau d'accès aux connecteurs de MALT avec la clef iC2. 
+o Libération de la clef iC3. 
+o Ouvrir le panneau d'accès aux connecteurs de MALT. 
+o Mettre en place les dispositifs de MALT et CCT. 
+o Récupération de la clef iC3. 
+o Insérer la clef iC3 dans la centrale à clefs -LUU2101CM. 
+o Libération des clefs iC4, iC5 et iC6. 
+ 
+- Accès aux bornes BT et HT du transformateur -LUU2001TR-. 
+o Récupérer la clef iC6. 
+o Déverrouillage de la porte d’accès aux bornes BT du transformateur avec la clef iC6. 
+o La clef iC6 devient prisonnière. 
+o Ouvrir la porte d’accès aux bornes BT du transformateur. 
+o Récupérer la clef iC5. 
+o Déverrouillage de la porte d’accès aux bornes HT du transformateur avec la clef iC5. 
+o La clef iC5 devient prisonnière. 
+o Ouvrir la porte d’accès aux bornes HT du transformateur. 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 23]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+23 sur 87 
+ 
+- Accès aux bornes HT de la cellule HT « Départ auxiliaire DUS » (-LHC2003JC-). 
+o Récupérer la clef iC4. 
+o Déverrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef 
+iC4. 
+o Ouvrir le panneau d’accès aux bornes HT de la cellule HT. 
+o La clef iC4 reste prisonnière. 
+ 
+- Contrôle de sécurité sur la cellule HT « Départ auxiliaire DUS » (-LHC2003JC-). 
+o Vérification de la non possibilité d’embrochage du tiroir contacteur HT. 
+o Vérification de la non possibilité d’ouvrir le sectionneur de terre de la cellule HT. 
+ 
+Etat final : 
+ 
+- Cellule -LHC2003JC- : 
+o Tiroir contacteur et sectionneur -LHC2003JA- débroché, sectionneur de terre fermé, panneau 
+d’accès aux bornes HT ouvert. 
+o Clef iC4 prisonnière du panneau d'accès. 
+ 
+- Transformateur HT/BT -LUU2001TR- : 
+o Clefs iC5 et iC6 prisonnières des volets de condamnation panneau d’accès HT/BT du transformateur. 
+ 
+- Tableau BT - LUU2001TB- : 
+o Clef iC2 prisonnière sur la cellule. 
+o Clef iC3 prisonnière dans la centrale à clefs -LUU2101CM. 
+ 
+7.5.3 Procédure de déconsignation 
+ 
+Conditions initiales : 
+ 
+- Cellule -LHC2003JC- : 
+o Tiroir contacteur et sectionneur -LHC2003JA- débroché, sectionneur de terre fermé, panneau 
+d’accès aux bornes HT ouvert. 
+ 
+- Transformateur HT/BT -LUU2001TR- : 
+o Clefs iC5 et iC6 prisonnières des volets de condamnation panneau d’accès HT/BT du transformateur. 
+ 
+- Tableau BT - LUU2001TB- : 
+o Clef iC2 prisonnière sur la cellule. 
+o Clef iC3 prisonnière dans la centrale à clefs -LUU2101CM. 
+ 
+Procédure de déconsignation : 
+ 
+- Fermeture de l’accès aux bornes HT de la cellule HT « Départ auxiliaire DUS » (-LHC2003JC-). 
+o Fermer le panneau d’accès aux bornes HT de la cellule HT. 
+o Verrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef iC4. 
+o Récupération de la clef iC4. 
+o Insérer la clef iC4 dans la centrale à clefs -LUU2101CM. 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 24]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+24 sur 87 
+ 
+- Fermeture de l’accès aux bornes BT et HT du transformateur -LUU2001TR-. 
+o Fermer la porte d’accès aux bornes HT du transformateur. 
+o Verrouillage de la porte d’accès aux bornes HT du transformateur avec la clef iC5. 
+o Récupération de la clef iC5. 
+o Insérer la clef iC5 dans la centrale à clefs -LUU2101CM. 
+o Fermer la porte d’accès aux bornes BT du transformateur. 
+o Verrouillage de la porte d’accès aux bornes BT du transformateur avec la clef iC6. 
+o Récupération de la clef iC6. 
+o Insérer la clef iC6 dans la centrale à clefs -LUU2101CM. 
+ 
+- Ouverture de mise à la terre coté transformateur -LUU2001TR- / tableau BT -LUU2001TB-. 
+o Retirer le dispositif de MALT et CCT. 
+o Fermer le panneau d'accès aux connecteurs de MALT. 
+o Verrouiller le panneau d'accès aux connecteurs de MALT avec la clef iC2. 
+o Récupération de la clef iC3. 
+o Insérer la clef iC3 dans la serrure mère. 
+o Libération de la clef iC2. 
+o Récupération de la clef iC2. 
+ 
+- Ouverture du sectionneur de mise à la terre de la cellule HT « Départ transformateur auxiliaire DUS » (-
+LHC2003JC-). 
+o Insérer la clef iC2 dans la serrure mère. 
+o Déverrouillage du sectionneur de terre. 
+o Ouverture du sectionneur de mise à la terre de la cellule. 
+ 
+- Embrochage du tiroir « Départ transformateur auxiliaire DUS » (-LHC2003JC-). 
+o Insérer la clef iC1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du contacteur. 
+ 
+Etat final : 
+ 
+- Cellule -LHC2003JC- : 
+o Tiroir contacteur et sectionneur -LHC2003JA- embroché, sectionneur de terre ouvert, panneau 
+d’accès aux bornes HT fermé, contacteur fermé. 
+o Clef iC1 prisonnière de la serrure du tiroir contacteur et sectionneur -LHC2003JA. 
+o Clef iC2 prisonnière de la serrure du sectionneur de terre. 
+ 
+- Transformateur HT/BT -LUU2001TR- : 
+o Panneaux d’accès HT/BT fermés. 
+ 
+- Tableau BT - LUU2001TB- : 
+o Clef iC3 prisonnière de la serrure du sectionneur de terre. 
+o Clefs iC4, iC5, iC6 prisonnières dans la centrale à clefs -LUU2101CM. 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 25]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+25 sur 87 
+ 
+7.6 -LHC2004JC- CELLULE AUX REF-U -LUU002TR  
+7.6.1 Synoptique d’interverrouillage 
+ 
+Equipements non installés. 
+Procédure d'interverrouillage 
+non traitée dans cette note. 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 26]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+26 sur 87 
+ 
+7.6.2 Procédure de consignation 
+ 
+Conditions initiales : 
+ 
+- Cellule -LHC2004JC- de la zone HDU : 
+o Tiroir -LHC2004JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes HT fermé, 
+contacteur fermé. 
+o Clef iD1 prisonnière de la serrure du porte fusible -LHC2004JA-. 
+o Clef iD2 prisonnière de la serrure du sectionneur de terre. 
+o Clef iD4 soudée avec la clef iD2. 
+ 
+- Transformateur HT/BT -LUU002TR : 
+o Panneaux d’accès HT/BT fermés. 
+ 
+Procédure de consignation : 
+ 
+- Débrochage du tiroir «Départ Aux REF-U» (-LHC2004JC-) 
+o Ouverture du contacteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iD1. 
+ 
+- Mise à la terre de la cellule HT «Départ Aux REF-U» (-LHC2004JC-) 
+o Fermeture du sectionneur de mise à la terre de la cellule. 
+o Verrouillage en position fermée du sectionneur de terre. 
+o Libération de la clef iD2. 
+ 
+- Accès aux bornes HT de la cellule HT «Départ Aux REF-U» (-LHC2004JC-) 
+o Récupération de la clef iD4 soudée avec la clef iD2. 
+o Déverrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef 
+iD4. 
+o Ouverture du panneau d’accès aux bornes HT de la cellule HT. 
+o La clef iD4 reste prisonnière. 
+ 
+- Contrôle de sécurité sur la cellule HT «Départ Aux REF-U» (-LHC2004JC-) 
+o Vérification de la non possibilité d’embrochage du tiroir contacteur HT. 
+o Vérification de la non possibilité d’ouvrir le sectionneur de terre de la cellule HT. 
+ 
+Etat final : 
+ 
+- Cellule -LHC2004JC- de la zone HDU : 
+o Tiroir -LHC2004JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes HT ouvert. 
+o Clef iD4 prisonnière du panneau d'accès. 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 27]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+27 sur 87 
+ 
+7.6.3 Procédure de déconsignation 
+ 
+Conditions initiales : 
+ 
+- Cellule -LHC2004JC- : 
+o Tiroir-LHC2004JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes HT ouvert. 
+o Clef iD4 prisonnière du panneau d'accès. 
+ 
+Procédure de déconsignation : 
+ 
+- Fermeture de l’accès aux bornes HT de la cellule HT «Départ Aux REF-U» (-LHC2004JC-) 
+o Fermeture du panneau d’accès aux bornes HT de la cellule HT. 
+o Verrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef 
+iD4. 
+o Récupération de la clef iD4 et iD2 (clefs soudées). 
+ 
+- Ouverture du sectionneur de mise à la terre de la cellule HT «Départ transformateur» (-LHC2004JC-) 
+o Insérer la clef iD2 dans la serrure mère. 
+o Déverrouillage du sectionneur de terre. 
+o Ouverture du sectionneur de mise à la terre de la cellule. 
+ 
+- Embrochage du tiroir «Départ transformateur» (-LHC2004JC-) 
+o Insérer la clef iD1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du contacteur 
+ 
+Etat final : 
+ 
+- Cellule -LHC2004JC- : 
+o Tiroir -LHC2003JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes HT fermé 
+contacteur fermé. 
+o Clef iD1 prisonnière de la serrure du porte fusible -LHC2004JA- 
+o Clef iD2 prisonnière de la serrure du sectionneur de terre 
+o Clef iD4 soudée avec la clef iD2. 
+ 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 28]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+28 sur 87 
+ 
+7.7 -LHC2005JC- CELLULE DISJONCTEUR DE COUPLAGE 
+7.7.1 Synoptique d’interverrouillage 
+ 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 29]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+29 sur 87 
+ 
+7.7.2 Procédure de consignation 
+ 
+Conditions initiales : 
+ 
+- Cellule -LHC2005JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2005JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+o Clef iE1 prisonnière de la serrure du disjoncteur -LHC2005JA-. 
+o Clef iE4 prisonnière de la serrure du sectionneur de terre. 
+o Clefs iE2, iE5, iE8 & iE9 prisonnières de la centrale à clefs -LHC2205CM. 
+o Clefs iE3  prisonnière de la centrale à clefs -LHC2305CM. 
+o Clefs iE6, iE7  prisonnières de la centrale à clefs -LHC2105CM. 
+ 
+Procédure de consignation : 
+ 
+- Débrochage du tiroir « Disjoncteur de couplage » (-LHC2005JC-). 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iE1. 
+o Récupération de la clef iE1. 
+o Insérer la clef iE1 dans la centrale à clefs -LHC2205CM. 
+ 
+- Débrochage du tiroir « Arrivée GE alternateur DUS » (-LHC2008JC-). 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iJ1. 
+o Récupération de la clef iJ1. 
+o Insérer la clef iJ1 dans la centrale à clefs -LHC2305CM. 
+ 
+- Débrochage du tiroir « Arrivée coffret PLUG FARN » (-LHC2010JC-). 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iK1. 
+o Récupération de la clef iK1. 
+o Insérer la clef iK1 dans la centrale à clefs -LHC2305CM. 
+ 
+- Débrochage du tiroir « Départ banc de charge » (-LHC2011JC-). 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iL1. 
+o Récupération de la clef iL1. 
+o Insérer la clef iL1 dans la centrale à clefs -LHC2305CM. 
+ 
+- Débrochage du tiroir « Départ Noyau Dur REF-U » (-LHC2012JC-). 
+o Ouverture du contacteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iM1. 
+o Récupération de la clef iM1. 
+o Insérer la clef iM1 dans la centrale à clefs -LHC2305CM. 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 30]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+30 sur 87 
+ 
+- Débrochage du tiroir « Départ pompe ASG-U » (-LHC2013JC-). 
+o Ouverture du contacteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iN1. 
+o Récupération de la clef iN1. 
+o Insérer la clef iN1 dans la centrale à clefs -LHC2113CM. 
+o Récupération de la clef iN4. 
+o Insérer la clef iN4 dans la centrale à clefs -LHC2305CM. 
+ 
+- Débrochage du tiroir « Départ pompe ND » (-LHC2014JC-). 
+o Ouverture du contacteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iP1. 
+o Récupération de la clef iP1. 
+o Insérer la clef iP1 dans la centrale à clefs -LHC2114CM. 
+o Récupération de la clef iP4. 
+o Insérer la clef iP4 dans la centrale à clefs -LHC2305CM. 
+ 
+- Récupération de la clef iR4 du tiroir « Réserve» (-LHC2015JC-). 
+o Récupération de la clef iR4 dans la centrale à clefs -LHC2115CM. 
+o Insérer la clef iR4 dans la centrale à clefs -LHC2305CM. 
+ 
+- Débrochage du tiroir « Remontée de jeu de barres » (-LHC2007JP-). 
+o Récupérer la clé iG1 au bureau de consignation. 
+o Insérer la clef iG1 dans la serrure mère. 
+o Débrochage du tiroir. 
+o Déposer la clef « iG1 » au bureau de consignation.  
+ 
+- Mise à la terre de la cellule HT « Remontée de jeu de barres » (-LHC2007JP-). 
+o Récupérer la clef iE9 dans la centrale à clefs -LHC2205CM-. 
+o Insérer la clef iE9 dans la serrure mère. 
+o Fermeture du sectionneur de mise à la terre de la cellule. 
+o Verrouillage en position fermée du sectionneur de terre. 
+ 
+- Mise à la terre de la cellule HT « Disjoncteur de couplage » (-LHC2005JC-). 
+o Récupération de la clef iE2 dans la centrale à clefs -LHC2205CM. 
+o Insérer la clef iE2 dans la centrale à clefs -LHC2305CM. 
+o Récupération de la clef iE3 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iE3 dans la serrure mère. 
+o Fermeture du sectionneur de mise à la terre de la cellule. 
+o Verrouillage en position fermée du sectionneur de terre. 
+o Libération de la clef iE4. 
+o Récupération de la clef iE4. 
+o Insérer la clef iE4 dans la centrale à clefs -LHC2105CM. 
+ 
+- Accès aux bornes HT de la cellule HT « Disjoncteur de couplage » (-LHC2005JC-). 
+o Récupérer la clef iE5 dans la centrale à clefs -LHC2205CM. 
+o Déverrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef 
+iE5. 
+o Ouverture du panneau d’accès aux bornes HT de la cellule HT. 
+o La clef iE5 reste prisonnière. 
+ 
+- Contrôle de sécurité sur la cellule HT « Disjoncteur de couplage » (-LHC2005JC-). 
+o Vérification de la non possibilité d’embrochage du tiroir disjoncteur HT. 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 31]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+31 sur 87 
+ 
+o Vérification de la non possibilité d’ouvrir le sectionneur de terre de la cellule HT. 
+ 
+Etat final : 
+ 
+- Cellule -LHC2005JC- de la zone HDU : 
+o Tiroir disjoncteur  -LHC2005JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes 
+HT ouvert. 
+o Clef iE1 prisonnière de la centrale à clefs -LHC2205CM, iE8 présente. 
+o Clefs iE2, iJ1, iK1, iL1, iM1, iN4, iP4, iR4  prisonnières de la centrale à clefs -LHC2305CM. 
+o Clefs iE6, iE7 prisonnières de la centrale à clefs -LHC2105CM, et iE4 présente. 
+ 
+- Cellule -LHC2008JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2008JA- débroché. 
+ 
+- Cellule -LHC2010JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2010JA- débroché. 
+ 
+- Cellule -LHC2011JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2011JA- débroché. 
+ 
+- Cellule -LHC2012JC- de la zone HDU : 
+o Tiroir contacteur -LHC2012JA- débroché. 
+ 
+- Cellule -LHC2013JC- de la zone HDU : 
+o Tiroir contacteur -LHC2013JA- débroché. 
+ 
+- Cellule -LHC2014JC- de la zone HDU : 
+o Tiroir contacteur -LHC2014JA- débroché. 
+ 
+- Cellule -LHC2015JC- de la zone HDU : 
+o Tiroir contacteur -LHC2015JA- débroché. 
+ 
+- Cellule -LHC2007JP- de la zone HDU : 
+o Tiroir « remontée jeu de barre » -LHC2007JA- débroché. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 32]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+32 sur 87 
+ 
+7.7.3 Procédure de déconsignation 
+Conditions initiales  
+ 
+- Cellule -LHC2005JC- de la zone HDU : 
+o Tiroir disjoncteur  -LHC2005JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes 
+HT ouvert. 
+o Clef iE1 prisonnière de la première centrale à clefs -LHC2205CM, iE8 présente. 
+o Clefs iE2, iJ1, iK1, iL1, iM1, iN4, iP4, iR4 prisonnières de la centrale à clefs -LHC2305CM. 
+o Clefs iE6, iE7 prisonnières de la centrale à clefs -LHC2105CM, et iE4 présente. 
+ 
+- Cellule -LHC2008JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2008JA- débroché. 
+ 
+- Cellule -LHC2010JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2010JA- débroché. 
+ 
+- Cellule -LHC2011JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2011JA- débroché. 
+ 
+- Cellule -LHC2012JC- de la zone HDU : 
+o Tiroir contacteur -LHC2012JA- débroché. 
+ 
+- Cellule -LHC2013JC- de la zone HDU : 
+o Tiroir contacteur -LHC2013JA- débroché. 
+ 
+- Cellule -LHC2014JC- de la zone HDU : 
+o Tiroir contacteur -LHC2014JA- débroché. 
+ 
+- Cellule -LHC2015JC- de la zone HDU : 
+o Tiroir contacteur -LHC2015JA- débroché. 
+ 
+- Cellule -LHC2007JP- de la zone HDU : 
+o Tiroir « remontée jeu de barre » -LHC2007JA- débroché. 
+ 
+Procédure de déconsignation : 
+ 
+- Fermeture de l’accès aux bornes HT de la cellule HT « Disjoncteur de couplage » (-LHC2005JC-). 
+o Fermeture du panneau d’accès aux bornes HT de la cellule HT. 
+o Verrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef iE5. 
+o Récupération de la clef iE5. 
+o Insérer la clef iE5 dans la centrale à clefs -LHC2205CM. 
+ 
+- Ouverture du sectionneur de mise à la terre de la cellule HT « Disjoncteur de couplage » (-LHC2005JC-). 
+o Récupérer la clef iE4 dans la centrale à clefs -LHC2105CM. 
+o Insérer la clef iE4 dans la serrure mère. 
+o Déverrouillage du sectionneur de terre. 
+o Ouverture du sectionneur de mise à la terre de la cellule. 
+o Récupération de la clef iE3. 
+ 
+- Libération des clefs : 
+o Insérer la clef iE3 dans la centrale à clefs -LHC2305CM. 
+o Libération des clefs iE2, iJ1, iK1, iL1, iM1, iN4, iP4, iR4. 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 33]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+33 sur 87 
+ 
+- Mise en place de la clef iR4 du tiroir « Réserve » (-LHC2015JC-). 
+o Récupérer la clef iR4 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iR4 dans la centrale à clefs -LHC2115CM. 
+ 
+- Embrochage du tiroir « Départ pompe ND » (-LHC2014JC-). 
+o Récupérer la clef iP4 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iP4 dans la centrale à clefs -LHC2114CM. 
+o Récupérer la clef iP1. 
+o Insérer la clef iP1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du contacteur. 
+ 
+- Embrochage du tiroir « Départ pompe ASG-U » (-LHC2013JC-). 
+o Récupérer la clef iN4 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iN4 dans la centrale à clefs -LHC2113CM. 
+o Récupérer la clef iN1. 
+o Insérer la clef iN1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du contacteur. 
+ 
+- Embrochage du tiroir « Départ Noyau Dur» (-LHC2012JC-). 
+o Récupérer la clef iM1 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iM1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du contacteur. 
+ 
+- Embrochage du tiroir « Départ banc de charge» (-LHC2011JC-). 
+o Récupérer la clef iL1 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iL1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+- Embrochage du tiroir « Arrivée coffret PLUG FARN » (-LHC2010JC-). 
+o Récupérer la clef iK1 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iK1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+- Embrochage du tiroir « Arrivée GE alternateur DUS » (-LHC2008JC-). 
+o Récupérer la clef iJ1 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iJ1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+- Ouverture du sectionneur de mise à la terre de la cellule HT « Remontée jeu de barres » (-LHC2007JP-). 
+o Ouverture du sectionneur de mise à la terre de la cellule. 
+o Libérer la clef iE9. 
+o Insérer la clé iE9 dans la centrale à clefs LHC2205CM. 
+o Embrochage du tiroir « Remontée de jeu de barres » (-LHC2007JP-). 
+o Récupérer la clé iG1 au bureau de consignation. 
+o Insérer la clé iG1 dans la serrure mère.  
+o Déverrouiller et embrocher le tiroir -LHC2007JP-. 
+- Embrochage du tiroir « Disjoncteur de couplage » (-LHC2005JC-). 
+o Récupérer la clef iE2 dans la centrale à clefs -LHC2305CM. 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 34]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+34 sur 87 
+ 
+o Insérer la clef iE2 dans la centrale à clefs -LHC2205CM. 
+o Récupérer la clef iE1. 
+o Insérer la clef iE1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+Etat final : 
+ 
+- Cellule -LHC2005JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2005JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+o Clef iE1 prisonnière de la serrure du disjoncteur -LHC2005JA-. 
+o Clef iE4 prisonnière de la serrure du sectionneur de terre. 
+o Clefs iE2, iE5, iE8 et iE9 prisonnières de la centrale à clefs -LHC2205CM. 
+o Clefs iE3  prisonnière de la centrale à clefs -LHC2305CM. 
+o Clefs iE6, iE7  prisonnières de la centrale à clefs -LHC2105CM. 
+ 
+- Cellule  -LHC2007JP- de la zone HDU : 
+o Jeu de barre embroché, sectionneur de terre ouvert, panneau d’accès aux bornes HT fermé  
+ 
+- Cellule -LHC2008JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2008JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+ 
+- Cellule -LHC2010JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2010JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+ 
+- Cellule -LHC2011JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2011JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+ 
+- Cellule -LHC2012JC- de la zone HDU : 
+o Tiroir contacteur -LHC2012JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, contacteur fermé. 
+ 
+- Cellule -LHC2013JC- de la zone HDU : 
+o Tiroir contacteur -LHC2013JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, contacteur fermé. 
+ 
+- Cellule -LHC2014JC- de la zone HDU : 
+o Tiroir contacteur -LHC2014JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, contacteur fermé. 
+ 
+- Cellule -LHC2015JC- de la zone HDU : 
+o Tiroir contacteur -LHC2015JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes HT 
+fermé, contacteur ouvert. 
+ 
+- Cellule -LHC2007JP- de la zone HDU : 
+o Tiroir « remontée jeu de barre » -LHC20007JA- embroché, sectionneur de terre fermé, panneau 
+d’accès aux bornes HT fermé.. 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 35]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+35 sur 87 
+ 
+7.8 -LHC2006JC- CELLULE TP 1ERDEMI-JEU DE BARRES 
+7.8.1 Synoptique d’interverrouillage 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 36]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+36 sur 87 
+ 
+7.8.2 Procédure de consignation 
+ 
+Conditions initiales  
+ 
+- Cellule -LHC2006JC- de la zone HDU : 
+o Sectionneur de terre ouvert. 
+o Clef iF1 prisonnière de la centrale à clefs -LHC2106CM. 
+ 
+- Cellule -LHC2001JC- de la zone HDU : 
+o Clef iA4 prisonnière de la centrale à clefs -LHC2101CM. 
+ 
+- Cellule -LHC2002JC- de la zone HDU : 
+o Clef iB3 prisonnière de la centrale à clefs -LHC2102CM. 
+ 
+- Cellule -LHC2003JC- de la zone HDU : 
+o Clef iC1 prisonnière de la serrure du tiroir-LHC2003JA- 
+ 
+- Cellule -LHC2004JC- de la zone HDU : 
+o Clef iD1 prisonnière de la serrure du tiroir-LHC2004JA- 
+ 
+- Cellule -LHC2005JC- de la zone HDU : 
+o Clef iE8 prisonnière de la centrale à clefs -LHC2205CM. 
+ 
+- Zone EDF : 
+o Clef iHC disposée au niveau de la Tranche. 
+ 
+Procédure de consignation : 
+ 
+- Débrochage du tiroir « Départ alimentation -LHA001TB » (-LHC2001JC-). 
+o Récupérer la clef iHC au bureau de consignation. 
+o Ouverture du disjoncteur. 
+o Insérer la clef iHC dans la serrure mère. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iA1. 
+o Récupération de la clef iA1. 
+ 
+- Récupération de la clef iA4. 
+o Insérer la clef iA1 dans la centrale à clefs -LHC2101CM. 
+o Récupération de la clef iA4. 
+o Insérer la clef iA4 dans la centrale à clefs -LHC2106CM. 
+ 
+- Débrochage du tiroir « Arrivée -LGF001TB » (-LHC2002JC-). 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iB1. 
+o Récupération de la clef iB1. 
+ 
+- Récupération de la clef iB3. 
+o Insérer la clef iB1 dans la centrale à clefs -LHC2102CM. 
+o Récupération de la clef iB3. 
+o Insérer la clef iB3 dans la centrale à clefs -LHC2106CM. 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 37]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+37 sur 87 
+ 
+- Débrochage du tiroir « Départ transformateur auxiliaire DUS » (-LHC2003JC-). 
+o Ouverture du contacteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef de la clef iC1. 
+o Récupération de la clef iC1. 
+o Insérer la clef iC1 dans la centrale à clefs -LHC2106CM. 
+ 
+- Débrochage du tiroir « Départ Aux REF-U» (-LHC2004JC-). 
+o Ouverture du contacteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef de la clef iD1. 
+o Récupération de la clef iD1. 
+o Insérer la clef iD1 dans la centrale à clefs -LHC2106CM. 
+ 
+- Débrochage du tiroir « Disjoncteur de couplage » (-LHC2005JC-). 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef de la clef iE1. 
+o Récupération de la clef iE1. 
+ 
+- Récupération de la clef iE8. 
+o Insérer la clef iE1 dans la centrale à clefs -LHC2205CM. 
+o Récupération de la clef iE8. 
+o Insérer la clef iE8 dans la centrale à clefs -LHC2106CM. 
+ 
+- Fermeture du sectionneur de terre de la cellule HT « TP 1er demi Jeu de barres » (-LHC2006JC-). 
+o Récupération de la clef iF1. 
+o Insérer la clef iF1 dans la serrure mère. 
+o Fermeture du sectionneur de mise à la terre de la cellule. 
+ 
+Etat final : 
+ 
+- Cellule -LHC2006JC- de la zone HDU : 
+o Sectionneur de terre fermé. 
+o Clef iA4, iB3, iC1, iD1, iE8 prisonnières de la centrale à clefs -LHC2106CM. 
+ 
+- Cellule -LHC2001JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2001JA- débroché. 
+ 
+- Cellule -LHC2002JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2002JA- débroché. 
+ 
+- Cellule -LHC2003JC- de la zone HDU : 
+o Tiroir contacteur -LHC2003JA- débroché. 
+ 
+- Cellule -LHC2004JC- de la zone HDU : 
+o Tiroir contacteur -LHC2004JA- débroché. 
+ 
+- Cellule -LHC2005JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2005JA- débroché. 
+ 
+- Zone EDF : 
+o Clef  iHC absente au niveau de la Tranche.  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 38]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+38 sur 87 
+ 
+7.8.3 Procédure de déconsignation 
+Conditions initiales  
+- Cellule -LHC2006JC- de la zone HDU : 
+o Sectionneur de terre fermé. 
+o Clef iF1 prisonnière de la serrure mère. 
+o Clef iA4, iB3, iC1, iD1, iE8 prisonnières de la centrale à clefs -LHC2106CM. 
+ 
+- Cellule -LHC2001JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2001JA- débroché. 
+ 
+- Cellule -LHC2002JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2002JA- débroché. 
+ 
+- Cellule -LHC2003JC- de la zone HDU : 
+o Tiroir contacteur -LHC2003JA- débroché. 
+ 
+- Cellule -LHC2004JC- de la zone HDU : 
+o Tiroir contacteur  -LHC2004JA- débroché. 
+ 
+- Cellule -LHC2005JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2005JA- débroché. 
+ 
+- Zone EDF : 
+o Clef  iHC absente au niveau de la Tranche. 
+ 
+Procédure de déconsignation : 
+ 
+- Ouverture du sectionneur de terre de la cellule HT « TP 1er demi Jeu de barres » (-LHC2006JC-). 
+o Ouverture du sectionneur de mise à la terre de la cellule. 
+o Récupération de la clef iF1. 
+o Insérer la clef iF1 dans la centrale à clefs -LHC2106CM. 
+o Libération des clefs iA4, iB3, iC1, iD1 et iE8. 
+ 
+- Embrochage du tiroir « Disjoncteur de couplage » (-LHC2005JC-). 
+o Récupérer la clef iE8 dans la centrale à clefs -LHC2106CM. 
+o Insérer la clef iE8 dans la centrale à clefs -LHC2105CM. 
+o Récupération de la clef iE1. 
+o Insérer la clef iE1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+- Embrochage du tiroir « Départ Aux REF-U» (-LHC2004JC-). 
+o Récupérer la clef iD1 dans la centrale à clefs -LHC2106CM. 
+o Insérer la clef iD1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du contacteur. 
+ 
+- Embrochage du tiroir « Départ transformateur auxiliaire DUS » (-LHC2003JC-). 
+o Récupérer la clef iC1 dans la centrale à clefs -LHC2106CM. 
+o Insérer la clef iC1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du contacteur. 
+- Embrochage du tiroir « Arrivée tranche -LGF001TB » (-LHC2002JC-). 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 39]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+39 sur 87 
+ 
+o Récupérer la clef iB3 dans la centrale à clefs -LHC2106CM. 
+o Insérer la clef iB3 dans la centrale à clefs -LHC2102CM. 
+o Récupération de la clef iB1. 
+o Insérer la clef iB1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+- Embrochage du tiroir « Départ alimentation -LHA001TB » (-LHC2001JC-) 
+o Récupérer la clef iA4 dans la centrale à clefs -LHC2106CM. 
+o Insérer la clef iA4 dans la centrale à clefs -LHC2101CM. 
+o Récupération de la clef iA1. 
+o Insérer la clef iA1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Libération de la clef iHC. 
+o Récupération de la clef iHC. 
+o Fermeture du disjoncteur. 
+o Restitution de la clef iHC au bureau de consignation. 
+ 
+Etat final 
+ 
+- Cellule -LHC2006JC- de la zone HDU : 
+o Sectionneur de terre ouvert. 
+o Clef iF1 prisonnière de la centrale à clefs -LHC2106CM. 
+ 
+- Cellule -LHC2001JC- de la zone HDU : 
+o Clef iA4 prisonnière de la centrale à clefs -LHC2101CM. 
+o Tiroir disjoncteur -LHC2001JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+ 
+- Cellule -LHC2002JC- de la zone HDU : 
+o Clef iB3 prisonnière de la centrale à clefs -LHC2102CM. 
+o Tiroir disjoncteur -LHC2002JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+ 
+- Cellule -LHC2003JC- de la zone HDU : 
+o Clef iC1 prisonnière de la serrure du tiroir contacteur -LHC2003JA-. 
+o Tiroir contacteur -LHC2003JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, contacteur fermé. 
+ 
+- Cellule -LHC2004JC- de la zone HDU : 
+o Clef iD1 prisonnière de la serrure du tiroir contacteur -LHC2004JA-. 
+o Tiroir contacteur  -LHC2004JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, contacteur fermé. 
+ 
+- Cellule -LHC2005JC- de la zone HDU : 
+o Clef iE8 prisonnière de la centrale à clefs -LHC2205CM. 
+o Tiroir disjoncteur -LHC2005JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+ 
+- Zone EDF : 
+o Clef  iHC disposée au niveau de la Tranche. 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 40]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+40 sur 87 
+ 
+7.9 -LHC2007JP- CELLULE REMONTEE DE JEU DE BARRE 
+7.9.1 Synoptique d’interverrouillage 
+ 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 41]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+41 sur 87 
+ 
+7.9.2 Procédure de consignation 
+ 
+Conditions initiales  
+- Cellule -LHC2007JP- de la zone HDU : 
+o Tiroir verrouillé et embroché, panneau d’accès aux bornes HT de la cellule HT fermé. 
+o Sectionneur de mise à la terre ouvert, clé iE9 prisonnière de la centrale à clefs –LHC2205CM-. 
+o Clé iG1 au bureau de consignation.  
+ 
+Procédure de consignation : 
+ 
+- Débrochage du tiroir « Disjoncteur de couplage » (-LHC2005JC-). 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iE1. 
+o Récupération de la clef iE1. 
+o Insérer la clef iE1 dans la centrale à clefs -LHC2205CM. 
+ 
+- Débrochage du tiroir « Arrivée GE alternateur DUS » (-LHC2008JC-). 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iJ1. 
+o Récupération de la clef iJ1. 
+o Insérer la clef iJ1 dans la centrale à clefs -LHC2305CM. 
+ 
+- Débrochage du tiroir « Arrivée coffret PLUG FARN » (-LHC2010JC-). 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iK1. 
+o Récupération de la clef iK1. 
+o Insérer la clef iK1 dans la centrale à clefs -LHC2305CM. 
+ 
+- Débrochage du tiroir « Départ banc de charge » (-LHC2011JC-). 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iL1. 
+o Récupération de la clef iL1. 
+o Insérer la clef iL1 dans la centrale à clefs -LHC2305CM. 
+ 
+- Débrochage du tiroir « Départ Noyau Dur REF-U » (-LHC2012JC-). 
+o Ouverture du contacteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iM1. 
+o Récupération de la clef iM1. 
+o Insérer la clef iM1 dans la centrale à clefs -LHC2305CM. 
+ 
+- Débrochage du tiroir « Départ pompe ASG-U » (-LHC2013JC-). 
+o Ouverture du contacteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iN1. 
+o Récupération de la clef iN1. 
+o Insérer la clef iN1 dans la centrale à clefs -LHC2113CM. 
+o Récupération de la clef iN4. 
+o Insérer la clef iN4 dans la centrale à clefs -LHC2305CM. 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 42]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+42 sur 87 
+ 
+ 
+- Débrochage du tiroir « Départ pompe ND » (-LHC2014JC-). 
+o Ouverture du contacteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iP1. 
+o Récupération de la clef iP1. 
+o Insérer la clef iP1 dans la centrale à clefs -LHC2114CM. 
+o Récupération de la clef iP4. 
+o Insérer la clef iP4 dans la centrale à clefs -LHC2305CM. 
+ 
+- Débrochage du tiroir « Réserve » (-LHC2015JC-). 
+o Récupération de la clef iR1. 
+o Insérer la clef iR1 dans la centrale à clefs -LHC2115CM. 
+o Récupération de la clef iR4. 
+o Insérer la clef iR4 dans la centrale à clefs -LHC2305CM. 
+ 
+- Mise à la terre de la cellule HT « Disjoncteur de couplage » (-LHC2005JC-). 
+o Récupération de la clef iE2. 
+o Insérer la clef iE2 dans la centrale à clefs -LHC2305CM. 
+o Récupération de la clef iE3  
+o Insérer la clef iE3 dans la serrure mère. 
+o Fermeture du sectionneur de mise à la terre de la cellule. 
+o Verrouillage en position fermée du sectionneur de terre. 
+o Libération de la clef iE4. 
+o Récupération de la clef iE4. 
+ 
+- Débrochage du tiroir « Remontée de je de barre » (-LHC2007JP-). 
+o Récupérer la clé iG1 dans la centrale à clef –LHC2205CM. 
+o Insérer la clef iG1 dans la serrure mère. 
+o Débrochage du tiroir, Clef iG1 prisonnière. 
+o Déposer la clé iG1 au bureau de consignation.  
+ 
+- Mise à la terre de la cellule HT « Remontée de jeu de barres » (-LHC2007JP-). 
+o Récupérer la clef iE9 dans la centrale à clefs -LHC2205CM-. 
+o Insérer la clef iE9 dans la serrure mère. 
+o Fermeture du sectionneur de mise à la terre de la cellule. 
+o Verrouillage en position fermée du sectionneur de terre. 
+ 
+- Accès aux bornes HT de la cellule HT « Remontée de jeu de barres » (-LHC2007JP-). 
+o Insérer la clef iE4 dans la centrale à clefs -LHC2105CM. 
+o Récupération de la clef iE6. 
+o Déverrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef 
+iE6. 
+o Ouverture du panneau d’accès aux bornes HT de la cellule HT. 
+o La clef iE6 reste prisonnière. 
+ 
+- Contrôle de sécurité sur la cellule HT « Remontée de jeu de barres » (-LHC2007JP-). 
+o Vérification de la non possibilité d’embrochage du tiroir HT. 
+o Vérification de la non possibilité d’ouvrir le sectionneur de terre de la cellule HT. 
+ 
+Etat final : 
+- Cellule -LHC2007JP- de la zone HDU : 
+o Tiroir verrouillé et débroché, sectionneur de mise à la terre fermé, panneau d’accès aux bornes HT 
+de la cellule HT ouvert. 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 43]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+43 sur 87 
+ 
+o Clef iG1 disponible au bureau de consignation. 
+o Clef iE6 prisonnière de la serrure mère. 
+o Clef iE9 prisonnière de la serrure mère.  
+ 
+- Cellule -LHC2005JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2008JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2010JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2011JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2012JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+o  
+- Cellule -LHC2013JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+o  
+- Cellule -LHC2014JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2015JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 44]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+44 sur 87 
+ 
+7.9.3 Procédure de déconsignation 
+ 
+Conditions initiales  
+ 
+- Cellule -LHC2007JP- de la zone HDU : 
+o Tiroir verrouillé et débroché, sectionneur de mise à la terre fermé et panneau d’accès aux bornes HT 
+de la cellule HT ouvert 
+o Clef iG1 disponible au bureau de consignation. 
+o Clef iE6 prisonnière dans la serrure mère. 
+o Clef iE9 prisonnière dans la serrure mère. 
+ 
+- Cellule -LHC2005JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2008JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2010JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2011JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2012JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+o  
+- Cellule -LHC2013JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+o  
+- Cellule -LHC2014JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2015JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+Procédure de déconsignation : 
+ 
+- Fermeture de l’accès aux bornes HT de la cellule HT « Remontée de jeu de barres (-LHC2007JP-). 
+o Fermeture du panneau d’accès aux bornes HT de la cellule HT. 
+o Verrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef iE6. 
+o Récupération de la clef iE6. 
+ 
+- Ouverture du sectionneur de mise à la terre de la cellule HT « Départ couplage » (-LHC2005JC-). 
+o Insérer la clef iE6 dans la centrale à clefs -LHC2105CM. 
+o Récupération de la clef iE4. 
+o Insérer la clef iE4 dans la serrure mère. 
+o Déverrouillage du sectionneur de terre. 
+o Ouverture du sectionneur de mise à la terre de la cellule. 
+o Verrouillage du sectionneur de terre. 
+o Récupération de la clef iE3. 
+o Insérer la clé iE3 dans la centrale à clefs LHC2305CM 
+ 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 45]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+45 sur 87 
+ 
+- Embrochage du tiroir « Réserve » (-LHC2015JC-). 
+o Récupérer la clef iR4 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iR4 dans la centrale à clefs -LHC2115CM. 
+o Récupérer la clef iR1. 
+o Insérer la clef iR1 dans la serrure mère. 
+ 
+- Embrochage du tiroir « Départ pompe ND » (-LHC2014JC-). 
+o Récupérer la clef iP4 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iP4 dans la centrale à clefs -LHC2114CM. 
+o Récupérer la clef iP1. 
+o Insérer la clef iP1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du contacteur. 
+ 
+- Embrochage du tiroir « Départ pompe ASG-U » (-LHC2013JC-). 
+o Récupérer la clef iN4 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iN4 dans la centrale à clefs -LHC2113CM. 
+o Récupérer la clef iN1. 
+o Insérer la clef iN1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du contacteur. 
+ 
+- Embrochage du tiroir « Départ Noyau Dur REF-U » (-LHC2012JC-). 
+o Récupérer la clef iM1 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iM1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du contacteur. 
+ 
+- Embrochage du tiroir « Départ banc de charge » (-LHC2011JC-). 
+o Récupérer la clef iL1 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iL1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+- Embrochage du tiroir « Arrivée coffret PLUG FARN » (-LHC2010JC-). 
+o Récupérer la clef iK1 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iK1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+- Embrochage du tiroir « Arrivée GE alternateur DUS » (-LHC2008JC-). 
+o Récupérer la clef iJ1 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iJ1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+- Ouverture du sectionneur de mise à la terre de la cellule HT « Remontée jeu de barres » (-LHC2007JP-). 
+o Ouverture du sectionneur de mise à la terre de la cellule. 
+o Libérer la clef iE9. 
+o Insérer la clé iE9 dans la centrale à clefs LHC2205CM. 
+ 
+- Embrochage du tiroir « Remontée de jeu de barres » (-LHC2007JP-). 
+o Récupérer la clé iG1 au bureau de consignation. 
+o Insérer la clé iG1 dans la serrure mère.  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 46]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+46 sur 87 
+ 
+o Déverrouiller et embrocher le tiroir -LHC2007JP-. 
+ 
+- Libération de la clef iE1. 
+o Récupération de la clef iE2. 
+o Insérer la clef iE2 dans la centrale à clefs -LHC2205CM. Clefs iE5 et iE8 déjà présentes. 
+o Libération de la clef iE1. 
+ 
+- Embrochage du tiroir « Disjoncteur de couplage » (-LHC2005JC-). 
+o Récupérer la clef iE1 dans la centrale à clefs -LHC2205CM. 
+o Insérer la clef iE1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+- Contrôle de sécurité « remontée jeu de barres (-LHC2007JP-) » 
+o Vérification de la non-possibilité de débrocher le tiroir HT. 
+o Vérification de la non-possibilité de fermer le sectionneur de terre de la cellule HT. 
+ 
+ 
+Etat final : 
+ 
+- Cellule -LHC2007JP- de la zone HDU : 
+o Tiroir verrouillé et embroché, sectionneur de mise à la terre ouvert et panneau d’accès aux bornes 
+HT de la cellule HT fermé. 
+o Clef iG1 disponible au bureau de consignation. 
+o Clef IiE9 prisonnière de la centrale à clefs - 
+ 
+- Cellule -LHC2008JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2008JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+ 
+- Cellule -LHC2010JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2010JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+ 
+- Cellule -LHC2011JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2011JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+ 
+- Cellule -LHC2012JC- de la zone HDU : 
+o Tiroir contacteur -LHC2012JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, contacteur fermé. 
+ 
+- Cellule -LHC2013JC- de la zone HDU : 
+o Tiroir contacteur -LHC2013JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, contacteur fermé. 
+ 
+- Cellule -LHC2014JC- de la zone HDU : 
+o Tiroir contacteur -LHC2014JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, contacteur fermé. 
+ 
+- Cellule -LHC2015JC- de la zone HDU : 
+o Tiroir contacteur -LHC2015JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes HT 
+fermé, contacteur ouvert. 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 47]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+47 sur 87 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 48]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+48 sur 87 
+ 
+7.10 -LHC2008JC- CELLULE ARRIVEE GE ALTERNATEUR DUS 
+7.10.1 Synoptique d’interverrouillage 
+ 
+ 
+ 
+ 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 49]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+49 sur 87 
+ 
+7.10.2 Procédure de consignation 
+Conditions initiales  
+ 
+- Cellule -LHC2008JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2008JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+o Clef iJ1 prisonnière de la serrure disjoncteur. 
+o Clef iJ4 prisonnière de la centrale à clefs -LHC2108CM. 
+o Clef iJ5 prisonnière de la serrure du sectionneur de terre. 
+ 
+- Skids air de démarrage files 1 et 2 du local -HDU1A01ZL- : 
+o Vannes d’air comprimé -LHU3122VA et -LHU3172VA ouvertes, clefs iJ2 & iJ3 prisonnières. 
+o Vannes de purge LHU3145VA, -LHU3146VA, -LHU3147VA et LHU3148VA  en position fermées. 
+ 
+Procédure de consignation : 
+ 
+- Débrochage du tiroir « Arrivée GE alternateur DUS » (-LHC2008JC-). 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iJ1. 
+ 
+- Verrouillage des vannes d’air comprimé (skids). 
+o Fermer et verrouiller les vannes -LHU3122VA et -LHU3172VA en position fermées.  
+o Récupération des clefs iJ2 et iJ3 sur les vannes -LHU3122VA et -LHU3172VA  
+ 
+- Purge du circuit d’air (Mesure préventive).  
+o Ouverture des vannes de purge LHU3145VA, -LHU3146VA, -LHU3147VA et LHU3148VA.  
+ 
+- Mise à la terre de la cellule HT « Arrivée GE alternateur DUS » (-LHC2008JC-). 
+o Insérer les clefs iJ2 et iJ3 dans la centrale à clefs -LHC2108CM. 
+o Récupération de la clef iJ4. 
+o Insérer la clef iJ4 dans la serrure mère. 
+o Fermeture du sectionneur de mise à la terre de la cellule. 
+o Verrouillage en position fermée du sectionneur de terre. 
+o Libération de la clef iJ5. 
+ 
+- Accès aux bornes HT de la cellule HT « Arrivée GE alternateur DUS » (-LHC2008JC-). 
+o Récupération de la clef iJ5. 
+o Déverrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef 
+iJ5. 
+o Ouverture du panneau d’accès aux bornes HT de la cellule HT. 
+o La clef iJ5 reste prisonnière. 
+ 
+- Contrôle de sécurité sur la cellule HT « Arrivée GE alternateur DUS » (-LHC2008JC-). 
+o Vérification de la non possibilité d’embrochage du tiroir HT. 
+o Vérification de la non possibilité d’ouvrir le sectionneur de terre de la cellule HT. 
+Etat final : 
+ 
+- Cellule -LHC2008JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2008JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes 
+HT ouvert. 
+o Clefs iJ2 et iJ3 prisonnières de la centrale à clefs -LHC2108CM. 
+o Clefs iJ4 et iJ5 prisonnières sur la cellule. 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 50]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+50 sur 87 
+ 
+ 
+- Skids air de démarrage files 1 et 2 du local -HDU1A01ZL- : 
+o Vannes d’air comprimé -LHU3122VA et -LHU3172VA verrouillées en position fermée. 
+o Vannes de purge LHU3145VA, -LHU3146VA, -LHU3147VA et LHU3148VA  en position ouvertes. 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 51]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+51 sur 87 
+ 
+7.10.3 Procédure de déconsignation 
+ 
+Conditions initiales  
+ 
+- Cellule -LHC2008JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2008JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes 
+HT ouvert. 
+o Clefs iJ2 et iJ3 prisonnières de la centrale à clefs -LHC2108CM. 
+o Clefs iJ4 et iJ5 prisonnières sur la cellule. 
+ 
+- Skids air de démarrage files 1 et 2 du local -HDU1A01ZL- : 
+• Vannes d’air comprimé -LHU3122VA et -LHU3172VA verrouillées en position fermées. 
+• Vannes de purge LHU3145VA, -LHU3146VA, -LHU3147VA et LHU3148VA en position ouvertes. 
+ 
+Procédure de déconsignation : 
+ 
+- Fermeture de l’accès aux bornes HT de la cellule HT « Arrivée GE alternateur DUS » (-LHC2008JC-). 
+o Fermeture du panneau d’accès aux bornes HT de la cellule HT. 
+o Verrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef iJ5. 
+o Récupération de la clef iJ5. 
+ 
+- Ouverture du sectionneur de mise à la terre de la cellule HT « Arrivée GE alternateur DUS » (-LHC2008JC-). 
+o Insérer la clef iJ5 dans la serrure mère. 
+o Déverrouillage du sectionneur de terre. 
+o Ouverture du sectionneur de mise à la terre de la cellule. 
+o Verrouillage du sectionneur de terre. 
+o Récupération de la clef iJ4. 
+ 
+- Libération des clefs iJ2 et iJ3. 
+o Insérer la clef iJ4 dans la centrale à clefs -LHC2108CM. 
+o Récupération des clefs iJ2 et iJ3. 
+ 
+- Purge du circuit d’air (Mesure préventive).  
+o Fermeture des vannes de purge LHU3145VA, -LHU3146VA, -LHU3147VA et LHU3148VA   
+ 
+- Déverrouiller les vannes d’air comprimé (skids). 
+o Insérer les clefs iJ2 et iJ3 dans les serrures des vannes LHU3122VA et LHU3172VA. 
+o Ouvrir les vannes LHU3122VA et LHU3172VA  
+ 
+- Embrochage du tiroir « Arrivée GE alternateur DUS » (-LHC2008JC-). 
+o Verrouiller la clef iJ1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+Etat final : 
+ 
+- Cellule -LHC2008JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2008JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+o Clef iJ1 prisonnière de la serrure disjoncteur. 
+o Clef iJ4 prisonnière de la centrale à clefs -LHC2108CM. 
+o Clef iJ5 prisonnière de la serrure du sectionneur de terre. 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 52]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+52 sur 87 
+ 
+- Skids air de démarrage files 1 et 2 du local -HDU1A01ZL- : 
+o  Vannes d’air comprimé -LHU3122VA et -LHU3172VA ouvertes, clefs iJ2 & iJ3 prisonnières.  
+o Vannes de purge LHU3145VA, -LHU3146VA, -LHU3147VA et LHU3148VA  en position fermées. 
+ 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 53]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+53 sur 87 
+ 
+7.11 -LHC2009JC- CELLULE TP 2EME DEMI JEU DE BARRES 
+7.11.1 Synoptique d’interverrouillage 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 54]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+54 sur 87 
+ 
+7.11.2 Procédure de consignation 
+ 
+Conditions initiales  
+ 
+- Cellule -LHC2009JC- de la zone HDU : 
+o Sectionneur de terre ouvert  
+o Clef iE7 prisonnière de la centrale à clefs -LHC2105CM. 
+ 
+Procédure de consignation : 
+ 
+- Débrochage du tiroir « Disjoncteur de couplage » (-LHC2005JC-). 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iE1. 
+o Récupération de la clef iE1. 
+o Insérer la clef iE1 dans la centrale à clefs -LHC2205CM. 
+ 
+- Débrochage du tiroir « Arrivée GE alternateur DUS » (-LHC2008JC-). 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iJ1. 
+o Récupération de la clef iJ1. 
+o Insérer la clef iJ1 dans la centrale à clefs -LHC2205CM. 
+ 
+- Débrochage du tiroir « Arrivée coffret PLUG FARN » (-LHC2010JC-). 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iK1. 
+o Récupération de la clef iK1. 
+o Insérer la clef iK1 dans la centrale à clefs -LHC2205CM. 
+ 
+- Débrochage du tiroir « Départ banc de charge» (-LHC2011JC-). 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iL1. 
+o Récupération de la clef iL1. 
+o Insérer la clef iL1 dans la centrale à clefs -LHC2205CM. 
+ 
+- Débrochage du tiroir « Départ Noyau Dur REF-U » (-LHC2012JC-). 
+o Ouverture du contacteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iM1. 
+o Récupération de la clef iM1. 
+o Insérer la clef iM1 dans la centrale à clefs -LHC2205CM. 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 55]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+55 sur 87 
+ 
+- Débrochage du tiroir « Départ pompe ASG-U » (-LHC2013JC-). 
+o Ouverture du contacteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iN1. 
+o Récupération de la clef iN1. 
+o Insérer la clef iN1 dans la centrale à clefs -LHC2113CM. 
+o Récupération de la clef iN4. 
+o Insérer la clef iN4 dans la centrale à clefs -LHC2205CM. 
+ 
+- Débrochage du tiroir « Départ pompe ND » (-LHC2014JC-). 
+o Ouverture du contacteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iP1. 
+o Récupération de la clef iP1. 
+o Insérer la clef iP1 dans la centrale à clefs -LHC2114CM. 
+o Récupération de la clef iP4. 
+o Insérer la clef iP4 dans la centrale à clefs -LHC2205CM. 
+ 
+- Débrochage du tiroir « Réserve » (-LHC2015JC-). 
+o Récupération de la clef iR1. 
+o Insérer la clef iR1 dans la centrale à clefs -LHC2115CM. 
+o Récupération de la clef iR4. 
+o Insérer la clef iR4 dans la centrale à clefs -LHC2205CM. 
+ 
+- Mise à la terre de la cellule HT « Disjoncteur de couplage » (-LHC2005JC-). 
+o Récupération de la clef iE2. 
+o Insérer la clef iE2 dans la centrale à clefs -LHC2205CM. 
+o Récupération de la clef iE3 
+o Insérer la clef iE3 dans la serrure mère. 
+o Fermeture du sectionneur de mise à la terre de la cellule. 
+o Verrouillage en position fermée du sectionneur de terre. 
+o Libération de la clef iE4. 
+o Récupération de la clef iE4. 
+ 
+- Mise à la terre cellule HT « TP 2ème demi - jeu de barres » (-LHC2009JC-). 
+o Insérer la clef iE4 dans la centrale à clefs -LHC2105CM. 
+o Récupération de la clef iE7. 
+o Insérer la clef iE7 dans la serrure mère. 
+o Fermeture du sectionneur de mise à la terre de la cellule. 
+ 
+Etat final : 
+ 
+- Cellule -LHC2009JC- de la zone HDU : 
+o Sectionneur de terre fermé. 
+o Clef iE7 prisonnière de la cellule -LHC2009JC-. 
+ 
+- Cellule -LHC2005JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2008JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 56]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+56 sur 87 
+ 
+- Cellule -LHC2010JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2011JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2012JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2013JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2014JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2015JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 57]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+57 sur 87 
+ 
+7.11.3 Procédure de déconsignation 
+ 
+Conditions initiales  
+ 
+- Cellule -LHC2009JC- de la zone HDU : 
+o Sectionneur de terre fermé. 
+o Clef iE7 prisonnière de la cellule -LHC2009JC-. 
+ 
+- Cellule -LHC2005JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2008JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2010JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2011JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2012JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2013JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2014JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+- Cellule -LHC2015JC- de la zone HDU : 
+o Tiroir verrouillé et débroché. 
+ 
+ 
+Procédure de déconsignation : 
+ 
+- Ouverture du sectionneur de terre de la cellule HT « TP 2ème demi - jeu de barres » (-LHC2009JC-). 
+o Ouverture du sectionneur de mise à la terre de la cellule. 
+o Récupération de la clef iE7. 
+ 
+- Ouverture du sectionneur de mise à la terre de la cellule HT « Départ transformateur» (-LHC2004JC-). 
+o Insérer la clef iE7 dans la centrale à clefs -LHC2105CM. 
+o Récupérer la clef iE4. 
+o Insérer la clef iE4 dans la serrure mère. 
+o Déverrouillage du sectionneur de terre. 
+o Ouverture du sectionneur de mise à la terre de la cellule. 
+o Verrouillage du sectionneur de terre. 
+o Récupération de la clef iE3. 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 58]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+58 sur 87 
+ 
+- Libération de la clef iE1. 
+o Insérer la clef iE3 dans la centrale à clefs -LHC2305CM. 
+o Récupération de la clef iE2. 
+o Insérer les clefs iE2 dans la centrale à clefs -LHC2205CM, clefs iE5 et iE8 présentes. 
+o Libération de la clef iE1. 
+ 
+- Déverrouillage du tiroir « Réserve » (-LHC2015JC-). 
+o Récupérer la clef iR4 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iR4 dans la centrale à clefs -LHC2115CM. 
+o Récupérer la clef iR1. 
+o Insérer la clef iR1 dans la serrure mère. 
+ 
+- Embrochage du tiroir « Départ pompe ND » (-LHC2014JC-). 
+o Récupérer la clef iP4 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iP4 dans la centrale à clefs -LHC2114CM. 
+o Récupérer la clef iP1. 
+o Insérer la clef iP1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du contacteur. 
+ 
+- Embrochage du tiroir « Départ pompe ASG-U » (-LHC2013JC-). 
+o Récupérer la clef iN4 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iN4 dans la centrale à clefs -LHC2113CM. 
+o Récupérer la clef iN1. 
+o Insérer la clef iN1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du contacteur. 
+ 
+- Embrochage du tiroir « Départ Noyau Dur REF-U » (-LHC2012JC-). 
+o Récupérer la clef iM1 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iM1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du contacteur. 
+ 
+- Embrochage du tiroir « Départ banc de charge » (-LHC2011JC-). 
+o Récupérer la clef iL1 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iL1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+- Embrochage du tiroir « Arrivée coffret PLUG FARN » (-LHC2010JC-). 
+o Récupérer la clef iK1 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iK1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+- Embrochage du tiroir « Arrivée GE alternateur DUS » (-LHC2008JC-). 
+o Récupérer la clef iJ1 dans la centrale à clefs -LHC2305CM. 
+o Insérer la clef iJ1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 59]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+59 sur 87 
+ 
+- Embrochage du tiroir « Disjoncteur de couplage » (-LHC2005JC-). 
+o Récupérer la clef iE1 dans la centrale à clefs -LHC2205CM 
+o Insérer la clef iE1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+Etat final : 
+ 
+- Cellule -LHC2009JC- de la zone HDU : 
+o Sectionneur de terre ouvert. 
+o Clef iE7 prisonnière de la centrale à clefs -LHC2105CM. 
+ 
+- Cellule -LHC2008JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2008JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+ 
+- Cellule -LHC2010JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2010JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+ 
+- Cellule -LHC2011JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2011JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+ 
+- Cellule -LHC2012JC- de la zone HDU : 
+o Tiroir contacteur -LHC2012JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, contacteur fermé. 
+ 
+- Cellule -LHC2013JC- de la zone HDU : 
+o Tiroir contacteur -LHC2013JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, contacteur fermé. 
+ 
+- Cellule -LHC2014JC- de la zone HDU : 
+o Tiroir contacteur -LHC2014JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, contacteur fermé. 
+ 
+- Cellule -LHC2015JC- de la zone HDU : 
+o Tiroir contacteur -LHC2015JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes HT 
+fermé, contacteur ouvert. 
+ 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 60]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+60 sur 87 
+ 
+7.12 -LHC2010JC- CELLULE ARRIVE COFFRET PLUG FARN 
+7.12.1 Synoptique d’interverrouillage 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 61]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+61 sur 87 
+ 
+7.12.2 Procédure de consignation 
+ 
+Conditions initiales  
+ 
+- Cellule -LHC2010JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2010JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+o Clef iK1 prisonnière de la serrure du disjoncteur -LHC2010JA-. 
+o Clef iK2 prisonnière de la serrure du sectionneur de terre. 
+o Clef iK3, iK4 prisonnières de la centrale à clefs -LHC2110CM. 
+ 
+- Coffret PLUG FARN - LHC2001CR- de la zone  HDU : 
+o Clef absente, coffret verrouillé. 
+ 
+- Zone EDF : 
+o Sectionneur de terre -LGF001TB ouvert 
+o Clef Q1 prisonnière  du sectionneur de terre. 
+ 
+Procédure de consignation : 
+ 
+- Débrochage du tiroir « Arrivée coffret PLUG FARN » (-LHC2010JC-). 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iK1. 
+ 
+- Mise à la terre de la cellule HT « Arrivée coffret PLUG FARN » (-LHC2010JC-). 
+o Récupération de la clef Q1 en Tranche après consignation. 
+o Insérer la clef Q1 dans la serrure mère. 
+o Déverrouillage du sectionneur de terre. 
+o Fermeture du sectionneur de mise à la terre de la cellule. 
+o Verrouillage en position fermée du sectionneur de terre. 
+o Libération de la clef iK2. 
+o Récupération de la clef iK2. 
+ 
+- Accès aux bornes HT de la cellule HT « Arrivée coffret PLUG FARN » (-LHC2010JC-). 
+o Insérer la clef iK2 dans la centrale à clés -LHC2110CM. 
+o Récupération de la clef iK3. 
+o Insérer la clef iK3 dans la serrure mère. 
+o Déverrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef 
+iK3. 
+o Ouverture du panneau d’accès aux bornes HT de la cellule HT. 
+o La clef iK3 reste prisonnière. 
+ 
+- Ouverture du coffret « PLUG FARN » (- LHC2001CR-) 
+o Récupérer la clef iK4 dans la centrale à clefs -LHC2110CM. 
+o Insérer la clef iK4 dans la serrure mère. 
+o Ouvrir la porte du coffret. 
+o La clef iK4 est prisonnière. 
+ 
+- Contrôle de sécurité sur la cellule HT « Arrivée GE alternateur DUS » (-LHC2008JC-). 
+o Vérification de la non possibilité d’embrochage du tiroir disjoncteur HT. 
+o Vérification de la non possibilité d’ouvrir le sectionneur de terre de la cellule HT. 
+Etat final : 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 62]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+62 sur 87 
+ 
+ 
+- Cellule -LHC2010JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2010JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes 
+HT ouvert. 
+o Clef iQ1 prisonnière de la serrure sectionneur de terre. 
+o Clef iK2 prisonnière dans la centrale à clefs -LHC2110CM. 
+o Clef iK3 prisonnière du panneau d’accès aux bornes HT. 
+ 
+- Coffret PLUG FARN - LHC2001CR- de la zone  HDU : 
+o Clef iK4 prisonnière de la serrure du coffret -LHC2001CR-. 
+ 
+- Zone EDF : 
+o Sectionneur de terre fermé. 
+ 
+7.12.3 Procédure de déconsignation 
+ 
+Conditions initiales  
+ 
+- Cellule -LHC2010JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2010JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes 
+HT ouvert. 
+o Clef iQ1 prisonnière de la serrure sectionneur de terre. 
+o Clef iK2 prisonnière dans la centrale à clefs -LHC2110CM. 
+o Clef iK3 prisonnière du panneau d’accès aux bornes HT. 
+ 
+- Coffret PLUG FARN - LHC2001CR- de la zone  HDU : 
+o Clef iK4 prisonnière de la serrure du coffret -LHC2001CR-. 
+ 
+- Zone EDF : 
+o Sectionneur de terre fermé. 
+ 
+Procédure de déconsignation : 
+ 
+- Fermeture du coffret PLUG FARN -LHC2001CR- 
+o Fermer la porte. 
+o Récupération de la clef iK4. 
+o Insérer la clef iK4 dans la centrale à clefs -LHC2110CM. 
+ 
+- Fermeture de l’accès aux bornes HT de la cellule HT « Arrivée coffret PLUG FARN » (-LHC2010JC-). 
+o Fermeture du panneau d’accès aux bornes HT de la cellule HT. 
+o Verrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef iK3. 
+o Récupération de la clef iK3. 
+ 
+- Récupération de la clef iK2. 
+o Insérer la clef iK3 dans la centrale à clefs -LHC2110CM. 
+o Récupération de la clef iK2. 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 63]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+63 sur 87 
+ 
+- Ouverture du sectionneur de mise à la terre de la cellule HT « Arrivée coffret PLUG FARN » (-LHC2010JC-). 
+o Insérer la clef iK2 dans la serrure mère. 
+o Déverrouillage du sectionneur de terre. 
+o Ouverture du sectionneur de mise à la terre de la cellule. 
+o Verrouillage du sectionneur de terre. 
+o Récupération de la clef Q1. 
+ 
+- Embrochage du tiroir « Arrivée coffret PLUG FARN » (-LHC2010JC-). 
+o Verrouiller la clef iK1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+o Restitution de la clef Q1 pour la déconsignation de la Tranche. 
+ 
+Etat final : 
+ 
+- Cellule -LHC2010JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2010JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+o Clef iK1 prisonnière de la serrure du disjoncteur -LHC2010JA-. 
+o Clef iK2 prisonnière de la serrure du sectionneur de terre. 
+o Clef iK3, iK4 prisonnières de la centrale à clefs -LHC2110CM. 
+ 
+- Coffret PLUG FARN - LHC2001CR- de la zone  HDU : 
+o Coffret verrouillé et fermé. 
+ 
+- Zone EDF : 
+o Sectionneur de terre -LGZ001TB ouvert. 
+o Clef Q1 prisonnière  du sectionneur de terre. 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 64]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+64 sur 87 
+ 
+7.13 -LHC2011JC- CELLULE DEPART BANC DE CHARGE 
+7.13.1 Synoptique d’interverrouillage 
+ 
+ 
+ 
+ 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 65]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+65 sur 87 
+ 
+7.13.2 Procédure de consignation 
+ 
+Conditions initiales  
+ 
+- Cellule -LHC2011JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2011JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+o Les 3 Clefs iL2 et la clef L4 sont prisonnières de la centrale à clefs -LHC2111CM. 
+ 
+- Coffret banc de charge -LHC2002CR- de la zone extérieur  HDU : 
+o Coffret verrouillé et fermé. 
+ 
+Procédure de la consignation : 
+ 
+- Débrochage du tiroir « Départ banc de charge » (-LHC2011JC-). 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iL1. 
+ 
+- Mise à la terre de la cellule HT « Départ banc de charge » (-LHC2011JC-). 
+o Fermeture du sectionneur de mise à la terre de la cellule. 
+o Verrouillage en position fermée du sectionneur de terre. 
+o Libération de la clef iL3. 
+o Récupération de la clef iL3. 
+ 
+- Accès aux bornes HT de la cellule HT « Départ banc de charge » (-LHC2011JC-). 
+o Insérer la clef iL3 dans la centrale à clefs -LHC2111CM. 
+o Récupération de la clef iL2. 
+o Insérer la clef iL2 dans la serrure mère. 
+o Déverrouillage de la position fermée du panneau d’accès aux bornes HT avec la clef iL2. 
+o Ouverture du panneau d’accès aux bornes HT de la cellule HT. 
+o La clef iL2 reste prisonnière. 
+ 
+- Accès aux bornes HT du « Coffret banc de charge » (-LHC2002CR-)  
+o Insérer la clef iL3 dans la centrale à clefs -LHC2111CM. 
+o Récupération des 2 clefs iL2. 
+o Insérer les clefs iL2 dans les serrures mères. 
+o Ouverture des 2 portes du coffret. 
+o Les 2 clefs iL2 restent prisonnières des 2 portes du coffret. 
+ 
+Déverrouillage du Banc de charge (YLH2001RS) 
+o Récupération de la clef L4 dans la centrale à clefs -LHC2111CM. 
+o Insérer la clef L4 dans la centrale à clefs du Banc de charge. 
+o Ouvrir le disjoncteur 147 JA. 
+o Libération de la clé XH. 
+o Récupération de la clé XH. 
+o Insérer la clé XH dans la centrale à clefs du Banc de charge. 
+o Libération de la clé XI dans la centrale à clé du Banc de charge. 
+o Insérer la clé XI dans la serrure mère 
+o Fermer le sectionneur de terre 174 JS. 
+o Libération de la clé XG. 
+o Avec la clé XG ouvrir la porte d’accès au compartiment de raccordement HT du banc de charge 
+YLH2001RS. 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 66]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+66 sur 87 
+ 
+o La clé XG reste prisonnière. 
+ 
+- Contrôle de sécurité sur la cellule HT « Départ banc de charge » (-LHC2011JC-). 
+o Vérification de la non possibilité d’embrochage du tiroir disjoncteur HT. 
+o Vérification de la non possibilité d’ouvrir le sectionneur de terre de la cellule HT. 
+ 
+Etat final : 
+ 
+- Cellule -LHC2011JC- de la zone HDU et Coffret Banc de charge -LHC2002CR- de la zone extérieur HDU : 
+o Tiroir disjoncteur -LHC2011JA- débroché, sectionneur de terre fermé. 
+o Panneau d’accès aux bornes HT ouvert. 
+o Coffret Banc de charge ouvert. 
+o Clef iL3 prisonnière dans la centrale à clefs -LHC2111CM. 
+o Les 3 clefs iL2 sont prisonnières du panneau d’accès aux bornes HT et du coffret Banc de charge. 
+ 
+- Banc de charge YLH2001RS de la zone extérieur HDU : 
+o Disjoncteur 174 JA ouvert, sectionneur de terre 174 JS fermé, panneau d'accès ouvert. 
+o Clefs XH et L4 prisonnières de la centrale à clefs du Banc de charge. 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 67]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+67 sur 87 
+ 
+7.13.3 Procédure de déconsignation 
+ 
+Conditions initiales  
+ 
+- Cellule -LHC2011JC- de la zone HDU et Coffret Banc de charge -LHC2002CR- de la zone extérieur HDU : 
+o Tiroir disjoncteur -LHC2011JA- débroché, sectionneur de terre fermé. 
+o Panneau d’accès aux bornes HT ouvert. 
+o Coffret Banc de charge ouvert. 
+o Clef iL3 prisonnière dans la centrale à clefs -LHC2111CM. 
+o Les 3 clefs iL2 sont prisonnières du panneau d’accès aux bornes HT et du coffret Banc de charge. 
+ 
+- Banc de charge YLH2001RS de la zone extérieur HDU : 
+o Disjoncteur 174 JA ouvert, sectionneur de terre 174 JS fermé, panneau d'accès ouvert. 
+o Clefs XH et L4 prisonnières de la centrale à clefs du Banc de charge. 
+ 
+Procédure de déconsignation : 
+ 
+- Récupération des 3 clefs iL2 : 
+➢ Fermeture de l’accès aux bornes HT de la cellule HT « Départ banc de charge » (-LHC2011JC-). 
+o Fermeture du panneau d’accès aux bornes HT de la cellule HT. 
+o Verrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef iL2. 
+o Récupération de la clef iL2. 
+ 
+➢ Fermeture du  « Coffret banc de charge » (-LHC2002CR-) 
+o Fermeture des 2 portes du coffret. 
+o Verrouillage du coffret  avec les 2 clefs iL2. 
+o Récupération des 2 clefs iL2. 
+ 
+- Récupération de la clef L4 sur le Banc de charge (YLH2001RS). 
+o Fermeture de la porte d’accès au compartiment de raccordement HT du banc de charge YLH2001RS. 
+o Récupérer la clef XG. 
+o Insérer la clef XG dans le sectionneur de mise à la terre 174 JS. 
+o Ouvrir le sectionneur de mise à la terre 174 JS. 
+o Libération de la clef XI. 
+o Récupérer la clef XI. 
+o Insérer la clef dans la centrale à du Banc de charge. 
+o Libération des clefs XH et L4. 
+o Récupérer la clef L4. 
+o Insérer la clef L4 dans la centrale à clefs -LHC2111CM. 
+ 
+- Ouverture du sectionneur de mise à la terre de la cellule HT « Départ banc de charge » (-LHC2011JC-). 
+o Insérer les 3 clefs iL2 dans la centrale à clefs -LHC2111CM. 
+o Récupération de la clef iL3. 
+o Insérer la clef iL3 dans la serrure mère. 
+o Déverrouillage du sectionneur de terre. 
+o Ouverture du sectionneur de mise à la terre de la cellule. 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 68]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+68 sur 87 
+ 
+- Embrochage du tiroir « Départ banc de charge » (-LHC2011JC-). 
+o Verrouiller la clef iL1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur 
+Etat final : 
+ 
+- Cellule -LHC2011JC- de la zone HDU : 
+o Tiroir disjoncteur -LHC2011JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, disjoncteur fermé. 
+o Les 3 clefs iL2 et la clef L4 sont prisonnières de la centrale à clefs -LHC2111CM. 
+ 
+- Coffret banc de charge -LHC2002CR- de la zone extérieur  HDU : 
+o Coffret verrouillé fermé. 
+ 
+- Banc de charge YLH2001RS de la zone extérieur  HDU : 
+o Panneau d'accès verrouillé fermé. 
+o Clef XI prisonnière de la centrale à clef du Banc de charge. 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 69]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+69 sur 87 
+ 
+7.14 -LHC2012JC- CELLULE DEPART NOYAU DUR REF-U -LUU003TR 
+7.14.1 Synoptique d’interverrouillage 
+ 
+ 
+Equipements non installés. 
+Procédure d'interverrouillage 
+non traitée dans cette note. 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 70]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+70 sur 87 
+ 
+7.14.2 Procédure de consignation 
+ 
+Conditions initiales  
+ 
+- Cellule -LHC2012JC- de la zone HDU : 
+o Tiroir contacteur -LHC2012JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, contacteur fermé. 
+o Clef iM1 prisonnière de la serrure du porte fusible -LHC2012JA-. 
+o Clef iM2 prisonnière de la serrure du sectionneur de terre. 
+o Clef iM4 soudée à la clef iM2. 
+ 
+Procédure de consignation : 
+ 
+- Débrochage du tiroir « Départ Noyau Dur REF-U » (-LHC2012JC-). 
+o Ouverture du contacteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iM1. 
+o Récupération de la clef iM1. 
+ 
+- Accès aux bornes HT de la cellule HT « Départ Noyau Dur REF-U» (-LHC2012JC-). 
+o Fermer le sectionneur de mise à la terre. 
+o Libération de la clef iM2. 
+o Récupérer la clef iM4 soudée avec la clef iM2. 
+o Déverrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef 
+iM4. 
+o Ouverture du panneau d’accès aux bornes HT de la cellule HT. 
+o La clef iM4 reste prisonnière. 
+ 
+- Contrôle de sécurité Sur la cellule HT « Départ Noyau Dur REF-U » (-LHC2012JC-). 
+o Vérification de la non possibilité d’embrochage du tiroir contacteur HT. 
+o Vérification de la non possibilité d’ouvrir le sectionneur de terre de la cellule HT. 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 71]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+71 sur 87 
+ 
+Etat final : 
+ 
+- Cellule -LHC2012JC- de la zone HDU : 
+o Tiroir contacteur -LHC2012JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes HT 
+ouvert. 
+o Clef iM4 prisonnière du panneau d'accès, la clef iM2 est soudée à la clef iM4. 
+ 
+7.14.3 Procédure de déconsignation 
+ 
+Conditions initiales  
+ 
+- Cellule -LHC2012JC- de la zone HDU : 
+o Tiroir contacteur -LHC2012JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes HT 
+ouvert. 
+o Clef iM4 prisonnière du panneau d'accès, la clef iM2 est soudée à la clef iM4. 
+ 
+Procédure de déconsignation : 
+ 
+- Fermeture de l’accès aux bornes HT de la cellule HT « Départ Noyau Dur REF-U » (-LHC2012JC-). 
+o Fermeture du panneau d’accès aux bornes HT de la cellule HT. 
+o Verrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la  clef 
+iM4. 
+o Récupération de la clef iM4, soudée avec la clef iM2. 
+ 
+- Ouverture du sectionneur de mise à la terre de la cellule HT « Départ Noyau Dur REF-U » (-LHC2012JC-). 
+o Insérer la clef iM2 dans la serrure mère. 
+o Déverrouillage du sectionneur de mise à la terre. 
+o Ouverture du sectionneur de mise à la terre. 
+ 
+- Embrochage du tiroir « Départ Noyau Dur REF-U » (-LHC2012JC-). 
+o Verrouiller la clef iM1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du contacteur 
+ 
+Etat final : 
+ 
+- Cellule -LHC2012JC- de la zone HDU : 
+o Tiroir contacteur -LHC2012JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, contacteur fermé. 
+o Clef iM1 prisonnière de la serrure -LHC2012JA-. 
+o Clef iM2 prisonnière de la serrure du sectionneur de terre. 
+ 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 72]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+72 sur 87 
+ 
+7.15 -LHC2013JC- CELLULE DEPART POMPE ASG-U 
+7.15.1 Synoptique d’interverrouillage 
+ 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 73]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+73 sur 87 
+ 
+ 
+7.15.2 Procédure de consignation 
+Conditions initiales  
+- Cellule -LHC2013JC- de la zone HDU : 
+o Tiroir contacteur -LHC2013JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, contacteur fermé 
+o Clef iN1 prisonnière de la serrure du porte fusible -LHC2013JA-. 
+o Clef iN3 prisonnière de la serrure du sectionneur de terre. 
+o Clefs iN2 et iN4 prisonnières de la centrale à clefs -LHC2113CM. 
+ 
+- Zone EDF : 
+o Panneaux d’accès bornes HT de la pompe ASG-U fermé. 
+ 
+Procédure de consignation : 
+ 
+- Débrochage du tiroir « Départ pompe ASG-U » (-LHC2013JC-). 
+o Ouverture du contacteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iN1. 
+ 
+- Mise à la terre de la cellule HT « Départ pompe ASG-U » (-LHC2013JC-). 
+o Fermeture du sectionneur de mise à la terre de la cellule. 
+o Verrouillage en position fermée du sectionneur de terre. 
+o Libération de la clef iN3. 
+ 
+- Accès aux bornes HT de la cellule HT « Départ pompe ASG-U » (-LHC2013JC-). 
+o Récupérer la clef iN1. 
+o Insérer la clef iN1 dans la centrale à clefs -LHC2113CM. 
+o Récupération de la clef iN2. 
+o Insérer la clef iN2 dans la serrure mère. 
+o Déverrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef 
+iN2. 
+o Ouverture du panneau d’accès aux bornes HT de la cellule HT. 
+o La clef iN2 reste prisonnière. 
+ 
+- Accès aux bornes HT de la pompe ASG-U 
+o Récupération de la clef iN3. 
+o Insérer la clef iN3 dans la serrure mère 
+o Ouverture du panneau d’accès aux bornes HT de la pompe. 
+o La clef iN3 reste prisonnière du panneau d'accès. 
+ 
+- Contrôle de sécurité sur la cellule HT « Départ pompe ASG-U » (-LHC2013JC-). 
+o Vérification de la non possibilité d’embrochage du tiroir contacteur HT. 
+o Vérification de la non possibilité d’ouvrir le sectionneur de terre de la cellule HT. 
+ 
+Etat final : 
+ 
+- Cellule -LHC2013JC- de la zone HDU : 
+o Tiroir contacteur -LHC2013JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes HT 
+ouvert. 
+ 
+- Zone EDF : 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 74]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+74 sur 87 
+ 
+o Panneau d’accès aux bornes HT pompe ASG-U ouvert. 
+7.15.3 Procédure de déconsignation 
+ 
+Conditions initiales  
+ 
+- Cellule -LHC2013JC- de la zone HDU : 
+o Tiroir contacteur -LHC2013JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes HT 
+ouvert. 
+o  
+- Zone EDF : 
+o Panneau d’accès aux bornes HT pompe ASG-U ouvert. 
+ 
+Procédure de déconsignation : 
+ 
+- Fermeture de l’accès aux bornes HT de la pompe ASG-U 
+o Fermeture du panneau d’accès aux bornes HT de la pompe 
+o Verrouillage de la position fermée du panneau d’accès aux bornes HT de la pompe avec  la clef iN3. 
+o Récupération de la clef iN3. 
+ 
+- Fermeture de l’accès aux bornes HT de la cellule HT « Départ pompe ASG-U » (-LHC2013JC-). 
+o Fermeture du panneau d’accès aux bornes HT de la cellule HT. 
+o Verrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef 
+iN2. 
+o Récupération de la clef iN2. 
+ 
+- Ouverture du sectionneur de mise à la terre de la cellule HT « Départ pompe ASG-U » (-LHC2013JC-). 
+o Insérer les clefs iN3 dans la serrure mère. 
+o Déverrouillage du sectionneur de terre. 
+o Ouverture du sectionneur de mise à la terre de la cellule. 
+ 
+- Embrochage du tiroir « Départ pompe ASG-U » (-LHC2013JC-). 
+o Insérer la clef iN2 dans la centrale à clefs -LHC211CM, et vérifier la présence de iN4. 
+o Récupération de la clef iN1. 
+o Insérer la clef iN1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du contacteur. 
+ 
+Etat final : 
+ 
+- Cellule -LHC2013JC- de la zone HDU : 
+o Tiroir contacteur -LHC2013JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, contacteur fermé. 
+o Clef iN1 prisonnière de la serrure du porte fusible -LHC2013JA- 
+o Clef iN3 prisonnière de la serrure du sectionneur de terre. 
+o Clef iN2, iN4 prisonnière de la centrale à clefs -LHC2113CM. 
+ 
+- Zone EDF : 
+o Panneaux d’accès bornes HT de la pompe ASG-U fermé. 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 75]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+75 sur 87 
+ 
+7.16 -LHC2014JC- CELLULE DEPART POMPE ND (H3/U3) 
+7.16.1 Synoptique d’interverrouillage 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 76]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+76 sur 87 
+ 
+7.16.2 Procédure de consignation 
+Conditions initiales  
+- Cellule -LHC2014JC- de la zone HDU : 
+o Tiroir contacteur -LHC2014JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, contacteur fermé. 
+o Clef iP1 prisonnière de la serrure du porte fusible -LHC2014JA-. 
+o Clef iP3 prisonnière de la serrure du sectionneur de terre. 
+o Clef iP2, iP4 prisonnière de la centrale à clefs. 
+ 
+- Zone EDF : 
+o Panneaux d’accès bornes HT de la pompe ND (H3/U3) fermé. 
+ 
+Procédure de la consignation : 
+ 
+- Débrochage du tiroir « Départ pompe ND » (-LHC2014JC-). 
+o Ouverture du contacteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iP1. 
+ 
+- Mise à la terre de la cellule HT « Départ pompe ND » (-LHC2014JC-). 
+o Fermeture du sectionneur de mise à la terre de la cellule. 
+o Verrouillage en position fermée du sectionneur de terre. 
+o Libération de la clef iP3. 
+ 
+- Accès aux bornes HT de la cellule HT « Départ pompe ND » (-LHC2014JC-). 
+o Récupération de la clef iP1. 
+o Insérer la clef iP1 dans la centrale à clefs -LHC2114CM. 
+o Récupération de la clef iP2. 
+o Insérer la clef iP2 dans la serrure mère. 
+o Déverrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef 
+iP2. 
+o Ouverture du panneau d’accès aux bornes HT de la cellule HT. 
+o La clef iP2 reste prisonnière. 
+ 
+- Accès aux bornes HT de la pompe ND (H3/U3) : 
+o Récupération de la clef iP3. 
+o Insérer la clef iP3 dans la serrure mère. 
+o Ouverture du panneau d’accès aux bornes HT de la pompe ND (H3/U3). 
+o La clef iP3 reste prisonnière du panneau d'accès. 
+ 
+- Contrôle de sécurité sur la cellule HT « Départ pompe ND » (-LHC2014JC-). 
+o Vérification de la non possibilité d’embrochage du tiroir contacteur HT. 
+o Vérification de la non possibilité d’ouvrir le sectionneur de terre de la cellule HT. 
+ 
+Etat final : 
+ 
+- Cellule -LHC2014JC- de la zone HDU : 
+o Tiroir contacteur -LHC2014JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes HT 
+ouvert. 
+ 
+- Zone EDF : 
+o Panneau d’accès aux bornes HT pompe ND (H3/U3) ouvert 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 77]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+77 sur 87 
+ 
+7.16.3 Procédure de déconsignation 
+ 
+Conditions initiales  
+ 
+- Cellule -LHC2014JC- de la zone HDU : 
+o Tiroir contacteur -LHC2014JA- débroché, sectionneur de terre fermé, panneau d’accès aux bornes HT 
+ouvert. 
+ 
+- Zone EDF : 
+o Panneau d’accès aux bornes HT pompe ND (H3/U3) ouvert. 
+ 
+Procédure de déconsignation : 
+ 
+- Fermeture de l’accès aux bornes HT de la pompe ND (H3/U3). 
+o Fermeture du panneau d’accès aux bornes HT de la pompe ND (H3/U3) . 
+o Verrouillage de la position fermée du panneau d’accès aux bornes HT de la pompe avec  la clef iP3. 
+o Récupération de la clef iP3. 
+ 
+- Fermeture de l’accès aux bornes HT de la cellule HT « Départ pompe ND » (-LHC2014JC-). 
+o Fermeture du panneau d’accès aux bornes HT de la cellule HT. 
+o Verrouillage de la position fermée du panneau d’accès aux bornes HT de la cellule HT avec la clef iP2. 
+o Récupération de la clef iP2. 
+ 
+- Ouverture du sectionneur de mise à la terre de la cellule HT « Départ pompe ND » (-LHC2014JC-). 
+o Insérer les clefs iP3 dans la serrure mère. 
+o Déverrouillage du sectionneur de terre. 
+o Ouverture du sectionneur de mise à la terre de la cellule. 
+ 
+- Embrochage du tiroir « Départ pompe ND » (-LHC2014JC-). 
+o Insérer la clef iP2 dans la centrale à clefs -LHC2114CM, et vérifier la présence de la clef iP4. 
+o Récupération de la clef iP1. 
+o Insérer la clef iP1 dans la serrure mère. 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du contacteur. 
+ 
+Etat final : 
+ 
+- Cellule -LHC2014JC- de la zone HDU : 
+o Tiroir contacteur -LHC2014JA- embroché, sectionneur de terre ouvert, panneau d’accès aux bornes 
+HT fermé, contacteur fermé. 
+o Clef iP1 prisonnière de la serrure du porte fusible -LHC2014JA-. 
+o Clef iP3 prisonnière de la serrure du sectionneur de terre. 
+o Clefs iP2, iP4 prisonnières de la centrale à clefs -LHC2114CM. 
+ 
+- Zone EDF : 
+o Panneau d’accès bornes HT de la pompe ND (H3/U3) fermé. 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 78]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+78 sur 87 
+ 
+7.17 -LBU2001TB-  CONSIGNATION DU TABLEAU SOURCE 125VCC 
+7.17.1 Synoptique d’interverrouillage 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 79]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+79 sur 87 
+ 
+7.17.2 Procédure de consignation 
+ 
+Conditions initiales  
+ 
+- Tableau source 125Vcc -LBU2001TB- : 
+o Tiroir disjoncteur « Arrivée R/C » et « Arrivée Batteries » embroché. 
+ 
+Procédure de consignation : 
+ 
+- Débrochage du tiroir « Arrivée R/C ». 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iS2. 
+ 
+- Débrochage du tiroir « Arrivée Batteries ». 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iS1. 
+ 
+- Mise à la terre du tableau source 125Vcc. 
+o Récupération de la clef iS1. 
+o Récupération de la clef iS2. 
+o Déverrouillage de la position fermée du panneau d'accès aux connecteurs de mise à la terre avec les 
+clefs iS1 et iS2. 
+o Ouverture du panneau d'accès. 
+o Clefs iS1 et iS2 prisonnières du panneau. 
+o Mise en place du dispositif de MALT et CCT. 
+ 
+- Contrôle de sécurité des disjoncteurs « Arrivée R/C » et «Arrivée Batterie ». 
+o Vérification de la non possibilité d’embrochage des disjoncteurs « Arrivée R/C » et «Arrivée 
+Batterie ». 
+o Vérification de la non possibilité d’ouvrir le sectionneur de terre de la cellule des disjoncteurs 
+« Arrivée R/C » et «Arrivée Batterie ». 
+ 
+Etat final : 
+ 
+- Tableau source 125Vcc -LBU2001TB-: 
+o Tiroir disjoncteur « Arrivée R/C » et « Arrivée Batteries » ouvert. 
+o Circuit mis à la terre et panneau d'accès aux connecteurs de terre ouvert  
+o Clefs iS1 et iS2 prisonnières du panneau d'accès  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 80]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+80 sur 87 
+ 
+7.17.3 Procédure d’ouverture du coffret banc de décharge –LBU0131CR-  
+ 
+Conditions initiales  
+- Tableau source 125Vcc -LBU2001TB- : 
+o Tiroir disjoncteur « Arrivée R/C » et « Arrivée Batteries » embroché. 
+ 
+- Coffret Banc de décharge batteries -LBU0131CR-: 
+o Coffret verrouillé et fermé. 
+ 
+Procédure de consignation : 
+- Débrochage du tiroir « Arrivée R/C ». 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iS2. 
+ 
+- Débrochage du tiroir « Arrivée Batteries ». 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iS1. 
+ 
+- Accès aux bornes du « Coffret banc de décharge batteries » (-LBU0131CR-). 
+o Récupération de la clef iS1. 
+o Récupération de la clef iS2. 
+o Insérer les clefs iS1 et iS2 dans la boite à clefs -LBU2101CM. 
+o Libération de la clef iS3. 
+o Insérer la clef iS3 dans la serrure mère. 
+o Ouverture de la porte du coffret. 
+o La clef iS3 reste prisonnière de la porte du coffret. 
+ 
+- Contrôle de sécurité des disjoncteurs « Arrivée R/C » et «Arrivée Batterie ». 
+o Vérification de la non possibilité d’embrochage des disjoncteurs « Arrivée R/C » et «Arrivée 
+Batterie ». 
+o Vérification de la non possibilité d’ouvrir le sectionneur de terre de la cellule des disjoncteurs « 
+Arrivée R/C » et «Arrivée Batterie ». 
+Etat final : 
+- Tableau source 125Vcc -LBU2001TB- 
+o Tiroir disjoncteur « Arrivée R/C » et « Arrivée Batteries » ouvert. 
+o Clefs iS1 et iS2 prisonnières de la boite à clefs -LBU2101CM. 
+ 
+-  Coffret Banc de décharge batteries -LBU0131CR- : 
+o Coffret Banc de décharge batteries ouvert. 
+o Clef iS3 prisonnière du « coffret Banc de décharge batteries » -LBU0131CR-. 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 81]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+81 sur 87 
+ 
+7.17.4 Procédure de déconsignation 
+ 
+Conditions initiales  
+ 
+- Tableau source 125Vcc -LBU2001TB- : 
+o Tiroir disjoncteur « Arrivée R/C » et « Arrivée Batteries » ouvert. 
+o Circuit mis à la terre et panneau d'accès aux connecteurs de terre ouvert. 
+o Clefs iS1 et iS2 prisonnières du panneau d'accès . 
+ 
+Procédure de déconsignation : 
+ 
+- Ouverture de la mise à la terre du circuit. 
+o Retirer les dispositifs de MALT et CCT. 
+o Fermeture du panneau d'accès aux connecteurs de terre. 
+o Verrouillage du panneau d'accès aux connecteurs de terre avec les clefs iS1 et iS2. 
+o Récupérer les clefs iS1 et iS2. 
+ 
+- Embrochage du tiroir « Arrivée R/C ». 
+o Insérer la clef iS2 dans la serrure mère du disjoncteur  « Arrivée R/C ». 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+- Embrochage du tiroir « Arrivée Batteries ». 
+o Insérer la clef iS1 dans la serrure mère du disjoncteur «Arrivée Batteries ». 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+ 
+Etat final : 
+ 
+- Tableau source 125Vcc -LBU2001TB- : 
+o Tiroir disjoncteur « Arrivée R/C »  et « Arrivée Batteries » embroché. 
+o Les clefs iS1 et iS2 sont prisonnières du tableau source. 
+o La clef iS3 est prisonnière de la boite à clefs -LBU2101CM. 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 82]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+82 sur 87 
+ 
+7.17.5 Procédure de fermeture du coffret banc de décharge –LBU0131CR- 
+ 
+Conditions initiales  
+ 
+- Tableau source 125Vcc -LBU2001TB- 
+o Tiroir disjoncteur « Arrivée R/C » et « Arrivée Batteries » ouvert. 
+o Clefs iS1 et iS2 prisonnières de la boite à clefs -LBU2101CM. 
+ 
+-  Coffret Banc de décharge batteries -LBU0131CR- : 
+o Coffret Banc de décharge batteries ouvert. 
+o Clef iS3 prisonnière du « coffret Banc de décharge batteries » -LBU0131CR-. 
+ 
+Procédure de déconsignation : 
+ 
+Fermeture du « Coffret Banc de décharge batteries» (-LBU0131CR-) 
+o Fermeture de la porte du coffret. 
+o Verrouillage du coffret avec la clef iS3. 
+o Récupération de la clef iS3 
+o Insérer la clef iS3 dans la boite à clefs -LBU2101CM. 
+o Libération des clefs iS1 et iS2. 
+o Récupérer les clefs iS1 et iS2. 
+ 
+- Embrochage du tiroir « Arrivée R/C ». 
+o Insérer la clef iS2 dans la serrure mère du disjoncteur  « Arrivée R/C ». 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+- Embrochage du tiroir « Arrivée Batteries ». 
+o Insérer la clef iS1 dans la serrure mère du disjoncteur «Arrivée Batteries ». 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+ 
+Etat final : 
+ 
+- Tableau source 125Vcc -LBU2001TB- : 
+o Tiroir disjoncteur « Arrivée R/C »  et « Arrivée Batteries » embroché. 
+o Les clefs iS1 et iS2 sont prisonnières du tableau source. 
+o La clef iS3 est prisonnière de la boite à clefs -LBU2101CM. 
+ 
+- Coffret Banc de décharge batteries -LBU0131CR- de la zone extérieur HDU : 
+o Coffret verrouillé et fermé. 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 83]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+83 sur 87 
+ 
+7.18 -LDU2001TB-  CONSIGNATION DU TABLEAU SOURCE 24VCC 
+7.18.1 Synoptique d’interverrouillage
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 84]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+84 sur 87 
+ 
+7.18.2 Procédure de consignation 
+ 
+Conditions initiales  
+ 
+- Tableau source 125Vcc -LDU2001TB- : 
+o Tiroir disjoncteur « Arrivée R/C » et « Arrivée Batteries » embroché. 
+ 
+Procédure de consignation : 
+ 
+- Débrochage du tiroir « Arrivée R/C ». 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iT2. 
+ 
+- Débrochage du tiroir « Arrivée Batteries ». 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iT1. 
+ 
+- Mise à la terre du tableau source 125Vcc. 
+o Récupération de la clef iT1. 
+o Récupération de la clef iT2. 
+o Déverrouillage de la position fermée du panneau d'accès aux connecteurs de mise à la terre avec les 
+clefs iT1 et iT2. 
+o Ouverture du panneau d'accès. 
+o Clefs iT1 et iT2 prisonnières du panneau. 
+o Mise en place du dispositif de MALT et CCT. 
+ 
+- Contrôle de sécurité des disjoncteurs « Arrivée R/C » et «Arrivée Batterie ». 
+o Vérification de la non possibilité d’embrochage des disjoncteurs « Arrivée R/C » et «Arrivée 
+Batterie ». 
+o Vérification de la non possibilité d’ouvrir le sectionneur de terre de la cellule des disjoncteurs 
+« Arrivée R/C » et «Arrivée Batterie ». 
+ 
+Etat final : 
+ 
+- Tableau source 125Vcc -LDU2001TB-: 
+o Tiroir disjoncteur « Arrivée R/C » et « Arrivée Batteries » ouvert. 
+o Circuit mis à la terre et panneau d'accès aux connecteurs de terre ouvert  
+o Clefs iT1 et iT2 prisonnières du panneau d'accès  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 85]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+85 sur 87 
+ 
+7.18.3 Procédure d’ouverture du coffret banc de décharge –LDU0131CR-  
+ 
+Conditions initiales  
+- Tableau source 125Vcc -LDU2001TB- : 
+o Tiroir disjoncteur « Arrivée R/C » et « Arrivée Batteries » embroché. 
+ 
+- Coffret Banc de décharge batteries -LDU0131CR-: 
+o Coffret verrouillé et fermé. 
+ 
+Procédure de consignation : 
+- Débrochage du tiroir « Arrivée R/C ». 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iT2. 
+ 
+- Débrochage du tiroir « Arrivée Batteries ». 
+o Ouverture du disjoncteur. 
+o Débrochage du tiroir, verrouillage en position débrochée. 
+o Libération de la clef iT1 
+ 
+- Accès aux bornes du « Coffret banc de décharge batteries » (-LDU0131CR-). 
+o Récupération de la clef iT1. 
+o Récupération de la clef iT2. 
+o Insérer les clefs iT1 et iT2 dans la boite à clefs -LDU2101CM. 
+o Libération de la clef iT3. 
+o Insérer la clef iT3 dans la serrure mère. 
+o Ouverture de la porte du coffret. 
+o La clef iT3 reste prisonnière de la porte du coffret. 
+ 
+- Contrôle de sécurité des disjoncteurs « Arrivée R/C » et «Arrivée Batterie ». 
+o Vérification de la non possibilité d’embrochage des disjoncteurs « Arrivée R/C » et «Arrivée 
+Batterie ». 
+o Vérification de la non possibilité d’ouvrir le sectionneur de terre de la cellule des disjoncteurs « 
+Arrivée R/C » et «Arrivée Batterie ». 
+Etat final : 
+- Tableau source 125Vcc -LDU2001TB- 
+o Tiroir disjoncteur « Arrivée R/C » et « Arrivée Batteries » ouvert. 
+o Clefs iT1 et iT2 prisonnières de la boite à clefs -LDU2101CM. 
+ 
+-  Coffret Banc de décharge batteries -LDU0131CR- : 
+o Coffret Banc de décharge batteries ouvert. 
+o Clef iT3 prisonnière du « coffret Banc de décharge batteries » -LDU0131CR-. 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 86]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+86 sur 87 
+ 
+7.18.4 Procédure de déconsignation 
+ 
+Conditions initiales  
+ 
+- Tableau source 125Vcc -LDU2001TB- : 
+o Tiroir disjoncteur « Arrivée R/C » et « Arrivée Batteries » ouvert. 
+o Circuit mis à la terre et panneau d'accès aux connecteurs de terre ouvert 
+o Clefs iT1 et iT2 prisonnières du panneau d'accès  
+ 
+Procédure de déconsignation : 
+ 
+- Ouverture de la mise à la terre du circuit. 
+o Retirer les dispositifs de MALT et CCT. 
+o Fermeture du panneau d'accès aux connecteurs de terre. 
+o Verrouillage du panneau d'accès aux connecteurs de terre avec les clefs iT1 et iT2. 
+o Récupérer les clefs iT1 et iT2. 
+ 
+- Embrochage du tiroir « Arrivée R/C ». 
+o Insérer la clef iT2 dans la serrure mère du disjoncteur  « Arrivée R/C ». 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+- Embrochage du tiroir « Arrivée Batteries ». 
+o Insérer la clef iT1 dans la serrure mère du disjoncteur «Arrivée Batteries ». 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+ 
+Etat final : 
+ 
+- Tableau source 125Vcc -LDU2001TB- : 
+o Tiroir disjoncteur « Arrivée R/C »  et « Arrivée Batteries » embroché. 
+o Les clefs iT1 et iT2 sont prisonnières du tableau source. 
+o La clef iT3 est prisonnière de la boite à clefs -LDU2101CM. 
+  
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 87]
+NOTE D'INTERVERROUILLAGE 
+WEF 16 DUS INEO1 NTD 0472 
+REVISION 
+H 
+PAGE 
+87 sur 87 
+ 
+7.18.5 Procédure de fermeture du coffret banc de décharge –LDU0131CR- 
+ 
+Conditions initiales  
+ 
+- Tableau source 125Vcc -LDU2001TB- 
+o Tiroir disjoncteur « Arrivée R/C » et « Arrivée Batteries » ouvert. 
+o Clefs iT1 et iT2 prisonnières de la boite à clefs -LDU2101CM. 
+  
+-  Coffret Banc de décharge batteries -LDU0131CR- : 
+o Coffret Banc de décharge batteries ouvert. 
+o Clef iT3 prisonnière du « Coffret Banc de décharge batteries » -LDU0131CR-. 
+ 
+Procédure de déconsignation : 
+ 
+Fermeture du « Coffret Banc de décharge batteries» (-LDU0131CR-) 
+o Fermeture de la porte du coffret. 
+o Verrouillage du coffret avec la clef iT3. 
+o Récupération de la clef iT3 
+o Insérer la clef iT3 dans la boite à clefs -LDU2101CM. 
+o Libération des clefs iT1 et iT2. 
+o Récupérer les clefs iT1 et iT2. 
+ 
+- Embrochage du tiroir « Arrivée R/C ». 
+o Insérer la clef iT2 dans la serrure mère du disjoncteur  « Arrivée R/C ». 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+- Embrochage du tiroir « Arrivée Batteries ». 
+o Insérer la clef iT1 dans la serrure mère du disjoncteur «Arrivée Batteries ». 
+o Déverrouillage du tiroir, embrochage du tiroir. 
+o Fermeture du disjoncteur. 
+ 
+ 
+Etat final : 
+ 
+- Tableau source 125Vcc -LDU2001TB- : 
+o Tiroir disjoncteur « Arrivée R/C »  et « Arrivée Batteries » embroché. 
+o Les clefs iT1 et iT2 sont prisonnières du tableau source. 
+o La clef iT3 est prisonnière de la boire à clefs -LDU2101CM. 
+ 
+- Coffret Banc de décharge batteries -LDU0131CR- de la zone extérieur HDU : 
+o Coffret verrouillé et fermé. 
+ 
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+Modèle de sécurité : 
+-
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023
+
+[Page 88]
+WEF-16-DUS-INEO1-NTD-0472 Revision H-BPE v2  Proprietary Class 2
+**This page was added to the quality record by the PRIME system upon its validation and shall not be considered in the page numbering of this document.**
+Approval Information
+Author Approval Gaume Gilles Aug-20-2021 04:37:25
+Verifier Approval Boullet Julien Aug-20-2021 04:46:30
+Approver Approval Boullet Julien Aug-20-2021 04:47:31
+Files approved on Aug-20-2021
+*** This record was final approved on 8/20/2021 4:47:31 AM. (This statement was added by the PRIME system upon its validation)
+-
+Modèle de sécurité : 
+RDU : D455621081316
+Accessibilité : INTERNE
+03 - Tous les utilisateurs EDF de l'ECM + non EDF autorisés par 'DIPDE'
+ING/DIPDE
+ 
+Document issu de la GED DPI Nucléaire le 17/03/2023

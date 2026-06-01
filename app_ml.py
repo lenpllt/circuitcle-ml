@@ -343,7 +343,7 @@ with tab2:
         """, unsafe_allow_html=True)
 
 # ============================================================
-# ONGLET 3 — ASSISTANT IA
+# ONGLET 3 — ASSISTANT IA (RAG + API)
 # ============================================================
 with tab3:
     st.markdown("<div class='section-title'>Assistant IA — CircuitClé</div>", unsafe_allow_html=True)
@@ -369,6 +369,10 @@ with tab3:
         """)
     else:
         import anthropic
+        from rag_engine import build_rag_index, retrieve, format_rag_context
+
+        # Initialisation de l'index RAG (mis en cache par st.cache_resource)
+        rag_model, rag_docs, rag_embeddings = build_rag_index()
 
         # Contexte ML injecté dans le system prompt
         derniere_pred = st.session_state.get("upload_result") or st.session_state.get("manuel_result")
@@ -396,48 +400,62 @@ Contexte du modèle ML déployé :
 - Algorithmes comparés : Logistic Regression, Decision Tree, Random Forest, KNN, MLP (Deep Learning)
 - Optimisation : GridSearchCV sur le paramètre C de la Logistic Regression
 {contexte_prediction}
+Tu as accès à une base de connaissances contenant les historiques d'opérations réels (logs LHC et LHT) \
+et les séquences d'étapes définies. Lorsque des documents pertinents sont fournis en contexte, \
+appuie-toi sur leur contenu pour répondre avec précision. \
+Cite la source (nom de fichier) lorsque tu t'appuies sur un document.
+
 Ton rôle :
 - Expliquer les prédictions du modèle en langage clair pour un technicien EDF
 - Répondre aux questions sur les features, la méthodologie ML, et les résultats
+- Analyser et comparer des séquences d'opérations à partir des logs de la base de connaissances
 - Expliquer pourquoi certaines variables influencent le risque (ex : présence d'erreur, nb de débrochages)
 - Rappeler systématiquement que les résultats ML sont une aide à la décision et doivent être validés par un expert métier
 - Répondre exclusivement en français
-- Rester factuel et professionnel, sans dramatiser ni minimiser les risques
-
-Tu n'as pas accès au contenu brut des fichiers logs, seulement aux features numériques extraites."""
+- Rester factuel et professionnel, sans dramatiser ni minimiser les risques"""
 
         # Initialisation de l'historique
         if "chat_messages" not in st.session_state:
             st.session_state.chat_messages = []
+        if "chat_rag_sources" not in st.session_state:
+            st.session_state.chat_rag_sources = {}
 
         # Bouton reset
         col_titre, col_reset = st.columns([5, 1])
         with col_reset:
             if st.button("🗑️ Effacer", key="btn_reset_chat"):
                 st.session_state.chat_messages = []
+                st.session_state.chat_rag_sources = {}
                 st.rerun()
 
         # Note RGPD
         with st.expander("🔒  Confidentialité & traitement des données"):
             st.markdown("""
-            **Aucune donnée brute de log n'est transmise au modèle de langage.**
-            Seules les features numériques extraites (comptages, présences binaires) et les métadonnées
-            du modèle ML sont envoyées à l'API. Aucune information personnelle n'est collectée.
-            Conforme RGPD (règlement UE 2016/679).
+            **Seuls les extraits documentaires pertinents et les features numériques de la session sont transmis à l'API.**
+            Les fichiers logs sont indexés localement — aucune donnée brute n'est envoyée hors session.
+            Aucune information personnelle n'est collectée. Conforme RGPD (règlement UE 2016/679).
             """)
 
         # Affichage de l'historique
-        for msg in st.session_state.chat_messages:
+        for i, msg in enumerate(st.session_state.chat_messages):
             with st.chat_message(msg["role"]):
                 st.markdown(msg["content"])
+            # Afficher les sources RAG après chaque réponse assistant
+            if msg["role"] == "assistant" and i in st.session_state.chat_rag_sources:
+                sources = st.session_state.chat_rag_sources[i]
+                if sources:
+                    with st.expander(f"📚 Sources consultées ({len(sources)} document(s))", expanded=False):
+                        for r in sources:
+                            st.markdown(f"- **{r['doc']['source']}** *(similarité : {r['score']:.2f})*")
 
         # Message d'accueil si conversation vide
         if not st.session_state.chat_messages:
             with st.chat_message("assistant"):
                 st.markdown(
-                    "Bonjour ! Je suis l'assistant IA de CircuitClé. "
-                    "Je peux vous expliquer les prédictions du modèle ML, "
-                    "les features utilisées, ou répondre à vos questions sur la détection de situations dangereuses. "
+                    "Bonjour ! Je suis l'assistant IA de CircuitClé, enrichi d'une base de connaissances "
+                    "contenant les historiques d'opérations LHC et LHT. "
+                    "Je peux analyser des séquences d'opérations, expliquer les prédictions du modèle ML, "
+                    "ou répondre à vos questions sur la détection de situations dangereuses. "
                     "Comment puis-je vous aider ?"
                 )
 
@@ -448,24 +466,44 @@ Tu n'as pas accès au contenu brut des fichiers logs, seulement aux features num
                 st.markdown(prompt)
 
             with st.chat_message("assistant"):
-                with st.spinner("Analyse en cours…"):
+                with st.spinner("Recherche dans la base de connaissances et analyse…"):
                     try:
+                        # Retrieval RAG
+                        retrieved = retrieve(prompt, rag_model, rag_docs, rag_embeddings, top_k=3)
+                        rag_context = format_rag_context(retrieved)
+
+                        # Message augmenté (RAG + question) envoyé à l'API
+                        augmented_content = f"{rag_context}\n\n[QUESTION]\n{prompt}" if rag_context else prompt
+
+                        # Historique pour l'API : messages précédents + dernier message augmenté
+                        messages_for_api = [
+                            {"role": m["role"], "content": m["content"]}
+                            for m in st.session_state.chat_messages[:-1]
+                        ] + [{"role": "user", "content": augmented_content}]
+
                         client = anthropic.Anthropic(api_key=api_key)
                         response = client.messages.create(
                             model="claude-haiku-4-5-20251001",
                             max_tokens=1024,
                             system=system_prompt,
-                            messages=[
-                                {"role": m["role"], "content": m["content"]}
-                                for m in st.session_state.chat_messages
-                            ],
+                            messages=messages_for_api,
                         )
                         reply = response.content[0].text
                     except Exception as e:
                         reply = f"❌ Erreur lors de la communication avec l'API : {e}"
+                        retrieved = []
 
                 st.markdown(reply)
-                st.session_state.chat_messages.append({"role": "assistant", "content": reply})
+
+            assistant_idx = len(st.session_state.chat_messages)
+            st.session_state.chat_messages.append({"role": "assistant", "content": reply})
+            st.session_state.chat_rag_sources[assistant_idx] = retrieved
+
+            # Afficher immédiatement les sources de cette réponse
+            if retrieved:
+                with st.expander(f"📚 Sources consultées ({len(retrieved)} document(s))", expanded=False):
+                    for r in retrieved:
+                        st.markdown(f"- **{r['doc']['source']}** *(similarité : {r['score']:.2f})*")
 
 # ============================================================
 # FOOTER
