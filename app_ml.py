@@ -115,16 +115,24 @@ def compter_occurrences(texte: str, mot: str) -> int:
 def construire_features_depuis_texte(texte: str, nom_fichier: str = "log_utilisateur.txt", tableau_type: str = "LHC") -> dict:
     texte_min = texte.lower()
     lignes = [ligne.strip() for ligne in texte.splitlines() if ligne.strip()]
+
+    nb_ouverture    = compter_occurrences(texte_min, "ouverture")
+    nb_fermeture    = compter_occurrences(texte_min, "fermeture")
+    nb_embrochage   = compter_occurrences(texte_min, "embrochage")
+    nb_debrochage   = compter_occurrences(texte_min, "débrochage") + compter_occurrences(texte_min, "debrochage")
+    nb_verrouillage = compter_occurrences(texte_min, "verrouillage")
+    nb_deverrouillage = compter_occurrences(texte_min, "déverrouillage") + compter_occurrences(texte_min, "deverrouillage")
+
     return {
         "tableau_type": tableau_type,
         "palier": extraire_palier_depuis_nom(nom_fichier),
         "nb_lignes": len(lignes),
-        "nb_ouverture": compter_occurrences(texte_min, "ouverture"),
-        "nb_fermeture": compter_occurrences(texte_min, "fermeture"),
-        "nb_embrochage": compter_occurrences(texte_min, "embrochage"),
-        "nb_debrochage": compter_occurrences(texte_min, "débrochage") + compter_occurrences(texte_min, "debrochage"),
-        "nb_verrouillage": compter_occurrences(texte_min, "verrouillage"),
-        "nb_deverrouillage": compter_occurrences(texte_min, "déverrouillage") + compter_occurrences(texte_min, "deverrouillage"),
+        "nb_ouverture": nb_ouverture,
+        "nb_fermeture": nb_fermeture,
+        "nb_embrochage": nb_embrochage,
+        "nb_debrochage": nb_debrochage,
+        "nb_verrouillage": nb_verrouillage,
+        "nb_deverrouillage": nb_deverrouillage,
         "nb_insertion": compter_occurrences(texte_min, "insertion"),
         "nb_extraction": compter_occurrences(texte_min, "extraction"),
         "presence_smalt": 1 if "smalt" in texte_min else 0,
@@ -135,6 +143,13 @@ def construire_features_depuis_texte(texte: str, nom_fichier: str = "log_utilisa
         "presence_eclisse": 1 if "eclisse" in texte_min or "éclisse" in texte_min else 0,
         "presence_erreur": 1 if "erreur" in texte_min else 0,
         "presence_exception": 1 if "exception" in texte_min else 0,
+        "danger_personne": 1 if "danger" in texte_min and "personne" in texte_min else 0,
+        "danger_materiel": 1 if "danger" in texte_min and ("matériel" in texte_min or "materiel" in texte_min) else 0,
+        "nb_arret_immediat": compter_occurrences(texte_min, "arrêt immédiat") + compter_occurrences(texte_min, "arret immediat"),
+        "nb_cles_non_utilisees": 0,
+        "ratio_verr_deverr": round(nb_verrouillage / nb_deverrouillage, 4) if nb_deverrouillage > 0 else 0,
+        "ratio_emb_deb":      round(nb_embrochage   / nb_debrochage,    4) if nb_debrochage    > 0 else 0,
+        "ratio_ouv_fer":      round(nb_ouverture    / nb_fermeture,     4) if nb_fermeture     > 0 else 0,
     }
 
 def encoder_tableau_type(valeur: str) -> int:
