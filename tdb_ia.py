@@ -244,7 +244,7 @@ with col3:
     st.caption(
         "VN = Vrai Négatif · FP = Faux Positif · FN = Faux Négatif · VP = Vrai Positif\n\n"
         "⚠ Le jeu de test ne contient que des cas normaux : "
-        "les exemples dangereux sont forcés en entraînement (dataset de 11 logs)."
+        "les exemples dangereux sont forcés en entraînement (dataset de 209 logs)."
     )
 
 with col4:
