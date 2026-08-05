@@ -224,6 +224,15 @@ def render_features_table(features_dict):
     """, unsafe_allow_html=True)
 
 # ============================================================
+# LIEN TDB
+# ============================================================
+st.link_button(
+    "📊  Tableau de bord IA — Performances du modèle",
+    "https://circuitcle-ml-tdb.streamlit.app/",
+    use_container_width=False,
+)
+
+# ============================================================
 # TABS
 # ============================================================
 tab1, tab2, tab3 = st.tabs(["🎛️  Saisie manuelle", "📄  Analyse d'un fichier log", "🤖  Assistant IA"])
