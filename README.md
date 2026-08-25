@@ -1,6 +1,6 @@
 # CircuitClé V3.5 — Application IA de détection de situations dangereuses
 
-**EDF / DIPDE — M2 Data Science — Léna Pillet — 2026**
+**EDF / DIPDE — M2 DATA / IA — Léna Pillet — 2026**
 
 Application Streamlit de détection automatique de situations dangereuses dans les consignations électriques de tableaux de distribution (LHC / LHT) par intelligence artificielle (ML + RAG + LLM).
 
@@ -164,7 +164,7 @@ Aucun identifiant requis.
 | Mozilla Firefox | ✅ Compatible (Streamlit officiel) |
 | Microsoft Edge | ✅ Compatible (Streamlit officiel) |
 
-> L'application utilise Streamlit ≥ 1.28 et Plotly pour les graphiques interactifs. Tout navigateur moderne supportant ES6+ est compatible.
+> L'application utilise Streamlit ≥ 1.28 et Plotly pour les graphiques interactifs.
 
 ---
 
