@@ -1,0 +1,5 @@
+tableau_type,palier,nb_lignes,nb_ouverture,nb_fermeture,nb_embrochage,nb_debrochage,nb_verrouillage,nb_deverrouillage,nb_insertion,nb_extraction,presence_smalt,presence_porte,presence_coffret,presence_transformateur,presence_source,presence_eclisse,presence_erreur,presence_exception,label_danger,prediction,correct
+0,900,154,0,0,0,8,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+0,900,289,0,0,0,6,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+0,900,341,20,27,10,23,51,94,0,0,1,1,1,1,0,0,0,0,0,0,1
+0,900,501,7,8,45,56,56,98,0,0,1,1,0,0,0,0,0,0,1,0,0
