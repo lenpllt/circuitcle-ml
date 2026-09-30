@@ -12,6 +12,7 @@ Application Streamlit de détection automatique de situations dangereuses dans l
 |---|---|
 | App principale (analyse IA) | https://circuitcle-ml.streamlit.app/ |
 | Tableau de bord IA (TDB) | https://circuitcle-ml-tdb.streamlit.app/ |
+| Tableau de bord Pilotage financier | https://circuitcle-ml-financier.streamlit.app/ |
 
 ---
 
@@ -150,6 +151,7 @@ Il n'existe pas de back-office d'administration distinct. Le **Tableau de bord I
 
 Un second tableau de bord, **Pilotage financier** (`tdb_financier.py`), couvre le suivi des coûts, des écarts de projet, de la charge par intervenant et du retour sur investissement :
 
+- **URL déployée** : https://circuitcle-ml-financier.streamlit.app/
 - **Local** : `streamlit run tdb_financier.py` → `http://localhost:8503`
 - Source de données : `TDB_Pilotage_financier_CircuitCle.xlsx`
 
