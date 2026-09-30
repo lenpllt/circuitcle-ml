@@ -304,14 +304,16 @@ st.markdown(f'<p class="section-title">{TITRE_04}</p>', unsafe_allow_html=True)
 
 nb_ecarts   = len(ECARTS)
 nb_resolus  = int((ECARTS["Statut"].isin(["Résolu", "Clos"])).sum())
-impact_cout = ECARTS["Impact coût (€)"].sum()
-impact_jour = ECARTS["Impact délai (j)"].sum()
+impact_depense   = ECARTS["Impact dépense (€)"].sum()
+impact_perimetre = ECARTS["Impact périmètre (€)"].sum()
+impact_jour      = ECARTS["Impact délai (j)"].sum()
 
-bloc_kpi(st.columns(4), [
-    ("Écarts identifiés",   str(nb_ecarts),                    ""),
-    ("Traités",             f"{nb_resolus} / {nb_ecarts}",     ""),
-    ("Impact sur le coût",  f"{impact_cout:+,.0f} €".replace(",", " "), ""),
-    ("Impact sur le délai", f"{impact_jour:+.0f} j",           ""),
+bloc_kpi(st.columns(5), [
+    ("Écarts identifiés",       str(nb_ecarts),                                    ""),
+    ("Traités",                 f"{nb_resolus} / {nb_ecarts}",                     ""),
+    ("Dépense supplémentaire",  f"{impact_depense:+,.0f} €".replace(",", " "),     ""),
+    ("Élargissement de périmètre", f"{impact_perimetre:+,.0f} €".replace(",", " "), "kpi-accent"),
+    ("Impact sur le délai",     f"{impact_jour:+.0f} j",                           ""),
 ])
 st.markdown("<br>", unsafe_allow_html=True)
 
@@ -325,13 +327,14 @@ for _, r in ECARTS.iterrows():
         html.escape(str(r["Sprint"])),
         html.escape(str(r[COL_TYPE])),
         html.escape(str(r["Écart constaté"])),
-        f"{r['Impact coût (€)']:+.0f} €",
+        f"{r['Impact dépense (€)']:+.0f} €",
+        f"{r['Impact périmètre (€)']:+.0f} €",
         f"{r['Impact délai (j)']:+.0f} j",
         html.escape(str(r[COL_DECISION])),
         html.escape(str(r["Arbitré par"])),
         html.escape(str(r["Statut"])),
     ]
-    centre = {4, 5}
+    centre = {4, 5, 6}
     lignes.append(
         "<tr>"
         + "".join(
@@ -345,15 +348,17 @@ st.markdown(f"""
 <table class="feat-table">
   <thead><tr>
     <th>ID</th><th>Sprint</th><th>Type</th><th>Écart constaté</th>
-    <th style="text-align:center">Coût</th><th style="text-align:center">Délai</th>
+    <th style="text-align:center">Dépense</th><th style="text-align:center">Périmètre</th>
+    <th style="text-align:center">Délai</th>
     <th>Décision d'ajustement</th><th>Arbitré par</th><th>Statut</th>
   </tr></thead>
   <tbody>{lignes_html}</tbody>
 </table>""", unsafe_allow_html=True)
 
 st.caption(
-    "Chaque écart a été absorbé sans impact sur le budget ni sur le calendrier global : "
-    "les ajustements ont porté sur le périmètre technique et l'organisation des ressources."
+    "Aucun écart n'a entraîné de dépense supplémentaire ni de retard sur le calendrier global. "
+    "L'élargissement de périmètre de +4 200 € (E6) correspond à la réintégration de la ressource "
+    "prestataire dans le coût complet, et non à un dépassement de budget."
 )
 st.markdown("<br>", unsafe_allow_html=True)
 
