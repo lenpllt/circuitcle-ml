@@ -68,6 +68,9 @@ streamlit run app_ml.py
 
 # Tableau de bord IA (performances ML + benchmark SQL)
 streamlit run tdb_ia.py
+
+# Tableau de bord Pilotage financier (coûts, écarts, charge, ROI)
+streamlit run tdb_financier.py
 ```
 
 L'application s'ouvre automatiquement dans le navigateur par défaut sur `http://localhost:8501`.
@@ -145,6 +148,11 @@ Il n'existe pas de back-office d'administration distinct. Le **Tableau de bord I
 - **URL déployée** : https://circuitcle-ml-tdb.streamlit.app/
 - **Local** : `streamlit run tdb_ia.py` → `http://localhost:8502`
 
+Un second tableau de bord, **Pilotage financier** (`tdb_financier.py`), couvre le suivi des coûts, des écarts de projet, de la charge par intervenant et du retour sur investissement :
+
+- **Local** : `streamlit run tdb_financier.py` → `http://localhost:8503`
+- Source de données : `TDB_Pilotage_financier_CircuitCle.xlsx`
+
 Le TDB affiche :
 - Synthèse des performances du modèle ML retenu
 - Comparaison des 5 algorithmes (Logistic Regression, Decision Tree, Random Forest, KNN, MLP)
@@ -177,6 +185,8 @@ CIRCUIT CLÉ V3.5/
 │   └── LHC_900_preVD_..._DANGEREUX.txt  # Log de démonstration — situation dangereuse
 ├── app_ml.py                        # Application principale
 ├── tdb_ia.py                        # Tableau de bord IA
+├── tdb_financier.py                 # Tableau de bord Pilotage financier
+├── TDB_Pilotage_financier_CircuitCle.xlsx  # Source de données du TDB financier
 ├── rag_engine.py                    # Moteur RAG (TF-IDF hybride)
 ├── requirements.txt                 # Dépendances Python
 ├── style.css                        # Feuille de style Streamlit
@@ -197,6 +207,7 @@ CIRCUIT CLÉ V3.5/
 ├── build_dataset_ml.py              # Construction du dataset
 ├── generate_synthetic_logs.py       # Génération de logs synthétiques
 ├── benchmark_sql.py                 # Script benchmark SQL
+├── validation_robustesse.py         # Validation croisée — robustesse du modèle
 ├── .streamlit/
 │   └── secrets.toml.example         # Modèle de configuration (clé API)
 └── sql_schema.sql                   # Documentation schéma SQLite
