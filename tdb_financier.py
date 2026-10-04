@@ -89,7 +89,7 @@ with st.sidebar:
     analyses_mois = st.slider(
         "Analyses réalisées par mois",
         min_value=1, max_value=100, value=ANALYSES_MOIS_DEFAUT, step=1,
-        help="Cadence d'utilisation opérationnelle. Paramètre de simulation, à caler avec le métier.",
+        help="Cadence d'utilisation opérationnelle estimée par le métier (Cédric S.) : 25 analyses par mois. Le curseur permet de tester d'autres cadences.",
     )
     st.markdown("---")
     st.caption(
