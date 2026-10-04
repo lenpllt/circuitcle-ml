@@ -71,7 +71,7 @@ COUT_INFRA  = P["Coût infrastructure (poste de travail)"]
 COUT_OUTILS = P["Coût outils internes"]
 TAUX_HORAIRE = P["Taux horaire ingénieur DIPDE"]
 TEMPS_REVUE  = P["Temps de revue manuelle par analyse"]
-ANALYSES_MOIS_DEFAUT = int(P["Analyses par mois (hypothèse)"])
+ANALYSES_MOIS_DEFAUT = int(P["Analyses par mois (estimation métier)"])
 
 GAIN_ANALYSE = TAUX_HORAIRE * TEMPS_REVUE
 COUT_DEV     = round(SALAIRE * PART_TEMPS * DUREE, -2)
